@@ -1,7 +1,7 @@
 import * as React from 'react'
 import {Component} from 'react';
 import {connect} from "react-redux";
-import {Container, Content} from "native-base";
+import {Container} from "native-base";
 import MapboxGL from '@mapbox/react-native-mapbox-gl';
 import MapboxConfig from "../../Config/MapboxConfig";
 import {colorScheme} from "../../Themes/Colors";

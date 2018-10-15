@@ -135,6 +135,30 @@
                   
 ## :heart: Recommended Components For Use In The Project
 
+  Map Component
+  
+  Mapbox installed in the project and linked with android (not ios yet so open for pull requests)
+  
+  and you can get your token key with instructions inside mapbox github https://github.com/mapbox/react-native-mapbox-gl
+  
+  then you can use it inside `App>Config>MapboxConfig.tsx`
+  
+  then use it like :
+  
+  ```typescript jsx
+  import MapboxGL from '@mapbox/react-native-mapbox-gl';
+  import MapboxConfig from "../../Config/MapboxConfig";
+  MapboxGL.setAccessToken(MapboxConfig.accessToken);
+  ...
+  <MapboxGL.MapView
+   styleURL={ColorScheme.mapStyleUrl}
+   zoomLevel={15}
+   centerCoordinate={[51.3890,35.6892]}
+   style={{flex:1}}
+   >
+  </MapboxGL.MapView>
+  ```
+
   List Component 
 
   https://docs.nativebase.io/Components.html#list-avatar-headref
