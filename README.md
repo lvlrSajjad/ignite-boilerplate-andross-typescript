@@ -5,71 +5,61 @@
 * This Boiler Plate is just my Customized version of ignite Andross 
 * Installed And Configed With TypeScript
 * Updated React Native To The Lastest Version (0.57.2)
-* Also installed :
-    ```"autobind-decorator": "^2.1.0",
-    "axios": "^0.18.0",
-    "format-json": "^1.0.3",
-    "identity-obj-proxy": "^3.0.0",
-    "lodash": "^4.17.4",
-    "moment": "^2.22.2",
-    "native-base": "^2.8.0",
-    "prop-types": "^15.6.1",
-    "querystringify": "1.0.0",
-    "ramda": "^0.25.0",
-    "react": "16.5.0",
-    "react-native": "0.57.2",
-    "react-native-animatable": "^1.3.0",
-    "react-native-communications": "^2.2.1",
-    "react-native-config": "^0.10.0",
-    "react-native-firebase": "^5.0.0",
-    "react-native-i18n": "1.0.0",
-    "react-native-lightbox": "^0.8.0",
-    "react-native-material-kit": "^0.5.1",
-    "react-native-modalbox": "^1.6.0",
-    "react-native-paper": "^2.0.1",
-    "react-native-parsed-text": "0.0.20",
-    "react-native-vector-icons": "4.3.0",
-    "react-navigation": "^2.17.0",
-    "react-navigation-material-bottom-tabs": "^0.4.0",
-    "react-navigation-redux-helpers": "^2.0.6",
-    "react-redux": "^5.0.7",
-    "realm": "^2.17.0",
-    "redux": "^4.0.0",
-    "redux-axios-middleware": "^4.0.0",
-    "redux-persist": "5.4.0",
-    "redux-saga": "^0.16.0",
-    "reduxsauce": "0.7.0",
-    "seamless-immutable": "^7.1.4",
-    "socket.io": "^2.1.1",
-    "socket.io-client": "^2.1.1"
-    "enzyme": "^3.6.0",
-    "enzyme-adapter-react-16": "^1.5.0",
-    "enzyme-to-json": "^3.3.4",
-    "eslint": "5.3.0",
-    "eslint-config-airbnb": "17.1.0",
-    "eslint-plugin-flowtype": "^2.50.3",
-    "eslint-plugin-import": "2.14.0",
-    "eslint-plugin-jsx-a11y": "6.1.1",
-    "eslint-plugin-prettier": "^3.0.0",
-    "eslint-plugin-react": "7.11.0",
-    "eslint-plugin-react-native": "^3.3.0",
-    "jest": "23.6.0",
-    "metro-react-native-babel-preset": "0.48.0",
-    "mockery": "^2.1.0",
-    "react-addons-test-utils": "^15.6.2",
-    "react-dom": "^16.5.2",
-    "react-native-typescript-transformer": "^1.2.10",
-    "react-test-renderer": "16.5.0",
-    "reactotron-react-native": "^2.0.0-alpha.3",
-    "reactotron-redux": "^2.0.0-alpha.3",
-    "reactotron-redux-saga": "^2.0.0-alpha.3",
-    "schedule": "^0.4.0",
-    "snazzy": "^8.0.0",
-    "standard": "10.0.2",
-    "ts-jest": "^23.10.3",
-    "typescript": "^3.1.1"```
+* HighLighted Dependencies that installed and linked to android :
+
+    ```
+      MapBox For Maps And Locations Using
+    
+      Realm For DB Uses
+      
+      Jest And Enzyme For Tests
+      
+      Axios
+      
+      Redux
+      
+      Redux-Saga
+      
+      ReduxSauce For Reducers/Actions Management
+      
+      socket.io,socket.io-client For Socket Uses 
+        For using socket you can use this tutorial link below
+        https://hackernoon.com/a-simple-messaging-app-with-react-native-and-socket-io-e1cae3df7bda
+        
+      eslint , eslint-config-airbnb For Code formatting
+      
+      Typescript for oop and typechecking 
+      
+      react-native-firebase for firebase usage
+      
+      react-navigation,react-navigation-material-bottom-tabs,... for navigation
+      
+      native-base,paper,react-native-material-kit for Ui/Ux
+        Actually the goal is deploying ui/ux exactly like material design guidlines
+        so i'm using a combination of above libraries components to achive this goal
+        
+      react-native-animatable For animations
+      
+      react-native-vector-icons For Vector Icons  
+      
+    ```
     
     You can see more on package .json
+ * Recommended Dependencies :
+    
+       Lottie React Native 
+        For Animations Like Animated Logos
+        
+       react-navigation-fluid-transitions 
+        For Animations Like Shared Elements For React-navigation
+        
+       HightCharts And D3js
+        For Data Visualizations
+        
+       WebRtc
+        Real-Time Communications
+  
+   
 ## :fire: Ignite Cli
   
   For Cli Instructions Please refer to ignite boilerplate page :
