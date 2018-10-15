@@ -76,10 +76,17 @@
   
   https://github.com/infinitered/ignite
   
-## :black_nib: Changing The Package Name
+## :exclamation: Changing The Package Name
 
   You Can Change PackageName And Boundler ID Using this tool
   https://www.npmjs.com/package/react-native-rename
+  
+  
+## :black_nib: Possible Errors
+  
+   if you've got transform-hmr error on boundle so start your boundler with this command:
+   `` react-native start --reset-cache ``
+   
 ## :file_folder: Folders
 
     Attention : some files and folders are just for example and you can remove them when ever you want
