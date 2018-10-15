@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RoundedButton component renders correctly 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#e73536",
+      "borderRadius": 5,
+      "height": 45,
+      "justifyContent": "center",
+      "marginHorizontal": 25,
+      "marginVertical": 10,
+      "opacity": 1,
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "white",
+        "fontSize": 14,
+        "fontWeight": "bold",
+        "marginVertical": 10,
+        "textAlign": "center",
+      }
+    }
+  >
+    HOWDY
+  </Text>
+</View>
+`;
+
+exports[`RoundedButton component with children renders correctly 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#e73536",
+      "borderRadius": 5,
+      "height": 45,
+      "justifyContent": "center",
+      "marginHorizontal": 25,
+      "marginVertical": 10,
+      "opacity": 1,
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "white",
+        "fontSize": 14,
+        "fontWeight": "bold",
+        "marginVertical": 10,
+        "textAlign": "center",
+      }
+    }
+  >
+    HOWDY
+  </Text>
+</View>
+`;

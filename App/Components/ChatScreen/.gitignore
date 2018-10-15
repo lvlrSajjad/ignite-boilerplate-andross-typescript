@@ -1,0 +1,10 @@
+.DS_Store
+node_modules/
+.expo/
+npm-debug.log
+TODO.md
+
+.idea
+.vscode
+Exponent-*.app
+*.log

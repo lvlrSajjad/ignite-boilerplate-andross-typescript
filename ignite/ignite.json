@@ -1,0 +1,15 @@
+{
+  "createdWith": "2.1.2",
+  "examples": "classic",
+  "navigation": "react-navigation",
+  "askToOverwrite": true,
+  "generators": {
+    "component": "ignite-ir-boilerplate-andross",
+    "container": "ignite-ir-boilerplate-andross",
+    "listview": "ignite-ir-boilerplate-andross",
+    "list": "ignite-ir-boilerplate-andross",
+    "redux": "ignite-ir-boilerplate-andross",
+    "saga": "ignite-ir-boilerplate-andross",
+    "screen": "ignite-ir-boilerplate-andross"
+  }
+}
