@@ -1,14 +1,13 @@
 import * as React from "react";
-import Textfield from '../../MaterialComponents/TextfieldRtl';
+import {MKTextField} from 'react-native-material-kit';
 import styles from "../Styles/LoginCardStyles";
 import {MKColor} from 'react-native-material-kit'
 import {Image, View} from "react-native";
 import Fonts from "../../../Themes/Fonts";
 import {connect} from 'react-redux'
 import MaterialButton from "../../MaterialComponents/MaterialButton";
-import  colors,{primaryColor} from "../../../Themes/Colors";
+import  {primaryColor} from "../../../Themes/Colors";
 import {CardItem} from "native-base";
-import MaterialIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
 interface UserInfoFormProps {
   userName: string,
@@ -33,11 +32,11 @@ const UserInfoForm = (props: UserInfoFormProps) => {
 
       </CardItem>
       <CardItem>
-        <Textfield
+        <MKTextField
           tintColor={primaryColor}
           textInputStyle={styles.loginFormTextInput}
           floatingLabelFont={{...Fonts.style.farsiInput}}
-          placeholder={"نام کاربری"}
+          placeholder={"User Name"}
           onTextChange={(text) => props.onTextChange(text)}
           text={props.userName}
           maxLength={6}
@@ -48,20 +47,9 @@ const UserInfoForm = (props: UserInfoFormProps) => {
         />
       </CardItem>
       <CardItem>
-        <MaterialButton
-          text={'تایید'}
-          color={primaryColor}
-          textColor='white'
-          isLoading={props.isLoading}
-          flex={1}
-          onPress={() => {
-            props.onPress()
-          }}
-        />
         <View style={{flexDirection: 'row'}}>
-          <View style={{width: 4}}/>
           < MaterialButton
-            text={'بازگشت'}
+            text={'Back'}
             color={MKColor.Grey}
             textColor='white'
             isLoading={false}
@@ -70,7 +58,20 @@ const UserInfoForm = (props: UserInfoFormProps) => {
               props.onBackButtonPress()
             }}
           />
+          <View style={{width: 4}}/>
+
         </View>
+        <MaterialButton
+          text={'Confirm'}
+          color={primaryColor}
+          textColor='white'
+          isLoading={props.isLoading}
+          flex={1}
+          onPress={() => {
+            props.onPress()
+          }}
+        />
+
       </CardItem>
 
     </View>

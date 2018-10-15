@@ -35,9 +35,9 @@ const CallsRouteOptions = {
 const tavNav = (props) => React.createElement(
   createMaterialTopTabNavigator(
     {
-      ['چت ها']: ChatsRouteOptions,
-      ['گروه ها']: GroupsRouteOptions,
-      ['تماس ها']: CallsRouteOptions
+      ['chats']: ChatsRouteOptions,
+      ['groups']: GroupsRouteOptions,
+      ['calls']: CallsRouteOptions
     },
     {
       navigationOptions: ({navigation,screenProps }) => ({
@@ -46,13 +46,13 @@ const tavNav = (props) => React.createElement(
           const {routeName} = navigation.state;
           let iconName;
           switch (routeName) {
-            case 'چت ها':
+            case 'chats':
               iconName = 'person';
               break;
-            case 'گروه ها':
+            case 'groups':
               iconName = 'group';
               break;
-            case 'تماس ها':
+            case 'calls':
               iconName = 'call';
           }
           return (

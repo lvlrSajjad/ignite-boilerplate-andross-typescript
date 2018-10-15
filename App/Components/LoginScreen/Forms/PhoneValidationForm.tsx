@@ -1,5 +1,5 @@
 import * as React from "react";
-import Textfield from '../../MaterialComponents/TextfieldRtl';
+import {MKTextField} from 'react-native-material-kit';
 import styles from "../Styles/LoginCardStyles";
 import {MKColor} from 'react-native-material-kit'
 import { View} from "react-native";
@@ -24,11 +24,11 @@ const PhoneValidationForm = (props : PhoneValidationFormProps) => {
   return (
     <View>
     <CardItem>
-      <Textfield
+      <MKTextField
         tintColor={primaryColor}
         textInputStyle={styles.loginFormTextInput}
         floatingLabelFont={{...Fonts.style.farsiInput}}
-        placeholder={"کد 6 رقمی"}
+        placeholder={"Sms Code"}
         onTextChange={(text) => props.onTextChange(text)}
         text={props.varCode}
         maxLength={6}
@@ -39,20 +39,9 @@ const PhoneValidationForm = (props : PhoneValidationFormProps) => {
       />
     </CardItem>
     <CardItem>
-      <MaterialButton
-        text={'تایید'}
-        color={primaryColor}
-        textColor='white'
-        isLoading={props.isLoading}
-        flex={1}
-        onPress={() => {
-          props.onPress()
-        }}
-      />
       <View style={{flexDirection: 'row'}}>
-        <View style={{width: 4}}/>
         < MaterialButton
-          text={'بازگشت'}
+          text={'Back'}
           color={MKColor.Grey}
           textColor='white'
           isLoading={false}
@@ -61,7 +50,19 @@ const PhoneValidationForm = (props : PhoneValidationFormProps) => {
             props.onBackButtonPress()
           }}
         />
+        <View style={{width: 4}}/>
       </View>
+      <MaterialButton
+        text={'Confirm'}
+        color={primaryColor}
+        textColor='white'
+        isLoading={props.isLoading}
+        flex={1}
+        onPress={() => {
+          props.onPress()
+        }}
+      />
+
     </CardItem>
     </View>
   );

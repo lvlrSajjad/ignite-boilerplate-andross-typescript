@@ -70,12 +70,16 @@
     "typescript": "^3.1.1"```
     
     You can see more on package .json
-## :arrow_up: Ignite Cli
+## :fire: Ignite Cli
   
   For Cli Instructions Please refer to ignite boilerplate page :
   
   https://github.com/infinitered/ignite
   
+## :arrow_up: Changing The Package Name
+
+  You Can Change PackageName And Boundler ID Using this tool
+  https://www.npmjs.com/package/react-native-rename
 ## :arrow_forward: Folders
 
     Attention : some files and folders are just for example and you can remove them when ever you want

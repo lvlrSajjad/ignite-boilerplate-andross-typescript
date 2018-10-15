@@ -2,8 +2,7 @@
 import * as React from 'react';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import {createMaterialBottomTabNavigator} from 'react-navigation-material-bottom-tabs';
-import {BottomTabBar} from 'react-navigation-tabs';
-import Colors, {colorScheme, primaryColor} from '../Themes/Colors';
+import {colorScheme, primaryColor} from '../Themes/Colors';
 import {connect} from "react-redux";
 import ChatsTab from './ChatsTabNavigator';
 import SearchTab from '../Containers/MainTabs/SearchTab';
@@ -12,7 +11,6 @@ import LocationTab from '../Containers/MainTabs/LocationTab';
 import SettingsTab from '../Containers/MainTabs/SettingsTab';
 import Fonts from "../Themes/Fonts";
 import { BottomNavigation } from 'react-native-paper';
-import {Text} from "react-native";
 
 const commonNavigationOptions = ({navigation}) => ({
   header: null,
@@ -45,32 +43,32 @@ const tavNav = (props) => React.createElement(
   createMaterialBottomTabNavigator(
 
     {
-      ['چت ها']: ChatsRouteOptions,
-      ['جستجو']: SearchRouteOptions,
-      ['کانال ها']: ChannelsRouteOptions,
-      ['اطراف من']: LocationRouteOptions,
-      ['تنظیمات']: SettingsRouteOptions
+      ['chats']: ChatsRouteOptions,
+      ['search']: SearchRouteOptions,
+      ['channels']: ChannelsRouteOptions,
+      ['map']: LocationRouteOptions,
+      ['settings']: SettingsRouteOptions
 
     },
     {
-      navigationOptions: ({navigation,screenProps }) => ({
+      navigationOptions: ({navigation }) => ({
         tabBarIcon: ({focused}) => {
           const {routeName} = navigation.state;
           let iconName;
           switch (routeName) {
-            case 'چت ها':
+            case 'chats':
               iconName = 'chat';
               break;
-            case 'جستجو':
+            case 'search':
               iconName = 'search';
               break;
-            case 'کانال ها':
+            case 'channels':
               iconName = 'volume-mute';
               break;
-            case 'اطراف من':
+            case 'map':
               iconName = 'place';
               break;
-            case  'تنظیمات':
+            case  'settings':
               iconName = 'menu'
           }
           return (

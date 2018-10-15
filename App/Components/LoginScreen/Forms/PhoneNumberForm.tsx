@@ -1,5 +1,5 @@
 import * as React from "react";
-import Textfield from '../../MaterialComponents/TextfieldRtl';
+import {MKTextField} from 'react-native-material-kit';
 import styles from "../Styles/LoginCardStyles";
 import {MKColor} from 'react-native-material-kit'
 import {Text, View} from "react-native";
@@ -28,11 +28,11 @@ const PhoneNumberForm = (props: PhoneNumberFormProps) => {
         <Text
           style={styles.loginFormPrefixText}
         >{props.prefixNumber}</Text>
-        <Textfield
+        <MKTextField
           tintColor={primaryColor}
           textInputStyle={styles.loginFormTextInput}
           floatingLabelFont={{...Fonts.style.farsiInput}}
-          placeholder={"شماره همراه"}
+          placeholder={"Phone number"}
           placeholderColor={MKColor.Grey}
           onTextChange={(text) => props.onTextChange(text)}
           text={props.phoneNumber}
@@ -46,7 +46,7 @@ const PhoneNumberForm = (props: PhoneNumberFormProps) => {
     </CardItem>
     <CardItem>
       <MaterialButton
-        text={'تایید'}
+        text={'Confirm'}
         color={primaryColor}
         textColor='white'
         isLoading={props.isLoading}
