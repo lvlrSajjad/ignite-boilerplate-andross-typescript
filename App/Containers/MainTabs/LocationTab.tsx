@@ -8,8 +8,11 @@ import {colorScheme} from "../../Themes/Colors";
 
 MapboxGL.setAccessToken(MapboxConfig.accessToken);
 
+interface LocationTabProps {
+  isDarkMode?:boolean
+}
 
-class LocationTab extends Component {
+class LocationTab extends Component<LocationTabProps> {
   render() {
     const ColorScheme = colorScheme(this.props.isDarkMode);
 
