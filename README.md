@@ -170,14 +170,14 @@
   MaterialComponents/MaterialButton
 
   Usage:
-
+  ```typescript jsx
     <MaterialButton
       text={'Confirm'}
       color={MKColor.Teal}
       textColor = 'white'
       isLoading={true}
       />
-
+  ```
   FAB 
 
   Component's Location
@@ -185,7 +185,7 @@
   MaterialComponents/MaterialFab
 
   Usage :
-
+```typescript jsx
     <MaterialFab
         size={metrics.regularMaterialFab.size}
         color={MKColor.Teal}
@@ -194,7 +194,7 @@
         iconColor={'white'}
       />
       // props {size,color,onPress,iconColor,icon}
-
+ ```
  Toggle
 
 https://github.com/xinthink/react-native-material-kit#toggles
