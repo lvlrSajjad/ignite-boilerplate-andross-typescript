@@ -80,7 +80,7 @@
 
   You Can Change PackageName And Boundler ID Using this tool
   https://www.npmjs.com/package/react-native-rename
-## :file_folder Folders
+## :file_folder: Folders
 
     Attention : some files and folders are just for example and you can remove them when ever you want
         
