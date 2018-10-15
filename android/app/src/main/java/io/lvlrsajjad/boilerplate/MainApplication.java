@@ -1,4 +1,4 @@
-package com.bitt;
+package io.lvlrsajjad.boilerplate;
 
 import android.app.Application;
 
