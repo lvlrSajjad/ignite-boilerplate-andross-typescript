@@ -41,7 +41,7 @@ class ChatsScreen extends Component {
         time={item.time}
         onPress={()=>{
 
-          this.props.ChatScreen(this.props.isDarkMode)
+  //        this.props.ChatScreen(this.props.isDarkMode)
         //  this.props.navigation.dispatch(navigateAction);
         }}
       />
@@ -55,9 +55,9 @@ const mapStateToProps = state => ({
 });
 
 const mapDispatchToProps = dispatch => ({
-  ChatScreen: (darkMode) => {
-    dispatch({ type: 'ChatScreen' , payload : darkMode});
-  },
+  // ChatScreen: (darkMode) => {
+  //   dispatch({ type: 'ChatScreen' , payload : darkMode});
+  // },
 });
 
 export default withNavigation(connect(mapStateToProps, mapDispatchToProps)(ChatsScreen));

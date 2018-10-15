@@ -14,15 +14,15 @@ export const reducer = (state, action) => {
         state
       );
       break;
-    case 'ChatScreen':
-      newState = AppNavigation.router.getStateForAction(
-        NavigationActions.navigate({
-          routeName: 'ChatScreen',
-          params:{isDarkMode:action.payload}
-        }),
-        state
-      );
-      break;
+    // case 'ChatScreen':
+    //   newState = AppNavigation.router.getStateForAction(
+    //     NavigationActions.navigate({
+    //       routeName: 'ChatScreen',
+    //       params:{isDarkMode:action.payload}
+    //     }),
+    //     state
+    //   );
+    //   break;
     default :
       newState = AppNavigation.router.getStateForAction(action, state);
       break;

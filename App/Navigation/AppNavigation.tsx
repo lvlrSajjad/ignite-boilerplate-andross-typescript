@@ -1,5 +1,4 @@
 import { createStackNavigator } from "react-navigation";
-import ChatScreen from "../Containers/ChatScreen";
 import styles from "./Styles/NavigationStyles";
 import MainTabNavigator from "./MainTabNavigator";
 import LoginScreen from "../Containers/LoginScreen";
@@ -7,8 +6,7 @@ import LoginScreen from "../Containers/LoginScreen";
 // Manifest of possible screens
 const PrimaryNav = createStackNavigator({
   LoginScreen: { screen: LoginScreen },
-  LaunchScreen: { screen: MainTabNavigator },
-  ChatScreen: {screen:ChatScreen}
+  LaunchScreen: { screen: MainTabNavigator }
 }, {
   // Default config for all screens
   headerMode: "none",
