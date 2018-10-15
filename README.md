@@ -135,7 +135,7 @@
                   
 ## :heart: Recommended Components For Use In The Project
 
-  Map Component
+  ### Map Component
   
   Mapbox installed in the project and linked with android (not ios yet so open for pull requests)
   
@@ -143,7 +143,7 @@
   
   then you can use it inside `App>Config>MapboxConfig.tsx`
   
-  then use it like :
+ #### then use it like :
   
   ```typescript jsx
   import MapboxGL from '@mapbox/react-native-mapbox-gl';
@@ -159,17 +159,17 @@
   </MapboxGL.MapView>
   ```
 
-  List Component 
+  ### List Component 
 
   https://docs.nativebase.io/Components.html#list-avatar-headref
 
-  Material Button Component 
+  ### Material Button Component 
 
-  Component's Location
+  #### Component's Location
   
   MaterialComponents/MaterialButton
 
-  Usage:
+  #### Usage:
   ```typescript jsx
     <MaterialButton
       text={'Confirm'}
@@ -178,13 +178,13 @@
       isLoading={true}
       />
   ```
-  FAB 
+  ### FAB 
 
   Component's Location
   
   MaterialComponents/MaterialFab
 
-  Usage :
+  #### Usage :
 ```typescript jsx
     <MaterialFab
         size={metrics.regularMaterialFab.size}
@@ -195,27 +195,27 @@
       />
       // props {size,color,onPress,iconColor,icon}
  ```
- Toggle
+ ### Toggle
 
 https://github.com/xinthink/react-native-material-kit#toggles
 
- CheckBox
+ ### CheckBox
 
 https://github.com/xinthink/react-native-material-kit#checkbox
 
- RadioButton
+ ### RadioButton
 
 https://github.com/xinthink/react-native-material-kit#radio-button
 
-MaterialColors
+### MaterialColors
 
     import {MKColor} from 'react-native-material-kit';
 
-BottomTabNavigation (See MainTabNavigator.tsx for more info)
+### BottomTabNavigation (See MainTabNavigator.tsx for more info)
 
     import {createMaterialBottomTabNavigator} from 'react-navigation-material-bottom-tabs';
 
-TopTabNavigation (See ChatsTabNavigator.tsx for more info)
+### TopTabNavigation (See ChatsTabNavigator.tsx for more info)
 
     import {createMaterialTopTabNavigator, TabBarTop} from 'react-navigation-tabs';
 
