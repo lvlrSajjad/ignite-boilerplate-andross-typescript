@@ -5,6 +5,10 @@
 * This Boiler Plate is just my Customized version of ignite Andross 
 * Installed And Configed With TypeScript
 * Updated React Native To The Lastest Version (0.57.2)
+* Added Rtl Support
+* Added Switchable ColorScheme Support
+* TODO // Add Better Multi language Support
+* TODO // Keep Settings Even When The App Closed
 * HighLighted Dependencies that installed and linked to android :
 
     ```
