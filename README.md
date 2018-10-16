@@ -90,6 +90,13 @@
                    |--tests-- < Test files of folder
                    
                    |MaterialComponents < Some Components that made with material guidlines
+                   
+                          |ComponentName < If You want to work with rtl/ltr layouts separately
+                                |index.tsx
+                                |ComponentName.rtl.tsx
+                                |ComponentName.ltr.tsx
+                          
+                          |ComponentName.tsx < If You Want Just A Layout No And Dont Want To Support Rtl/Ltr      
 
        |Config  < Config files folder
        
@@ -122,6 +129,38 @@
        
        |Transforms < You can do conversions 
                    
+## :heart: Recommended Structure For Rtl/Ltr Support
+
+If you want to your app support ltr/rtl layouts separately
+you can create a folder for component and inside the folder create three files:
+  index.tsx
+  componentName.rtl.tsx
+  componentName.ltr.tsx  
+  
+Then you can set index.tsx content as below:
+  ```typescript jsx
+  import Ltr from "./componentName.ltr";
+  import Rtl from "./componentName.rtl";
+  import {connect} from "react-redux";
+  import * as React from "react";
+  
+  const Direction = (props) => props.isLtr ? <Ltr {...props} /> : <Rtl {...props}/>;
+  
+  const mapStateToProps = state => {
+    return {
+      isLtr: state.appSettings.isLtr // appSettings is my reducer in Redux folder
+    };
+  };
+  
+  export default connect(mapStateToProps)(Direction);
+
+  ```
+  
+  Then use it like normal .eg :
+   ```typescript jsx
+   import ComponentName from './path/to/componentName' //Just Component Folder Path
+  ```
+     
                   
 ## :heart: Recommended Components For Use In The Project
 
