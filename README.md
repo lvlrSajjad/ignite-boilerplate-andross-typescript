@@ -108,7 +108,7 @@
                                                      
        |Fixtures < All key API responses are housed here.
        
-       |118n  < Localization
+       |i18n  < Localization
                    
        |Images < Holds all images for the applications.     
                          
