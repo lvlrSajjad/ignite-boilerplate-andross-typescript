@@ -3,17 +3,19 @@ import {Component} from 'react';
 import {Image, ScrollView, View} from "react-native";
 import {connect} from "react-redux";
 import styles from "../Styles/LaunchScreenStyles";
-import {Body, Card, CardItem, Row, Switch, Text} from "native-base";
+import { Card, Text} from "native-base";
 import SettingsListItem from "../../Components/LaunchScreen/SettingsTab/SettingsListItem";
 import metrics from "../../Themes/Metrics";
 import Fonts from "../../Themes/Fonts";
-import * as Actions from '../../Redux/Actions/IsDarkModeActions';
+import * as Actions from '../../Redux/Actions/AppSettingsAction';
 import {colorScheme} from "../../Themes/Colors";
-import MaterialIcons from 'react-native-vector-icons/MaterialCommunityIcons';
+import SettingsToggleItem from "../../Components/LaunchScreen/SettingsTab/SettingsToggleItem";
 
 interface SettingsTabProps {
+  isLtr?:boolean,
   isDarkMode?:boolean,
   toggleDarkMode():void
+  toggleDirection():void
 }
 
 class SettingsTab extends Component<SettingsTabProps> {
@@ -57,30 +59,24 @@ class SettingsTab extends Component<SettingsTabProps> {
             justifyContent: 'flex-end',
             width: metrics.screenWidth - 32
           }}>
-            <CardItem>
-              <Body>
-              <Row>
-
-                <Row style={{alignItems:'center',justifyContent:'center'}}>
-
-                  <MaterialIcons
-                    name={'weather-night'}
-                    size={28}
-                    style={{margin: 8}}
-                    color={'#424242'}
-                  />
-                  <Text style={{fontFamily: Fonts.type.farsi, color: '#424242',flex:1}}>DarkMode</Text>
-
-                </Row>
-                <Switch
-                  value={this.props.isDarkMode}
-                  onValueChange={() => {
-                    this.props.toggleDarkMode()
-                  }}
-                />
-              </Row>
-              </Body>
-            </CardItem>
+           <SettingsToggleItem
+             value = {this.props.isDarkMode}
+             onValueChange={() => {
+               this.props.toggleDarkMode()
+             }}
+             name ='Dark Mode'
+             icon = 'weather-night'
+             colorScheme={ColorScheme}
+           />
+            <SettingsToggleItem
+              value = {!this.props.isLtr}
+              onValueChange={() => {
+                this.props.toggleDirection()
+              }}
+              name ='Right To Left'
+              icon = 'format-textdirection-r-to-l'
+              colorScheme={ColorScheme}
+            />
           </Card>
         </ScrollView>
       </View>
@@ -90,7 +86,8 @@ class SettingsTab extends Component<SettingsTabProps> {
 
 const mapStateToProps = state => {
   return {
-    isDarkMode: state.isDarkMode.isDarkMode
+    isDarkMode: state.appSettings.isDarkMode,
+    isLtr: state.appSettings.isLtr
   };
 };
 

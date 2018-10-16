@@ -53,7 +53,7 @@ class ChatsScreen extends Component<ChatsScreenProps> {
 }
 
 const mapStateToProps = state => ({
-  isDarkMode: state.isDarkMode.isDarkMode,
+  isDarkMode: state.appSettings.isDarkMode,
   nav: state.nav
 });
 

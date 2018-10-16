@@ -6,13 +6,17 @@ import {dummyCallsData} from "../../../Config/DummyData";
 import {connect} from "react-redux";
 import CallsListItem from "../../../Components/LaunchScreen/ChatsTab/CallsListItem";
 import {colorScheme} from "../../../Themes/Colors";
+import {store} from "../../App";
 
 interface CallsScreenProps {
   isDarkMode?:boolean
 }
 
 class CallsScreen extends Component<CallsScreenProps> {
+
 render() {
+  console.log(store.getState().appSettings);
+
   const ColorScheme = colorScheme(this.props.isDarkMode);
     return (
       <Container
@@ -37,7 +41,7 @@ render() {
   }
 }
 const mapStateToProps = state => ({
-  isDarkMode: state.isDarkMode.isDarkMode
+  isDarkMode: state.appSettings.isDarkMode
 });
 
 const mapDispatchToProps = dispatch => ({});

@@ -42,7 +42,7 @@ class ReduxNavigation extends React.Component {
 
 const mapStateToProps = state => ({
   nav: state.nav ,
-  isDarkMode:state.isDarkMode.isDarkMode
+  isDarkMode:state.appSettings.isDarkMode
 
 });
 export default connect(mapStateToProps)(ReduxNavigation);

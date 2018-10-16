@@ -70,7 +70,6 @@ const tavNav = (props) => React.createElement(
         },
       }),
       tabBarComponent: TabBarTop,
-
       tabBarPosition: 'top',
       animationEnabled: true,
       swipeEnabled: true,
@@ -95,7 +94,7 @@ const tavNav = (props) => React.createElement(
   )
 );
 const mapStateToProps = state => ({
-  isDarkMode: state.isDarkMode.isDarkMode
+  isDarkMode: state.appSettings.isDarkMode
 });
 
 export default connect(mapStateToProps)(tavNav);

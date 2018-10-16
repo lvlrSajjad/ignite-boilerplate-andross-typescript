@@ -2,7 +2,7 @@ import "react-native";
 import * as React from "react";
 import { shallow } from "enzyme";
 import * as renderer from "react-test-renderer";
-import MaterialButton from "../MaterialButton";
+import MaterialButton from "../MaterialButton/MaterialButton";
 
 test("FullButton component renders correctly", () => {
   const tree = renderer.create(<MaterialButton color={'blue'} onPress={() => {}} text="hi" />).toJSON();

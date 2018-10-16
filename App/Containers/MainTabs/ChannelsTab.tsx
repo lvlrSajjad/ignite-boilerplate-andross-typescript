@@ -44,7 +44,7 @@ class ChannelsTab extends Component<ChannelsTabProps> {
 }
 
 const mapStateToProps = state => ({
-  isDarkMode: state.isDarkMode.isDarkMode
+  isDarkMode: state.appSettings.isDarkMode
 });
 
 const mapDispatchToProps = dispatch => ({});

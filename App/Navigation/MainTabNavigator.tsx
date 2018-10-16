@@ -10,7 +10,7 @@ import ChannelsTab from '../Containers/MainTabs/ChannelsTab';
 import LocationTab from '../Containers/MainTabs/LocationTab';
 import SettingsTab from '../Containers/MainTabs/SettingsTab';
 import Fonts from "../Themes/Fonts";
-import { BottomNavigation } from 'react-native-paper';
+import {BottomNavigation} from 'react-native-paper';
 
 const commonNavigationOptions = ({navigation}) => ({
   header: null,
@@ -38,20 +38,32 @@ const SettingsRouteOptions = {
   navigationOptions: commonNavigationOptions,
 };
 
+const order = (isLtr) => isLtr ?
+  {
+    ['chats']: ChatsRouteOptions,
+    ['channels']: ChannelsRouteOptions,
+    ['map']: LocationRouteOptions,
+    ['search']: SearchRouteOptions,
+    ['settings']: SettingsRouteOptions
+
+  } :
+  {
+    ['settings']: SettingsRouteOptions,
+    ['search']: SearchRouteOptions,
+    ['map']: LocationRouteOptions,
+    ['channels']: ChannelsRouteOptions,
+    ['chats']: ChatsRouteOptions
+  };
+
+const initialRoute ='chats';
+
+
 // different routes for all, active and completed todos
 const tavNav = (props) => React.createElement(
   createMaterialBottomTabNavigator(
-
+    order(props.isLtr),
     {
-      ['chats']: ChatsRouteOptions,
-      ['search']: SearchRouteOptions,
-      ['channels']: ChannelsRouteOptions,
-      ['map']: LocationRouteOptions,
-      ['settings']: SettingsRouteOptions
-
-    },
-    {
-      navigationOptions: ({navigation }) => ({
+      navigationOptions: ({navigation}) => ({
         tabBarIcon: ({focused}) => {
           const {routeName} = navigation.state;
           let iconName;
@@ -78,7 +90,7 @@ const tavNav = (props) => React.createElement(
               style={{marginBottom: 0}}
               color={focused ?
                 primaryColor :
-              //  props.colorScheme.fullToneText
+                //  props.colorScheme.fullToneText
                 colorScheme(props.isDarkMode).fullToneText
               }
             />
@@ -94,18 +106,19 @@ const tavNav = (props) => React.createElement(
         labelStyle: {
           fontSize: 10,
           fontFamily: Fonts.type.farsi,
-          color:colorScheme(props.isDarkMode).fullToneText
+          color: colorScheme(props.isDarkMode).fullToneText
         },
         style: {
           backgroundColor: colorScheme(props.isDarkMode).tabBarBackground
         },
       },
+      initialRouteName: initialRoute,
       labelStyle: {
         fontSize: 10,
         fontFamily: Fonts.type.farsi,
-        color:colorScheme(props.isDarkMode).fullToneText
+        color: colorScheme(props.isDarkMode).fullToneText
       },
-      barStyle:{
+      barStyle: {
         backgroundColor: colorScheme(props.isDarkMode).tabBarBackground
       },
     },
@@ -114,7 +127,8 @@ const tavNav = (props) => React.createElement(
 
 const mapStateToProps = state => {
   return {
-    isDarkMode: state.isDarkMode.isDarkMode
+    isDarkMode: state.appSettings.isDarkMode,
+    isLtr: state.appSettings.isLtr
   };
 };
 

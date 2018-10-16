@@ -31,7 +31,7 @@ class LocationTab extends Component<LocationTabProps> {
 }
 const mapStateToProps = state => {
   return {
-    isDarkMode:state.isDarkMode.isDarkMode
+    isDarkMode:state.appSettings.isDarkMode
   };
 };
 

@@ -10,7 +10,7 @@ export const reducers = combineReducers({
   nav: require("./NavigationRedux").reducer,
   github: require("./GithubRedux").reducer,
   search: require("./SearchRedux").reducer,
-  isDarkMode: require('./IsDarkModeRedux').reducer
+  appSettings: require('./AppSettingsRedux').reducer
 });
 
 export default () => {

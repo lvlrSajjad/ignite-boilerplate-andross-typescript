@@ -4,7 +4,7 @@ import {Container, Content} from 'native-base';
 import {FlatList} from "react-native";
 import {dummyGroupsData} from "../../../Config/DummyData";
 import {connect} from "react-redux";
-import ChatsListItem from "../../../Components/LaunchScreen/ChatsTab/ChatsListItem";
+import ChatsListItem from '../../../Components/LaunchScreen/ChatsTab/ChatsListItem';
 import {colorScheme} from "../../../Themes/Colors";
 
 interface GroupsScreenProps {
@@ -47,7 +47,7 @@ class GroupsScreen extends Component<GroupsScreenProps> {
 }
 
 const mapStateToProps = state => ({
-  isDarkMode: state.isDarkMode.isDarkMode
+  isDarkMode: state.appSettings.isDarkMode
 });
 
 const mapDispatchToProps = dispatch => ({});
