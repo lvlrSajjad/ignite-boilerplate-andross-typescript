@@ -238,6 +238,8 @@ export default connect(mapStateToProps, mapDispatchToProps)(ChannelsTab);
 
 you can see similiar usage in example files inside Container folder or another folders ...
 
+you can also test this in the settings tab
+
 ## :heart: Recommended Components For Use In The Project
 
   ### Map Component
