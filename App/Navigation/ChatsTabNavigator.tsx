@@ -73,7 +73,7 @@ const tavNav = (props) => React.createElement(
               color={focused ?
                 primaryColor :
                //props.colorScheme.fullToneText
-                colorScheme(props.isDarkMode).fullToneText
+                props.colorScheme.fullToneText
               }
             />
           );
@@ -92,10 +92,10 @@ const tavNav = (props) => React.createElement(
         labelStyle: {
           fontSize: 12,
           fontFamily: Fonts.type.farsi,
-          color: colorScheme(props.isDarkMode).fullToneText
+          color: props.colorScheme.fullToneText
         },
         style: {
-          backgroundColor: colorScheme(props.isDarkMode).tabBarBackground,
+          backgroundColor: props.colorScheme.tabBarBackground,
         },
         indicatorStyle: {
           backgroundColor: primaryColor
@@ -106,7 +106,8 @@ const tavNav = (props) => React.createElement(
 );
 const mapStateToProps = state => ({
   isDarkMode: state.appSettings.isDarkMode,
-  isLtr:state.appSettings.isLtr
+  isLtr:state.appSettings.isLtr,
+  colorScheme: state.appSettings.colorScheme
 });
 
 export default connect(mapStateToProps)(tavNav);

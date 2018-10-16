@@ -8,7 +8,6 @@ import SettingsListItem from "../../Components/LaunchScreen/SettingsTab/Settings
 import metrics from "../../Themes/Metrics";
 import Fonts from "../../Themes/Fonts";
 import * as Actions from '../../Redux/Actions/AppSettingsAction';
-import {colorScheme} from "../../Themes/Colors";
 import SettingsToggleItem from "../../Components/LaunchScreen/SettingsTab/SettingsToggleItem";
 
 interface SettingsTabProps {
@@ -25,7 +24,7 @@ class SettingsTab extends Component<SettingsTabProps> {
   }
 
   render() {
-    const ColorScheme = colorScheme(this.props.isDarkMode);
+    const ColorScheme = this.props.colorScheme;
 
     return (
       <View style={{
@@ -87,7 +86,8 @@ class SettingsTab extends Component<SettingsTabProps> {
 const mapStateToProps = state => {
   return {
     isDarkMode: state.appSettings.isDarkMode,
-    isLtr: state.appSettings.isLtr
+    isLtr: state.appSettings.isLtr,
+    colorScheme: state.appSettings.colorScheme
   };
 };
 

@@ -163,7 +163,81 @@ Then you can set index.tsx content as below:
    import ComponentName from './path/to/componentName' //Just Component Folder Path
   ```
 If you don't want Rtl/Ltr Switchable View just create a componentName.tsx inside Components folder ...     
-                  
+## :heart: If you want switchable color theme in your app    
+
+actually below reducer And action playing important roles for settings like direction(rtl/ltr) 
+or colorScheme and any settings like these :
+
+`App/Redux/AppSettingsRedux`
+`App/Redux/Actions/AppSettinsAction` 
+
+for example for colorScheme we have colorScheme state in this reducer which contans below structure :
+
+```typescript
+export interface ColorScheme {
+  fullToneText: string,
+  midToneText: string,
+  lightText: string,
+  fullToneBackground: string,
+  midToneBackground: string,
+  lightBackground: string,
+  cardBackground: string,
+  mapStyleUrl: string,
+  tabBarBackground: string,
+  containersBackground: string
+}
+```    
+you can also view or change it's structure and values in below file :
+
+`App/Themes/Colors`
+
+this scheme have two states for now dark and light themes
+
+this is how we can change state of this scheme :
+
+```typescript jsx
+import * as Actions from '../../Redux/Actions/AppSettingsAction';
+.
+.
+.
+onValueChange={() => { this.props.toggleDirection() }}
+.
+.
+.
+export default connect(mapStateToProps, Actions)(SettingsTab);
+
+```
+
+you can see below file for more detail :
+
+`App/Containers/MainTabs/SettingsTab.tsx`
+
+then you can use it as :
+
+```typescript jsx
+.
+.
+.
+const ColorScheme = this.props.colorScheme;
+.
+.
+.
+style={{backgroundColor:ColorScheme.containersBackground}}
+.
+.
+.
+const mapStateToProps = state => ({
+  isDarkMode: state.appSettings.isDarkMode,
+  colorScheme: state.appSettings.colorScheme
+});
+.
+.
+export default connect(mapStateToProps, mapDispatchToProps)(ChannelsTab);
+
+```
+
+you can see similiar usage in example files inside Container folder or another folders ...
+
 ## :heart: Recommended Components For Use In The Project
 
   ### Map Component

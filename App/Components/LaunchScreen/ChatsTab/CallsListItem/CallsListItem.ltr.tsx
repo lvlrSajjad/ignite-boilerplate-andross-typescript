@@ -4,7 +4,7 @@ import Fonts from "../../../../Themes/Fonts";
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import {View} from "react-native";
 import {connect} from "react-redux";
-import {colorScheme} from "../../../../Themes/Colors";
+import {ColorScheme} from "../../../../Themes/Colors";
 import CallStateToData from "../../../../Transforms/CallStateToData";
 
 interface CallsListItemProps {
@@ -12,13 +12,14 @@ interface CallsListItemProps {
   name: string,
   state: number,
   time: string,
-  isDarkMode?: boolean
+  isDarkMode?: boolean,
+  colorScheme?:ColorScheme
 }
 
 const CallListItem = (item : CallsListItemProps) => {
 
   const callStateData = CallStateToData(item.state);
-  const ColorScheme = colorScheme(item.isDarkMode);
+  const ColorScheme = item.colorScheme;
 
   return (
     <ListItem button avatar>
@@ -46,7 +47,8 @@ const CallListItem = (item : CallsListItemProps) => {
 
 const mapStateToProps = state => {
   return {
-    isDarkMode: state.appSettings.isDarkMode
+    isDarkMode: state.appSettings.isDarkMode,
+    colorScheme: state.appSettings.colorScheme
   };
 };
 

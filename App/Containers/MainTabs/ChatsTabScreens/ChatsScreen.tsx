@@ -5,11 +5,12 @@ import {Container, Content} from 'native-base';
 import {FlatList} from "react-native";
 import {dummyChatsData} from "../../../Config/DummyData";
 import ChatsListItem from '../../../Components/LaunchScreen/ChatsTab/ChatsListItem'
-import {colorScheme} from "../../../Themes/Colors";
+import {ColorScheme} from "../../../Themes/Colors";
 import { withNavigation } from 'react-navigation';
 
 interface ChatsScreenProps {
   isDarkMode?:boolean,
+  colorScheme?:ColorScheme
 }
 
 class ChatsScreen extends Component<ChatsScreenProps> {
@@ -18,7 +19,7 @@ class ChatsScreen extends Component<ChatsScreenProps> {
     this.renderListItems = this.renderListItems.bind(this);
   }
   render() {
-    const ColorScheme = colorScheme(this.props.isDarkMode);
+    const ColorScheme = this.props.colorScheme;
 
     return (
       <Container
@@ -54,7 +55,8 @@ class ChatsScreen extends Component<ChatsScreenProps> {
 
 const mapStateToProps = state => ({
   isDarkMode: state.appSettings.isDarkMode,
-  nav: state.nav
+  nav: state.nav,
+  colorScheme: state.appSettings.colorScheme
 });
 
 const mapDispatchToProps = dispatch => ({

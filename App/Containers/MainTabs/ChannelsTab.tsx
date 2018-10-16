@@ -5,16 +5,17 @@ import {Container, Content} from 'native-base';
 import {FlatList} from "react-native";
 import {dummyChannelsData} from "../../Config/DummyData";
 import ChatsListItem from "../../Components/LaunchScreen/ChatsTab/ChatsListItem";
-import {colorScheme} from "../../Themes/Colors";
+import {ColorScheme} from "../../Themes/Colors";
 
 interface ChannelsTabProps {
-  isDarkMode?:boolean
+  isDarkMode?:boolean,
+  colorScheme?:ColorScheme
 }
 
 class ChannelsTab extends Component<ChannelsTabProps> {
 
   render() {
-    const ColorScheme = colorScheme(this.props.isDarkMode);
+    const ColorScheme = this.props.colorScheme;
 
     return (
       <Container
@@ -44,7 +45,8 @@ class ChannelsTab extends Component<ChannelsTabProps> {
 }
 
 const mapStateToProps = state => ({
-  isDarkMode: state.appSettings.isDarkMode
+  isDarkMode: state.appSettings.isDarkMode,
+  colorScheme: state.appSettings.colorScheme
 });
 
 const mapDispatchToProps = dispatch => ({});

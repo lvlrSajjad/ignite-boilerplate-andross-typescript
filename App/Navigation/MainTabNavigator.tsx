@@ -2,7 +2,7 @@
 import * as React from 'react';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import {createMaterialBottomTabNavigator} from 'react-navigation-material-bottom-tabs';
-import {colorScheme, primaryColor} from '../Themes/Colors';
+import { primaryColor} from '../Themes/Colors';
 import {connect} from "react-redux";
 import ChatsTab from './ChatsTabNavigator';
 import SearchTab from '../Containers/MainTabs/SearchTab';
@@ -91,7 +91,7 @@ const tavNav = (props) => React.createElement(
               color={focused ?
                 primaryColor :
                 //  props.colorScheme.fullToneText
-                colorScheme(props.isDarkMode).fullToneText
+                props.colorScheme.fullToneText
               }
             />
           );
@@ -106,20 +106,20 @@ const tavNav = (props) => React.createElement(
         labelStyle: {
           fontSize: 10,
           fontFamily: Fonts.type.farsi,
-          color: colorScheme(props.isDarkMode).fullToneText
+          color: props.colorScheme.fullToneText
         },
         style: {
-          backgroundColor: colorScheme(props.isDarkMode).tabBarBackground
+          backgroundColor: props.colorScheme.tabBarBackground
         },
       },
       initialRouteName: initialRoute,
       labelStyle: {
         fontSize: 10,
         fontFamily: Fonts.type.farsi,
-        color: colorScheme(props.isDarkMode).fullToneText
+        color: props.colorScheme.fullToneText
       },
       barStyle: {
-        backgroundColor: colorScheme(props.isDarkMode).tabBarBackground
+        backgroundColor: props.colorScheme.tabBarBackground
       },
     },
   )
@@ -128,7 +128,8 @@ const tavNav = (props) => React.createElement(
 const mapStateToProps = state => {
   return {
     isDarkMode: state.appSettings.isDarkMode,
-    isLtr: state.appSettings.isLtr
+    isLtr: state.appSettings.isLtr,
+    colorScheme: state.appSettings.colorScheme
   };
 };
 

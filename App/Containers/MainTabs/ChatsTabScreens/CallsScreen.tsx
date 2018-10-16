@@ -5,19 +5,17 @@ import {FlatList} from "react-native";
 import {dummyCallsData} from "../../../Config/DummyData";
 import {connect} from "react-redux";
 import CallsListItem from "../../../Components/LaunchScreen/ChatsTab/CallsListItem";
-import {colorScheme} from "../../../Themes/Colors";
-import {store} from "../../App";
+import {ColorScheme} from "../../../Themes/Colors";
 
 interface CallsScreenProps {
-  isDarkMode?:boolean
+  isDarkMode?:boolean,
+  colorScheme?:ColorScheme
 }
 
 class CallsScreen extends Component<CallsScreenProps> {
 
 render() {
-  console.log(store.getState().appSettings);
-
-  const ColorScheme = colorScheme(this.props.isDarkMode);
+  const ColorScheme = this.props.colorScheme;
     return (
       <Container
       style={{backgroundColor:ColorScheme.containersBackground}}
@@ -41,7 +39,8 @@ render() {
   }
 }
 const mapStateToProps = state => ({
-  isDarkMode: state.appSettings.isDarkMode
+  isDarkMode: state.appSettings.isDarkMode,
+  colorScheme: state.appSettings.colorScheme
 });
 
 const mapDispatchToProps = dispatch => ({});

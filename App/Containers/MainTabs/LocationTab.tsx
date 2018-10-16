@@ -4,17 +4,18 @@ import {connect} from "react-redux";
 import {Container} from "native-base";
 import MapboxGL from '@mapbox/react-native-mapbox-gl';
 import MapboxConfig from "../../Config/MapboxConfig";
-import {colorScheme} from "../../Themes/Colors";
+import {ColorScheme, colorScheme} from "../../Themes/Colors";
 
 MapboxGL.setAccessToken(MapboxConfig.accessToken);
 
 interface LocationTabProps {
-  isDarkMode?:boolean
+  isDarkMode?:boolean,
+  colorScheme:ColorScheme
 }
 
 class LocationTab extends Component<LocationTabProps> {
   render() {
-    const ColorScheme = colorScheme(this.props.isDarkMode);
+    const ColorScheme = this.props.colorScheme;
 
     return (
       <Container>
@@ -31,7 +32,8 @@ class LocationTab extends Component<LocationTabProps> {
 }
 const mapStateToProps = state => {
   return {
-    isDarkMode:state.appSettings.isDarkMode
+    isDarkMode:state.appSettings.isDarkMode,
+    colorScheme: state.appSettings.colorScheme
   };
 };
 

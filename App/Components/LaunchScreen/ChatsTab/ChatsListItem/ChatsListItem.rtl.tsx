@@ -2,7 +2,6 @@ import * as React from "react";
 import {ListItem, Left, Body, Right, Thumbnail, Text} from 'native-base';
 import Fonts from "../../../../Themes/Fonts";
 import {connect} from "react-redux";
-import {colorScheme} from "../../../../Themes/Colors";
 
 
 interface ChatsListItemProps {
@@ -15,7 +14,7 @@ interface ChatsListItemProps {
 }
 
 const ChatListItem = (item : ChatsListItemProps) => {
-  const ColorScheme = colorScheme(item.isDarkMode);
+  const ColorScheme = item.colorScheme;
 
   return (
     <ListItem button avatar onPress={()=>{item.onPress()}}>
@@ -35,7 +34,8 @@ const ChatListItem = (item : ChatsListItemProps) => {
 };
 const mapStateToProps = state => {
   return {
-    isDarkMode: state.appSettings.isDarkMode
+    isDarkMode: state.appSettings.isDarkMode,
+    colorScheme: state.appSettings.colorScheme
   };
 };
 
