@@ -28,17 +28,27 @@ const CallsRouteOptions = {
 };
 
 
-//
+const order = (isLtr) => isLtr ?
+  {
+    ['chats']: ChatsRouteOptions,
+    ['groups']: GroupsRouteOptions,
+    ['calls']: CallsRouteOptions
+
+  } :
+  {
+    ['calls']: CallsRouteOptions,
+    ['groups']: GroupsRouteOptions,
+    ['chats']: ChatsRouteOptions,
+
+  };
+
+const initialRoute ='chats';
 
 
 // different routes for all, active and completed todos
 const tavNav = (props) => React.createElement(
   createMaterialTopTabNavigator(
-    {
-      ['chats']: ChatsRouteOptions,
-      ['groups']: GroupsRouteOptions,
-      ['calls']: CallsRouteOptions
-    },
+    order(props.isLtr),
     {
       navigationOptions: ({navigation }) => ({
 
@@ -72,6 +82,7 @@ const tavNav = (props) => React.createElement(
       tabBarComponent: TabBarTop,
       tabBarPosition: 'top',
       animationEnabled: true,
+      initialRouteName: initialRoute,
       swipeEnabled: true,
       tabBarOptions: {
 
@@ -94,7 +105,8 @@ const tavNav = (props) => React.createElement(
   )
 );
 const mapStateToProps = state => ({
-  isDarkMode: state.appSettings.isDarkMode
+  isDarkMode: state.appSettings.isDarkMode,
+  isLtr:state.appSettings.isLtr
 });
 
 export default connect(mapStateToProps)(tavNav);

@@ -133,9 +133,11 @@
 
 If you want to your app support ltr/rtl layouts separately
 you can create a folder for component and inside the folder create three files:
-  index.tsx
-  componentName.rtl.tsx
-  componentName.ltr.tsx  
+  ```
+    index.tsx
+    componentName.rtl.tsx
+    componentName.ltr.tsx
+   ```
   
 Then you can set index.tsx content as below:
   ```typescript jsx
@@ -160,7 +162,7 @@ Then you can set index.tsx content as below:
    ```typescript jsx
    import ComponentName from './path/to/componentName' //Just Component Folder Path
   ```
-     
+If you don't want Rtl/Ltr Switchable View just create a componentName.tsx inside Components folder ...     
                   
 ## :heart: Recommended Components For Use In The Project
 

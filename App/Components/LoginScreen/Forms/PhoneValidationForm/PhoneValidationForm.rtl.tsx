@@ -40,6 +40,17 @@ const PhoneValidationFormLtr = (props : PhoneValidationFormProps) => {
     </CardItem>
     <CardItem>
       <View style={{flexDirection: 'row'}}>
+        <MaterialButton
+          text={'Confirm'}
+          color={primaryColor}
+          textColor='white'
+          isLoading={props.isLoading}
+          flex={1}
+          onPress={() => {
+            props.onPress()
+          }}
+        />
+        <View style={{width: 4}}/>
         < MaterialButton
           text={'Back'}
           color={MKColor.Grey}
@@ -50,18 +61,9 @@ const PhoneValidationFormLtr = (props : PhoneValidationFormProps) => {
             props.onBackButtonPress()
           }}
         />
-        <View style={{width: 4}}/>
+
       </View>
-      <MaterialButton
-        text={'Confirm'}
-        color={primaryColor}
-        textColor='white'
-        isLoading={props.isLoading}
-        flex={1}
-        onPress={() => {
-          props.onPress()
-        }}
-      />
+
 
     </CardItem>
     </View>

@@ -20,17 +20,18 @@ const ChatListItem = (item : ChatsListItemProps) => {
   return (
     <ListItem button avatar onPress={()=>{item.onPress()}}>
       <Left>
-        <Thumbnail source={{uri: item.avatar}}/>
+        <Text style ={{fontFamily:Fonts.type.farsi,color:ColorScheme.lightText}} note>{item.time}</Text>
+
       </Left>
       <Body  style={{alignItems:'flex-start'}}>
-      <Text style ={{fontFamily:Fonts.type.farsi,color:ColorScheme.fullToneText}}>{item.name}</Text>
-      <Text style ={{fontFamily:Fonts.type.farsi,color:ColorScheme.midToneText}} note>{item.note}</Text>
+      <Text style ={{alignSelf:'flex-end',fontFamily:Fonts.type.farsi,color:ColorScheme.fullToneText}}>{item.name}</Text>
+      <Text style ={{alignSelf:'flex-end',fontFamily:Fonts.type.farsi,color:ColorScheme.midToneText}} note>{item.note}</Text>
       </Body>
       <Right>
-        <Text style ={{fontFamily:Fonts.type.farsi,color:ColorScheme.lightText}} note>{item.time}</Text>
+        <Thumbnail source={{uri: item.avatar}}/>
       </Right>
     </ListItem>
-);
+  );
 };
 const mapStateToProps = state => {
   return {

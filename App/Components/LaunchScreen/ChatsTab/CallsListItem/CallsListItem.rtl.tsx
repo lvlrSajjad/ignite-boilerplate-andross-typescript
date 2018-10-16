@@ -23,11 +23,11 @@ const CallListItem = (item : CallsListItemProps) => {
   return (
     <ListItem button avatar>
       <Left>
-        <Thumbnail source={{uri: item.avatar}}/>
+        <Text style ={{fontFamily:Fonts.type.farsi,color:ColorScheme.lightText}} note>{item.time}</Text>
       </Left>
       <Body  style={{alignItems:'flex-start'}}>
-      <Text style ={{fontFamily:Fonts.type.farsi,color:ColorScheme.fullToneText}}>{item.name}</Text>
-      <View style = {{flexDirection:'row'}}>
+      <Text style ={{alignSelf:'flex-end',fontFamily:Fonts.type.farsi,color:ColorScheme.fullToneText}}>{item.name}</Text>
+      <View style = {{alignSelf:'flex-end',flexDirection:'row'}}>
         <MaterialIcons
           name={callStateData.icon}
           size={28}
@@ -38,10 +38,10 @@ const CallListItem = (item : CallsListItemProps) => {
       </View>
       </Body>
       <Right>
-        <Text style ={{fontFamily:Fonts.type.farsi,color:ColorScheme.lightText}} note>{item.time}</Text>
+        <Thumbnail source={{uri: item.avatar}}/>
       </Right>
     </ListItem>
-);
+  );
 };
 
 const mapStateToProps = state => {

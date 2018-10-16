@@ -47,20 +47,6 @@ const UserInfoFormRtl = (props: UserInfoFormProps) => {
         />
       </CardItem>
       <CardItem>
-        <View style={{flexDirection: 'row'}}>
-          < MaterialButton
-            text={'Back'}
-            color={MKColor.Grey}
-            textColor='white'
-            isLoading={false}
-            //flex={1}
-            onPress={() => {
-              props.onBackButtonPress()
-            }}
-          />
-          <View style={{width: 4}}/>
-
-        </View>
         <MaterialButton
           text={'Confirm'}
           color={primaryColor}
@@ -71,6 +57,22 @@ const UserInfoFormRtl = (props: UserInfoFormProps) => {
             props.onPress()
           }}
         />
+        <View style={{flexDirection: 'row'}}>
+          <View style={{width: 4}}/>
+
+          < MaterialButton
+            text={'Back'}
+            color={MKColor.Grey}
+            textColor='white'
+            isLoading={false}
+            //flex={1}
+            onPress={() => {
+              props.onBackButtonPress()
+            }}
+          />
+
+        </View>
+
 
       </CardItem>
 
