@@ -7,7 +7,11 @@ import {dummyChannelsData} from "../../Config/DummyData";
 import ChatsListItem from "../../Components/LaunchScreen/ChatsTab/ChatsListItem";
 import {colorScheme} from "../../Themes/Colors";
 
-class ChannelsTab extends Component {
+interface ChannelsTabProps {
+  isDarkMode?:boolean
+}
+
+class ChannelsTab extends Component<ChannelsTabProps> {
 
   render() {
     const ColorScheme = colorScheme(this.props.isDarkMode);

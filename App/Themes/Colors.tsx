@@ -29,7 +29,7 @@ export const primaryColorLight='#0095E1';
 
 //const mode = 2;
 
-interface ColorScheme {
+export interface ColorScheme {
   fullToneText: string,
   midToneText: string,
   lightText: string,

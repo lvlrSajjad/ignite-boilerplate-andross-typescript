@@ -3,7 +3,7 @@ import {Component} from 'react';
 import {Image, ScrollView, View} from "react-native";
 import {connect} from "react-redux";
 import styles from "../Styles/LaunchScreenStyles";
-import {Body, Card, CardItem, Left, Row, Switch, Text} from "native-base";
+import {Body, Card, CardItem, Row, Switch, Text} from "native-base";
 import SettingsListItem from "../../Components/LaunchScreen/SettingsTab/SettingsListItem";
 import metrics from "../../Themes/Metrics";
 import Fonts from "../../Themes/Fonts";
@@ -11,7 +11,12 @@ import * as Actions from '../../Redux/Actions/IsDarkModeActions';
 import {colorScheme} from "../../Themes/Colors";
 import MaterialIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
-class SettingsTab extends Component {
+interface SettingsTabProps {
+  isDarkMode?:boolean,
+  toggleDarkMode():void
+}
+
+class SettingsTab extends Component<SettingsTabProps> {
 
   constructor(props) {
     super(props);
@@ -27,8 +32,7 @@ class SettingsTab extends Component {
       }}>
         <ScrollView style={styles.container}>
           <Image source={{uri: 'https://pickaface.net/gallery/avatar/sergkol56f3761506549.png'}} style={styles.avatar}/>
-          <Text style={{color: ColorScheme.midToneText, fontFamily: Fonts.type.farsi, alignSelf: 'center'}}>سجاد
-            اسدی</Text>
+          <Text style={{color: ColorScheme.midToneText, fontFamily: Fonts.type.farsi, alignSelf: 'center'}}>Sajjad</Text>
           <Text style={{
             color: ColorScheme.midToneText,
             fontFamily: Fonts.type.farsi,
@@ -42,10 +46,10 @@ class SettingsTab extends Component {
             backgroundColor:ColorScheme.cardBackground
 
           }}>
-            <SettingsListItem colorScheme ={ColorScheme} icon={'account'} name={'مخاطب ها'}/>
-            <SettingsListItem colorScheme ={ColorScheme} icon={'content-save'} name={'پیام های ذخیره شده'}/>
-            <SettingsListItem colorScheme ={ColorScheme} icon={'settings'} name={'دعوت از دوستان'}/>
-            <SettingsListItem colorScheme ={ColorScheme} icon={'help-circle'} name={'راهنمایی'}/>
+            <SettingsListItem colorScheme ={ColorScheme} icon={'account'} name={'Contacts'}/>
+            <SettingsListItem colorScheme ={ColorScheme} icon={'content-save'} name={'Saved Messages'}/>
+            <SettingsListItem colorScheme ={ColorScheme} icon={'settings'} name={'Invite Friends'}/>
+            <SettingsListItem colorScheme ={ColorScheme} icon={'help-circle'} name={'Help'}/>
           </Card>
           <Card style={{
             alignSelf: 'center',
@@ -56,14 +60,8 @@ class SettingsTab extends Component {
             <CardItem>
               <Body>
               <Row>
-                <Switch
-                  value={this.props.isDarkMode}
-                  onValueChange={(value) => {
-                    this.props.toggleDarkMode()
-                  }}
-                />
+
                 <Row style={{alignItems:'center',justifyContent:'center'}}>
-                  <Text style={{fontFamily: Fonts.type.farsi, color: '#424242',flex:1}}>حالت تیره</Text>
 
                   <MaterialIcons
                     name={'weather-night'}
@@ -71,7 +69,15 @@ class SettingsTab extends Component {
                     style={{margin: 8}}
                     color={'#424242'}
                   />
+                  <Text style={{fontFamily: Fonts.type.farsi, color: '#424242',flex:1}}>DarkMode</Text>
+
                 </Row>
+                <Switch
+                  value={this.props.isDarkMode}
+                  onValueChange={() => {
+                    this.props.toggleDarkMode()
+                  }}
+                />
               </Row>
               </Body>
             </CardItem>

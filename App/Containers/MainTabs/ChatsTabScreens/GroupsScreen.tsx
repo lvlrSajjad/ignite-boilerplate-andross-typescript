@@ -7,7 +7,11 @@ import {connect} from "react-redux";
 import ChatsListItem from "../../../Components/LaunchScreen/ChatsTab/ChatsListItem";
 import {colorScheme} from "../../../Themes/Colors";
 
-class GroupsScreen extends Component {
+interface GroupsScreenProps {
+  isDarkMode?:boolean
+}
+
+class GroupsScreen extends Component<GroupsScreenProps> {
   constructor(props){
     super (props);
     this.renderListItems = this.renderListItems.bind(this);
@@ -29,7 +33,7 @@ class GroupsScreen extends Component {
     );
   }
 
-  renderListItems(item) {
+  renderListItems = (item) => {
     return (
       <ChatsListItem
         avatar={item.avatar}

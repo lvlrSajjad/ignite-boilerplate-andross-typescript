@@ -2,127 +2,127 @@ export const dummyChatsData = [
   {
     id: 1,
     avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyZ4-M6dcPF-T4a9PwwKlUaKsE6IBEuwJqD94l9wBlVCqh3aBX',
-    name: 'سجاد',
-    note: 'سلام چه خبر...',
+    name: 'Sajjad',
+    note: 'Hey, Sup man ?',
     time: '03:43 pm'
   },
   {
     id: 2,
     avatar: 'https://pickaface.net/gallery/avatar/sergkol56f3761506549.png',
-    name: 'عماد',
-    note: 'چطوری؟',
+    name: 'Emad',
+    note: 'How do you do?',
     time: '03:43 pm'
   },
   {
     id: 3,
     avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTziGrTPbLf29FPjR4qSh_prcbdZTCqDvAYvhzUD4iTZz3NCBc5',
-    name: 'کامبیز',
+    name: 'Kambiz',
     note:'Docs.docx',
     time: '03:43 pm'
   },
   {
     id: 4,
     avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe7tC6bfuRazINNN2J1-9eBCcbt8EZHr75eG2mXfXbjLsvByAf',
-    name: 'اکبر',
-    note: 'متن نمونه ...',
+    name: 'Akbar',
+    note: 'Last Message ...',
     time: '03:43 pm'
   },
   {
     id: 5,
     avatar: 'http://pixdrive.com/wp-content/uploads/edd/2015/11/woman-avatar-3.png',
-    name: 'گلارا',
-    note: 'متن نمونه ...',
+    name: 'Dana',
+    note: 'Last Message ...',
     time: '03:43 pm'
   },
   {
     id: 6,
     avatar: 'https://cdn1.iconfinder.com/data/icons/user-pictures/100/female1-512.png',
-    name: 'مهدخت',
-    note: 'متن نمونه ...',
+    name: 'James',
+    note: 'Last Message ...',
     time: '03:43 pm'
   },
   {
     id: 7,
     avatar: 'http://pixdrive.com/wp-content/uploads/edd/2015/11/woman-avatar-3.png',
-    name: 'مسیح',
-    note: 'متن نمونه ...',
+    name: 'Jamie',
+    note: 'Last Message ...',
     time: '03:43 pm'
   },
   {
     id: 8,
     avatar: 'http://pixdrive.com/wp-content/uploads/edd/2015/11/woman-avatar-3.png',
-    name: 'جواد',
-    note: 'متن نمونه ...',
+    name: 'Kirk',
+    note: 'Last Message ...',
     time: '03:43 pm'
   },
   {
     id: 9,
     avatar: 'http://pixdrive.com/wp-content/uploads/edd/2015/11/woman-avatar-3.png',
-    name: 'میلاد',
-    note: 'متن نمونه ...',
+    name: 'Dave',
+    note: 'Last Message ...',
     time: '03:43 pm'
   },
   {
     id: 10,
     avatar: 'http://pixdrive.com/wp-content/uploads/edd/2015/11/woman-avatar-3.png',
-    name: 'سجاد',
-    note: 'سلام چه خبر...',
+    name: 'Jamie',
+    note: 'Last Message ...',
     time: '03:43 pm'
   },
   {
     id: 11,
     avatar: 'http://pixdrive.com/wp-content/uploads/edd/2015/11/woman-avatar-3.png',
-    name: 'عماد',
-    note: 'چطوری؟',
+    name: 'Kambiz',
+    note: 'How Are You? ',
     time: '03:43 pm'
   },
   {
     id: 12,
     avatar: 'http://pixdrive.com/wp-content/uploads/edd/2015/11/woman-avatar-3.png',
-    name: 'کامبیز',
+    name: 'Dave',
     note:'Docs.docx',
     time: '03:43 pm'
   },
   {
     id: 13,
     avatar: 'http://pixdrive.com/wp-content/uploads/edd/2015/11/woman-avatar-3.png',
-    name: 'اکبر',
-    note: 'متن نمونه ...',
+    name: 'Dana',
+    note: 'Last Message ...',
     time: '03:43 pm'
   },
   {
     id: 5,
     avatar: 'http://pixdrive.com/wp-content/uploads/edd/2015/11/woman-avatar-3.png',
-    name: 'محمود',
-    note: 'متن نمونه ...',
+    name: 'Akbar',
+    note: 'Last Message ...',
     time: '03:43 pm'
   },
   {
     id: 14,
     avatar: 'http://pixdrive.com/wp-content/uploads/edd/2015/11/woman-avatar-3.png',
-    name: 'کاظم',
-    note: 'متن نمونه ...',
+    name: 'Dave',
+    note: 'Last Message ...',
     time: '03:43 pm'
   },
   {
     id: 7,
     avatar: 'http://pixdrive.com/wp-content/uploads/edd/2015/11/woman-avatar-3.png',
-    name: 'مسیح',
-    note: 'متن نمونه ...',
+    name: 'Dana',
+    note: 'Last Message ...',
     time: '03:43 pm'
   },
   {
     id: 15,
     avatar: 'http://pixdrive.com/wp-content/uploads/edd/2015/11/woman-avatar-3.png',
-    name: 'جواد',
-    note: 'متن نمونه ...',
+    name: 'Akbar',
+    note: 'Last Message ...',
     time: '03:43 pm'
   },
   {
     id: 16,
     avatar: 'http://pixdrive.com/wp-content/uploads/edd/2015/11/woman-avatar-3.png',
-    name: 'میلاد',
-    note: 'متن نمونه ...',
+    name: 'Sajjad',
+    note: 'Last Message ...',
     time: '03:43 pm'
   },
 ];
@@ -132,36 +132,36 @@ export const dummyGroupsData = [
   {
     id: 1,
     avatar: 'https://image.freepik.com/free-vector/avatar-logo-design_1465-15.jpg',
-    name: 'بیت',
-    note: 'سلام چه خبر...',
+    name: 'Bit',
+    note: 'Last Message ...',
     time: '03:43 pm'
   },
   {
     id: 2,
     avatar: 'https://cdn3.f-cdn.com/contestentries/323067/10880430/5688feef9fa29_thumb900.jpg',
-    name: 'دوستان',
-    note: 'چطوری؟',
+    name: 'Friends',
+    note: 'Last Message ...',
     time: '03:43 pm'
   },
   {
     id: 3,
     avatar: 'https://i.pinimg.com/originals/08/a1/8d/08a18db0b7fe123f31fc181c7946405c.jpg',
-    name: 'خانواده',
+    name: 'Family',
     note:'Docs.docx',
     time: '03:43 pm'
   },
   {
     id: 4,
     avatar: 'http://pixdrive.com/wp-content/uploads/edd/2015/11/woman-avatar-3.png',
-    name: 'همکاران',
-    note: 'متن نمونه ...',
+    name: 'Co Workers',
+    note: 'Last Message ...',
     time: '03:43 pm'
   },
   {
     id: 5,
     avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhVYCFmBa-T-wyn-7vlDD8AyfVp-yvRDbKXXp2Q3GLMUUy3xblJw',
-    name: 'همشهری ها',
-    note: 'متن نمونه ...',
+    name: 'Neighbors',
+    note: 'Last Message ...',
     time: '03:43 pm'
   }
 ];
@@ -174,35 +174,35 @@ export const dummyCallsData = [
   {
     id: 1,
     avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyZ4-M6dcPF-T4a9PwwKlUaKsE6IBEuwJqD94l9wBlVCqh3aBX',
-    name: 'علی',
+    name: 'James',
     state: 0,
     time: '03:43 pm'
   },
   {
     id: 2,
     avatar: 'https://pickaface.net/gallery/avatar/sergkol56f3761506549.png',
-    name: 'محمد',
+    name: 'Denyris',
     state: 2,
     time: '03:43 pm'
   },
   {
     id: 3,
     avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTziGrTPbLf29FPjR4qSh_prcbdZTCqDvAYvhzUD4iTZz3NCBc5',
-    name: 'پارسا',
+    name: 'John',
     state: 1,
     time: '03:43 pm'
   },
   {
     id: 4,
     avatar: 'https://pickaface.net/gallery/avatar/sergkol56f3761506549.png',
-    name: 'بهروز',
+    name: 'Sir Jorah',
     state: 2,
     time: '03:43 pm'
   },
   {
     id: 5,
     avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe7tC6bfuRazINNN2J1-9eBCcbt8EZHr75eG2mXfXbjLsvByAf',
-    name: 'نوید',
+    name: 'Thormound',
     state: 1,
     time: '03:43 pm'
   }
@@ -212,36 +212,36 @@ export const dummyChannelsData = [
   {
     id: 1,
     avatar: 'http://www.mohsenalimardani.ir/wp-content/uploads/shbakeh_khabar_20120318_1217231991.jpg',
-    name: 'خبر',
-    note: 'متن نمونه ...',
+    name: 'News',
+    note: 'Last Message ...',
     time: '03:43 pm'
   },
   {
     id: 2,
     avatar: 'http://www.mohsenalimardani.ir/wp-content/uploads/shbakeh_khabar_20120318_1217231991.jpg',
-    name: 'گیزمیز',
-    note: 'متن نمونه ...',
+    name: 'Laugh',
+    note: 'Last Message ...',
     time: '03:43 pm'
   },
   {
     id: 3,
     avatar: 'http://www.mohsenalimardani.ir/wp-content/uploads/shbakeh_khabar_20120318_1217231991.jpg',
-    name: 'شوخی',
-    note: 'متن نمونه ...',
+    name: 'Science',
+    note: 'Last Message ...',
     time: '03:43 pm'
   },
   {
     id: 4,
     avatar: 'http://www.mohsenalimardani.ir/wp-content/uploads/shbakeh_khabar_20120318_1217231991.jpg',
-    name: 'بهروز',
+    name: 'Technology',
     state: 2,
     time: '03:43 pm'
   },
   {
     id: 5,
     avatar: 'http://www.mohsenalimardani.ir/wp-content/uploads/shbakeh_khabar_20120318_1217231991.jpg',
-    name: 'خنده',
-    note: 'متن نمونه ...',
+    name: 'Health',
+    note: 'Last Message ...',
     time: '03:43 pm'
   }
 ];

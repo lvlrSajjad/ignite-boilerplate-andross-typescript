@@ -7,7 +7,11 @@ import {connect} from "react-redux";
 import CallsListItem from "../../../Components/LaunchScreen/ChatsTab/CallsListItem";
 import {colorScheme} from "../../../Themes/Colors";
 
-class CallsScreen extends Component {
+interface CallsScreenProps {
+  isDarkMode?:boolean
+}
+
+class CallsScreen extends Component<CallsScreenProps> {
 render() {
   const ColorScheme = colorScheme(this.props.isDarkMode);
     return (

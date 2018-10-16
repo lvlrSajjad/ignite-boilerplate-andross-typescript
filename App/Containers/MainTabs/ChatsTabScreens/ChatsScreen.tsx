@@ -6,10 +6,13 @@ import {FlatList} from "react-native";
 import {dummyChatsData} from "../../../Config/DummyData";
 import ChatsListItem from '../../../Components/LaunchScreen/ChatsTab/ChatsListItem'
 import {colorScheme} from "../../../Themes/Colors";
-import { NavigationActions, withNavigation } from 'react-navigation';
+import { withNavigation } from 'react-navigation';
 
+interface ChatsScreenProps {
+  isDarkMode?:boolean,
+}
 
-class ChatsScreen extends Component {
+class ChatsScreen extends Component<ChatsScreenProps> {
   constructor(props){
     super (props);
     this.renderListItems = this.renderListItems.bind(this);

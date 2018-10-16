@@ -22,24 +22,24 @@ interface callData {
 }
 
 function callStateDataChooser (state: number) : callData {
-  if (state === 0) {
-    return {
-      text: 'بی پاسخ',
+  switch (state){
+    case 0 : return {
+      text: 'No response',
       color: 'red',
       icon: 'call-missed'
-    }
-  }
-
-  else if (state === 1) {
-    return {
-      text: 'موفقیت آمیز',
+    };
+    case 1: return {
+      text: 'Successful',
       color: 'green',
       icon: 'call-made'
-    }
-  }
-  else if (state === 2) {
-    return {
-      text: 'رد شده',
+    };
+    case 2: return {
+      text: 'Rejected',
+      color: 'red',
+      icon: 'call-missed-outgoing'
+    };
+    default: return {
+      text: 'Unknown',
       color: 'red',
       icon: 'call-missed-outgoing'
     }
