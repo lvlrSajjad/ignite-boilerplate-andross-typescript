@@ -16,7 +16,8 @@ export default StyleSheet.create({
   },
   loginFormPrefixText: {
     ...Fonts.style.farsiInput,
-    marginRight: 2,
+    marginRight: 4,
+    marginLeft:4,
     marginTop:10,
     paddingBottom:2,
   },

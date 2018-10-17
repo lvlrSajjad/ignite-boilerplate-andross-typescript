@@ -11,7 +11,6 @@ I18n.translations = {
 };
 
 const languageCode = I18n.locale.substr(0, 2);
-
 // All other translations for the app goes to the respective language file:
 switch (languageCode) {
   case "af":
@@ -46,6 +45,12 @@ switch (languageCode) {
     break;
   case "et":
     I18n.translations.et = require("./languages/et.json");
+    break;
+  case "fa":
+    I18n.translations.fa = require("./languages/fa.json");
+    break;
+  case "fa-IR":
+    I18n.translations.faIR = require("./languages/fa.json");
     break;
   case "fi":
     const addCode = I18n.locale.substr(0, 3);

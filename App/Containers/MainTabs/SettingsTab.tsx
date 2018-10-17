@@ -9,6 +9,7 @@ import metrics from "../../Themes/Metrics";
 import Fonts from "../../Themes/Fonts";
 import * as Actions from '../../Redux/Actions/AppSettingsAction';
 import SettingsToggleItem from "../../Components/LaunchScreen/SettingsTab/SettingsToggleItem";
+import I18n from '../../I18n';
 
 interface SettingsTabProps {
   isLtr?:boolean,
@@ -47,10 +48,11 @@ class SettingsTab extends Component<SettingsTabProps> {
             backgroundColor:ColorScheme.cardBackground
 
           }}>
-            <SettingsListItem colorScheme ={ColorScheme} icon={'account'} name={'Contacts'}/>
-            <SettingsListItem colorScheme ={ColorScheme} icon={'content-save'} name={'Saved Messages'}/>
-            <SettingsListItem colorScheme ={ColorScheme} icon={'settings'} name={'Invite Friends'}/>
-            <SettingsListItem colorScheme ={ColorScheme} icon={'help-circle'} name={'Help'}/>
+            <SettingsListItem colorScheme ={ColorScheme} icon={'account'} name={I18n.t('contacts')}/>
+            <SettingsListItem colorScheme ={ColorScheme} icon={'content-save'} name={I18n.t('savedMessages')}/>
+            <SettingsListItem colorScheme ={ColorScheme} icon={'folder-account'} name={I18n.t('inviteFriends')}/>
+            <SettingsListItem colorScheme ={ColorScheme} icon={'settings'} name={I18n.t('settings')}/>
+            <SettingsListItem colorScheme ={ColorScheme} icon={'help-circle'} name={I18n.t('help')}/>
           </Card>
           <Card style={{
             alignSelf: 'center',
@@ -63,7 +65,7 @@ class SettingsTab extends Component<SettingsTabProps> {
              onValueChange={() => {
                this.props.toggleDarkMode()
              }}
-             name ='Dark Mode'
+             name ={I18n.t('darkMode')}
              icon = 'weather-night'
              colorScheme={ColorScheme}
            />
@@ -72,7 +74,7 @@ class SettingsTab extends Component<SettingsTabProps> {
               onValueChange={() => {
                 this.props.toggleDirection()
               }}
-              name ='Right To Left'
+              name ={I18n.t('rtl')}
               icon = 'format-textdirection-r-to-l'
               colorScheme={ColorScheme}
             />

@@ -8,6 +8,7 @@ import { CardItem} from "native-base";
 import MaterialButton from "../../../MaterialComponents/MaterialButton";
 import {connect} from 'react-redux'
 import { primaryColor, primaryColorLight} from "../../../../Themes/Colors";
+import I18n from "../../../../I18n";
 
 interface PhoneNumberFormProps {
   prefixNumber: string,
@@ -20,7 +21,6 @@ interface PhoneNumberFormProps {
 }
 
 const PhoneNumberForm = (props: PhoneNumberFormProps) => {
-
   return (
     <View>
     <CardItem>
@@ -32,7 +32,7 @@ const PhoneNumberForm = (props: PhoneNumberFormProps) => {
           tintColor={primaryColor}
           textInputStyle={styles.loginFormTextInput}
           floatingLabelFont={{...Fonts.style.farsiInput}}
-          placeholder={"Phone number"}
+          placeholder={I18n.t('phoneNumber')}
           placeholderColor={MKColor.Grey}
           onTextChange={(text) => props.onTextChange(text)}
           text={props.phoneNumber}
@@ -46,7 +46,7 @@ const PhoneNumberForm = (props: PhoneNumberFormProps) => {
     </CardItem>
     <CardItem>
       <MaterialButton
-        text={'Confirm'}
+        text={I18n.t('confirm')}
         color={primaryColor}
         textColor='white'
         isLoading={props.isLoading}

@@ -8,6 +8,7 @@ import {connect} from 'react-redux'
 import MaterialButton from "../../../MaterialComponents/MaterialButton";
 import  {primaryColor} from "../../../../Themes/Colors";
 import {CardItem} from "native-base";
+import I18n from "../../../../I18n";
 
 interface UserInfoFormProps {
   userName: string,
@@ -36,7 +37,7 @@ const UserInfoFormRtl = (props: UserInfoFormProps) => {
           tintColor={primaryColor}
           textInputStyle={styles.loginFormTextInput}
           floatingLabelFont={{...Fonts.style.farsiInput}}
-          placeholder={"User Name"}
+          placeholder={I18n.t('userName')}
           onTextChange={(text) => props.onTextChange(text)}
           text={props.userName}
           maxLength={6}
@@ -48,7 +49,7 @@ const UserInfoFormRtl = (props: UserInfoFormProps) => {
       </CardItem>
       <CardItem>
         <MaterialButton
-          text={'Confirm'}
+          text={I18n.t('confirm')}
           color={primaryColor}
           textColor='white'
           isLoading={props.isLoading}
@@ -61,7 +62,7 @@ const UserInfoFormRtl = (props: UserInfoFormProps) => {
           <View style={{width: 4}}/>
 
           < MaterialButton
-            text={'Back'}
+            text={I18n.t('back')}
             color={MKColor.Grey}
             textColor='white'
             isLoading={false}

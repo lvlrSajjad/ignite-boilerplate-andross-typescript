@@ -8,6 +8,7 @@ import { CardItem} from "native-base";
 import MaterialButton from "../../../MaterialComponents/MaterialButton";
 import {connect} from 'react-redux'
 import {primaryColor} from "../../../../Themes/Colors";
+import I18n from "../../../../I18n";
 
 interface PhoneValidationFormProps {
   primaryColor: string,
@@ -28,7 +29,7 @@ const PhoneValidationFormLtr = (props : PhoneValidationFormProps) => {
         tintColor={primaryColor}
         textInputStyle={styles.loginFormTextInput}
         floatingLabelFont={{...Fonts.style.farsiInput}}
-        placeholder={"Sms Code"}
+        placeholder={I18n.t('verificationNumber')}
         onTextChange={(text) => props.onTextChange(text)}
         text={props.varCode}
         maxLength={6}
@@ -41,7 +42,7 @@ const PhoneValidationFormLtr = (props : PhoneValidationFormProps) => {
     <CardItem>
       <View style={{flexDirection: 'row'}}>
         < MaterialButton
-          text={'Back'}
+          text={I18n.t('back')}
           color={MKColor.Grey}
           textColor='white'
           isLoading={false}
@@ -53,7 +54,7 @@ const PhoneValidationFormLtr = (props : PhoneValidationFormProps) => {
         <View style={{width: 4}}/>
       </View>
       <MaterialButton
-        text={'Confirm'}
+        text={I18n.t('confirm')}
         color={primaryColor}
         textColor='white'
         isLoading={props.isLoading}

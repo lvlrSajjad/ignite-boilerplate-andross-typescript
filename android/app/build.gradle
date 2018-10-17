@@ -137,6 +137,7 @@ android {
 }
 
 dependencies {
+    compile project(':react-native-i18n')
     implementation project(':react-native-material-kit')
     implementation project(':realm')
     implementation project(':react-native-config')
