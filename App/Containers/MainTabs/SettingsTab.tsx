@@ -14,8 +14,10 @@ import I18n from '../../I18n';
 interface SettingsTabProps {
   isLtr?:boolean,
   isDarkMode?:boolean,
-  toggleDarkMode():void
-  toggleDirection():void
+  toggleDarkMode():void,
+  toggleDirection():void,
+  selectLocal(local:string):void,
+  local: string
 }
 
 class SettingsTab extends Component<SettingsTabProps> {
@@ -78,6 +80,16 @@ class SettingsTab extends Component<SettingsTabProps> {
               icon = 'format-textdirection-r-to-l'
               colorScheme={ColorScheme}
             />
+            <SettingsToggleItem
+              value = {this.props.local === 'fa'}
+              onValueChange={(value) => {
+                this.props.selectLocal(value ? 'fa': 'en');
+                I18n.locale = value ? 'fa': 'en'
+              }}
+              name ={I18n.t('translate')}
+              icon = 'translate'
+              colorScheme={ColorScheme}
+            />
           </Card>
         </ScrollView>
       </View>
@@ -89,7 +101,8 @@ const mapStateToProps = state => {
   return {
     isDarkMode: state.appSettings.isDarkMode,
     isLtr: state.appSettings.isLtr,
-    colorScheme: state.appSettings.colorScheme
+    colorScheme: state.appSettings.colorScheme,
+    local: state.appSettings.local
   };
 };
 

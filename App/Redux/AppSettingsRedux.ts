@@ -7,8 +7,15 @@ export const reducer = (state, action) => {
       return {...state,isDarkMode:!state.isDarkMode,colorScheme:colorScheme(!state.isDarkMode)};
     case 'toggle_direction':
       return {...state,isLtr:!state.isLtr};
+    case 'select_local':
+      return {...state,local:action.payload};
     default:
-      return {...state,isDarkMode:false,isLtr:!isRtlLocale(),colorScheme:colorScheme(false)};
+      return {...state,
+        isDarkMode:false,
+        isLtr:!isRtlLocale(),
+        colorScheme:colorScheme(false),
+        local: 'en'
+      };
   }
 };
 

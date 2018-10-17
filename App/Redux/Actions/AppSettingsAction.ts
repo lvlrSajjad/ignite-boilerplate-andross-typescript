@@ -9,3 +9,10 @@ export const toggleDirection = () => {
     type: 'toggle_direction'
   };
 };
+
+export const selectLocal = (local:string) => {
+  return {
+    type: 'select_local',
+    payload:local
+  };
+};
