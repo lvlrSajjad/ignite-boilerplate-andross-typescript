@@ -16,12 +16,14 @@ interface RootContainerProps {
 }
 
 class RootContainer extends Component<RootContainerProps> {
+  constructor(props){
+    super(props);
+    I18n.locale = props.local;
+  }
   componentDidMount() {
-    // if redux persist is not active fire startup action
     if (!ReduxPersist.active) {
       this.props.startup();
     }
-    I18n.locale = this.props.local;
   }
 
   render() {

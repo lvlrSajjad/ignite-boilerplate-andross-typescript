@@ -1,4 +1,5 @@
 import {colorScheme} from "../Themes/Colors";
+const DEFAULT_LOCALE = 'fa';
 
 export const reducer = (state, action) => {
   switch (action.type) {
@@ -11,9 +12,9 @@ export const reducer = (state, action) => {
     default:
       return {...state,
         isDarkMode:false,
-        isLtr:!isRtlLocale('fa'),
-        colorScheme:colorScheme(false),
-        local: 'fa'
+        local: DEFAULT_LOCALE,
+        isLtr:!isRtlLocale(DEFAULT_LOCALE),
+        colorScheme:colorScheme(false)
       };
   }
 };
