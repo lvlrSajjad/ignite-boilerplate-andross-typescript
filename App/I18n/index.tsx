@@ -14,7 +14,7 @@ const translateOrFallback = (initialMsg, options) => {
 
   let localMsg = I18n.t(initialMsg, options)
 
-  console.log(JSON.stringify(I18n.translations));
+  console.log(localMsg);
 
   // The translation does not exist, the default message is not very sexy
   // Instead we return the message we tried to translate
