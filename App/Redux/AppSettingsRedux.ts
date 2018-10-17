@@ -1,5 +1,4 @@
 import {colorScheme} from "../Themes/Colors";
-import I18n from "react-native-i18n";
 
 export const reducer = (state, action) => {
   switch (action.type) {
@@ -8,20 +7,18 @@ export const reducer = (state, action) => {
     case 'toggle_direction':
       return {...state,isLtr:!state.isLtr};
     case 'select_local':
-      return {...state,local:action.payload};
+      return {...state,local:action.payload,isLtr:!isRtlLocale(action.payload)};
     default:
       return {...state,
         isDarkMode:false,
-        isLtr:!isRtlLocale(),
+        isLtr:!isRtlLocale('fa'),
         colorScheme:colorScheme(false),
-        local: 'en'
+        local: 'fa'
       };
   }
 };
 
-function isRtlLocale () {
+function isRtlLocale (locale) {
   const rtlLocales = ['fa','ar'];
-  let locale = I18n.locale.substr(0, 2);
   return !!rtlLocales.includes(locale);
-
 }

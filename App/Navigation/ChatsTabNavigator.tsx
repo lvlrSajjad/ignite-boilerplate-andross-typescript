@@ -8,6 +8,7 @@ import GroupsScreen from '../Containers/MainTabs/ChatsTabScreens/GroupsScreen';
 import CallsScreen from '../Containers/MainTabs/ChatsTabScreens/CallsScreen';
 import Fonts from "../Themes/Fonts";
 import {connect} from "react-redux";
+import I18n from "../I18n";
 
 const commonNavigationOptions = ({navigation}) => ({
   header: null,
@@ -30,20 +31,17 @@ const CallsRouteOptions = {
 
 const order = (isLtr) => isLtr ?
   {
-    ['chats']: ChatsRouteOptions,
-    ['groups']: GroupsRouteOptions,
-    ['calls']: CallsRouteOptions
+    [I18n.t('chats')]: ChatsRouteOptions,
+    [I18n.t('groups')]: GroupsRouteOptions,
+    [I18n.t('calls')]: CallsRouteOptions
 
   } :
   {
-    ['calls']: CallsRouteOptions,
-    ['groups']: GroupsRouteOptions,
-    ['chats']: ChatsRouteOptions,
+    [I18n.t('calls')]: CallsRouteOptions,
+    [I18n.t('groups')]: GroupsRouteOptions,
+    [I18n.t('chats')]: ChatsRouteOptions,
 
   };
-
-const initialRoute ='chats';
-
 
 // different routes for all, active and completed todos
 const tavNav = (props) => React.createElement(
@@ -56,13 +54,13 @@ const tavNav = (props) => React.createElement(
           const {routeName} = navigation.state;
           let iconName;
           switch (routeName) {
-            case 'chats':
+            case I18n.t('chats'):
               iconName = 'person';
               break;
-            case 'groups':
+            case I18n.t('groups'):
               iconName = 'group';
               break;
-            case 'calls':
+            case I18n.t('calls'):
               iconName = 'call';
           }
           return (
@@ -82,7 +80,7 @@ const tavNav = (props) => React.createElement(
       tabBarComponent: TabBarTop,
       tabBarPosition: 'top',
       animationEnabled: true,
-      initialRouteName: initialRoute,
+      initialRouteName: I18n.t('chats'),
       swipeEnabled: true,
       tabBarOptions: {
 

@@ -11,6 +11,7 @@ import LocationTab from '../Containers/MainTabs/LocationTab';
 import SettingsTab from '../Containers/MainTabs/SettingsTab';
 import Fonts from "../Themes/Fonts";
 import {BottomNavigation} from 'react-native-paper';
+import I18n from "../I18n";
 
 const commonNavigationOptions = ({navigation}) => ({
   header: null,
@@ -40,23 +41,20 @@ const SettingsRouteOptions = {
 
 const order = (isLtr) => isLtr ?
   {
-    ['chats']: ChatsRouteOptions,
-    ['channels']: ChannelsRouteOptions,
-    ['map']: LocationRouteOptions,
-    ['search']: SearchRouteOptions,
-    ['settings']: SettingsRouteOptions
+    [I18n.t('chats')]: ChatsRouteOptions,
+    [I18n.t('channels')]: ChannelsRouteOptions,
+    [I18n.t('location')]: LocationRouteOptions,
+    [I18n.t('search')]: SearchRouteOptions,
+    [I18n.t('settings')]: SettingsRouteOptions
 
   } :
   {
-    ['settings']: SettingsRouteOptions,
-    ['search']: SearchRouteOptions,
-    ['map']: LocationRouteOptions,
-    ['channels']: ChannelsRouteOptions,
-    ['chats']: ChatsRouteOptions
+    [I18n.t('settings')]: SettingsRouteOptions,
+    [I18n.t('search')]: SearchRouteOptions,
+    [I18n.t('location')]: LocationRouteOptions,
+    [I18n.t('channels')]: ChannelsRouteOptions,
+    [I18n.t('chats')]: ChatsRouteOptions
   };
-
-const initialRoute ='chats';
-
 
 // different routes for all, active and completed todos
 const tavNav = (props) => React.createElement(
@@ -68,19 +66,19 @@ const tavNav = (props) => React.createElement(
           const {routeName} = navigation.state;
           let iconName;
           switch (routeName) {
-            case 'chats':
+            case I18n.t('chats'):
               iconName = 'chat';
               break;
-            case 'search':
+            case I18n.t('search'):
               iconName = 'search';
               break;
-            case 'channels':
+            case I18n.t('channels'):
               iconName = 'volume-mute';
               break;
-            case 'map':
+            case I18n.t('location'):
               iconName = 'place';
               break;
-            case  'settings':
+            case  I18n.t('settings'):
               iconName = 'menu'
           }
           return (
@@ -112,7 +110,7 @@ const tavNav = (props) => React.createElement(
           backgroundColor: props.colorScheme.tabBarBackground
         },
       },
-      initialRouteName: initialRoute,
+      initialRouteName: I18n.t('chats'),
       labelStyle: {
         fontSize: 10,
         fontFamily: Fonts.type.farsi,
