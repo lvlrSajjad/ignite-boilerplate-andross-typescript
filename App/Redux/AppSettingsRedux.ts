@@ -1,4 +1,5 @@
 import {colorScheme} from "../Themes/Colors";
+import I18n from "../I18n";
 const DEFAULT_LOCALE = 'fa';
 
 export const reducer = (state, action) => {
@@ -8,6 +9,7 @@ export const reducer = (state, action) => {
     case 'toggle_direction':
       return {...state,isLtr:!state.isLtr};
     case 'select_local':
+      I18n.locale=action.payload;
       return {...state,local:action.payload,isLtr:!isRtlLocale(action.payload)};
     default:
       return {...state,

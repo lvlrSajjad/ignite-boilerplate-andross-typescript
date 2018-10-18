@@ -245,6 +245,66 @@ you can see similiar usage in example files inside Container folder or another f
 
 you can also test this in the settings tab
 
+## :heart: Switchable locale
+
+```typescript jsx
+import * as Actions from '../../Redux/Actions/AppSettingsAction';
+
+.
+.
+.
+this.props.selectLocal(localName /** eg. 'en'*/); 
+.
+.
+.
+export default connect(mapStateToProps, Actions)(ComponentName);
+
+```
+
+you can create you locales in `App/I18n/locales folder` like :
+
+```typescript jsx
+//en.ts
+
+export default {
+  confirm:"Confirm",
+  back:"Back",
+  phoneNumber:"Phone Number",
+  verificationNumber:"Verification Number",
+  userName:"User Name",
+  chats:"Chats",
+  channels:"Channels",
+  location:"Location",
+  search:"Search",
+  settings:"Settings",
+  groups: "Groups",
+  calls:"Calls",
+  contacts:"Contacts",
+  savedMessages:"Saved Messages",
+  inviteFriends:"Invite Friends",
+  help:"Help",
+  darkMode:"Dark Mode",
+  rtl:"Right To Left",
+  translate: "Translate"
+};
+```
+
+then in `App/I18n` folder I18n.ts file :
+
+```typescript jsx
+import I18n from 'react-native-i18n';
+import en from './locales/en';
+
+I18n.fallbacks = true;
+
+I18n.translations = {
+  en,
+  fa
+};
+
+export default I18n;
+
+```
 ## :heart: Recommended Components For Use In The Project
 
   ### Map Component

@@ -84,7 +84,6 @@ class SettingsTab extends Component<SettingsTabProps> {
               value = {this.props.local === 'fa'}
               onValueChange={(value) => {
                 this.props.selectLocal(value ? 'fa': 'en');
-                I18n.locale = value ? 'fa': 'en'
               }}
               name ={I18n.t('translate')}
               icon = 'translate'
