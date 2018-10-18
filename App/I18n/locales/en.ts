@@ -17,6 +17,6 @@ export default {
   help:"Help",
   darkMode:"Dark Mode",
   rtl:"Right To Left",
-  translate: "Translate"
+  translate: "English"
 }
 ;

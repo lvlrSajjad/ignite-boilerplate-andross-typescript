@@ -18,5 +18,5 @@ export default {
   help: "راهنما",
   darkMode: "حالت تیره",
   rtl: "راست به چپ",
-  translate: "ترجمه"
+  translate: "فارسی"
 };

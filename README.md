@@ -305,6 +305,18 @@ I18n.translations = {
 export default I18n;
 
 ```
+
+End usage:
+
+```typescript jsx
+import I18n from "../path/to/App/I18n";
+
+
+
+<SomeComponent
+placeholder={I18n.t('phoneNumber')}
+/>
+```
 ## :heart: Recommended Components For Use In The Project
 
   ### Map Component

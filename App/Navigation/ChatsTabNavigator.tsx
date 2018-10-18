@@ -2,7 +2,7 @@
 import * as React from 'react';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import {createMaterialTopTabNavigator, TabBarTop} from 'react-navigation-tabs';
-import {colorScheme, primaryColor} from '../Themes/Colors';
+import {primaryColor} from '../Themes/Colors';
 import ChatsScreen from '../Containers/MainTabs/ChatsTabScreens/ChatsScreen';
 import GroupsScreen from '../Containers/MainTabs/ChatsTabScreens/GroupsScreen';
 import CallsScreen from '../Containers/MainTabs/ChatsTabScreens/CallsScreen';
@@ -83,7 +83,6 @@ const tavNav = (props) => React.createElement(
       initialRouteName: I18n.t('chats'),
       swipeEnabled: true,
       tabBarOptions: {
-
         inactiveTintColor: 'transparent',
         activeTintColor: 'transparent',
         //  showIcon:true,
