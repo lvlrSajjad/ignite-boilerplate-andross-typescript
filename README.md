@@ -7,7 +7,7 @@
 * Updated React Native To The Lastest Version (0.57.2)
 * Added Rtl Support
 * Added Switchable ColorScheme Support
-* TODO // Add Better Multi language Support And Add Language To App Settings Redux
+* Add Better Multi language Support And Add Language To App Settings Redux
 * TODO // Keep Settings Even When The App Closed
 * TODO // Internal Set Of Material Components
 * HighLighted Dependencies that installed and linked to android :
