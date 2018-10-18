@@ -134,7 +134,7 @@
        
        |Transforms < You can do conversions 
                    
-## :heart: Recommended Structure For Rtl/Ltr Support
+## :arrow_down_small: Recommended Structure For Rtl/Ltr Support
 <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/rtl.gif" width="250">
 
 If you want to your app support ltr/rtl layouts separately
@@ -169,7 +169,7 @@ Then you can set index.tsx content as below:
    import ComponentName from './path/to/componentName' //Just Component Folder Path
   ```
 If you don't want Rtl/Ltr Switchable View just create a componentName.tsx inside Components folder ...     
-## :heart: If you want switchable color theme in your app    
+## :arrow_down_small: If you want switchable color theme in your app    
 <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/darkmode.gif" width="250">
 
 actually below reducer And action playing important roles for settings like direction(rtl/ltr) 
@@ -247,7 +247,7 @@ you can see similiar usage in example files inside Container folder or another f
 
 you can also test this in the settings tab
 
-## :heart: Switchable locale
+## :arrow_down_small: Switchable locale
 <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/locale.gif" width="250">
 
 ```typescript jsx
