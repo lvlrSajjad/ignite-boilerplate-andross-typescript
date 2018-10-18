@@ -1,6 +1,6 @@
 import {colorScheme} from "../Themes/Colors";
 import I18n from "../I18n";
-const DEFAULT_LOCALE = 'fa';
+const DEFAULT_LOCALE = 'en';
 
 export const reducer = (state, action) => {
   switch (action.type) {
