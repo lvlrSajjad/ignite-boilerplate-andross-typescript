@@ -5,7 +5,6 @@ import Rehydration from "../Services/Rehydration";
 import ReduxPersist from "../Config/ReduxPersist";
 import Config from "../Config/DebugConfig";
 import ScreenTracking from "./ScreenTrackingMiddleware";
-import { persistStore } from "redux-persist";
 
 // creates the store
 export default (rootReducer, rootSaga) => {

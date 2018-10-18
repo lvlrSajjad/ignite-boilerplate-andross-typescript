@@ -10,6 +10,7 @@ import Fonts from "../../Themes/Fonts";
 import * as Actions from '../../Redux/Actions/AppSettingsAction';
 import SettingsToggleItem from "../../Components/LaunchScreen/SettingsTab/SettingsToggleItem";
 import I18n from '../../I18n';
+import {ColorScheme} from "../../Themes/Colors";
 
 interface SettingsTabProps {
   isLtr?:boolean,
@@ -17,7 +18,8 @@ interface SettingsTabProps {
   toggleDarkMode():void,
   toggleDirection():void,
   selectLocale(local:string):void,
-  local: string
+  locale: string,
+  colorScheme: ColorScheme
 }
 
 class SettingsTab extends Component<SettingsTabProps> {

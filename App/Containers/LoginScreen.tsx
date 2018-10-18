@@ -61,6 +61,6 @@ const mapStateToProps = state => ({
   colorScheme : state.appSettings.colorScheme
 });
 
-const mapDispatchToProps = dispatch => ({});
+//const mapDispatchToProps = dispatch => ({});
 
-export default connect(mapStateToProps, mapDispatchToProps)(LoginScreen);
+export default connect(mapStateToProps, null)(LoginScreen);

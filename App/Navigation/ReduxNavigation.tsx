@@ -3,7 +3,6 @@ import { BackHandler, Platform } from "react-native";
 import {createReactNavigationReduxMiddleware, reduxifyNavigator} from "react-navigation-redux-helpers";
 import { connect } from "react-redux";
 import AppNavigation from "./AppNavigation";
-import {colorScheme} from "../Themes/Colors";
 
 
 createReactNavigationReduxMiddleware(
@@ -14,11 +13,17 @@ createReactNavigationReduxMiddleware(
 
 const ReduxAppNavigator = reduxifyNavigator(AppNavigation , "root");
 
-class ReduxNavigation extends React.Component {
+interface ReduxNavigationProps {
+  dispatch(object:object):any,
+  nav?:any
+
+}
+
+class ReduxNavigation extends React.Component<ReduxNavigationProps> {
 
   componentDidMount() {
     if (Platform.OS === "ios") return;
-    BackHandler.addEventListener("hardwareBackPress", () => {
+    BackHandler.addEventListener("hardwareBackPress", ()=>{
       const { dispatch, nav } = this.props;
       // change to whatever is your first screen, otherwise unpredictable results may occur
       if (nav.routes.length === 1 && (nav.routes[0].routeName === "LaunchScreen")) {
@@ -32,12 +37,13 @@ class ReduxNavigation extends React.Component {
 
   componentWillUnmount() {
     if (Platform.OS === "ios") return;
-    BackHandler.removeEventListener("hardwareBackPress");
+    BackHandler.removeEventListener("hardwareBackPress",undefined);
   }
 
   render() {
     return <ReduxAppNavigator dispatch={this.props.dispatch} state={this.props.nav} />
   }
+
 }
 
 const mapStateToProps = state => ({
