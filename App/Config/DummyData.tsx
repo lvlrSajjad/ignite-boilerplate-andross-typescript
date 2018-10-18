@@ -91,35 +91,35 @@ export const dummyChatsData = [
     time: '03:43 pm'
   },
   {
-    id: 5,
-    avatar: 'http://pixdrive.com/wp-content/uploads/edd/2015/11/woman-avatar-3.png',
-    name: 'Akbar',
-    note: 'Last Message ...',
-    time: '03:43 pm'
-  },
-  {
     id: 14,
     avatar: 'http://pixdrive.com/wp-content/uploads/edd/2015/11/woman-avatar-3.png',
-    name: 'Dave',
-    note: 'Last Message ...',
-    time: '03:43 pm'
-  },
-  {
-    id: 7,
-    avatar: 'http://pixdrive.com/wp-content/uploads/edd/2015/11/woman-avatar-3.png',
-    name: 'Dana',
+    name: 'Akbar',
     note: 'Last Message ...',
     time: '03:43 pm'
   },
   {
     id: 15,
     avatar: 'http://pixdrive.com/wp-content/uploads/edd/2015/11/woman-avatar-3.png',
-    name: 'Akbar',
+    name: 'Dave',
     note: 'Last Message ...',
     time: '03:43 pm'
   },
   {
     id: 16,
+    avatar: 'http://pixdrive.com/wp-content/uploads/edd/2015/11/woman-avatar-3.png',
+    name: 'Dana',
+    note: 'Last Message ...',
+    time: '03:43 pm'
+  },
+  {
+    id: 17,
+    avatar: 'http://pixdrive.com/wp-content/uploads/edd/2015/11/woman-avatar-3.png',
+    name: 'Akbar',
+    note: 'Last Message ...',
+    time: '03:43 pm'
+  },
+  {
+    id: 18,
     avatar: 'http://pixdrive.com/wp-content/uploads/edd/2015/11/woman-avatar-3.png',
     name: 'Sajjad',
     note: 'Last Message ...',

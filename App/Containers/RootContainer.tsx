@@ -12,13 +12,12 @@ import styles from "./Styles/RootContainerStyles";
 
 interface RootContainerProps {
   startup(): void,
-  local?: any
+  locale?: any
 }
 
 class RootContainer extends Component<RootContainerProps> {
   constructor(props){
     super(props);
-    I18n.locale = props.local;
   }
   componentDidMount() {
     if (!ReduxPersist.active) {
@@ -38,7 +37,7 @@ class RootContainer extends Component<RootContainerProps> {
 
 const mapStateToProps = state => {
   return {
-    local:state.appSettings.local
+    locale:state.appSettings.locale
   };
 };
 

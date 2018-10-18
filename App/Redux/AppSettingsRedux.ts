@@ -1,23 +1,36 @@
 import {colorScheme} from "../Themes/Colors";
 import I18n from "../I18n";
 const DEFAULT_LOCALE = 'en';
+import { REHYDRATE } from 'redux-persist';
+import Immutable from "seamless-immutable";
 
-export const reducer = (state, action) => {
+export const INITIAL_STATE = Immutable({
+  isDarkMode:false,
+  locale: DEFAULT_LOCALE,
+  isLtr:!isRtlLocale(DEFAULT_LOCALE),
+  colorScheme:colorScheme(false)
+});
+
+
+export const reducer = (state=INITIAL_STATE, action) => {
+
   switch (action.type) {
     case 'toggle_dark_mode':
       return {...state,isDarkMode:!state.isDarkMode,colorScheme:colorScheme(!state.isDarkMode)};
     case 'toggle_direction':
       return {...state,isLtr:!state.isLtr};
-    case 'select_local':
+    case 'select_locale':
       I18n.locale=action.payload;
-      return {...state,local:action.payload,isLtr:!isRtlLocale(action.payload)};
-    default:
       return {...state,
-        isDarkMode:false,
-        local: DEFAULT_LOCALE,
-        isLtr:!isRtlLocale(DEFAULT_LOCALE),
-        colorScheme:colorScheme(false)
+        locale:action.payload,
+        isLtr:!isRtlLocale(action.payload)
       };
+   case REHYDRATE:
+     I18n.locale = action.payload.appSettings.locale;
+     return {...state,...action.payload.appSettings};
+   default:
+     I18n.locale = state.locale;
+      return {...state};
   }
 };
 

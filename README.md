@@ -8,7 +8,7 @@
 * Added Rtl Support
 * Added Switchable ColorScheme Support
 * Add Better Multi language Support And Add Language To App Settings Redux
-* TODO // Keep Settings Even When The App Closed
+* Keep Settings Even When The App Closed
 * TODO // Internal Set Of Material Components
 * HighLighted Dependencies that installed and linked to android :
 
@@ -256,7 +256,7 @@ import * as Actions from '../../Redux/Actions/AppSettingsAction';
 .
 .
 .
-this.props.selectLocal(localName /** eg. 'en'*/); 
+this.props.selectLocale(localName /** eg. 'en'*/); 
 .
 .
 .
@@ -320,6 +320,25 @@ import I18n from "../path/to/App/I18n";
 placeholder={I18n.t('phoneNumber')}
 />
 ```
+## :arrow_down_small: Persisted States (Redux-Persist)
+<img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/persist.gif" width="250">
+
+for using redux-persist to persist your settings or any states you can go to this path
+
+`App/Config/ReduxPersist.tsx`
+
+then add your reducer name to this array :
+
+`whitelist: ["reducer Name",...],`
+
+then go to your reducer and add this code :
+
+`case REHYDRATE:
+      return {...state,...action.payload.yourReducerName};`
+            
+then changes on your reducer will be persisted 
+
+
 ## :heart: Recommended Components For Use In The Project
 
   ### Map Component

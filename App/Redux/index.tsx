@@ -38,5 +38,5 @@ export default () => {
 // create our store
 
 
-  return store;
+  return  store;
 };

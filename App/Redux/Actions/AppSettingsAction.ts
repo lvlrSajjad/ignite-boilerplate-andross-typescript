@@ -10,9 +10,9 @@ export const toggleDirection = () => {
   };
 };
 
-export const selectLocal = (local:string) => {
+export const selectLocale = (locale:string) => {
   return {
-    type: 'select_local',
-    payload:local
+    type: 'select_locale',
+    payload:locale
   };
 };

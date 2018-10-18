@@ -6,9 +6,11 @@ import styles from "./Styles/LoginScreenStyles";
 import {LoginCard,userInfoStep,verificationStep} from "../Components/LoginScreen/LoginCard";
 import {MKColor} from 'react-native-material-kit';
 import { NavigationActions } from 'react-navigation';
+import {ColorScheme} from "../Themes/Colors";
 
 interface LoginScreenProps {
-  navigation?:any
+  navigation?:any,
+  colorScheme: ColorScheme
 }
 
 interface LoginScreenState {
@@ -33,8 +35,9 @@ class LoginScreen extends Component<LoginScreenProps,LoginScreenState> {
   }
 
   render() {
+    console.log(this.props.colorScheme)
     return (
-      <View style={[styles.mainContainer, styles.loginForm]}>
+      <View style={[styles.mainContainer, styles.loginForm,{backgroundColor:this.props.colorScheme.containersBackground}]}>
         <LoginCard
           isLoading={this.state.isLoading}
           onButtonPress={(step)=>{
@@ -54,7 +57,9 @@ class LoginScreen extends Component<LoginScreenProps,LoginScreenState> {
   }
 }
 
-const mapStateToProps = state => ({});
+const mapStateToProps = state => ({
+  colorScheme : state.appSettings.colorScheme
+});
 
 const mapDispatchToProps = dispatch => ({});
 

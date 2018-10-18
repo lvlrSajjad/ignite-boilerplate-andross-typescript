@@ -1,8 +1,8 @@
 import '../Config'
 import DebugConfig from '../Config/DebugConfig'
 import * as React from 'react'
-import  { Component } from 'react'
-import { Provider } from 'react-redux'
+import {Component} from 'react'
+import {Provider} from 'react-redux'
 import RootContainer from './RootContainer'
 import createStore from '../Redux'
 
@@ -20,10 +20,10 @@ export const store = createStore();
  * We separate like this to play nice with React Native's hot reloading.
  */
 class App extends Component {
-  render () {
+  render() {
     return (
       <Provider store={store}>
-        <RootContainer />
+          <RootContainer/>
       </Provider>
     )
   }

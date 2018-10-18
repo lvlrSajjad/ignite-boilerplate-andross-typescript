@@ -16,7 +16,7 @@ interface SettingsTabProps {
   isDarkMode?:boolean,
   toggleDarkMode():void,
   toggleDirection():void,
-  selectLocal(local:string):void,
+  selectLocale(local:string):void,
   local: string
 }
 
@@ -81,9 +81,9 @@ class SettingsTab extends Component<SettingsTabProps> {
               colorScheme={ColorScheme}
             />
             <SettingsToggleItem
-              value = {this.props.local === 'fa'}
+              value = {this.props.locale === 'fa'}
               onValueChange={(value) => {
-                this.props.selectLocal(value ? 'fa': 'en');
+                this.props.selectLocale(value ? 'fa': 'en');
               }}
               name ={I18n.t('translate')}
               icon = 'translate'
@@ -101,7 +101,7 @@ const mapStateToProps = state => {
     isDarkMode: state.appSettings.isDarkMode,
     isLtr: state.appSettings.isLtr,
     colorScheme: state.appSettings.colorScheme,
-    local: state.appSettings.local
+    locale: state.appSettings.locale
   };
 };
 

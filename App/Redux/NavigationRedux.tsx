@@ -3,7 +3,6 @@ import { NavigationActions } from 'react-navigation';
 
 export const reducer = (state, action) => {
   let newState;
-  console.log(action.type);
 
   switch (action.type) {
     case 'LoginScreen':
