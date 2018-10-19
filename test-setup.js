@@ -8,5 +8,4 @@
 const enzyme = require("enzyme");
 const Adapter = require("enzyme-adapter-react-16");
 
-jest.mock('react-native-i18n', () => ({ t: jest.fn((translation) => translation), }));
 enzyme.configure({ adapter: new Adapter() });
