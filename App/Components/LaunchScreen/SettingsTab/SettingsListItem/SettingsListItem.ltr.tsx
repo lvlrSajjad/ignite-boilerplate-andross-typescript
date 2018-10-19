@@ -2,15 +2,7 @@ import * as React from "react";
 import { Row, Text, CardItem} from 'native-base';
 import Fonts from "../../../../Themes/Fonts";
 import MaterialIcons from 'react-native-vector-icons/MaterialCommunityIcons';
-import {ColorScheme} from "../../../../Themes/Colors";
-
-
-interface SettingsListItemProps {
-  name: string,
-  icon: string,
-  // onPress(): void,
-  colorScheme:ColorScheme
-}
+import {SettingsListItemProps} from "./index";
 
 export default (item: SettingsListItemProps) => {
   return (

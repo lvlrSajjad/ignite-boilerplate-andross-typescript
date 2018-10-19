@@ -2,19 +2,9 @@ import * as React from "react";
 import {Row, Text, CardItem, Body, Switch} from 'native-base';
 import Fonts from "../../../../Themes/Fonts";
 import MaterialIcons from 'react-native-vector-icons/MaterialCommunityIcons';
-import {ColorScheme} from "../../../../Themes/Colors";
+import {SettingsToggleItemProps} from "./index";
 
-
-interface SettingsListItemProps {
-  name: string,
-  icon: string,
-  value: boolean,
-  onValueChange(): void,
-  // onPress(): void,
-  colorScheme:ColorScheme
-}
-
-export default (item: SettingsListItemProps) => {
+export default (item: SettingsToggleItemProps) => {
   return (
     <CardItem>
       <Body>

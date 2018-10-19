@@ -9,16 +9,7 @@ import MaterialButton from "../../../MaterialComponents/MaterialButton";
 import {connect} from 'react-redux'
 import {primaryColor} from "../../../../Themes/Colors";
 import I18n from "../../../../I18n";
-
-interface PhoneValidationFormProps {
-  primaryColor: string,
-  onTextChange(text:string): void,
-  varCode: string,
-  isLoading?: boolean,
-  onPress(): void,
-  isDarkMode: boolean,
-  onBackButtonPress(): void
-}
+import {PhoneValidationFormProps} from "./index";
 
 const PhoneValidationFormLtr = (props : PhoneValidationFormProps) => {
 

@@ -2,7 +2,7 @@ import "react-native";
 import * as React from "react";
 import { shallow } from "enzyme";
 import * as renderer from "react-test-renderer";
-import FullButtonLtr from "../IgniteComponents/FullButton/FullButton";
+import FullButtonLtr from "../FullButton";
 
 test("FullButton component renders correctly", () => {
   const tree = renderer.create(<FullButtonLtr onPress={() => {}} text="hi" />).toJSON();

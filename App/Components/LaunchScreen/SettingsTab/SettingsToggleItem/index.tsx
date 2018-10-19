@@ -2,8 +2,19 @@ import Ltr from "./SettingsToggleItem.ltr";
 import Rtl from "./SettingsToggleItem.rtl";
 import {connect} from "react-redux";
 import * as React from "react";
+import {ColorScheme} from "../../../../Themes/Colors";
 
-const Direction = (props) => props.isLtr? <Ltr {...props} /> : <Rtl {...props}/>;
+export interface SettingsToggleItemProps {
+  name: string,
+  icon: string,
+  value: boolean,
+  onValueChange(): void,
+  // onPress(): void,
+  colorScheme:ColorScheme,
+  isLtr:boolean
+}
+
+const Direction = (props:SettingsToggleItemProps) => props.isLtr? <Ltr {...props} /> : <Rtl {...props}/>;
 
 const mapStateToProps = state => {
   return {

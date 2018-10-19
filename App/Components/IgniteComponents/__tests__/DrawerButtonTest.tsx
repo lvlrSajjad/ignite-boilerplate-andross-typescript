@@ -2,7 +2,7 @@ import "react-native";
 import * as React from "react";
 import { shallow } from "enzyme";
 import * as renderer from "react-test-renderer";
-import DrawerButtonLtr from "../IgniteComponents/DrawerButton/DrawerButton";
+import DrawerButtonLtr from "../DrawerButton";
 
 test("DrawerButton component renders correctly", () => {
   const tree = renderer.create(<DrawerButtonLtr onPress={() => {}} text="hi" />).toJSON();

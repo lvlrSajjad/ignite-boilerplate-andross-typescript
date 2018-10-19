@@ -152,7 +152,13 @@ Then you can set index.tsx content as below:
   import {connect} from "react-redux";
   import * as React from "react";
   
-  const Direction = (props) => props.isLtr ? <Ltr {...props} /> : <Rtl {...props}/>;
+  export interface ComponentNameProps {
+    //you can use this interface in ltr/rtl component
+    ...,
+    isLtr:boolean
+  }
+  
+  const Direction = (props:ComponentNameProps) => props.isLtr ? <Ltr {...props} /> : <Rtl {...props}/>;
   
   const mapStateToProps = state => {
     return {

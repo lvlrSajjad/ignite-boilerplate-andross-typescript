@@ -3,7 +3,17 @@ import Rtl from "./MaterialFab.rtl";
 import {connect} from "react-redux";
 import * as React from "react";
 
-const Direction = (props) => props.isLtr ? <Ltr {...props} /> : <Rtl {...props}/>;
+export interface MaterialFabProps {
+  size: number,
+  color: string,
+  onPress(): void,
+  iconColor: string,
+  icon: string,
+  isLoading: boolean,
+  isLtr:boolean
+}
+
+const Direction = (props:MaterialFabProps) => props.isLtr ? <Ltr {...props} /> : <Rtl {...props}/>;
 
 const mapStateToProps = state => {
   return {

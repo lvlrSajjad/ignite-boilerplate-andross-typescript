@@ -2,18 +2,7 @@ import * as React from "react";
 import {ListItem, Left, Body, Right, Thumbnail, Text} from 'native-base';
 import Fonts from "../../../../Themes/Fonts";
 import {connect} from "react-redux";
-import {ColorScheme} from "../../../../Themes/Colors";
-
-
-interface ChatsListItemProps {
-  avatar: string,
-  name: string,
-  note: string,
-  time: string,
-  isDarkMode?: boolean,
-  onPress():void,
-  colorScheme: ColorScheme
-}
+import {ChatsListItemProps} from "./index";
 
 const ChatListItem = (item : ChatsListItemProps) => {
   const ColorScheme = item.colorScheme;

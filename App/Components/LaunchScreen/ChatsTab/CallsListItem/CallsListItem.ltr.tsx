@@ -4,17 +4,8 @@ import Fonts from "../../../../Themes/Fonts";
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import {View} from "react-native";
 import {connect} from "react-redux";
-import {ColorScheme} from "../../../../Themes/Colors";
 import CallStateToData from "../../../../Transforms/CallStateToData";
-
-interface CallsListItemProps {
-  avatar: string,
-  name: string,
-  state: number,
-  time: string,
-  isDarkMode?: boolean,
-  colorScheme?:ColorScheme
-}
+import {CallsListItemProps} from "./index";
 
 const CallListItem = (item : CallsListItemProps) => {
 

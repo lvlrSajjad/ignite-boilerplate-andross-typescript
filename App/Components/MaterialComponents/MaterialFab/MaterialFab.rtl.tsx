@@ -2,16 +2,7 @@ import * as React from "react";
 import {MKButton,mdl} from 'react-native-material-kit';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons'
 import metrics from "../../../Themes/Metrics";
-
-
-interface MaterialFabProps {
-  size: number,
-  color: string,
-  onPress(): void,
-  iconColor: string,
-  icon: string,
-  isLoading: boolean
-}
+import {MaterialFabProps} from "./index";
 
 export default (props : MaterialFabProps) => {
   return (

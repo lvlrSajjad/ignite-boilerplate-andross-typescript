@@ -9,19 +9,7 @@ import MaterialButton from "../../../MaterialComponents/MaterialButton";
 import  {primaryColor} from "../../../../Themes/Colors";
 import {CardItem} from "native-base";
 import I18n from "../../../../I18n";
-
-interface UserInfoFormProps {
-  userName: string,
-
-  onTextChange(text: string): void,
-
-  onBackButtonPress(): void,
-
-  isLoading: boolean,
-  isDarkMode?: boolean,
-
-  onPress(): void
-}
+import {UserInfoFormProps} from "./index";
 
 const UserInfoFormRtl = (props: UserInfoFormProps) => {
 

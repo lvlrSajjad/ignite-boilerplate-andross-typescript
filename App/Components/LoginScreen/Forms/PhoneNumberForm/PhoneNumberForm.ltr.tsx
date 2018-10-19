@@ -9,16 +9,7 @@ import MaterialButton from "../../../MaterialComponents/MaterialButton";
 import {connect} from 'react-redux'
 import { primaryColor, primaryColorLight} from "../../../../Themes/Colors";
 import I18n from "../../../../I18n";
-
-interface PhoneNumberFormProps {
-  prefixNumber: string,
-  primaryColor: string,
-  onTextChange(text:string): void,
-  phoneNumber: string,
-  isLoading?: boolean,
-  onPress(): void,
-  isDarkMode: boolean
-}
+import {PhoneNumberFormProps} from "./index";
 
 const PhoneNumberFormLtr = (props: PhoneNumberFormProps) => {
 

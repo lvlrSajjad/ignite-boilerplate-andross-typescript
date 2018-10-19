@@ -5,14 +5,8 @@ import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import {View} from "react-native";
 import {connect} from "react-redux";
 import CallStateToData from "../../../../Transforms/CallStateToData";
+import {CallsListItemProps} from "./index";
 
-interface CallsListItemProps {
-  avatar: string,
-  name: string,
-  state: number,
-  time: string,
-  isDarkMode?: boolean
-}
 
 const CallListItem = (item : CallsListItemProps) => {
 

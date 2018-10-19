@@ -3,7 +3,17 @@ import Rtl from "./UserInfoForm.rtl";
 import {connect} from "react-redux";
 import * as React from "react";
 
-const Direction = (props) => props.isLtr ? <Ltr {...props} /> : <Rtl {...props}/>;
+export interface UserInfoFormProps {
+  userName: string,
+  onTextChange(text: string): void,
+  onBackButtonPress(): void,
+  isLoading: boolean,
+  isDarkMode?: boolean,
+  onPress(): void,
+  isLtr: boolean
+}
+
+const Direction = (props:UserInfoFormProps) => props.isLtr ? <Ltr {...props} /> : <Rtl {...props}/>;
 
 const mapStateToProps = state => {
   return {
