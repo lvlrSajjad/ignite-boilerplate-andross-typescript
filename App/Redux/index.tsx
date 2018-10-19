@@ -1,16 +1,23 @@
-import { combineReducers } from "redux";
+import {combineReducers, Reducer} from "redux";
 import { persistReducer } from "redux-persist";
 import configureStore from "./CreateStore";
 import rootSaga from "../Sagas";
 import ReduxPersist from "../Config/ReduxPersist";
 
-
+export interface ApplicationState {
+  nav: any,
+  github: any,
+  search: any,
+  appSettings: any,
+  login: any
+}
 /* ------------- Assemble The Reducers ------------- */
-export const reducers = combineReducers({
-  nav: require("./NavigationRedux").reducer,
-  github: require("./GithubRedux").reducer,
-  search: require("./SearchRedux").reducer,
-  appSettings: require('./AppSettingsRedux').reducer
+export const reducers: Reducer<ApplicationState> = combineReducers({
+  nav: require("./Navigation/NavigationRedux").reducer,
+  github: require("./Github/GithubRedux").reducer,
+  search: require("./Search/SearchRedux").reducer,
+  appSettings: require('./AppSettings/AppSettingsRedux').reducer,
+  login: require('./Login/LoginRedux').reducer
 });
 
 export default () => {

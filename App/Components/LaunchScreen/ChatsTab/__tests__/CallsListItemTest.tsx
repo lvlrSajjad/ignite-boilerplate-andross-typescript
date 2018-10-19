@@ -2,18 +2,16 @@ import "react-native";
 import * as React from "react";
 import CallsListItem from "../CallsListItem";
 import * as renderer from 'react-test-renderer';
+import {store} from "../../../../Containers/App";
 
-test("AlertMessage component renders correctly if show is true", () => {
-  const tree = renderer.create(<CallsListItem title="howdy" />).toJSON();
-  expect(tree).toMatchSnapshot();
-});
-
-test("AlertMessage component does not render if show is false", () => {
-  const tree = renderer.create(<CallsListItem title="howdy" show={false} />).toJSON();
-  expect(tree).toMatchSnapshot();
-});
-
-test("AlertMessage component renders correctly if backgroundColor prop is set", () => {
-  const tree = renderer.create(<CallsListItem title="howdy" style={{ backgroundColor: "red" }} />).toJSON();
+test("renders correctly" , () => {
+  const tree = renderer.create(
+    <CallsListItem
+      store={store}
+      avatar={'http://digitalspyuk.cdnds.net/17/25/980x490/landscape-1498216547-avatar-neytiri.jpg'}
+      name={'sajjad'}
+      state={2}
+      time={'3:30'}
+    />).toJSON();
   expect(tree).toMatchSnapshot();
 });

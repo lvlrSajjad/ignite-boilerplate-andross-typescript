@@ -3,14 +3,24 @@ import {Card} from 'native-base';
 import PhoneNumberForm from "./Forms/PhoneNumberForm";
 import PhoneValidationForm from "./Forms/PhoneValidationForm";
 import UserInfoForm from "./Forms/UserInfoForm";
+import {connect} from "react-redux";
+import * as LoginActions from "../../Redux/Login/LoginActions";
 
 interface LoginCardProps {
   primaryColor?: string,
   isLoading?: boolean,
-
   onButtonPress(step: number, textValue?: string): void
+  onBackButtonPressed(): void,
+  step?: number,
+  phoneNumber?: string,
+  varCode?: string,
+  prefixNumber?: string,
+  userName?: string,
+  loginStep(step:number):void,
+  setPhoneNumber(text:string):void,
+  setVerifyCode(text:string):void,
+  setUserName(text:string):void
 
-  onBackButtonPressed(): void
 }
 
 interface LoginCardState {
@@ -21,8 +31,7 @@ interface LoginCardState {
   userName: string
 }
 
-export class LoginCard extends React.Component<LoginCardProps, LoginCardState> {
-
+class LoginCard extends React.Component<LoginCardProps, LoginCardState> {
   constructor(props) {
     super(props);
     this.state = {
@@ -32,44 +41,40 @@ export class LoginCard extends React.Component<LoginCardProps, LoginCardState> {
       prefixNumber: '+98',
       userName: ''
     };
-    phoneNumberStep = phoneNumberStep.bind(this);
-    verificationStep = verificationStep.bind(this);
-    userInfoStep = userInfoStep.bind(this);
-
   }
 
   render() {
     return (
       <Card style={{width: "100%"}}>
-        {this.state.step === 1 &&
+        {this.props.step === 1 &&
         <PhoneNumberForm
-        onPress={()=>{this.props.onButtonPress(this.state.step, this.validatePhoneNumber());}}
-        phoneNumber={this.state.phoneNumber}
-        onTextChange={(text)=>this.setState({phoneNumber: text})}
-        prefixNumber={this.state.prefixNumber}
+        onPress={()=>{this.props.onButtonPress(this.props.step, this.validatePhoneNumber());}}
+        phoneNumber={this.props.phoneNumber}
+        onTextChange={(text)=>this.props.setPhoneNumber(text)}
+        prefixNumber={this.props.prefixNumber}
         isLoading={this.props.isLoading}
         />
         }
-        {this.state.step === 2 &&
+        {this.props.step === 2 &&
         <PhoneValidationForm
-          onPress={()=>{this.props.onButtonPress(this.state.step, this.state.varCode);}}
-          onTextChange={(text)=>this.setState({varCode: text})}
+          onPress={()=>{this.props.onButtonPress(this.props.step, this.props.varCode);}}
+          onTextChange={(text)=>this.props.setVerifyCode(text)}
           onBackButtonPress={()=>{
-            this.setState({step: 1});
+            this.props.loginStep(1);
             this.props.onBackButtonPressed();
           }}
           isLoading={this.props.isLoading}
-          varCode={this.state.varCode}
+          varCode={this.props.varCode}
         />
         }
-        {this.state.step === 3 &&
+        {this.props.step === 3 &&
         <UserInfoForm
-          userName={this.state.userName}
-          onTextChange={(text)=>this.setState({userName: text})}
+          userName={this.props.userName}
+          onTextChange={(text)=>this.props.setUserName(text)}
           isLoading={this.props.isLoading}
-          onPress={()=>{this.props.onButtonPress(this.state.step, this.state.userName);}}
+          onPress={()=>{this.props.onButtonPress(this.props.step, this.props.userName);}}
           onBackButtonPress={()=>{
-            this.setState({step: 2});
+            this.props.loginStep(2);
             this.props.onBackButtonPressed();
           }}
         />
@@ -79,30 +84,25 @@ export class LoginCard extends React.Component<LoginCardProps, LoginCardState> {
   }
 
   validatePhoneNumber=():string=>{
-    const phoneNumberState = this.state.phoneNumber;
-    const phoneNumber = phoneNumberState.startsWith('0') ?
+    const phoneNumberState = this.props.phoneNumber;
+    return phoneNumberState.startsWith('0') ?
       phoneNumberState.substring(1, phoneNumberState.length) :
       phoneNumberState;
-    return phoneNumber;
   }
 
 }
 
-export function phoneNumberStep() {
-  this.setState({step: 1});
-}
+const mapStateToProps = state => ({
+  step: state.login.step,
+  phoneNumber: state.login.phoneNumber,
+  varCode: state.login.varCode,
+  prefixNumber: state.login.prefixNumber,
+  userName: state.login.userName
 
-export function verificationStep() {
-  this.setState({step: 2});
-}
+});
 
-export function userInfoStep() {
-  this.setState({step: 3});
-}
+//const mapDispatchToProps = dispatch => ({});
 
-export default {
-  LoginCard,
-  phoneNumberStep,
-  verificationStep,
-  userInfoStep
-}
+export default connect(mapStateToProps, /**mapDispatchToProps*/ LoginActions)(LoginCard);
+
+

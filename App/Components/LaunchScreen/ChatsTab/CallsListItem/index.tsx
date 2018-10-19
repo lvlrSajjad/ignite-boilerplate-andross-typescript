@@ -11,8 +11,8 @@ export interface CallsListItemProps {
   state: number,
   time: string,
   isDarkMode?: boolean,
-  isLtr:boolean,
-  colorScheme:ColorScheme
+  isLtr?:boolean,
+  colorScheme?:ColorScheme
 }
 
 const Direction = (props:CallsListItemProps) => props.isLtr? <Ltr {...props} /> : <Rtl {...props} />;

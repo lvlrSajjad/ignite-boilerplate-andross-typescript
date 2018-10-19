@@ -1,8 +1,11 @@
-import {colorScheme} from "../Themes/Colors";
-import I18n from "../I18n";
-const DEFAULT_LOCALE = 'en';
+import {colorScheme} from "../../Themes/Colors";
+import I18n from "../../I18n/index";
 import { REHYDRATE } from 'redux-persist';
-import Immutable from "seamless-immutable";
+import * as Immutable from "seamless-immutable";
+import {Reducer} from "redux";
+import {AppSettingsState} from "./Types";
+
+const DEFAULT_LOCALE = 'en';
 
 export const INITIAL_STATE = Immutable({
   isDarkMode:false,
@@ -12,7 +15,7 @@ export const INITIAL_STATE = Immutable({
 });
 
 
-export const reducer = (state=INITIAL_STATE, action) => {
+export const reducer : Reducer<AppSettingsState> = (state:AppSettingsState=INITIAL_STATE, action) => {
 
   switch (action.type) {
     case 'toggle_dark_mode':

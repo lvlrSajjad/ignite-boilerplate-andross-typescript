@@ -6,6 +6,11 @@ import {Provider} from 'react-redux'
 import RootContainer from './RootContainer'
 import createStore from '../Redux'
 
+declare global {
+  interface Console {
+    tron: any
+  }
+}
 
 export const store = createStore();
 

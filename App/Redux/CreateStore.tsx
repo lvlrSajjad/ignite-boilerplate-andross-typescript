@@ -3,8 +3,9 @@ import createSagaMiddleware from "redux-saga";
 import { createReactNavigationReduxMiddleware } from "react-navigation-redux-helpers";
 import Rehydration from "../Services/Rehydration";
 import ReduxPersist from "../Config/ReduxPersist";
-import Config from "../Config/DebugConfig";
+//import Config from "../Config/DebugConfig";
 import ScreenTracking from "./ScreenTrackingMiddleware";
+import {ApplicationState} from "./index";
 
 // creates the store
 export default (rootReducer, rootSaga) => {
@@ -16,7 +17,7 @@ export default (rootReducer, rootSaga) => {
   /* ------------- Navigation Middleware ------------ */
   const navigationMiddleware = createReactNavigationReduxMiddleware(
     "root",
-    state => state.nav
+    (state:ApplicationState) => state.nav
   );
   middleware.push(navigationMiddleware);
   /* ------------- Analytics Middleware ------------- */
@@ -24,8 +25,8 @@ export default (rootReducer, rootSaga) => {
 
   /* ------------- Saga Middleware ------------- */
 
-  const sagaMonitor = Config.useReactotron ? console.tron.createSagaMonitor() : null;
-  const sagaMiddleware = createSagaMiddleware({ sagaMonitor });
+//  const sagaMonitor = Config.useReactotron ? console.tron.createSagaMonitor() : null;
+  const sagaMiddleware = createSagaMiddleware(/**{ sagaMonitor }*/);
   middleware.push(sagaMiddleware);
 
   /* ------------- Assemble Middleware ------------- */
@@ -33,8 +34,8 @@ export default (rootReducer, rootSaga) => {
   enhancers.push(applyMiddleware(...middleware));
 
   // if Reactotron is enabled (default for __DEV__), we'll create the store through Reactotron
-  const createAppropriateStore = Config.useReactotron ? console.tron.createStore : createStore;
-  const store = createAppropriateStore(rootReducer, undefined,compose(...enhancers));
+//  const createAppropriateStore = Config.useReactotron ? console.tron.createStore : createStore;
+  const store = createStore(rootReducer, undefined,compose(...enhancers));
 
   // configure persistStore and check reducer version number
   if (ReduxPersist.active) {

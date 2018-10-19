@@ -2,7 +2,7 @@ import "react-native";
 import * as React from "react";
 import { shallow } from "enzyme";
 import * as renderer from "react-test-renderer";
-import MaterialFab from "../MaterialFab/MaterialFab";
+import MaterialFab from "../MaterialFab";
 
 test("RoundedButton component renders correctly", () => {
   const tree = renderer.create(

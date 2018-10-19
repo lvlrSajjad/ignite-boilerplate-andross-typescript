@@ -6,7 +6,7 @@ import {Image, View} from "react-native";
 import Fonts from "../../../../Themes/Fonts";
 import {connect} from 'react-redux'
 import MaterialButton from "../../../MaterialComponents/MaterialButton";
-import  {primaryColor} from "../../../../Themes/Colors";
+import {primaryColor} from "../../../../Themes/Colors";
 import {CardItem} from "native-base";
 import I18n from "../../../../I18n";
 import {UserInfoFormProps} from "./index";
@@ -16,8 +16,16 @@ const UserInfoFormRtl = (props: UserInfoFormProps) => {
   return (
     <View style={{alignItems: "center", justifyContent: 'center'}}>
       <CardItem button>
-      <Image source={{uri: 'https://www.chaarat.com/wp-content/uploads/2017/08/placeholder-user.png'}}
-             style={styles.avatar}/>
+        <Image
+          source={{uri: 'https://www.chaarat.com/wp-content/uploads/2017/08/placeholder-user.png'}}
+          style={{
+            width: 128,
+            height: 128,
+            borderRadius: 64,
+            overflow: 'hidden',
+            margin: 32,
+            alignSelf: 'center'
+          }}/>
 
       </CardItem>
       <CardItem>

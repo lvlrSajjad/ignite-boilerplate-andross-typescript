@@ -1,6 +1,6 @@
 import { put, select } from "redux-saga/effects";
 import { is } from "ramda";
-import GithubActions, { GithubSelectors } from "../Redux/GithubRedux";
+import GithubActions, { GithubSelectors } from "../Redux/Github/GithubRedux";
 
 // exported to make available for tests
 export const selectAvatar = GithubSelectors.selectAvatar;
@@ -18,7 +18,13 @@ export function* startup() {
     // });
 
     // fully customized!
-    const subObject = { a: 1, b: [1, 2, 3], c: true };
+    interface subObject{
+      a:number,
+      b:number[],
+      c:boolean,
+      circularDependency?: any
+    }
+    const subObject : subObject = { a: 1, b: [1, 2, 3], c: true };
     subObject.circularDependency = subObject; // osnap!
     console.tron.display({
       name: "🔥 IGNITE 🔥",

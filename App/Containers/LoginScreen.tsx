@@ -3,14 +3,16 @@ import {Component} from 'react';
 import {View} from "react-native";
 import {connect} from "react-redux";
 import styles from "./Styles/LoginScreenStyles";
-import {LoginCard,userInfoStep,verificationStep} from "../Components/LoginScreen/LoginCard";
+import LoginCard from "../Components/LoginScreen/LoginCard";
 import {MKColor} from 'react-native-material-kit';
 import { NavigationActions } from 'react-navigation';
 import {ColorScheme} from "../Themes/Colors";
+import * as LoginActions from '../Redux/Login/LoginActions';
 
 interface LoginScreenProps {
   navigation?:any,
-  colorScheme: ColorScheme
+  colorScheme: ColorScheme,
+  loginStep(step:number):void
 }
 
 interface LoginScreenState {
@@ -19,9 +21,7 @@ interface LoginScreenState {
 
 const navigateAction = NavigationActions.navigate({
   routeName: 'LaunchScreen',
-
-  params: {},
-
+  params: {}
 });
 
 
@@ -42,9 +42,9 @@ class LoginScreen extends Component<LoginScreenProps,LoginScreenState> {
           isLoading={this.state.isLoading}
           onButtonPress={(step)=>{
             if (step === 1){
-              verificationStep();
+              this.props.loginStep(2);
             } else if (step===2){
-              userInfoStep();
+              this.props.loginStep(3);
             } else if (step ===3){
               this.props.navigation.dispatch(navigateAction);
             }
@@ -63,4 +63,4 @@ const mapStateToProps = state => ({
 
 //const mapDispatchToProps = dispatch => ({});
 
-export default connect(mapStateToProps, null)(LoginScreen);
+export default connect(mapStateToProps, LoginActions)(LoginScreen);

@@ -1,4 +1,4 @@
-import {StyleSheet} from "react-native";
+import {ImageStyle, StyleSheet} from "react-native";
 import Fonts from "../../../Themes/Fonts";
 
 export default StyleSheet.create({
@@ -33,5 +33,5 @@ export default StyleSheet.create({
     overflow:'hidden',
     margin:32,
     alignSelf:'center'
-  },
+  } as ImageStyle,
 });

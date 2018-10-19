@@ -58,8 +58,8 @@ class SearchTab extends Component {
     );
   }
 }
-const mapStateToProps = state => ({});
+//const mapStateToProps = state => ({});
 
-const mapDispatchToProps = dispatch => ({});
+//const mapDispatchToProps = dispatch => ({});
 
-export default connect(mapStateToProps, mapDispatchToProps)(SearchTab);
+export default connect(/**mapStateToProps*/ null,/** mapDispatchToProps*/null)(SearchTab);

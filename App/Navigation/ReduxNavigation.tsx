@@ -1,13 +1,16 @@
 import * as React from "react";
 import { BackHandler, Platform } from "react-native";
-import {createReactNavigationReduxMiddleware, reduxifyNavigator} from "react-navigation-redux-helpers";
+import {
+  createReactNavigationReduxMiddleware,
+  reduxifyNavigator
+} from "react-navigation-redux-helpers";
 import { connect } from "react-redux";
 import AppNavigation from "./AppNavigation";
-
+import {ApplicationState} from "../Redux";
 
 createReactNavigationReduxMiddleware(
   "root",
-  state => state.nav
+  (state:ApplicationState) => state.nav
 );
 
 

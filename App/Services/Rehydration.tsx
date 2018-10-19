@@ -4,7 +4,7 @@ import { persistStore } from 'redux-persist'
 import StartupActions from '../Redux/StartupRedux'
 import DebugConfig from '../Config/DebugConfig'
 
-const updateReducers = (store: Object) => {
+const updateReducers = (store) => {
   const reducerVersion = ReduxPersist.reducerVersion
   const startup = () => store.dispatch(StartupActions.startup())
 

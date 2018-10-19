@@ -59,10 +59,10 @@ const mapStateToProps = state => ({
   colorScheme: state.appSettings.colorScheme
 });
 
-const mapDispatchToProps = dispatch => ({
-  // ChatScreen: (darkMode) => {
-  //   dispatch({ type: 'ChatScreen' , payload : darkMode});
-  // },
-});
+// const mapDispatchToProps = dispatch => ({
+//    ChatScreen: (darkMode) => {
+//      dispatch({ type: 'ChatScreen' , payload : darkMode});
+//    },
+// });
 
-export default withNavigation(connect(mapStateToProps, mapDispatchToProps)(ChatsScreen));
+export default withNavigation(connect(mapStateToProps, /**mapDispatchToProps*/ null)(ChatsScreen));

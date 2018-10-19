@@ -2,7 +2,7 @@ import { put, call } from "redux-saga/effects";
 import { path } from "ramda";
 import FixtureAPI from "../../Services/FixtureApi";
 import { getUserAvatar } from "../GithubSagas";
-import GithubActions from "../../Redux/GithubRedux";
+import GithubActions from "../../Redux/Github/GithubRedux";
 
 const stepper = fn => mock => fn.next(mock).value;
 

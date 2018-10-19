@@ -4,7 +4,7 @@ import {connect} from "react-redux";
 import {Container} from "native-base";
 import MapboxGL from '@mapbox/react-native-mapbox-gl';
 import MapboxConfig from "../../Config/MapboxConfig";
-import {ColorScheme, colorScheme} from "../../Themes/Colors";
+import {ColorScheme} from "../../Themes/Colors";
 
 MapboxGL.setAccessToken(MapboxConfig.accessToken);
 
@@ -37,6 +37,6 @@ const mapStateToProps = state => {
   };
 };
 
-const mapDispatchToProps = dispatch => ({});
+//const mapDispatchToProps = dispatch => ({});
 
-export default connect(mapStateToProps, mapDispatchToProps)(LocationTab);
+export default connect(mapStateToProps,/** mapDispatchToProps*/ null)(LocationTab);

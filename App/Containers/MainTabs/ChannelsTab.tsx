@@ -49,6 +49,6 @@ const mapStateToProps = state => ({
   colorScheme: state.appSettings.colorScheme
 });
 
-const mapDispatchToProps = dispatch => ({});
+//const mapDispatchToProps = dispatch => ({});
 
-export default connect(mapStateToProps, mapDispatchToProps)(ChannelsTab);
+export default connect(mapStateToProps, /**mapDispatchToProps*/ null)(ChannelsTab);

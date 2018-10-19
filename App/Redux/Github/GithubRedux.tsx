@@ -1,5 +1,7 @@
 import { createReducer, createActions } from "reduxsauce";
-import Immutable from "seamless-immutable";
+import * as Immutable from "seamless-immutable";
+import {Reducer} from "redux";
+import {GithubReducerTypes} from "./Types";
 
 /* ------------- Types and Action Creators ------------- */
 
@@ -43,7 +45,7 @@ export const failure = state => state.merge({ fetching: false, error: true, avat
 
 /* ------------- Hookup Reducers To Types ------------- */
 
-export const reducer = createReducer(INITIAL_STATE, {
+export const reducer : Reducer<GithubReducerTypes> = createReducer(INITIAL_STATE, {
   [Types.USER_REQUEST]: request,
   [Types.USER_SUCCESS]: success,
   [Types.USER_FAILURE]: failure

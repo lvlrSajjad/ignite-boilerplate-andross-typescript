@@ -1,6 +1,6 @@
 import { call, put } from "redux-saga/effects";
 import { path } from "ramda";
-import GithubActions from "../Redux/GithubRedux";
+import GithubActions from "../Redux/Github/GithubRedux";
 
 export function* getUserAvatar(api, action) {
   const { username } = action;

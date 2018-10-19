@@ -1,6 +1,7 @@
 import Fonts from "./Fonts";
 import Metrics from "./Metrics";
 import Colors from "./Colors";
+import {TextStyle} from "react-native";
 
 // This file is for a reusable grouping of Theme items.
 // Similar to an XML fragment layout in Android
@@ -12,7 +13,7 @@ const ApplicationStyles = {
       backgroundColor: Colors.transparent
     },
     backgroundImage: {
-      position: "absolute",
+      position: "absolute" as "absolute",
       top: 0,
       left: 0,
       bottom: 0,
@@ -22,9 +23,9 @@ const ApplicationStyles = {
       width:128,
       height:128,
       borderRadius:64,
-      overflow:'hidden',
+      overflow:'hidden' as 'hidden',
       margin:32,
-      alignSelf:'center'
+      alignSelf:'center' as 'center'
     },
     container: {
       flex: 1,
@@ -41,7 +42,7 @@ const ApplicationStyles = {
       color: Colors.snow,
       marginVertical: Metrics.smallMargin,
       textAlign: "center"
-    },
+    } as TextStyle,
     subtitle: {
       color: Colors.snow,
       padding: Metrics.smallMargin,
@@ -52,7 +53,7 @@ const ApplicationStyles = {
       ...Fonts.style.h2,
       fontSize: 14,
       color: Colors.text
-    }
+    } as TextStyle
   },
   darkLabelContainer: {
     padding: Metrics.smallMargin,
@@ -69,14 +70,14 @@ const ApplicationStyles = {
     margin: Metrics.smallMargin,
     flexDirection: "row",
     justifyContent: "space-around",
-    alignItems: "center"
+    alignItems: "center" as 'center'
   },
   materialButton:{
     paddingLeft: 16,
     paddingRight: 16,
     height: 16,
-    alignItems: 'center',
-    justifyContent: 'center'
+    alignItems: 'center' as 'center',
+    justifyContent: 'center' as 'center'
   },
   materialFarsiText:{
     ...Fonts.style.farsiNormal
@@ -90,8 +91,8 @@ const ApplicationStyles = {
     marginHorizontal: Metrics.baseMargin,
     borderWidth: 1,
     borderColor: Colors.ember,
-    alignItems: "center",
-    textAlign: "center"
+    alignItems: "center" as 'center',
+    textAlign: "center" as 'center'
   }
 };
 

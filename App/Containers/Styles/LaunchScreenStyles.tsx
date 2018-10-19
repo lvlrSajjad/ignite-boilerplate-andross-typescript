@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
 import { Metrics, ApplicationStyles } from "../../Themes";
-
+/** @type {{search: React.CSSProperties}} */
 export default StyleSheet.create({
   ...ApplicationStyles.screen,
   container: {
@@ -13,9 +13,9 @@ export default StyleSheet.create({
     marginTop: Metrics.doubleSection,
     height: Metrics.images.logo,
     width: Metrics.images.logo,
-    resizeMode: "contain"
+    resizeMode: "contain" as 'contain'
   },
   centered: {
-    alignItems: "center"
+    alignItems: "center" as 'center'
   }
 });

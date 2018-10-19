@@ -5,7 +5,7 @@ import {FlatList} from "react-native";
 import {dummyGroupsData} from "../../../Config/DummyData";
 import {connect} from "react-redux";
 import ChatsListItem from '../../../Components/LaunchScreen/ChatsTab/ChatsListItem';
-import {ColorScheme, colorScheme} from "../../../Themes/Colors";
+import {ColorScheme} from "../../../Themes/Colors";
 
 interface GroupsScreenProps {
   isDarkMode?:boolean,
@@ -52,6 +52,6 @@ const mapStateToProps = state => ({
   colorScheme: state.appSettings.colorScheme
 });
 
-const mapDispatchToProps = dispatch => ({});
+//const mapDispatchToProps = dispatch => ({});
 
-export default connect(mapStateToProps, mapDispatchToProps)(GroupsScreen);
+export default connect(mapStateToProps, /**mapDispatchToProps*/ null)(GroupsScreen);

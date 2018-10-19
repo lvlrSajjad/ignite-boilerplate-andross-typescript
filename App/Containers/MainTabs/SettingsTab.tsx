@@ -7,7 +7,7 @@ import { Card, Text} from "native-base";
 import SettingsListItem from "../../Components/LaunchScreen/SettingsTab/SettingsListItem";
 import metrics from "../../Themes/Metrics";
 import Fonts from "../../Themes/Fonts";
-import * as Actions from '../../Redux/Actions/AppSettingsAction';
+import * as Actions from '../../Redux/AppSettings/AppSettingsAction';
 import SettingsToggleItem from "../../Components/LaunchScreen/SettingsTab/SettingsToggleItem";
 import I18n from '../../I18n';
 import {ColorScheme} from "../../Themes/Colors";

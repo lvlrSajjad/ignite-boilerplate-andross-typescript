@@ -2,8 +2,8 @@
   "compilerOptions": {
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "target": "es2015",
-    "module": "es2015",
+   // "target": "es2015",
+  //  "module": "es2015",
     "moduleResolution": "node",
     "jsx": "react",
     "allowSyntheticDefaultImports": true,
@@ -17,13 +17,19 @@
     "types": [
       "react",
       "react-native",
-      "jest"
+      "jest",
+      "webpack-env"
+    ],
+    "lib": [
+      "dom",
+      "es7"
     ]
   },
   "types": [
     "react",
     "react-native",
-    "jest"
+    "jest",
+    "webpack-env"
   ],
   "exclude": [
     "android",
