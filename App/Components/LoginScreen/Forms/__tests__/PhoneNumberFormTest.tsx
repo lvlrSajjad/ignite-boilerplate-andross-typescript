@@ -3,7 +3,7 @@ import * as React from "react";
 import PhoneNumberFormLtr from "../PhoneNumberForm/PhoneNumberForm.ltr";
 import PhoneNumberFormRtl from "../PhoneNumberForm/PhoneNumberForm.rtl";
 import {PhoneNumberFormProps} from "../PhoneNumberForm";
-import * as renderer from 'react-test-renderer';
+import { shallow } from "enzyme";
 
 const params:PhoneNumberFormProps = {
   prefixNumber: '',
@@ -14,11 +14,11 @@ const params:PhoneNumberFormProps = {
 };
 
 test("Renders Correctly", () => {
-  const tree = renderer.create(<PhoneNumberFormLtr {...params} />).toJSON();
+  const tree = shallow(<PhoneNumberFormLtr {...params} />);
   expect(tree).toMatchSnapshot();
 });
 
 test("Renders Correctly", () => {
-  const tree = renderer.create(<PhoneNumberFormRtl {...params} />).toJSON();
+  const tree = shallow(<PhoneNumberFormRtl {...params} />);
   expect(tree).toMatchSnapshot();
 });
