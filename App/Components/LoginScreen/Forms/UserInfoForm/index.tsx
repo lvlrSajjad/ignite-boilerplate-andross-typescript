@@ -5,15 +5,15 @@ import * as React from "react";
 
 export interface UserInfoFormProps {
   userName: string,
-  onTextChange(text: string): void,
-  onBackButtonPress(): void,
+  onTextChange?(text: string): void,
+  onBackButtonPress?(): void,
   isLoading: boolean,
   isDarkMode?: boolean,
-  onPress(): void,
-  isLtr: boolean
+  onPress?(): void,
+  isLtr?: boolean
 }
 
-const Direction = (props:UserInfoFormProps) => props.isLtr ? <Ltr {...props} /> : <Rtl {...props}/>;
+export const Direction = (props:UserInfoFormProps) => props.isLtr ? <Ltr {...props} /> : <Rtl {...props}/>;
 
 const mapStateToProps = state => {
   return {

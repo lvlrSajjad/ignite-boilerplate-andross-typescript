@@ -6,13 +6,11 @@ import {Text, View} from "react-native";
 import Fonts from "../../../../Themes/Fonts";
 import { CardItem} from "native-base";
 import MaterialButton from "../../../MaterialComponents/MaterialButton";
-import {connect} from 'react-redux'
 import { primaryColor, primaryColorLight} from "../../../../Themes/Colors";
 import I18n from "../../../../I18n";
 import {PhoneNumberFormProps} from "./index";
 
-const PhoneNumberFormLtr = (props: PhoneNumberFormProps) => {
-
+export default (props: PhoneNumberFormProps) => {
   return (
     <View>
     <CardItem>
@@ -52,10 +50,3 @@ const PhoneNumberFormLtr = (props: PhoneNumberFormProps) => {
     </View>
   );
 };
-const mapStateToProps = state => {
-  return {
-    isDarkMode: state.appSettings.isDarkMode
-  };
-};
-
-export default connect(mapStateToProps)(PhoneNumberFormLtr);

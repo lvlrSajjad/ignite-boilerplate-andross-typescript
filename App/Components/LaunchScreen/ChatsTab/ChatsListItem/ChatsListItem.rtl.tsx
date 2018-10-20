@@ -1,10 +1,9 @@
 import * as React from "react";
 import {ListItem, Left, Body, Right, Thumbnail, Text} from 'native-base';
 import Fonts from "../../../../Themes/Fonts";
-import {connect} from "react-redux";
 import {ChatsListItemProps} from "./index";
 
-const ChatListItem = (item : ChatsListItemProps) => {
+export default (item : ChatsListItemProps) => {
   const ColorScheme = item.colorScheme;
 
   return (
@@ -23,11 +22,3 @@ const ChatListItem = (item : ChatsListItemProps) => {
     </ListItem>
   );
 };
-const mapStateToProps = state => {
-  return {
-    isDarkMode: state.appSettings.isDarkMode,
-    colorScheme: state.appSettings.colorScheme
-  };
-};
-
-export default connect(mapStateToProps)(ChatListItem);

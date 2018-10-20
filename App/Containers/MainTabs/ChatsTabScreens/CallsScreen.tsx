@@ -14,17 +14,18 @@ interface CallsScreenProps {
 
 class CallsScreen extends Component<CallsScreenProps> {
 
+
 render() {
-  const ColorScheme = this.props.colorScheme;
-    return (
+    const colorScheme = this.props.colorScheme;
+  return (
       <Container
-      style={{backgroundColor:ColorScheme.containersBackground}}
+      style={{backgroundColor:colorScheme.containersBackground}}
       >
         <Content>
           <FlatList
             data={dummyCallsData}
             keyExtractor={item => item.id.toString()}
-            renderItem={({item}) => CallsScreen.renderListItems(item)}
+            renderItem={({item}) => CallsScreen.renderListItems(item,colorScheme)}
           />
         </Content>
       </Container>
@@ -32,9 +33,9 @@ render() {
     );
   }
 
-  static renderListItems (item) {
+  static renderListItems (item,colorScheme) {
     return (
-      <CallsListItem avatar={item.avatar} name={item.name} state={item.state} time={item.time}/>
+      <CallsListItem colorScheme={colorScheme} avatar={item.avatar} name={item.name} state={item.state} time={item.time}/>
     )
   }
 }

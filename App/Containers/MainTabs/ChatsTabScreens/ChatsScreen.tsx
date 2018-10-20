@@ -29,16 +29,17 @@ class ChatsScreen extends Component<ChatsScreenProps> {
           <FlatList
             data={dummyChatsData}
             keyExtractor={item => item.id.toString()}
-            renderItem={({item}) => this.renderListItems(item)}
+            renderItem={({item}) => this.renderListItems(item,ColorScheme)}
           />
         </Content>
       </Container>
     );
   }
 
-  renderListItems = (item) => {
+  renderListItems = (item,ColorScheme) => {
     return (
       <ChatsListItem
+        colorScheme={ColorScheme}
         avatar={item.avatar}
         name={item.name}
         note={item.note}

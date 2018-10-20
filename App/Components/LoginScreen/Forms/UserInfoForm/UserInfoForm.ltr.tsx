@@ -4,14 +4,13 @@ import styles from "../../Styles/LoginCardStyles";
 import {MKColor} from 'react-native-material-kit'
 import {Image, View} from "react-native";
 import Fonts from "../../../../Themes/Fonts";
-import {connect} from 'react-redux'
 import MaterialButton from "../../../MaterialComponents/MaterialButton";
 import {primaryColor} from "../../../../Themes/Colors";
 import {CardItem} from "native-base";
 import I18n from "../../../../I18n";
 import {UserInfoFormProps} from "./index";
 
-const UserInfoFormRtl = (props: UserInfoFormProps) => {
+export default (props: UserInfoFormProps) => {
 
   return (
     <View style={{alignItems: "center", justifyContent: 'center'}}>
@@ -19,12 +18,12 @@ const UserInfoFormRtl = (props: UserInfoFormProps) => {
         <Image
           source={{uri: 'https://www.chaarat.com/wp-content/uploads/2017/08/placeholder-user.png'}}
           style={{
-            width:128,
-            height:128,
-            borderRadius:64,
-            overflow:'hidden',
-            margin:32,
-            alignSelf:'center'
+            width: 128,
+            height: 128,
+            borderRadius: 64,
+            overflow: 'hidden',
+            margin: 32,
+            alignSelf: 'center'
           }}
         />
 
@@ -69,16 +68,7 @@ const UserInfoFormRtl = (props: UserInfoFormProps) => {
             props.onPress()
           }}
         />
-
       </CardItem>
-
     </View>
   );
 };
-const mapStateToProps = state => {
-  return {
-    isDarkMode: state.appSettings.isDarkMode
-  };
-};
-
-export default connect(mapStateToProps)(UserInfoFormRtl);

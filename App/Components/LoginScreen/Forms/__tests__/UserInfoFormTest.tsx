@@ -1,19 +1,16 @@
 import "react-native";
 import * as React from "react";
-import UserInfoForm from "../UserInfoForm";
+import UserInfoFormRtl from "../UserInfoForm/UserInfoForm.rtl";
+import UserInfoFormLtr from "../UserInfoForm/UserInfoForm.ltr";
 import * as renderer from 'react-test-renderer';
 
-test("AlertMessage component renders correctly if show is true", () => {
-  const tree = renderer.create(<UserInfoForm title="howdy" />).toJSON();
+test("Renders Correctly", () => {
+  const tree = renderer.create(<UserInfoFormRtl userName={''} isLoading={false}   />).toJSON();
   expect(tree).toMatchSnapshot();
 });
 
-test("AlertMessage component does not render if show is false", () => {
-  const tree = renderer.create(<UserInfoForm title="howdy" show={false} />).toJSON();
+test("Renders Correctly", () => {
+  const tree = renderer.create(<UserInfoFormLtr userName={''} isLoading={false}   />).toJSON();
   expect(tree).toMatchSnapshot();
 });
 
-test("AlertMessage component renders correctly if backgroundColor prop is set", () => {
-  const tree = renderer.create(<UserInfoForm title="howdy" style={{ backgroundColor: "red" }} />).toJSON();
-  expect(tree).toMatchSnapshot();
-});

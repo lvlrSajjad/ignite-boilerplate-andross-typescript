@@ -40,20 +40,26 @@ exports[`Renders Correctly 1`] = `
         }
       }
     >
-      <Image
-        source={
-          Object {
-            "uri": "http://digitalspyuk.cdnds.net/17/25/980x490/landscape-1498216547-avatar-neytiri.jpg",
-          }
-        }
+      <Text
+        note={true}
         style={
-          Object {
-            "borderRadius": 28,
-            "height": 56,
-            "width": 56,
-          }
+          Array [
+            Object {
+              "alignSelf": "center",
+              "color": "#a7a7a7",
+              "fontFamily": "System",
+              "fontSize": 14,
+            },
+            Object {
+              "color": "#9E9E9E",
+              "fontFamily": "BYekan+",
+            },
+          ]
         }
-      />
+        uppercase={false}
+      >
+        3:30
+      </Text>
     </View>
     <View
       style={
@@ -85,6 +91,7 @@ exports[`Renders Correctly 1`] = `
               "marginRight": 10,
             },
             Object {
+              "alignSelf": "flex-end",
               "color": "#212121",
               "fontFamily": "BYekan+",
             },
@@ -97,6 +104,7 @@ exports[`Renders Correctly 1`] = `
       <View
         style={
           Object {
+            "alignSelf": "flex-end",
             "flexDirection": "row",
           }
         }
@@ -161,33 +169,27 @@ exports[`Renders Correctly 1`] = `
         }
       }
     >
-      <Text
-        note={true}
-        style={
-          Array [
-            Object {
-              "alignSelf": null,
-              "color": "#808080",
-              "fontFamily": "System",
-              "fontSize": 12,
-              "fontWeight": "200",
-            },
-            Object {
-              "color": "#9E9E9E",
-              "fontFamily": "BYekan+",
-            },
-          ]
+      <Image
+        source={
+          Object {
+            "uri": "http://digitalspyuk.cdnds.net/17/25/980x490/landscape-1498216547-avatar-neytiri.jpg",
+          }
         }
-        uppercase={false}
-      >
-        3:30
-      </Text>
+        style={
+          Object {
+            "alignSelf": null,
+            "borderRadius": 28,
+            "height": 56,
+            "width": 56,
+          }
+        }
+      />
     </View>
   </View>
 </View>
 `;
 
-exports[`renders correctly 1`] = `
+exports[`Renders Correctly 2`] = `
 <View
   accessible={true}
   isTVSelectable={true}

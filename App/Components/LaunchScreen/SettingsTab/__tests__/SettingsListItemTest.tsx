@@ -1,8 +1,8 @@
 import "react-native";
 import * as React from "react";
 import {Direction as SettingsListItem} from "../SettingsListItem";
-import * as renderer from 'react-test-renderer';
 import {colorScheme} from "../../../../Themes/Colors";
+import * as renderer from 'react-test-renderer';
 
 test("Renders Correctly", () => {
   const tree = renderer.create(<SettingsListItem

@@ -1,0 +1,691 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders Correctly 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#fff",
+        "borderRadius": 2,
+        "flexDirection": "row",
+        "paddingBottom": 10,
+        "paddingLeft": 15,
+        "paddingRight": 15,
+        "paddingTop": 10,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "width": "100%",
+        }
+      }
+    >
+      <Text
+        onLayout={[Function]}
+        pointerEvents="none"
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "color": "rgba(0, 135, 234, 1)",
+            "fontFamily": "BYekan+",
+            "fontSize": 18,
+            "left": 0,
+            "marginBottom": undefined,
+            "opacity": 0,
+            "position": "absolute",
+            "top": 0,
+            "transform": Array [
+              Object {
+                "scale": 1,
+              },
+            ],
+          }
+        }
+      >
+        Verification Number
+      </Text>
+      <TextInput
+        allowFontScaling={true}
+        keyboardType="numeric"
+        maxLength={6}
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        placeholder="Verification Number"
+        style={
+          Array [
+            Object {
+              "alignSelf": "stretch",
+              "backgroundColor": "transparent",
+              "marginTop": 0,
+              "paddingBottom": 2,
+              "paddingTop": 2,
+            },
+            Object {
+              "color": "rgb(117, 117, 117)",
+              "fontSize": 16,
+              "paddingLeft": 0,
+              "paddingRight": 0,
+            },
+            Object {
+              "color": "#212121",
+              "fontFamily": "BYekan+",
+              "fontSize": 18,
+              "height": 48,
+              "marginTop": 10,
+            },
+          ]
+        }
+        underlineColorAndroid="transparent"
+      />
+      <View
+        pointerEvents="none"
+        style={
+          Object {
+            "height": 2,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#0087EA",
+              "height": 2,
+              "position": "absolute",
+              "width": 0,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "#0087EA",
+              "height": 2,
+              "left": 0,
+              "position": "absolute",
+              "width": 0,
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#fff",
+        "borderRadius": 2,
+        "flexDirection": "row",
+        "paddingBottom": 10,
+        "paddingLeft": 15,
+        "paddingRight": 15,
+        "paddingTop": 10,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <MKTouchable
+        accessible={true}
+        alignItems="center"
+        backgroundColor="#9E9E9E"
+        borderRadius={2}
+        enabled={true}
+        height={36}
+        justifyContent="center"
+        maskBorderRadius={2}
+        maskColor="rgba(255,255,255,0.15)"
+        maskDuration={200}
+        maskEnabled={true}
+        onChange={[Function]}
+        onLayout={[Function]}
+        onPress={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        onTouch={[Function]}
+        paddingLeft={16}
+        paddingRight={16}
+        pointerEvents="box-only"
+        rippleColor="rgba(255,255,255,0.2)"
+        rippleDuration={200}
+        rippleLocation="tapLocation"
+        shadowAniEnabled={true}
+        shadowColor="black"
+        shadowOffset={
+          Object {
+            "height": 2,
+            "width": 0,
+          }
+        }
+        shadowOpacity={0.7}
+        shadowRadius={2}
+        style={
+          Array [
+            Array [
+              undefined,
+              Object {},
+            ],
+            Object {
+              "shadowOffset": Object {
+                "height": 1,
+                "width": 0,
+              },
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "white",
+              "fontFamily": "BYekan+",
+              "fontSize": 18,
+            }
+          }
+        >
+          Back
+        </Text>
+        <View
+          style={
+            Object {
+              "backgroundColor": "rgba(255,255,255,0.15)",
+              "borderRadius": 0,
+              "height": 1,
+              "left": -0,
+              "opacity": 0,
+              "overflow": "hidden",
+              "position": "absolute",
+              "top": -0,
+              "width": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "rgba(255,255,255,0.2)",
+                "borderRadius": 0,
+                "height": 0,
+                "left": 0,
+                "top": 0,
+                "transform": Array [
+                  Object {
+                    "scale": 0,
+                  },
+                ],
+                "width": 0,
+              }
+            }
+          />
+        </View>
+      </MKTouchable>
+      <View
+        style={
+          Object {
+            "width": 4,
+          }
+        }
+      />
+    </View>
+    <MKTouchable
+      accessible={true}
+      alignItems="center"
+      backgroundColor="#0087EA"
+      borderRadius={2}
+      enabled={true}
+      flex={1}
+      height={36}
+      justifyContent="center"
+      maskBorderRadius={2}
+      maskColor="rgba(255,255,255,0.15)"
+      maskDuration={200}
+      maskEnabled={true}
+      onChange={[Function]}
+      onLayout={[Function]}
+      onPress={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      onTouch={[Function]}
+      paddingLeft={16}
+      paddingRight={16}
+      pointerEvents="box-only"
+      rippleColor="rgba(255,255,255,0.2)"
+      rippleDuration={200}
+      rippleLocation="tapLocation"
+      shadowAniEnabled={true}
+      shadowColor="black"
+      shadowOffset={
+        Object {
+          "height": 2,
+          "width": 0,
+        }
+      }
+      shadowOpacity={0.7}
+      shadowRadius={2}
+      style={
+        Array [
+          Array [
+            undefined,
+            Object {},
+          ],
+          Object {
+            "shadowOffset": Object {
+              "height": 1,
+              "width": 0,
+            },
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "white",
+            "fontFamily": "BYekan+",
+            "fontSize": 18,
+          }
+        }
+      >
+        Confirm
+      </Text>
+      <View
+        style={
+          Object {
+            "backgroundColor": "rgba(255,255,255,0.15)",
+            "borderRadius": 0,
+            "height": 1,
+            "left": -0,
+            "opacity": 0,
+            "overflow": "hidden",
+            "position": "absolute",
+            "top": -0,
+            "width": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "rgba(255,255,255,0.2)",
+              "borderRadius": 0,
+              "height": 0,
+              "left": 0,
+              "top": 0,
+              "transform": Array [
+                Object {
+                  "scale": 0,
+                },
+              ],
+              "width": 0,
+            }
+          }
+        />
+      </View>
+    </MKTouchable>
+  </View>
+</View>
+`;
+
+exports[`Renders Correctly 2`] = `
+<View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#fff",
+        "borderRadius": 2,
+        "flexDirection": "row",
+        "paddingBottom": 10,
+        "paddingLeft": 15,
+        "paddingRight": 15,
+        "paddingTop": 10,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "width": "100%",
+        }
+      }
+    >
+      <Text
+        onLayout={[Function]}
+        pointerEvents="none"
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "color": "rgba(0, 135, 234, 1)",
+            "fontFamily": "BYekan+",
+            "fontSize": 18,
+            "left": 0,
+            "marginBottom": undefined,
+            "opacity": 0,
+            "position": "absolute",
+            "top": 0,
+            "transform": Array [
+              Object {
+                "scale": 1,
+              },
+            ],
+          }
+        }
+      >
+        Verification Number
+      </Text>
+      <TextInput
+        allowFontScaling={true}
+        keyboardType="numeric"
+        maxLength={6}
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        placeholder="Verification Number"
+        style={
+          Array [
+            Object {
+              "alignSelf": "stretch",
+              "backgroundColor": "transparent",
+              "marginTop": 0,
+              "paddingBottom": 2,
+              "paddingTop": 2,
+            },
+            Object {
+              "color": "rgb(117, 117, 117)",
+              "fontSize": 16,
+              "paddingLeft": 0,
+              "paddingRight": 0,
+            },
+            Object {
+              "color": "#212121",
+              "fontFamily": "BYekan+",
+              "fontSize": 18,
+              "height": 48,
+              "marginTop": 10,
+            },
+          ]
+        }
+        underlineColorAndroid="transparent"
+      />
+      <View
+        pointerEvents="none"
+        style={
+          Object {
+            "height": 2,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#0087EA",
+              "height": 2,
+              "position": "absolute",
+              "width": 0,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "#0087EA",
+              "height": 2,
+              "left": 0,
+              "position": "absolute",
+              "width": 0,
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#fff",
+        "borderRadius": 2,
+        "flexDirection": "row",
+        "paddingBottom": 10,
+        "paddingLeft": 15,
+        "paddingRight": 15,
+        "paddingTop": 10,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <MKTouchable
+        accessible={true}
+        alignItems="center"
+        backgroundColor="#0087EA"
+        borderRadius={2}
+        enabled={true}
+        flex={1}
+        height={36}
+        justifyContent="center"
+        maskBorderRadius={2}
+        maskColor="rgba(255,255,255,0.15)"
+        maskDuration={200}
+        maskEnabled={true}
+        onChange={[Function]}
+        onLayout={[Function]}
+        onPress={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        onTouch={[Function]}
+        paddingLeft={16}
+        paddingRight={16}
+        pointerEvents="box-only"
+        rippleColor="rgba(255,255,255,0.2)"
+        rippleDuration={200}
+        rippleLocation="tapLocation"
+        shadowAniEnabled={true}
+        shadowColor="black"
+        shadowOffset={
+          Object {
+            "height": 2,
+            "width": 0,
+          }
+        }
+        shadowOpacity={0.7}
+        shadowRadius={2}
+        style={
+          Array [
+            Array [
+              undefined,
+              Object {},
+            ],
+            Object {
+              "shadowOffset": Object {
+                "height": 1,
+                "width": 0,
+              },
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "white",
+              "fontFamily": "BYekan+",
+              "fontSize": 18,
+            }
+          }
+        >
+          Confirm
+        </Text>
+        <View
+          style={
+            Object {
+              "backgroundColor": "rgba(255,255,255,0.15)",
+              "borderRadius": 0,
+              "height": 1,
+              "left": -0,
+              "opacity": 0,
+              "overflow": "hidden",
+              "position": "absolute",
+              "top": -0,
+              "width": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "rgba(255,255,255,0.2)",
+                "borderRadius": 0,
+                "height": 0,
+                "left": 0,
+                "top": 0,
+                "transform": Array [
+                  Object {
+                    "scale": 0,
+                  },
+                ],
+                "width": 0,
+              }
+            }
+          />
+        </View>
+      </MKTouchable>
+      <View
+        style={
+          Object {
+            "width": 4,
+          }
+        }
+      />
+      <MKTouchable
+        accessible={true}
+        alignItems="center"
+        backgroundColor="#9E9E9E"
+        borderRadius={2}
+        enabled={true}
+        height={36}
+        justifyContent="center"
+        maskBorderRadius={2}
+        maskColor="rgba(255,255,255,0.15)"
+        maskDuration={200}
+        maskEnabled={true}
+        onChange={[Function]}
+        onLayout={[Function]}
+        onPress={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        onTouch={[Function]}
+        paddingLeft={16}
+        paddingRight={16}
+        pointerEvents="box-only"
+        rippleColor="rgba(255,255,255,0.2)"
+        rippleDuration={200}
+        rippleLocation="tapLocation"
+        shadowAniEnabled={true}
+        shadowColor="black"
+        shadowOffset={
+          Object {
+            "height": 2,
+            "width": 0,
+          }
+        }
+        shadowOpacity={0.7}
+        shadowRadius={2}
+        style={
+          Array [
+            Array [
+              undefined,
+              Object {},
+            ],
+            Object {
+              "shadowOffset": Object {
+                "height": 1,
+                "width": 0,
+              },
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "white",
+              "fontFamily": "BYekan+",
+              "fontSize": 18,
+            }
+          }
+        >
+          Back
+        </Text>
+        <View
+          style={
+            Object {
+              "backgroundColor": "rgba(255,255,255,0.15)",
+              "borderRadius": 0,
+              "height": 1,
+              "left": -0,
+              "opacity": 0,
+              "overflow": "hidden",
+              "position": "absolute",
+              "top": -0,
+              "width": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "rgba(255,255,255,0.2)",
+                "borderRadius": 0,
+                "height": 0,
+                "left": 0,
+                "top": 0,
+                "transform": Array [
+                  Object {
+                    "scale": 0,
+                  },
+                ],
+                "width": 0,
+              }
+            }
+          />
+        </View>
+      </MKTouchable>
+    </View>
+  </View>
+</View>
+`;

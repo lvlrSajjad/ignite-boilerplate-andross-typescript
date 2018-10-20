@@ -3,11 +3,10 @@ import {ListItem, Left, Body, Right, Thumbnail, Text} from 'native-base';
 import Fonts from "../../../../Themes/Fonts";
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import {View} from "react-native";
-import {connect} from "react-redux";
 import CallStateToData from "../../../../Transforms/CallStateToData";
-import {CallsListItemProps} from "./index";
+import {CallsListItemProps} from './index';
 
-const CallListItem = (item : CallsListItemProps) => {
+export default (item : CallsListItemProps) => {
 
   const callStateData = CallStateToData(item.state);
   const ColorScheme = item.colorScheme;
@@ -35,12 +34,3 @@ const CallListItem = (item : CallsListItemProps) => {
     </ListItem>
 );
 };
-
-const mapStateToProps = state => {
-  return {
-    isDarkMode: state.appSettings.isDarkMode,
-    colorScheme: state.appSettings.colorScheme
-  };
-};
-
-export default connect(mapStateToProps)(CallListItem);

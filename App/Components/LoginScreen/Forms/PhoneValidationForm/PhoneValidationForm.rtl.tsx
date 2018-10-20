@@ -6,12 +6,11 @@ import { View} from "react-native";
 import Fonts from "../../../../Themes/Fonts";
 import { CardItem} from "native-base";
 import MaterialButton from "../../../MaterialComponents/MaterialButton";
-import {connect} from 'react-redux'
 import {primaryColor} from "../../../../Themes/Colors";
 import I18n from "../../../../I18n";
 import {PhoneValidationFormProps} from "./index";
 
-const PhoneValidationFormLtr = (props : PhoneValidationFormProps) => {
+export default (props : PhoneValidationFormProps) => {
 
   return (
     <View>
@@ -61,10 +60,3 @@ const PhoneValidationFormLtr = (props : PhoneValidationFormProps) => {
     </View>
   );
 };
-const mapStateToProps = state => {
-  return {
-    isDarkMode: state.appSettings.isDarkMode
-  };
-};
-
-export default connect(mapStateToProps)(PhoneValidationFormLtr);

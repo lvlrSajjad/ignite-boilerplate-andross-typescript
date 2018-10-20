@@ -4,14 +4,13 @@ import styles from "../../Styles/LoginCardStyles";
 import {MKColor} from 'react-native-material-kit'
 import {Image, View} from "react-native";
 import Fonts from "../../../../Themes/Fonts";
-import {connect} from 'react-redux'
 import MaterialButton from "../../../MaterialComponents/MaterialButton";
 import {primaryColor} from "../../../../Themes/Colors";
 import {CardItem} from "native-base";
 import I18n from "../../../../I18n";
 import {UserInfoFormProps} from "./index";
 
-const UserInfoFormRtl = (props: UserInfoFormProps) => {
+export default (props: UserInfoFormProps) => {
 
   return (
     <View style={{alignItems: "center", justifyContent: 'center'}}>
@@ -26,7 +25,6 @@ const UserInfoFormRtl = (props: UserInfoFormProps) => {
             margin: 32,
             alignSelf: 'center'
           }}/>
-
       </CardItem>
       <CardItem>
         <MKTextField
@@ -56,7 +54,6 @@ const UserInfoFormRtl = (props: UserInfoFormProps) => {
         />
         <View style={{flexDirection: 'row'}}>
           <View style={{width: 4}}/>
-
           < MaterialButton
             text={I18n.t('back')}
             color={MKColor.Grey}
@@ -67,19 +64,8 @@ const UserInfoFormRtl = (props: UserInfoFormProps) => {
               props.onBackButtonPress()
             }}
           />
-
         </View>
-
-
       </CardItem>
-
     </View>
   );
 };
-const mapStateToProps = state => {
-  return {
-    isDarkMode: state.appSettings.isDarkMode
-  };
-};
-
-export default connect(mapStateToProps)(UserInfoFormRtl);
