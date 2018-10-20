@@ -8,13 +8,13 @@ export interface SettingsToggleItemProps {
   name: string,
   icon: string,
   value: boolean,
-  onValueChange(): void,
+  onValueChange?(): void,
   // onPress(): void,
   colorScheme:ColorScheme,
   isLtr:boolean
 }
 
-const Direction = (props:SettingsToggleItemProps) => props.isLtr? <Ltr {...props} /> : <Rtl {...props}/>;
+export const Direction = (props:SettingsToggleItemProps) => props.isLtr? <Ltr {...props} /> : <Rtl {...props}/>;
 
 const mapStateToProps = state => {
   return {

@@ -1,19 +1,22 @@
 import "react-native";
 import * as React from "react";
-import ChatsListItem from "../ChatsListItem";
+import {Direction as ChatsListItem} from "../ChatsListItem";
 import * as renderer from 'react-test-renderer';
+import {colorScheme} from "../../../../Themes/Colors";
+import createStore from "../../../../Redux";
+import {Provider} from 'react-redux'
 
-test("AlertMessage component renders correctly if show is true", () => {
-  const tree = renderer.create(<ChatsListItem title="howdy" />).toJSON();
-  expect(tree).toMatchSnapshot();
-});
-
-test("AlertMessage component does not render if show is false", () => {
-  const tree = renderer.create(<ChatsListItem title="howdy" show={false} />).toJSON();
-  expect(tree).toMatchSnapshot();
-});
-
-test("AlertMessage component renders correctly if backgroundColor prop is set", () => {
-  const tree = renderer.create(<ChatsListItem title="howdy" style={{ backgroundColor: "red" }} />).toJSON();
+test("Renders Correctly", () => {
+  const store = createStore();
+  const tree = renderer.create(
+    <Provider store={store}>
+      <ChatsListItem
+        avatar={'http://digitalspyuk.cdnds.net/17/25/980x490/landscape-1498216547-avatar-neytiri.jpg'}
+        name="test"
+        note="test"
+        time="test"
+        colorScheme={colorScheme(false)}
+        isLtr
+      /></Provider>).toJSON();
   expect(tree).toMatchSnapshot();
 });

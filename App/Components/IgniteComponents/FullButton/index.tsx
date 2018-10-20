@@ -3,7 +3,7 @@ import Rtl from './FullButton.rtl';
 import Ltr from './FullButton.ltr';
 import {connect} from "react-redux";
 
-const Direction = (props) => props.isLtr? <Ltr {...props} /> : <Rtl {...props} />;
+export const Direction = (props) => props.isLtr? <Ltr {...props} /> : <Rtl {...props} />;
 
 const mapStateToProps = state => {
   return {

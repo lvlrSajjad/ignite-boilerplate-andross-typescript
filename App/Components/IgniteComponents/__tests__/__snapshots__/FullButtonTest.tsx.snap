@@ -23,9 +23,44 @@ exports[`FullButton component renders correctly 1`] = `
   }
 >
   <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
+    style={
+      Object {
+        "alignSelf": "center",
+        "color": "white",
+        "fontFamily": "Avenir-Black",
+        "fontSize": 14,
+        "margin": 18,
+      }
+    }
+  >
+    HI
+  </Text>
+</View>
+`;
+
+exports[`FullButton component renders correctly 2`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "rgba(164, 0, 48, 0.5)",
+      "borderBottomColor": "#fb5f26",
+      "borderBottomWidth": 1,
+      "borderTopColor": "#e73536",
+      "borderTopWidth": 1,
+      "marginVertical": 5,
+      "opacity": 1,
+    }
+  }
+>
+  <Text
     style={
       Object {
         "alignSelf": "center",

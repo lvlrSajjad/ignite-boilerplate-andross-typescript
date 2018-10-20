@@ -1,16 +1,16 @@
-import * as Immutable from "seamless-immutable";
-import Reactotron from "reactotron-react-native";
-import { reactotronRedux as reduxPlugin } from "reactotron-redux";
-import * as sagaPlugin from "reactotron-redux-saga";
-import Config from "./DebugConfig";
+import * as Immutable from 'seamless-immutable';
+import Reactotron from 'reactotron-react-native';
+import { reactotronRedux as reduxPlugin } from 'reactotron-redux';
+import * as sagaPlugin from 'reactotron-redux-saga';
+import Config from './DebugConfig';
 
 if (Config.useReactotron) {
   // https://github.com/infinitered/reactotron for more options!
   Reactotron
-    .configure({ name: "Ignite App" })
+    .configure({ name: 'Ignite App' })
     .useReactNative()
     .use(reduxPlugin({ onRestore: Immutable }))
-    .use(sagaPlugin())
+    .use(sagaPlugin)
     .connect();
 
   // Let's clear Reactotron on every time we load the app

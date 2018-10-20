@@ -1,5 +1,192 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Renders Correctly 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={null}
+>
+  <View
+    avatar={true}
+    button={true}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "transparent",
+        "borderBottomWidth": null,
+        "borderColor": "#c9c9c9",
+        "flexDirection": "row",
+        "marginLeft": 16,
+        "paddingBottom": null,
+        "paddingRight": null,
+        "paddingTop": null,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "flex-start",
+          "alignSelf": "flex-start",
+          "flex": 0,
+          "flexDirection": "row",
+          "paddingTop": 14,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "http://digitalspyuk.cdnds.net/17/25/980x490/landscape-1498216547-avatar-neytiri.jpg",
+          }
+        }
+        style={
+          Object {
+            "borderRadius": 28,
+            "height": 56,
+            "width": 56,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": null,
+            "alignSelf": null,
+            "borderBottomWidth": 0.5,
+            "borderColor": "#c9c9c9",
+            "flex": 1,
+            "marginLeft": 15,
+            "paddingBottom": 10,
+            "paddingTop": 10,
+          },
+          Object {
+            "alignItems": "flex-start",
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "marginLeft": null,
+              "marginRight": 10,
+            },
+            Object {
+              "color": "#212121",
+              "fontFamily": "BYekan+",
+            },
+          ]
+        }
+        uppercase={false}
+      >
+        sajjad
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "red",
+                "fontSize": 28,
+              },
+              Object {
+                "marginBottom": -3,
+              },
+              Object {
+                "fontFamily": "Material Icons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }
+        >
+          ?
+        </Text>
+        <Text
+          note={true}
+          style={
+            Array [
+              Object {
+                "color": "#808080",
+                "fontFamily": "System",
+                "fontSize": 14,
+                "fontWeight": "200",
+                "marginLeft": null,
+                "marginRight": 10,
+              },
+              Object {
+                "color": "#424242",
+                "fontFamily": "BYekan+",
+              },
+            ]
+          }
+          uppercase={false}
+        >
+          Rejected
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "flex-end",
+          "alignSelf": "stretch",
+          "borderBottomWidth": 0.5,
+          "borderColor": "#c9c9c9",
+          "flex": 0,
+          "paddingBottom": 10,
+          "paddingLeft": null,
+          "paddingRight": 15,
+          "paddingTop": 10,
+        }
+      }
+    >
+      <Text
+        note={true}
+        style={
+          Array [
+            Object {
+              "alignSelf": null,
+              "color": "#808080",
+              "fontFamily": "System",
+              "fontSize": 12,
+              "fontWeight": "200",
+            },
+            Object {
+              "color": "#9E9E9E",
+              "fontFamily": "BYekan+",
+            },
+          ]
+        }
+        uppercase={false}
+      >
+        3:30
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
 exports[`renders correctly 1`] = `
 <View
   accessible={true}

@@ -11,7 +11,7 @@ export interface SettingsListItemProps {
   isLtr:boolean
 }
 
-const Direction = (props:SettingsListItemProps) => props.isLtr? <Ltr {...props} /> : <Rtl {...props}/>;
+export const Direction = (props:SettingsListItemProps) => props.isLtr? <Ltr {...props} /> : <Rtl {...props}/>;
 
 const mapStateToProps = state => {
   return {

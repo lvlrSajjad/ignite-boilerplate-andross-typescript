@@ -10,12 +10,12 @@ export interface ChatsListItemProps {
   note: string,
   time: string,
   isDarkMode?: boolean,
-  onPress():void,
+  onPress?():void,
   isLtr:boolean,
   colorScheme:ColorScheme
 }
 
-const Direction = (props:ChatsListItemProps) => props.isLtr ? <Ltr {...props} /> : <Rtl {...props}/>;
+export const Direction = (props:ChatsListItemProps) => props.isLtr ? <Ltr {...props} /> : <Rtl {...props}/>;
 
 const mapStateToProps = state => {
   return {

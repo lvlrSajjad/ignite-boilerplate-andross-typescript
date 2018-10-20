@@ -3,7 +3,7 @@ import Rtl from './RoundedButton.rtl';
 import Ltr from './RoundedButton.ltr';
 import {connect} from "react-redux";
 
-const Direction = (props) => props.isLtr? <Ltr {...props} /> : <Rtl {...props} />;
+export const Direction = (props) => props.isLtr? <Ltr {...props} /> : <Rtl {...props} />;
 
 const mapStateToProps = state => {
   return {

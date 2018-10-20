@@ -1,19 +1,16 @@
 import "react-native";
 import * as React from "react";
-import SettingsToggleItem from "../SettingsToggleItem";
+import {Direction as SettingsToggleItem} from "../SettingsToggleItem";
 import * as renderer from 'react-test-renderer';
+import {colorScheme} from "../../../../Themes/Colors";
 
-test("AlertMessage component renders correctly if show is true", () => {
-  const tree = renderer.create(<SettingsToggleItem title="howdy" />).toJSON();
-  expect(tree).toMatchSnapshot();
-});
-
-test("AlertMessage component does not render if show is false", () => {
-  const tree = renderer.create(<SettingsToggleItem title="howdy" show={false} />).toJSON();
-  expect(tree).toMatchSnapshot();
-});
-
-test("AlertMessage component renders correctly if backgroundColor prop is set", () => {
-  const tree = renderer.create(<SettingsToggleItem title="howdy" style={{ backgroundColor: "red" }} />).toJSON();
+test("Renders Correctly", () => {
+  const tree = renderer.create(<SettingsToggleItem
+    name="howdy"
+    icon={'1'}
+    value={true}
+    colorScheme={colorScheme(true)}
+    isLtr={false}
+  />).toJSON();
   expect(tree).toMatchSnapshot();
 });

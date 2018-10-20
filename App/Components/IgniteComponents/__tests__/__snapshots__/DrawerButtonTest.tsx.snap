@@ -17,9 +17,37 @@ exports[`DrawerButton component renders correctly 1`] = `
   }
 >
   <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "white",
+        "fontFamily": "Avenir-Book",
+        "fontSize": 20,
+        "marginVertical": 10,
+      }
+    }
+  >
+    hi
+  </Text>
+</View>
+`;
+
+exports[`DrawerButton component renders correctly 2`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <Text
     style={
       Object {
         "color": "white",

@@ -9,17 +9,17 @@ import * as LoginActions from "../../Redux/Login/LoginActions";
 interface LoginCardProps {
   primaryColor?: string,
   isLoading?: boolean,
-  onButtonPress(step: number, textValue?: string): void
-  onBackButtonPressed(): void,
+  onButtonPress?(step: number, textValue?: string): void
+  onBackButtonPressed?(): void,
   step?: number,
   phoneNumber?: string,
   varCode?: string,
   prefixNumber?: string,
   userName?: string,
-  loginStep(step:number):void,
-  setPhoneNumber(text:string):void,
-  setVerifyCode(text:string):void,
-  setUserName(text:string):void
+  loginStep?(step:number):void,
+  setPhoneNumber?(text:string):void,
+  setVerifyCode?(text:string):void,
+  setUserName?(text:string):void
 
 }
 
@@ -31,7 +31,7 @@ interface LoginCardState {
   userName: string
 }
 
-class LoginCard extends React.Component<LoginCardProps, LoginCardState> {
+export class LoginCard extends React.Component<LoginCardProps, LoginCardState> {
   constructor(props) {
     super(props);
     this.state = {

@@ -5,12 +5,21 @@ import {Component} from 'react'
 import {Provider} from 'react-redux'
 import RootContainer from './RootContainer'
 import createStore from '../Redux'
+import {Monitor} from "redux-saga";
+import {StoreCreator} from "redux";
 
 declare global {
   interface Console {
-    tron: any
+    tron: any,
   }
 }
+declare module 'reactotron-react-native' {
+  export interface Reactotron {
+    createSagaMonitor(): Monitor,
+    createStore: StoreCreator,
+  }
+}
+
 
 export const store = createStore();
 
