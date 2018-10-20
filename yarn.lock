@@ -1097,11 +1097,6 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-10.11.3.tgz#c055536ac8a5e871701aa01914be5731539d01ee"
   integrity sha512-3AvcEJAh9EMatxs+OxAlvAEs7OTy6AG94mcH1iqyVDwVVndekLxzwkWQ/Z4SDbY6GO2oyUXyWW8tQ4rENSSQVQ==
 
-"@types/node@^10.12.0":
-  version "10.12.0"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.12.0.tgz#ea6dcbddbc5b584c83f06c60e82736d8fbb0c235"
-  integrity sha512-3TUHC3jsBAB7qVRGxT6lWyYo2v96BMmD2PTcl47H25Lu7UXtFH/2qqmKiVrnel6Ne//0TFYf6uvNX+HW2FRkLQ==
-
 "@types/prop-types@*":
   version "15.5.6"
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.5.6.tgz#9c03d3fed70a8d517c191b7734da2879b50ca26c"
@@ -1129,33 +1124,6 @@
   dependencies:
     "@types/prop-types" "*"
     csstype "^2.2.0"
-
-"@types/tapable@*":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@types/tapable/-/tapable-1.0.4.tgz#b4ffc7dc97b498c969b360a41eee247f82616370"
-  integrity sha512-78AdXtlhpCHT0K3EytMpn4JNxaf5tbqbLcbIRoQIHzpTIyjpxLQKRoxU55ujBXAtg3Nl2h/XWvfDa9dsMOd0pQ==
-
-"@types/uglify-js@*":
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/@types/uglify-js/-/uglify-js-3.0.4.tgz#96beae23df6f561862a830b4288a49e86baac082"
-  integrity sha512-SudIN9TRJ+v8g5pTG8RRCqfqTMNqgWCKKd3vtynhGzkIIjxaicNAMuY5TRadJ6tzDu3Dotf3ngaMILtmOdmWEQ==
-  dependencies:
-    source-map "^0.6.1"
-
-"@types/webpack-env@^1.13.6":
-  version "1.13.6"
-  resolved "https://registry.yarnpkg.com/@types/webpack-env/-/webpack-env-1.13.6.tgz#128d1685a7c34d31ed17010fc87d6a12c1de6976"
-  integrity sha512-5Th3OsZ4gTRdr9Mho83BQ23cex4sRhOR4XTG+m+cJc0FhtUBK9Vn62hBJ+pnQYnSxoPOsKoAPOx6FcphxBC8ng==
-
-"@types/webpack@^4.4.17":
-  version "4.4.17"
-  resolved "https://registry.yarnpkg.com/@types/webpack/-/webpack-4.4.17.tgz#3da3e0823a051311ba510bdc32354888921fc8b4"
-  integrity sha512-f8fHYEhlrSQJ5BHaonyatL11MYwqQ7I6QDVCT41LqIyxR7j9B2uY4cQKxDoWFC9l2NbFGsIhiJBKZ6Y6LMBFLA==
-  dependencies:
-    "@types/node" "*"
-    "@types/tapable" "*"
-    "@types/uglify-js" "*"
-    source-map "^0.6.0"
 
 abab@^2.0.0:
   version "2.0.0"
@@ -6236,11 +6204,6 @@ hyphenate-style-name@^1.0.1, hyphenate-style-name@^1.0.2:
   resolved "https://registry.yarnpkg.com/hyphenate-style-name/-/hyphenate-style-name-1.0.2.tgz#31160a36930adaf1fc04c6074f7eb41465d4ec4b"
   integrity sha1-MRYKNpMK2vH8BMYHT360FGXU7Es=
 
-i18n-js@3.0.11, i18n-js@^3.0.11:
-  version "3.0.11"
-  resolved "https://registry.yarnpkg.com/i18n-js/-/i18n-js-3.0.11.tgz#f9e96bdb641c5b9d6be12759d7c422089987ef02"
-  integrity sha512-v7dG3kYJTQTyox3NqDabPDE/ZotWntyMI9kh4cYi+XlCSnsIR+KBTS2opPyObL8WndnklcLzbNU92FP/mLge3Q==
-
 iconv-lite@0.4.19:
   version "0.4.19"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.19.tgz#f7468f60135f5e5dad3399c0a81be9a1603a082b"
@@ -10122,12 +10085,10 @@ react-native-firebase@^5.0.0:
     opencollective-postinstall "^2.0.0"
     prop-types "^15.6.2"
 
-react-native-i18n@^2.0.15:
-  version "2.0.15"
-  resolved "https://registry.yarnpkg.com/react-native-i18n/-/react-native-i18n-2.0.15.tgz#09b5a9836116fa7dbd0054c46e2d1014c1ef3c65"
-  integrity sha512-V8VwUP0TLda3oJvgt5tdnFaOV7WXPhTjCTLO7sXI3C2SHggSbD4bCUryMzNJhesimJidH21V2Owvj4zAylHoQQ==
-  dependencies:
-    i18n-js "3.0.11"
+react-native-i18n@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/react-native-i18n/-/react-native-i18n-1.0.0.tgz#0c407d9ebb846aae1aa5e05de6503008553f02fd"
+  integrity sha1-DEB9nruEaq4apeBd5lAwCFU/Av0=
 
 react-native-iphone-x-helper@^1.0.1, react-native-iphone-x-helper@^1.0.2:
   version "1.2.0"
@@ -10493,7 +10454,7 @@ reactotron-core-client@^2.1.0:
   resolved "https://registry.yarnpkg.com/reactotron-core-client/-/reactotron-core-client-2.1.0.tgz#d36f806eaf14a9f8c4595a9866f8cbfaafc1ee8c"
   integrity sha512-YnTWbnpuo6Jy3kgBLUqzjbkgdyWlrosQvt1Q2LRPlo39o3n/lfncN/bmO9JQh9hD8A3L7DEQ7XCPpVPek1BJPA==
 
-reactotron-react-native@^2.1.0:
+reactotron-react-native@^2.0.0-alpha.3:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/reactotron-react-native/-/reactotron-react-native-2.1.0.tgz#eefafb8d146e96f037c33ef5d57e5a4ada3124f7"
   integrity sha512-dx0r6w81K1EHns13Oq3LblaXeWsZ8/0vjX4dgR5W2Jp4l7XpEBirpE+g8J1g+rWhiZObn7Jp3jmCJJoheRAncA==
@@ -10502,7 +10463,7 @@ reactotron-react-native@^2.1.0:
     prop-types "^15.5.10"
     reactotron-core-client "^2.1.0"
 
-reactotron-redux-saga@^2.1.0:
+reactotron-redux-saga@^2.0.0-alpha.3:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/reactotron-redux-saga/-/reactotron-redux-saga-2.1.0.tgz#deb8ef572ffc60ce1dcac36488ead334f3a344b0"
   integrity sha512-DlFJMfff9wwlUSvHscP0NNHILQlccr+/egjoQay0czYCk5NM98virA04KaCv0DGQn9vc3/pUdwtxEeqPnklX+Q==
@@ -10513,7 +10474,7 @@ reactotron-redux-saga@^2.1.0:
     redux "^3.7.1"
     redux-saga "^0.15.3"
 
-reactotron-redux@^2.1.0:
+reactotron-redux@^2.0.0-alpha.3:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/reactotron-redux/-/reactotron-redux-2.1.0.tgz#69568912e2894cb3d996843bdaa759c3ec59a45a"
   integrity sha512-HWfDIZN5stZJrdQXp5AWgH12rgGLpXoSV2rC3va0BP9XxwgG+SKA1f2DQ8W2MrDz5wZ47PGLfhHPjqJQUM20dQ==
@@ -10696,10 +10657,10 @@ redux-axios-middleware@^4.0.0:
   resolved "https://registry.yarnpkg.com/redux-axios-middleware/-/redux-axios-middleware-4.0.0.tgz#81951c3d9adce6f83ef892fd1568571cebe4a336"
   integrity sha1-gZUcPZrc5vg++JL9FWhXHOvkozY=
 
-redux-persist@^5.10.0:
-  version "5.10.0"
-  resolved "https://registry.yarnpkg.com/redux-persist/-/redux-persist-5.10.0.tgz#5d8d802c5571e55924efc1c3a9b23575283be62b"
-  integrity sha512-sSJAzNq7zka3qVHKce1hbvqf0Vf5DuTVm7dr4GtsqQVOexnrvbV47RWFiPxQ8fscnyiuWyD2O92DOxPl0tGCRg==
+redux-persist@5.4.0:
+  version "5.4.0"
+  resolved "https://registry.yarnpkg.com/redux-persist/-/redux-persist-5.4.0.tgz#a1062313546a9d4ca6f9271464d18f736e8ca394"
+  integrity sha512-Ohp7g5WRx2rDyDk/bKKCgbD3ES6ahGPWxFEp3QPx2opwst0jJEbZKigZtQewUeJZnomN/7Zo3QglPDOZ6EdYEw==
 
 redux-saga@^0.15.3:
   version "0.15.6"
