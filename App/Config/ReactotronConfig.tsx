@@ -1,7 +1,7 @@
 import * as Immutable from "seamless-immutable";
 import Reactotron from "reactotron-react-native";
 import { reactotronRedux as reduxPlugin } from "reactotron-redux";
-//import sagaPlugin from "reactotron-redux-saga";
+import * as sagaPlugin from "reactotron-redux-saga";
 import Config from "./DebugConfig";
 
 if (Config.useReactotron) {
@@ -10,7 +10,7 @@ if (Config.useReactotron) {
     .configure({ name: "Ignite App" })
     .useReactNative()
     .use(reduxPlugin({ onRestore: Immutable }))
-   // .use(sagaPlugin())
+    .use(sagaPlugin())
     .connect();
 
   // Let's clear Reactotron on every time we load the app
