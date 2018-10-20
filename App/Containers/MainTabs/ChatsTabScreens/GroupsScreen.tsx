@@ -2,7 +2,7 @@ import * as React from 'react'
 import {Component} from 'react';
 import {Container, Content} from 'native-base';
 import {FlatList} from "react-native";
-import {dummyGroupsData} from "../../../Config/DummyData";
+import {dummyGroupsData} from "../../../Fixtures/DummyData";
 import {connect} from "react-redux";
 import ChatsListItem from '../../../Components/LaunchScreen/ChatsTab/ChatsListItem';
 import {ColorScheme} from "../../../Themes/Colors";

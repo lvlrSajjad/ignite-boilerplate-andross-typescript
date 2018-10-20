@@ -3,7 +3,7 @@ import {Component} from 'react';
 import {connect} from "react-redux";
 import {Container, Content} from 'native-base';
 import {FlatList} from "react-native";
-import {dummyChannelsData} from "../../Config/DummyData";
+import {dummyChannelsData} from "../../Fixtures/DummyData";
 import ChatsListItem from "../../Components/LaunchScreen/ChatsTab/ChatsListItem";
 import {ColorScheme} from "../../Themes/Colors";
 
