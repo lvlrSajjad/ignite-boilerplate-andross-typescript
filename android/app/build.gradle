@@ -141,7 +141,6 @@ dependencies {
     implementation project(':react-native-material-kit')
     implementation project(':realm')
     implementation project(':react-native-config')
-    implementation project(':react-native-i18n')
     implementation project(':react-native-vector-icons')
     implementation (project(':mapbox-react-native-mapbox-gl')) {
         implementation('com.squareup.okhttp3:okhttp:3.6.0') {

@@ -1,5 +1,5 @@
 import '../Config'
-//import DebugConfig from '../Config/DebugConfig'
+import DebugConfig from '../Config/DebugConfig'
 import * as React from 'react'
 import {Component} from 'react'
 import {Provider} from 'react-redux'
@@ -34,8 +34,8 @@ class App extends Component {
   }
 }
 
-// allow reactotron overlay for fast design in dev mode
-// export default DebugConfig.useReactotron
-//   ? console.tron.overlay(App)
-//   : App
-export default App
+//allow reactotron overlay for fast design in dev mode
+export default DebugConfig.useReactotron
+  ? console.tron.overlay(App)
+  : App
+//export default App

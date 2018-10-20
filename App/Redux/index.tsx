@@ -32,15 +32,15 @@ export default () => {
 
   if (module.hot) {
     module.hot.accept(() => {
-      const nextRootReducer = require("./").reducers;
-      store.replaceReducer(nextRootReducer);
+      const nextRootReducer = require('./').reducers
+      store.replaceReducer(nextRootReducer)
 
-      const newYieldedSagas = require("../Sagas").default;
-      sagasManager.cancel();
+      const newYieldedSagas = require('../Sagas').default
+      sagasManager.cancel()
       sagasManager.done.then(() => {
-        sagasManager = sagaMiddleware.run(newYieldedSagas);
-      });
-    });
+        sagasManager = sagaMiddleware.run(newYieldedSagas)
+      })
+    })
   }
 // create our store
 

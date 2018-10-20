@@ -10,7 +10,7 @@ if (Config.useReactotron) {
     .configure({ name: "Ignite App" })
     .useReactNative()
     .use(reduxPlugin({ onRestore: Immutable }))
-  //  .use(sagaPlugin())
+   // .use(sagaPlugin())
     .connect();
 
   // Let's clear Reactotron on every time we load the app
