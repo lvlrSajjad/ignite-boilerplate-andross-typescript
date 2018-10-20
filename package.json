@@ -155,9 +155,7 @@
     ],
     "transform": {
       "^.+\\.js$": "<rootDir>/node_modules/react-native/jest/preprocessor.js",
-      "\\.(ts|tsx)$": "ts-jest",
-      "^.+\\.tsx?$": "ts-jest"
-
+      "\\.(ts|tsx)$": "ts-jest"
     },
     "cacheDirectory": ".jest/cache"
   },

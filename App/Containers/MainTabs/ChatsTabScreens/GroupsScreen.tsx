@@ -18,16 +18,16 @@ class GroupsScreen extends Component<GroupsScreenProps> {
     this.renderListItems = this.renderListItems.bind(this);
   }
   render() {
-    const ColorScheme = this.props.colorScheme;
+    const colorScheme = this.props.colorScheme;
     return (
       <Container
-        style={{backgroundColor:ColorScheme.containersBackground}}
+        style={{backgroundColor:colorScheme.containersBackground}}
       >
         <Content>
           <FlatList
             data={dummyGroupsData}
             keyExtractor={item => item.id.toString()}
-            renderItem={({item}) => this.renderListItems(item,ColorScheme)}
+            renderItem={({item}) => this.renderListItems(item,colorScheme)}
           />
         </Content>
       </Container>

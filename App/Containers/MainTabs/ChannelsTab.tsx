@@ -25,16 +25,17 @@ class ChannelsTab extends Component<ChannelsTabProps> {
           <FlatList
             data={dummyChannelsData}
             keyExtractor={item => item.id.toString()}
-            renderItem={({item}) => ChannelsTab.renderListItems(item)}
+            renderItem={({item}) => ChannelsTab.renderListItems(item,ColorScheme)}
           />
         </Content>
       </Container>
     );
   }
 
-  static renderListItems(item) {
+  static renderListItems(item,ColorScheme) {
     return (
       <ChatsListItem
+        colorScheme={ColorScheme}
         avatar={item.avatar}
         name={item.name}
         note={item.note}
