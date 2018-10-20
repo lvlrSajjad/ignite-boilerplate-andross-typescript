@@ -307,11 +307,11 @@
     // disallow mixed spaces and tabs for indentation
     "quotes": [
       1,
-      "double",
+      "single",
       "avoid-escape"
     ],
     // specify whether double or single quotes should be used
-    "quote-props": 0,
+    "quote-props": 1,
     // require quotes around object literal property names (off by default)
     "semi": 1,
     // require or disallow use of semicolons instead of ASI
