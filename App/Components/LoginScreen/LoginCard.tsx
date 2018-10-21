@@ -20,7 +20,6 @@ interface LoginCardProps {
   setPhoneNumber?(text:string):void,
   setVerifyCode?(text:string):void,
   setUserName?(text:string):void
-
 }
 
 interface LoginCardState {
