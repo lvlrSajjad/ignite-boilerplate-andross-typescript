@@ -8,10 +8,5 @@ test("renders without crashing minimum props", () => {
 });
 
 test("renders without crashing rtl", () => {
-  shallow(<UserInfoForm  userName='' isLtr={false}/>);
-
-});
-
-test("renders without crashing ltr", () => {
-  shallow(<UserInfoForm  userName='' isLtr/>);
+  shallow(<UserInfoForm  userName='' isRtl/>);
 });

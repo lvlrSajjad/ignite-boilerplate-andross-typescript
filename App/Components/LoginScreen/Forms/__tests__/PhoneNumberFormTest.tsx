@@ -21,8 +21,8 @@ test("renders without crashing", () => {
   shallow(<PhoneNumberForm {...params} />);
 });
 
-test("renders without crashing", () => {
-  shallow(<PhoneNumberForm {...params} />);
+test("renders without crashing rtl", () => {
+  shallow(<PhoneNumberForm {...params} isRtl />);
 });
 
 test("renders without without darkMode param", () => {

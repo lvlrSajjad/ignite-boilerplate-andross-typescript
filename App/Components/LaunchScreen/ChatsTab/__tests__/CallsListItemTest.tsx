@@ -27,21 +27,11 @@ test("renders without crashing with minimum props Light" , () => {
   />);
 });
 
-
-test("renders without crashing with minimum props Light Ltr" , () => {
-
-  shallow(<CallsListItem
-    {...minimumProps}
-    isLtr={false}
-    colorScheme={colorScheme(false)}
-  />);
-});
-
 test("renders without crashing with minimum props Light Rtl" , () => {
 
   shallow(<CallsListItem
     {...minimumProps}
-    isLtr={true}
+    isRtl
     colorScheme={colorScheme(false)}
   />);
 });

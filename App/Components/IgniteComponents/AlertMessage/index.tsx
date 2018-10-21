@@ -3,11 +3,11 @@ import Rtl from './AlertMessage.rtl';
 import Ltr from './AlertMessage.ltr';
 import {connect} from "react-redux";
 
-export const Direction = (props) => props.isLtr? <Ltr {...props} /> : <Rtl {...props} />;
+export const Direction = (props) => props.isRtl? <Rtl {...props} /> : <Ltr {...props} />;
 
 const mapStateToProps = state => {
   return {
-    isLtr: state.appSettings.isLtr
+    isRtl: state.appSettings.isRtl
   };
 };
 

@@ -10,14 +10,14 @@ export interface UserInfoFormProps {
   isLoading?: boolean,
   isDarkMode?: boolean,
   onPress?(): void,
-  isLtr?: boolean
+  isRtl?: boolean
 }
 
-export const Direction = (props:UserInfoFormProps) => props.isLtr ? <Ltr {...props} /> : <Rtl {...props}/>;
+export const Direction = (props:UserInfoFormProps) => props.isRtl ? <Rtl {...props} /> : <Ltr {...props}/>;
 
 const mapStateToProps = state => {
   return {
-    isLtr: state.appSettings.isLtr
+    isRtl: state.appSettings.isRtl
   };
 };
 

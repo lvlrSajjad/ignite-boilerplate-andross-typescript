@@ -9,14 +9,9 @@ test("renders without crashing minimum props", () => {
 });
 
 test("renders without crashing rtl", () => {
-  shallow(<PhoneValidationForm  varCode='' isLtr={false}/>);
+  shallow(<PhoneValidationForm  varCode='' isRtl/>);
 
 });
-
-test("renders without crashing ltr", () => {
-  shallow(<PhoneValidationForm  varCode='' isLtr/>);
-});
-
 
 test("onPress", () => {
   let varCode = ""; // i guess i could have used sinon here too... less is more i guess

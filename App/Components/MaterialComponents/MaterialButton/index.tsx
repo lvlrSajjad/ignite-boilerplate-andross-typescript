@@ -11,15 +11,15 @@ export interface MaterialButtonProps {
   text: string,
   isLoading: boolean,
   onPress():void,
-  isLtr:boolean
+  isRtl:boolean
 }
 
 
-export const Direction = (props) => props.isLtr ? <Ltr {...props} /> : <Rtl {...props}/>;
+export const Direction = (props) => props.isRtl ? <Rtl {...props} /> : <Ltr {...props}/>;
 
 const mapStateToProps = state => {
   return {
-    isLtr: state.appSettings.isLtr
+    isRtl: state.appSettings.isRtl
   };
 };
 

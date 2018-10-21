@@ -8,14 +8,14 @@ export interface SettingsListItemProps {
   name: string,
   icon: string,
   colorScheme:ColorScheme,
-  isLtr:boolean
+  isRtl:boolean
 }
 
-export const Direction = (props:SettingsListItemProps) => props.isLtr? <Ltr {...props} /> : <Rtl {...props}/>;
+export const Direction = (props:SettingsListItemProps) => props.isRtl? <Rtl {...props} /> : <Ltr {...props}/>;
 
 const mapStateToProps = state => {
   return {
-    isLtr: state.appSettings.isLtr
+    isRtl: state.appSettings.isRtl
   };
 };
 

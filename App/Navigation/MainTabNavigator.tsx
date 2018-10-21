@@ -39,27 +39,27 @@ const SettingsRouteOptions = {
   navigationOptions: commonNavigationOptions,
 };
 
-const order = (isLtr) => isLtr ?
-  {
-    [I18n.t('chats')]: ChatsRouteOptions,
-    [I18n.t('channels')]: ChannelsRouteOptions,
-    [I18n.t('location')]: LocationRouteOptions,
-    [I18n.t('search')]: SearchRouteOptions,
-    [I18n.t('settings')]: SettingsRouteOptions
+const order = (isRtl) => isRtl ?
 
-  } :
   {
     [I18n.t('settings')]: SettingsRouteOptions,
     [I18n.t('search')]: SearchRouteOptions,
     [I18n.t('location')]: LocationRouteOptions,
     [I18n.t('channels')]: ChannelsRouteOptions,
     [I18n.t('chats')]: ChatsRouteOptions
+  } : {
+    [I18n.t('chats')]: ChatsRouteOptions,
+    [I18n.t('channels')]: ChannelsRouteOptions,
+    [I18n.t('location')]: LocationRouteOptions,
+    [I18n.t('search')]: SearchRouteOptions,
+    [I18n.t('settings')]: SettingsRouteOptions
+
   };
 
 // different routes for all, active and completed todos
 const tavNav = (props) => React.createElement(
   createMaterialBottomTabNavigator(
-    order(props.isLtr),
+    order(props.isRtl),
     {
       navigationOptions: ({navigation}) => ({
         tabBarIcon: ({focused}) => {
@@ -126,7 +126,7 @@ const tavNav = (props) => React.createElement(
 const mapStateToProps = state => {
   return {
     isDarkMode: state.appSettings.isDarkMode,
-    isLtr: state.appSettings.isLtr,
+    isRtl: state.appSettings.isRtl,
     colorScheme: state.appSettings.colorScheme
   };
 };

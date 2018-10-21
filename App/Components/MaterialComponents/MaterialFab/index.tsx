@@ -10,14 +10,14 @@ export interface MaterialFabProps {
   iconColor: string,
   icon: string,
   isLoading?: boolean,
-  isLtr?:boolean
+  isRtl?:boolean
 }
 
-export const Direction = (props:MaterialFabProps) => props.isLtr ? <Ltr {...props} /> : <Rtl {...props}/>;
+export const Direction = (props:MaterialFabProps) => props.isRtl ? <Rtl {...props} /> : <Ltr {...props}/>;
 
 const mapStateToProps = state => {
   return {
-    isLtr: state.appSettings.isLtr
+    isRtl: state.appSettings.isRtl
   };
 };
 

@@ -29,24 +29,22 @@ const CallsRouteOptions = {
 };
 
 
-const order = (isLtr) => isLtr ?
-  {
-    [I18n.t('chats')]: ChatsRouteOptions,
-    [I18n.t('groups')]: GroupsRouteOptions,
-    [I18n.t('calls')]: CallsRouteOptions
-
-  } :
+const order = (isRtl) => isRtl ?
   {
     [I18n.t('calls')]: CallsRouteOptions,
     [I18n.t('groups')]: GroupsRouteOptions,
     [I18n.t('chats')]: ChatsRouteOptions,
 
+  } : {
+    [I18n.t('chats')]: ChatsRouteOptions,
+    [I18n.t('groups')]: GroupsRouteOptions,
+    [I18n.t('calls')]: CallsRouteOptions
   };
 
 // different routes for all, active and completed todos
 const tavNav = (props) => React.createElement(
   createMaterialTopTabNavigator(
-    order(props.isLtr),
+    order(props.isRtl),
     {
       navigationOptions: ({navigation }) => ({
 
@@ -103,7 +101,7 @@ const tavNav = (props) => React.createElement(
 );
 const mapStateToProps = state => ({
   isDarkMode: state.appSettings.isDarkMode,
-  isLtr:state.appSettings.isLtr,
+  isRtl:state.appSettings.isRtl,
   colorScheme: state.appSettings.colorScheme
 });
 

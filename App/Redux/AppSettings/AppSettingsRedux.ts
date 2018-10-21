@@ -10,7 +10,7 @@ const DEFAULT_LOCALE = 'en';
 export const INITIAL_STATE = Immutable({
   isDarkMode:false,
   locale: DEFAULT_LOCALE,
-  isLtr:!isRtlLocale(DEFAULT_LOCALE),
+  isRtl:isRtlLocale(DEFAULT_LOCALE),
   colorScheme:colorScheme(false)
 });
 
@@ -21,12 +21,12 @@ export const reducer : Reducer<AppSettingsState> = (state:AppSettingsState=INITI
     case 'toggle_dark_mode':
       return {...state,isDarkMode:!state.isDarkMode,colorScheme:colorScheme(!state.isDarkMode)};
     case 'toggle_direction':
-      return {...state,isLtr:!state.isLtr};
+      return {...state,isRtl:!state.isRtl};
     case 'select_locale':
       I18n.locale=action.payload;
       return {...state,
         locale:action.payload,
-        isLtr:!isRtlLocale(action.payload)
+        isRtl:isRtlLocale(action.payload)
       };
    case REHYDRATE:
      I18n.locale = action.payload.appSettings.locale;

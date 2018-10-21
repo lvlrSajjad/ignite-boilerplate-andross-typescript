@@ -22,9 +22,5 @@ test("renders without crash with minimum props light", () => {
 });
 
 test("renders without crash with minimum props light rtl", () => {
-  shallow(<ChatListItem {...minimumProps} isLtr={false}/>)
-});
-
-test("renders without crash with minimum props light ltr", () => {
-  shallow(<ChatListItem {...minimumProps} isLtr={true}/>)
+  shallow(<ChatListItem {...minimumProps} isRtl />)
 });

@@ -155,14 +155,14 @@ Then you can set index.tsx content as below:
   export interface ComponentNameProps {
     //you can use this interface in ltr/rtl component
     ...,
-    isLtr:boolean
+    isRtl:boolean
   }
   
-  const Direction = (props:ComponentNameProps) => props.isLtr ? <Ltr {...props} /> : <Rtl {...props}/>;
+  const Direction = (props:ComponentNameProps) => props.isRtl ? <Rtl {...props} /> : <Ltr {...props}/>;
   
   const mapStateToProps = state => {
     return {
-      isLtr: state.appSettings.isLtr // appSettings is my reducer in Redux folder
+      isRtl: state.appSettings.isRtl // appSettings is my reducer in Redux folder
     };
   };
   
