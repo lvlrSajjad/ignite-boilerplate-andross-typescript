@@ -10,8 +10,8 @@ export interface PhoneNumberFormProps {
   phoneNumber: string,
   isLoading?: boolean,
   onPress?(): void,
-  isDarkMode: boolean,
-  isLtr: boolean
+  isDarkMode?: boolean,
+  isLtr?: boolean
 }
 
 export const Direction = (props:PhoneNumberFormProps) => props.isLtr ? <Ltr {...props} /> : <Rtl {...props}/>;

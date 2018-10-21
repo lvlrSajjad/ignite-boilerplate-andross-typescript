@@ -15,7 +15,7 @@ export interface MaterialButtonProps {
 }
 
 
-const Direction = (props) => props.isLtr ? <Ltr {...props} /> : <Rtl {...props}/>;
+export const Direction = (props) => props.isLtr ? <Ltr {...props} /> : <Rtl {...props}/>;
 
 const mapStateToProps = state => {
   return {

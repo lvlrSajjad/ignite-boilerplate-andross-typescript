@@ -1,12 +1,10 @@
 import "react-native";
 import * as React from "react";
 import { shallow } from "enzyme";
-import * as renderer from "react-test-renderer";
-import MaterialButton from "../MaterialButton";
+import {Direction as MaterialButton} from "../MaterialButton";
 
-test("FullButton component renders correctly", () => {
-  const tree = renderer.create(<MaterialButton color={'blue'} onPress={() => {}} text="hi" />).toJSON();
-  expect(tree).toMatchSnapshot();
+test("renders without crash with minimum props", () => {
+  shallow(<MaterialButton color={'blue'} text="hi" />);
 });
 
 test("onPress", () => {

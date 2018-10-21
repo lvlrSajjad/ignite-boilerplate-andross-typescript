@@ -1,35 +1,30 @@
 import "react-native";
 import * as React from "react";
-import  ChatsListItemLtr from "../ChatsListItem/ChatsListItem.ltr";
-import ChatsListItemRtl from "../ChatsListItem/ChatsListItem.rtl";
-
-import * as renderer from 'react-test-renderer';
+import {ChatsListItemProps, Direction as ChatListItem} from '../ChatsListItem';
 import {colorScheme} from "../../../../Themes/Colors";
+import {shallow} from "enzyme";
 
-test("Renders Correctly", () => {
-  const tree = renderer.create(
+const minimumProps:ChatsListItemProps = {
+  avatar: '',
+  name: '',
+  note: '',
+  time: '',
+  colorScheme: colorScheme(false)
+};
 
-      <ChatsListItemLtr
-        avatar={'http://digitalspyuk.cdnds.net/17/25/980x490/landscape-1498216547-avatar-neytiri.jpg'}
-        name="test"
-        note="test"
-        time="test"
-        colorScheme={colorScheme(false)}
-        isLtr
-      />).toJSON();
-  expect(tree).toMatchSnapshot();
+
+test("renders without crash with minimum props dark", () => {
+  shallow(<ChatListItem {...minimumProps} colorScheme={colorScheme(true)}/>)
 });
 
-test("Renders Correctly", () => {
-  const tree = renderer.create(
+test("renders without crash with minimum props light", () => {
+  shallow(<ChatListItem {...minimumProps}/>)
+});
 
-    <ChatsListItemRtl
-      avatar={'http://digitalspyuk.cdnds.net/17/25/980x490/landscape-1498216547-avatar-neytiri.jpg'}
-      name="test"
-      note="test"
-      time="test"
-      colorScheme={colorScheme(false)}
-      isLtr
-    />).toJSON();
-  expect(tree).toMatchSnapshot();
+test("renders without crash with minimum props light rtl", () => {
+  shallow(<ChatListItem {...minimumProps} isLtr={false}/>)
+});
+
+test("renders without crash with minimum props light ltr", () => {
+  shallow(<ChatListItem {...minimumProps} isLtr={true}/>)
 });

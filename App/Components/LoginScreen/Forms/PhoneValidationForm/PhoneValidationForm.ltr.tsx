@@ -50,7 +50,7 @@ export default (props : PhoneValidationFormProps) => {
         isLoading={props.isLoading}
         flex={1}
         onPress={() => {
-          props.onPress()
+          props.onPress(props.varCode)
         }}
       />
 

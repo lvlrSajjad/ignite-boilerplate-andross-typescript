@@ -11,7 +11,7 @@ export interface ChatsListItemProps {
   time: string,
   isDarkMode?: boolean,
   onPress?():void,
-  isLtr:boolean,
+  isLtr?:boolean,
   colorScheme:ColorScheme
 }
 

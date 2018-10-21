@@ -7,8 +7,8 @@ export interface PhoneValidationFormProps {
   onTextChange?(text:string): void,
   varCode: string,
   isLoading?: boolean,
-  onPress?(): void,
-  isDarkMode: boolean,
+  onPress?(varCode:string): void,
+  isDarkMode?: boolean,
   onBackButtonPress?(): void,
   isLtr?: boolean
 }

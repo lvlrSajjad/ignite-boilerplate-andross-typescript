@@ -7,7 +7,7 @@ export interface UserInfoFormProps {
   userName: string,
   onTextChange?(text: string): void,
   onBackButtonPress?(): void,
-  isLoading: boolean,
+  isLoading?: boolean,
   isDarkMode?: boolean,
   onPress?(): void,
   isLtr?: boolean

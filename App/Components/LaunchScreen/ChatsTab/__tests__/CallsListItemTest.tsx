@@ -1,35 +1,56 @@
 import "react-native";
 import * as React from "react";
-import  CallsListItemRtl from "../CallsListItem/CallsListItem.rtl";
-import CallsListItemLtr from "../CallsListItem/CallsListItem.ltr";
+import {CallsListItemProps, Direction as CallsListItem} from "../CallsListItem";
+import { colorScheme} from "../../../../Themes/Colors";
+import {shallow} from "enzyme";
 
-import * as renderer from 'react-test-renderer';
-import {colorScheme} from "../../../../Themes/Colors";
+const minimumProps: CallsListItemProps ={
+  avatar: '',
+  name: '',
+  state: 1,
+  time: ''
+};
 
-test("Renders Correctly" , () => {
+test("renders without crashing with minimum props Dark" , () => {
 
-  const tree = renderer.create(<CallsListItemRtl
-      avatar={'http://digitalspyuk.cdnds.net/17/25/980x490/landscape-1498216547-avatar-neytiri.jpg'}
-      name={'sajjad'}
-      state={2}
-      time={'3:30'}
-      colorScheme={colorScheme(false)}
-      isLtr={true}
-      isDarkMode={false}
-  />).toJSON();
-  expect(tree).toMatchSnapshot();
+  shallow(<CallsListItem
+    {...minimumProps}
+    colorScheme={colorScheme(true)}
+  />);
 });
 
-test("Renders Correctly" , () => {
+test("renders without crashing with minimum props Light" , () => {
 
-  const tree = renderer.create(<CallsListItemLtr
-    avatar={'http://digitalspyuk.cdnds.net/17/25/980x490/landscape-1498216547-avatar-neytiri.jpg'}
-    name={'sajjad'}
-    state={2}
-    time={'3:30'}
+  shallow(<CallsListItem
+    {...minimumProps}
     colorScheme={colorScheme(false)}
-    isLtr={true}
-    isDarkMode={false}
-  />).toJSON();
-  expect(tree).toMatchSnapshot();
+  />);
 });
+
+
+test("renders without crashing with minimum props Light Ltr" , () => {
+
+  shallow(<CallsListItem
+    {...minimumProps}
+    isLtr={false}
+    colorScheme={colorScheme(false)}
+  />);
+});
+
+test("renders without crashing with minimum props Light Rtl" , () => {
+
+  shallow(<CallsListItem
+    {...minimumProps}
+    isLtr={true}
+    colorScheme={colorScheme(false)}
+  />);
+});
+
+test("renders without crashing with minimum props Light unpredicted state" , () => {
+
+  shallow(<CallsListItem
+    {...minimumProps}
+    state={10}
+  />);
+});
+

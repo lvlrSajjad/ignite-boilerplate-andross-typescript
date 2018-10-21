@@ -1,16 +1,17 @@
 import "react-native";
 import * as React from "react";
-import UserInfoFormRtl from "../UserInfoForm/UserInfoForm.rtl";
-import UserInfoFormLtr from "../UserInfoForm/UserInfoForm.ltr";
+import {Direction as UserInfoForm} from "../UserInfoForm";
 import {shallow} from "enzyme";
 
-test("Renders Correctly", () => {
-  const tree = shallow(<UserInfoFormRtl userName={''} isLoading={false}   />);
-  expect(tree).toMatchSnapshot();
+test("renders without crashing minimum props", () => {
+  shallow(<UserInfoForm  userName=''/>);
 });
 
-test("Renders Correctly", () => {
-  const tree = shallow(<UserInfoFormLtr userName={''} isLoading={false}   />);
-  expect(tree).toMatchSnapshot();
+test("renders without crashing rtl", () => {
+  shallow(<UserInfoForm  userName='' isLtr={false}/>);
+
 });
 
+test("renders without crashing ltr", () => {
+  shallow(<UserInfoForm  userName='' isLtr/>);
+});
