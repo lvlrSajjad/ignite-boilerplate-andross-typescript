@@ -13,7 +13,7 @@ import I18n from '../../I18n';
 import {ColorScheme} from "../../Themes/Colors";
 
 interface SettingsTabProps {
-  isLtr?:boolean,
+  isRtl?:boolean,
   isDarkMode?:boolean,
   toggleDarkMode():void,
   toggleDirection():void,
@@ -74,7 +74,7 @@ class SettingsTab extends Component<SettingsTabProps> {
              colorScheme={ColorScheme}
            />
             <SettingsToggleItem
-              value = {!this.props.isLtr}
+              value = {this.props.isRtl}
               onValueChange={() => {
                 this.props.toggleDirection()
               }}
@@ -101,7 +101,7 @@ class SettingsTab extends Component<SettingsTabProps> {
 const mapStateToProps = state => {
   return {
     isDarkMode: state.appSettings.isDarkMode,
-    isLtr: state.appSettings.isLtr,
+    isRtl: state.appSettings.isRtl,
     colorScheme: state.appSettings.colorScheme,
     locale: state.appSettings.locale
   };
