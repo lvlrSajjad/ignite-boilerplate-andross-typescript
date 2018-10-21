@@ -10,7 +10,7 @@ test("Renders Correctly", () => {
     icon={'1'}
     value={true}
     colorScheme={colorScheme(true)}
-    isLtr={false}
+    isRtl
   />).toJSON();
   expect(tree).toMatchSnapshot();
 });

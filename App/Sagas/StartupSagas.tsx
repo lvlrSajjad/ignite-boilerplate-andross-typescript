@@ -8,8 +8,7 @@ export const selectAvatar = GithubSelectors.selectAvatar;
 export interface subObject{
   a:number,
   b:number[],
-  c:boolean,
-  circularDependency?: any
+  c:boolean
 }
 // process STARTUP actions
 export function* startup() {
@@ -23,8 +22,8 @@ export function* startup() {
       someGeneratorFunction: selectAvatar
     });
 
-    const subObject:subObject = { a: 1, b: [1, 2, 3], c: true }
-    subObject.circularDependency = subObject // osnap!
+    const subObject = { a: 1, b: [1, 2, 3], c: true }
+ //  subObject.circularDependency = subObject // osnap!
     console.tron.display({
       name: '🔥 IGNITE 🔥',
       preview: 'You should totally expand this',
