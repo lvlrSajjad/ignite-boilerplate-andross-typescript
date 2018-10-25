@@ -3,6 +3,7 @@ import * as React from "react";
 import {CallsListItemProps, Direction as CallsListItem} from "../CallsListItem";
 import { colorScheme} from "../../../../Themes/Colors";
 import {shallow} from "enzyme";
+import * as renderer from "react-test-renderer";
 
 const minimumProps: CallsListItemProps ={
   avatar: '',
@@ -17,6 +18,14 @@ test("renders without crashing with minimum props Dark" , () => {
     {...minimumProps}
     colorScheme={colorScheme(true)}
   />);
+});
+
+test("renders without crashing with minimum props Dark snapshot", () => {
+  const tree = renderer.create(<CallsListItem
+    {...minimumProps}
+    colorScheme={colorScheme(true)}
+  />).toJSON();
+  expect(tree).toMatchSnapshot();
 });
 
 test("renders without crashing with minimum props Light" , () => {
