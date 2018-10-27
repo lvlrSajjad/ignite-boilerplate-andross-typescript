@@ -1,6 +1,4 @@
 import * as React from "react";
-import {MKTextField} from 'react-native-material-kit';
-import styles from "../../Styles/LoginCardStyles";
 import {MKColor} from 'react-native-material-kit'
 import { View} from "react-native";
 import Fonts from "../../../../Themes/Fonts";
@@ -9,24 +7,20 @@ import MaterialButton from "../../../MaterialComponents/MaterialButton";
 import {primaryColor} from "../../../../Themes/Colors";
 import I18n from "../../../../I18n";
 import {PhoneValidationFormProps} from "./index";
+import { TextField } from 'react-native-material-textfield';
 
 export default (props : PhoneValidationFormProps) => {
 
   return (
     <View>
     <CardItem>
-      <MKTextField
-        tintColor={primaryColor}
-        textInputStyle={styles.loginFormTextInput}
-        floatingLabelFont={{...Fonts.style.farsiInput}}
-        placeholder={I18n.t('verificationNumber')}
-        onTextChange={(text) => props.onTextChange(text)}
-        text={props.varCode}
-        maxLength={6}
-        floatingLabelEnabled
-        keyboardType={'numeric'}
-        highlightColor={primaryColor}
-        style={{width: '100%'}}
+      <TextField
+        titleTextStyle={{...Fonts.style.farsiInput}}
+        labelTextStyle={{...Fonts.style.farsiInput}}
+        containerStyle={{flex:1}}
+        label={I18n.t('verificationNumber')}
+        value={props.varCode}
+        onChangeText={(text) => props.onTextChange(text)}
       />
     </CardItem>
     <CardItem>

@@ -1,6 +1,5 @@
 import * as React from "react";
-import {MKTextField} from 'react-native-material-kit';
-import styles from "../../Styles/LoginCardStyles";
+import { TextField } from 'react-native-material-textfield';
 import {MKColor} from 'react-native-material-kit'
 import {Image, View} from "react-native";
 import Fonts from "../../../../Themes/Fonts";
@@ -29,19 +28,13 @@ export default (props: UserInfoFormProps) => {
 
       </CardItem>
       <CardItem>
-        <MKTextField
-          tintColor={primaryColor}
-          textInputStyle={styles.loginFormTextInput}
-          floatingLabelFont={{...Fonts.style.farsiInput}}
-          placeholder={I18n.t('userName')}
-          onTextChange={(text) => props.onTextChange(text)}
-          text={props.userName}
-          maxLength={6}
-          floatingLabelEnabled
-          keyboardType={'numeric'}
-          highlightColor={primaryColor}
-          style={{width: '100%'}}
-        />
+        <TextField
+          titleTextStyle={{...Fonts.style.farsiInput}}
+          labelTextStyle={{...Fonts.style.farsiInput}}
+          containerStyle={{flex:1}}
+          label={I18n.t('userName')}
+          value={props.userName}
+          onChangeText={(text) => props.onTextChange(text)}        />
       </CardItem>
       <CardItem>
         <View style={{flexDirection: 'row'}}>

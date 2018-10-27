@@ -9,7 +9,7 @@ export default (props : MaterialButtonProps) => {
   return (
     <MKButton
       backgroundColor={props.color}
-      height={36}
+      height={42}
       borderRadius={2}
       justifyContent={'center'}
       flex={props.flex? props.flex:undefined}

@@ -18,7 +18,7 @@ export const Direction = (props:PhoneNumberFormProps) => props.isRtl ? <Rtl {...
 
 const mapStateToProps = state => {
   return {
-    isRtl: state.appSettings.isLtr
+    isRtl: state.appSettings.isRtl
   };
 };
 

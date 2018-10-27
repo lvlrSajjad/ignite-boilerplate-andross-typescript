@@ -9,9 +9,7 @@ export default (item: SettingsToggleItemProps) => {
     <CardItem>
       <Body>
       <Row>
-
         <Row style={{alignItems:'center',justifyContent:'center'}}>
-
           <MaterialIcons
             name={item.icon}
             size={28}
@@ -19,7 +17,6 @@ export default (item: SettingsToggleItemProps) => {
             color={'#424242'}
           />
           <Text style={{fontFamily: Fonts.type.farsi, color: '#424242',flex:1}}>{item.name}</Text>
-
         </Row>
         <Switch
           value={item.value}

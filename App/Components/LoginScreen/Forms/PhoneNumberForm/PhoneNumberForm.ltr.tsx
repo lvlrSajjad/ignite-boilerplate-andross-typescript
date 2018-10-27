@@ -1,36 +1,27 @@
 import * as React from "react";
-import {MKTextField} from 'react-native-material-kit';
 import styles from "../../Styles/LoginCardStyles";
-import {MKColor} from 'react-native-material-kit'
-import {Text, View} from "react-native";
+import { View} from "react-native";
 import Fonts from "../../../../Themes/Fonts";
 import { CardItem} from "native-base";
 import MaterialButton from "../../../MaterialComponents/MaterialButton";
-import { primaryColor, primaryColorLight} from "../../../../Themes/Colors";
+import { primaryColor} from "../../../../Themes/Colors";
 import I18n from "../../../../I18n";
 import {PhoneNumberFormProps} from "./index";
+import { TextField } from 'react-native-material-textfield';
 
 export default (props: PhoneNumberFormProps) => {
   return (
     <View>
     <CardItem>
       <View style={styles.loginFormPhoneInputContainer}>
-        <Text
-          style={styles.loginFormPrefixText}
-        >{props.prefixNumber}</Text>
-        <MKTextField
-          tintColor={primaryColor}
-          textInputStyle={styles.loginFormTextInput}
-          floatingLabelFont={{...Fonts.style.farsiInput}}
-          placeholder={I18n.t('phoneNumber')}
-          placeholderColor={MKColor.Grey}
-          onTextChange={(text) => props.onTextChange(text)}
-          text={props.phoneNumber}
-          maxLength={11}
-          floatingLabelEnabled
-          keyboardType={'numeric'}
-          highlightColor={primaryColorLight}
-          style={{flex: 1}}
+        <TextField
+          titleTextStyle={{...Fonts.style.farsiInput}}
+          labelTextStyle={{...Fonts.style.farsiInput}}
+          containerStyle={{flex:1}}
+          prefix={props.prefixNumber}
+          label={I18n.t('phoneNumber')}
+          value={props.phoneNumber}
+          onChangeText={(text) => props.onTextChange(text)}
         />
       </View>
     </CardItem>
