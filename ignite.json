@@ -1,0 +1,11 @@
+{
+  "generators": [
+    "component",
+    "container",
+    "listview",
+    "list",
+    "redux",
+    "saga",
+    "screen"
+  ]
+}

@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3f62ad2c-1973-43c4-a49a-dc82052ec6be" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/boilerplate/ignite.json.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.buckconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flowconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.watchmanconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.0.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.0.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.13.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/AlertMessage.story.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/AlertMessage/AlertMessage.ltr.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/AlertMessage/AlertMessage.rtl.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/AlertMessage/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/DrawerButton.story.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/DrawerButton/DrawerButton.ltr.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/DrawerButton/DrawerButton.rtl.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/DrawerButton/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/FullButton.story.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/FullButton/FullButton.ltr.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/FullButton/FullButton.rtl.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/FullButton/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/RoundedButton.story.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/RoundedButton/RoundedButton.ltr.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/RoundedButton/RoundedButton.rtl.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/RoundedButton/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/Stories.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/__tests__/AlertMessageTest.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/__tests__/DrawerButtonTest.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/__tests__/FullButtonTest.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/__tests__/RoundedButtonTest.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/__tests__/__snapshots__/AlertMessageTest.tsx.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/__tests__/__snapshots__/DrawerButtonTest.tsx.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/__tests__/__snapshots__/FullButtonTest.tsx.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/__tests__/__snapshots__/RoundedButtonTest.tsx.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/LaunchScreen/ChatsTab/CallsListItem/CallsListItem.ltr.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/LaunchScreen/ChatsTab/CallsListItem/CallsListItem.rtl.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/LaunchScreen/ChatsTab/CallsListItem/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/LaunchScreen/ChatsTab/ChatsListItem/ChatsListItem.ltr.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/LaunchScreen/ChatsTab/ChatsListItem/ChatsListItem.rtl.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/LaunchScreen/ChatsTab/ChatsListItem/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/LaunchScreen/ChatsTab/__tests__/CallsListItemTest.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/LaunchScreen/ChatsTab/__tests__/ChatsListItemTest.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/LaunchScreen/ChatsTab/__tests__/__snapshots__/CallsListItemTest.tsx.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/LaunchScreen/ChatsTab/__tests__/__snapshots__/ChatsListItemTest.tsx.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/LaunchScreen/SettingsTab/SettingsListItem/SettingsListItem.ltr.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/LaunchScreen/SettingsTab/SettingsListItem/SettingsListItem.rtl.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/LaunchScreen/SettingsTab/SettingsListItem/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/LaunchScreen/SettingsTab/SettingsToggleItem/SettingsToggleItem.ltr.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/LaunchScreen/SettingsTab/SettingsToggleItem/SettingsToggleItem.rtl.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/LaunchScreen/SettingsTab/SettingsToggleItem/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/LaunchScreen/SettingsTab/__tests__/SettingsListItemTest.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/LaunchScreen/SettingsTab/__tests__/SettingsToggleItemTest.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/LaunchScreen/SettingsTab/__tests__/__snapshots__/SettingsListItemTest.tsx.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/LaunchScreen/SettingsTab/__tests__/__snapshots__/SettingsToggleItemTest.tsx.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/LoginScreen/Forms/PhoneNumberForm/PhoneNumberForm.ltr.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/LoginScreen/Forms/PhoneNumberForm/PhoneNumberForm.rtl.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/LoginScreen/Forms/PhoneNumberForm/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/LoginScreen/Forms/PhoneValidationForm/PhoneValidationForm.ltr.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/LoginScreen/Forms/PhoneValidationForm/PhoneValidationForm.rtl.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/LoginScreen/Forms/PhoneValidationForm/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/LoginScreen/Forms/UserInfoForm/UserInfoForm.ltr.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/LoginScreen/Forms/UserInfoForm/UserInfoForm.rtl.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/LoginScreen/Forms/UserInfoForm/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/LoginScreen/Forms/__tests__/PhoneNumberFormTest.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/LoginScreen/Forms/__tests__/PhoneValidationFormTest.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/LoginScreen/Forms/__tests__/UserInfoFormTest.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/LoginScreen/Forms/__tests__/__snapshots__/PhoneNumberFormTest.tsx.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/LoginScreen/LoginCard.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/LoginScreen/Styles/LoginCardStyles.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/LoginScreen/__tests__/LoginCardTest.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/MaterialComponents/MaterialButton/MaterialButton.ltr.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/MaterialComponents/MaterialButton/MaterialButton.rtl.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/MaterialComponents/MaterialButton/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/MaterialComponents/MaterialFab/MaterialFab.ltr.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/MaterialComponents/MaterialFab/MaterialFab.rtl.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/MaterialComponents/MaterialFab/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/MaterialComponents/__tests__/MaterialButtonTest.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/MaterialComponents/__tests__/MaterialFabTest.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/MaterialComponents/__tests__/__snapshots__/MaterialFabTest.tsx.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/Styles/AlertMessageStyles.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/Styles/DrawerButtonStyles.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/Styles/FullButtonStyles.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/Styles/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Components/Styles/RoundedButtonStyles.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Config/AppConfig.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Config/DebugConfig.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Config/MapboxConfig.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Config/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Config/ReactotronConfig.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Config/ReduxPersist.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Config/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Containers/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Containers/LoginScreen.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Containers/MainTabs/ChannelsTab.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Containers/MainTabs/ChatsTabScreens/CallsScreen.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Containers/MainTabs/ChatsTabScreens/ChatsScreen.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Containers/MainTabs/ChatsTabScreens/GroupsScreen.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Containers/MainTabs/LocationTab.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Containers/MainTabs/SearchTab.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Containers/MainTabs/SettingsTab.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Containers/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Containers/RootContainer.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Containers/Styles/ChatScreenStyle.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Containers/Styles/LaunchScreenStyles.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Containers/Styles/LoginScreenStyles.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Containers/Styles/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Containers/Styles/RootContainerStyles.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Fixtures/DummyData.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Fixtures/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Fixtures/gantman.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Fixtures/rateLimit.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Fixtures/root.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Fixtures/skellock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/I18n/I18n.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/I18n/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/I18n/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/I18n/locales/en.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/I18n/locales/fa.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/I18n/platform_languages.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Images/BG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Images/Icons/back-button@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Images/Icons/chevron-right@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Images/Icons/close-button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Images/Icons/close-button@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Images/Icons/close-button@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Images/Icons/faq-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Images/Icons/faq-icon@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Images/Icons/faq-icon@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Images/Icons/hamburger@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Images/Icons/icon-api-testing@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Images/Icons/icon-components@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Images/Icons/icon-device-information@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Images/Icons/icon-home@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Images/Icons/icon-theme@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Images/Icons/icon-usage-examples@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Images/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Images/button-bg@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Images/ignite-logo-transparent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Images/ignite_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Images/ir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Images/launch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Images/launch-icon@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Images/launch-icon@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Images/tile_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Images/top_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Images/top_logo@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Images/top_logo@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Images/your-app.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Images/your-app@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Images/your-app@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Navigation/AppNavigation.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Navigation/ChatsTabNavigator.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Navigation/MainTabNavigator.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Navigation/ReduxNavigation.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Navigation/Styles/NavigationStyles.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Redux/AppSettings/AppSettingsAction.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Redux/AppSettings/AppSettingsRedux.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Redux/AppSettings/Types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Redux/CreateStore.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Redux/Github/GithubRedux.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Redux/Github/Types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Redux/Github/__tests__/GithubReduxTest.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Redux/Login/LoginActions.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Redux/Login/LoginRedux.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Redux/Login/Types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Redux/Navigation/NavigationRedux.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Redux/ScreenTrackingMiddleware.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Redux/Search/SearchRedux.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Redux/StartupRedux.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Redux/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Sagas/GithubSagas.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Sagas/StartupSagas.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Sagas/__tests__/GithubSagaTest.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Sagas/__tests__/StartupSagaTest.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Sagas/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Services/Api.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Services/ExamplesRegistry.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Services/FixtureApi.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Services/ImmutablePersistenceTransform.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Services/Rehydration.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Services/__tests__/FixtureAPITest.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Themes/ApplicationStyles.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Themes/Colors.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Themes/Fonts.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Themes/Images.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Themes/Metrics.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Themes/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Themes/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Transforms/CallStateToData.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Transforms/ConvertFromKelvin.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Transforms/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/StoriesTest.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__mocks__/fileMock.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__mocks__/react-native-i18n.mock.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__mocks__/react-native-mapbox-gl.mock.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__mocks__/styleMock.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/BUCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/BYekan+ Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/BYekan+.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/Entypo.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/EvilIcons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/Feather.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/FontAwesome.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/Foundation.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/Ionicons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/MaterialCommunityIcons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/MaterialIcons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/Octicons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/Roboto.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/Roboto_medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/SimpleLineIcons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/Zocial.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/rubicon-icon-font.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/index.android.bundle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/io/lvlrsajjad/boilerplate/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/io/lvlrsajjad/boilerplate/MainApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-hdpi/node_modules_reactnavigationstack_dist_views_assets_backicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-mdpi/app_images_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-mdpi/app_images_icons_closebutton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-mdpi/app_images_icons_faqicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-mdpi/app_images_ignite_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-mdpi/app_images_ignitelogotransparent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-mdpi/app_images_ir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-mdpi/app_images_launchicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-mdpi/app_images_tile_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-mdpi/app_images_top_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-mdpi/app_images_yourapp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-mdpi/node_modules_reactnavigationstack_dist_views_assets_backicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-mdpi/node_modules_reactnavigationstack_dist_views_assets_backiconmask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-xhdpi/app_images_buttonbg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-xhdpi/app_images_icons_backbutton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-xhdpi/app_images_icons_chevronright.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-xhdpi/app_images_icons_closebutton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-xhdpi/app_images_icons_faqicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-xhdpi/app_images_icons_hamburger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-xhdpi/app_images_icons_iconapitesting.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-xhdpi/app_images_icons_iconcomponents.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-xhdpi/app_images_icons_icondeviceinformation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-xhdpi/app_images_icons_iconhome.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-xhdpi/app_images_icons_icontheme.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-xhdpi/app_images_icons_iconusageexamples.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-xhdpi/app_images_launchicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-xhdpi/app_images_top_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-xhdpi/app_images_yourapp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-xhdpi/node_modules_reactnavigationstack_dist_views_assets_backicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-xxhdpi/app_images_icons_closebutton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-xxhdpi/app_images_icons_faqicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-xxhdpi/app_images_launchicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-xxhdpi/app_images_top_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-xxhdpi/app_images_yourapp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-xxhdpi/node_modules_reactnavigationstack_dist_views_assets_backicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-xxxhdpi/node_modules_reactnavigationstack_dist_views_assets_backicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/keystores/BUCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/keystores/debug.keystore.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ignite/Examples/Components/animatableExample.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ignite/Examples/Components/i18nExample.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ignite/Examples/Components/vectorExample.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ignite/ignite.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ignite/plugins/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Bitt-tvOS/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Bitt-tvOSTests/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Bitt.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Bitt.xcodeproj/xcshareddata/xcschemes/Bitt-tvOS.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Bitt.xcodeproj/xcshareddata/xcschemes/Bitt.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Bitt/AppDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Bitt/AppDelegate.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Bitt/Base.lproj/LaunchScreen.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Bitt/Images.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Bitt/Images.xcassets/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Bitt/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Bitt/main.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/BittTests/BittTests.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/BittTests/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/master" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rn-cli.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storybook/addons.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storybook/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storybook/storybook.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-preprocessor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-setup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-shim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/typings.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="boilerplate.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boilerplate.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="package.json.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boilerplate/package.json.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3082">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ignite.json.ejs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/boilerplate/ignite.json.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boilerplate/index.js.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/boilerplate/index.js" />
+        <option value="$PROJECT_DIR$/boilerplate/package.json" />
+        <option value="$PROJECT_DIR$/boilerplate/ignite.json.ejs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/boilerplate/package.json.ejs" />
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
+              <item name="boilerplate" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="" />
+    <property name="node.js.selected.package.standard" value="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\node_modules\standard" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3f62ad2c-1973-43c4-a49a-dc82052ec6be" name="Default" comment="" />
+      <created>1541415781062</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541415781062</updated>
+      <workItem from="1541415782650" duration="641000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="641000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="GitLabIntegration" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24925596" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32928944" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ignite.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/1.0.0">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/1.0.1">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/1.13.0">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-179" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/yarn.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="6170" column="27" selection-start-line="6170" selection-start-column="27" selection-end-line="6170" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/index.js.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/package.json.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3082">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/ignite.json.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
