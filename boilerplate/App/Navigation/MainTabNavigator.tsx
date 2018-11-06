@@ -7,7 +7,7 @@ import {connect} from "react-redux";
 import ChatsTab from './ChatsTabNavigator';
 import SearchTab from '../Containers/MainTabs/SearchTab';
 import ChannelsTab from '../Containers/MainTabs/ChannelsTab';
-import LocationTab from '../Containers/MainTabs/LocationTab';
+//import LocationTab from '../Containers/MainTabs/LocationTab'; // need to install mapbox for this
 import SettingsTab from '../Containers/MainTabs/SettingsTab';
 import Fonts from "../Themes/Fonts";
 import {BottomNavigation} from 'react-native-paper';
@@ -30,10 +30,10 @@ const ChannelsRouteOptions = {
   screen: ChannelsTab,
   navigationOptions: commonNavigationOptions,
 };
-const LocationRouteOptions = {
-  screen: LocationTab,
-  navigationOptions: commonNavigationOptions,
-};
+// const LocationRouteOptions = {
+//   screen: LocationTab,
+//   navigationOptions: commonNavigationOptions,
+// };
 const SettingsRouteOptions = {
   screen: SettingsTab,
   navigationOptions: commonNavigationOptions,
@@ -44,13 +44,13 @@ const order = (isRtl) => isRtl ?
   {
     [I18n.t('settings')]: SettingsRouteOptions,
     [I18n.t('search')]: SearchRouteOptions,
-    [I18n.t('location')]: LocationRouteOptions,
+  //  [I18n.t('location')]: LocationRouteOptions,
     [I18n.t('channels')]: ChannelsRouteOptions,
     [I18n.t('chats')]: ChatsRouteOptions
   } : {
     [I18n.t('chats')]: ChatsRouteOptions,
     [I18n.t('channels')]: ChannelsRouteOptions,
-    [I18n.t('location')]: LocationRouteOptions,
+   // [I18n.t('location')]: LocationRouteOptions,
     [I18n.t('search')]: SearchRouteOptions,
     [I18n.t('settings')]: SettingsRouteOptions
 

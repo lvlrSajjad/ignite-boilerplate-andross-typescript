@@ -1,0 +1,19 @@
+import React, { Component } from 'react'
+import { View, Text } from 'react-native'
+import styles from './Styles/<%= props.name %>Style'
+
+export default class <%= props.name %> extends Component {
+
+  // // Defaults for props
+  // static defaultProps = {
+  //   someSetting: false
+  // }
+
+  render () {
+    return (
+      <View style={styles.container}>
+        <Text><%= props.name %> Component Ltr</Text>
+      </View>
+    )
+  }
+}

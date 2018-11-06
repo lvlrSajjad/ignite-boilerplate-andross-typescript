@@ -1,4 +1,4 @@
-#  ignite boilerplate andross typescript
+#  <%= props.name %>
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
 
 * Standard compliant React Native App Utilizing [Ignite](https://github.com/infinitered/ignite)
@@ -138,38 +138,27 @@
 <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/rtl.gif" width="250">
 
 If you want to your app support ltr/rtl layouts separately
-you can just use this command inside the app folder (just replace pizza with your app name): 
-```
-ignite g component pizza --rtlsupport
-```
-it will produce this file/folders inside your Components folder :
-
-     Pizza>
-        Styles>
-            PizzaStyle.ltr.tsx
-            PizzaStyle.rtl.tsx
-        Pizza.ltr.tsx
-        Pizza.rtl.tsx
-        index.tsx
-
-Just use it as :
-```typescript jsx
-import Pizza from './path/to/Pizza'
-```
-The generated index.tsx will be like below:
+you can create a folder for component and inside the folder create three files:
+  ```
+    index.tsx
+    componentName.rtl.tsx
+    componentName.ltr.tsx
+   ```
+  
+Then you can set index.tsx content as below:
   ```typescript jsx
-  import Ltr from "./Pizza.ltr";
-  import Rtl from "./Pizza.rtl";
+  import Ltr from "./componentName.ltr";
+  import Rtl from "./componentName.rtl";
   import {connect} from "react-redux";
   import * as React from "react";
   
-  export interface PizzaProps {
+  export interface ComponentNameProps {
     //you can use this interface in ltr/rtl component
     ...,
     isRtl:boolean
   }
   
-  const Direction = (props:PizzaProps) => props.isRtl ? <Rtl {...props} /> : <Ltr {...props}/>;
+  const Direction = (props:ComponentNameProps) => props.isRtl ? <Rtl {...props} /> : <Ltr {...props}/>;
   
   const mapStateToProps = state => {
     return {
@@ -180,44 +169,12 @@ The generated index.tsx will be like below:
   export default connect(mapStateToProps)(Direction);
 
   ```
-If you don't want Rtl/Ltr Switchable component us just create the component with this command:
-```
-ignite g component pizza
-```
-it will produce this file/folders inside your Components folder :
-
-     Pizza>
-        Styles>
-            PizzaStyle.tsx
-        Pizza.tsx
-        index.tsx
-Just use it as :
-```typescript jsx
-import Pizza from './path/to/Pizza'
-```
-The generated index.tsx will be like below:
-```typescript jsx
-import * as React from "react";
-import Pizza from './Pizzaa';
-import {connect} from "react-redux";
-import {ColorScheme} from "../../Themes/Colors";
-
-
-export interface PizzaProps {
-isDarkMode?: boolean,
-colorScheme?:ColorScheme
-}
-
-export const PizzaComponent = (props:PizzaProps) => <Pizza {...props} />;
-
-const mapStateToProps = state => {
-return {
-};
-};
-
-export default connect(mapStateToProps)(PizzaComponent);
-
-```
+  
+  Then use it like normal .eg :
+   ```typescript jsx
+   import ComponentName from './path/to/componentName' //Just Component Folder Path
+  ```
+If you don't want Rtl/Ltr Switchable View just create a componentName.tsx inside Components folder ...     
 ## :arrow_down_small: If you want switchable color theme in your app    
 <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/darkmode.gif" width="250">
 

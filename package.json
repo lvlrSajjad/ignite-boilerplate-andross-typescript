@@ -4,9 +4,10 @@
   "license": "MIT",
   "repository": "lvlrSajjad/ignite-boilerplate-andross-typescript",
   "homepage": "https://github.com/lvlrSajjad/ignite-boilerplate-andross-typescript",
-  "version": "0.4",
+  "version": "0.0.16",
   "files": [
     "boilerplate",
+    "boilerplate/*",
     "commands",
     "lib",
     "templates",

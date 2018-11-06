@@ -2,325 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f62ad2c-1973-43c4-a49a-dc82052ec6be" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/boilerplate/ignite.json.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.buckconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.flowconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.watchmanconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.0.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.0.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.13.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/AlertMessage.story.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/AlertMessage/AlertMessage.ltr.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/AlertMessage/AlertMessage.rtl.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/AlertMessage/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/DrawerButton.story.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/DrawerButton/DrawerButton.ltr.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/DrawerButton/DrawerButton.rtl.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/DrawerButton/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/FullButton.story.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/FullButton/FullButton.ltr.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/FullButton/FullButton.rtl.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/FullButton/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/RoundedButton.story.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/RoundedButton/RoundedButton.ltr.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/RoundedButton/RoundedButton.rtl.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/RoundedButton/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/Stories.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/__tests__/AlertMessageTest.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/__tests__/DrawerButtonTest.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/__tests__/FullButtonTest.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/__tests__/RoundedButtonTest.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/__tests__/__snapshots__/AlertMessageTest.tsx.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/__tests__/__snapshots__/DrawerButtonTest.tsx.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/__tests__/__snapshots__/FullButtonTest.tsx.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/IgniteComponents/__tests__/__snapshots__/RoundedButtonTest.tsx.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/LaunchScreen/ChatsTab/CallsListItem/CallsListItem.ltr.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/LaunchScreen/ChatsTab/CallsListItem/CallsListItem.rtl.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/LaunchScreen/ChatsTab/CallsListItem/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/LaunchScreen/ChatsTab/ChatsListItem/ChatsListItem.ltr.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/LaunchScreen/ChatsTab/ChatsListItem/ChatsListItem.rtl.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/LaunchScreen/ChatsTab/ChatsListItem/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/LaunchScreen/ChatsTab/__tests__/CallsListItemTest.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/LaunchScreen/ChatsTab/__tests__/ChatsListItemTest.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/LaunchScreen/ChatsTab/__tests__/__snapshots__/CallsListItemTest.tsx.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/LaunchScreen/ChatsTab/__tests__/__snapshots__/ChatsListItemTest.tsx.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/LaunchScreen/SettingsTab/SettingsListItem/SettingsListItem.ltr.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/LaunchScreen/SettingsTab/SettingsListItem/SettingsListItem.rtl.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/LaunchScreen/SettingsTab/SettingsListItem/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/LaunchScreen/SettingsTab/SettingsToggleItem/SettingsToggleItem.ltr.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/LaunchScreen/SettingsTab/SettingsToggleItem/SettingsToggleItem.rtl.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/LaunchScreen/SettingsTab/SettingsToggleItem/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/LaunchScreen/SettingsTab/__tests__/SettingsListItemTest.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/LaunchScreen/SettingsTab/__tests__/SettingsToggleItemTest.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/LaunchScreen/SettingsTab/__tests__/__snapshots__/SettingsListItemTest.tsx.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/LaunchScreen/SettingsTab/__tests__/__snapshots__/SettingsToggleItemTest.tsx.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/LoginScreen/Forms/PhoneNumberForm/PhoneNumberForm.ltr.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/LoginScreen/Forms/PhoneNumberForm/PhoneNumberForm.rtl.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/LoginScreen/Forms/PhoneNumberForm/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/LoginScreen/Forms/PhoneValidationForm/PhoneValidationForm.ltr.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/LoginScreen/Forms/PhoneValidationForm/PhoneValidationForm.rtl.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/LoginScreen/Forms/PhoneValidationForm/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/LoginScreen/Forms/UserInfoForm/UserInfoForm.ltr.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/LoginScreen/Forms/UserInfoForm/UserInfoForm.rtl.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/LoginScreen/Forms/UserInfoForm/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/LoginScreen/Forms/__tests__/PhoneNumberFormTest.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/LoginScreen/Forms/__tests__/PhoneValidationFormTest.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/LoginScreen/Forms/__tests__/UserInfoFormTest.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/LoginScreen/Forms/__tests__/__snapshots__/PhoneNumberFormTest.tsx.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/LoginScreen/LoginCard.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/LoginScreen/Styles/LoginCardStyles.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/LoginScreen/__tests__/LoginCardTest.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/MaterialComponents/MaterialButton/MaterialButton.ltr.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/MaterialComponents/MaterialButton/MaterialButton.rtl.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/MaterialComponents/MaterialButton/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/MaterialComponents/MaterialFab/MaterialFab.ltr.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/MaterialComponents/MaterialFab/MaterialFab.rtl.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/MaterialComponents/MaterialFab/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/MaterialComponents/__tests__/MaterialButtonTest.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/MaterialComponents/__tests__/MaterialFabTest.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/MaterialComponents/__tests__/__snapshots__/MaterialFabTest.tsx.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/Styles/AlertMessageStyles.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/Styles/DrawerButtonStyles.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/Styles/FullButtonStyles.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/Styles/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/Styles/RoundedButtonStyles.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Config/AppConfig.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Config/DebugConfig.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Config/MapboxConfig.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Config/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Config/ReactotronConfig.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Config/ReduxPersist.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Config/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Containers/App.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Containers/LoginScreen.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Containers/MainTabs/ChannelsTab.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Containers/MainTabs/ChatsTabScreens/CallsScreen.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Containers/MainTabs/ChatsTabScreens/ChatsScreen.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Containers/MainTabs/ChatsTabScreens/GroupsScreen.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Containers/MainTabs/LocationTab.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Containers/MainTabs/SearchTab.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Containers/MainTabs/SettingsTab.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Containers/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Containers/RootContainer.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Containers/Styles/ChatScreenStyle.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Containers/Styles/LaunchScreenStyles.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Containers/Styles/LoginScreenStyles.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Containers/Styles/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Containers/Styles/RootContainerStyles.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Fixtures/DummyData.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Fixtures/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Fixtures/gantman.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Fixtures/rateLimit.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Fixtures/root.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Fixtures/skellock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/I18n.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/locales/en.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/locales/fa.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/platform_languages.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/BG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/Icons/back-button@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/Icons/chevron-right@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/Icons/close-button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/Icons/close-button@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/Icons/close-button@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/Icons/faq-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/Icons/faq-icon@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/Icons/faq-icon@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/Icons/hamburger@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/Icons/icon-api-testing@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/Icons/icon-components@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/Icons/icon-device-information@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/Icons/icon-home@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/Icons/icon-theme@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/Icons/icon-usage-examples@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/button-bg@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/ignite-logo-transparent.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/ignite_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/ir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/launch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/launch-icon@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/launch-icon@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/tile_bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/top_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/top_logo@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/top_logo@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/your-app.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/your-app@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/your-app@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Lib/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Navigation/AppNavigation.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Navigation/ChatsTabNavigator.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Navigation/MainTabNavigator.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Navigation/ReduxNavigation.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Navigation/Styles/NavigationStyles.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Redux/AppSettings/AppSettingsAction.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Redux/AppSettings/AppSettingsRedux.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Redux/AppSettings/Types.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Redux/CreateStore.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Redux/Github/GithubRedux.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Redux/Github/Types.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Redux/Github/__tests__/GithubReduxTest.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Redux/Login/LoginActions.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Redux/Login/LoginRedux.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Redux/Login/Types.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Redux/Navigation/NavigationRedux.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Redux/ScreenTrackingMiddleware.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Redux/Search/SearchRedux.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Redux/StartupRedux.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Redux/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Sagas/GithubSagas.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Sagas/StartupSagas.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Sagas/__tests__/GithubSagaTest.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Sagas/__tests__/StartupSagaTest.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Sagas/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Services/Api.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Services/ExamplesRegistry.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Services/FixtureApi.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Services/ImmutablePersistenceTransform.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Services/Rehydration.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Services/__tests__/FixtureAPITest.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Themes/ApplicationStyles.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Themes/Colors.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Themes/Fonts.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Themes/Images.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Themes/Metrics.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Themes/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Themes/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Transforms/CallStateToData.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Transforms/ConvertFromKelvin.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Transforms/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/StoriesTest.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__mocks__/fileMock.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__mocks__/react-native-i18n.mock.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__mocks__/react-native-mapbox-gl.mock.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__mocks__/styleMock.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/BUCK" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/BYekan+ Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/BYekan+.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/Entypo.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/EvilIcons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/Feather.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/FontAwesome.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/Foundation.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/Ionicons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/MaterialCommunityIcons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/MaterialIcons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/Octicons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/Roboto.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/Roboto_medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/SimpleLineIcons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/Zocial.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/rubicon-icon-font.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/index.android.bundle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/io/lvlrsajjad/boilerplate/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/io/lvlrsajjad/boilerplate/MainApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-hdpi/node_modules_reactnavigationstack_dist_views_assets_backicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-mdpi/app_images_bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-mdpi/app_images_icons_closebutton.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-mdpi/app_images_icons_faqicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-mdpi/app_images_ignite_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-mdpi/app_images_ignitelogotransparent.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-mdpi/app_images_ir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-mdpi/app_images_launchicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-mdpi/app_images_tile_bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-mdpi/app_images_top_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-mdpi/app_images_yourapp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-mdpi/node_modules_reactnavigationstack_dist_views_assets_backicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-mdpi/node_modules_reactnavigationstack_dist_views_assets_backiconmask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-xhdpi/app_images_buttonbg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-xhdpi/app_images_icons_backbutton.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-xhdpi/app_images_icons_chevronright.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-xhdpi/app_images_icons_closebutton.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-xhdpi/app_images_icons_faqicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-xhdpi/app_images_icons_hamburger.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-xhdpi/app_images_icons_iconapitesting.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-xhdpi/app_images_icons_iconcomponents.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-xhdpi/app_images_icons_icondeviceinformation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-xhdpi/app_images_icons_iconhome.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-xhdpi/app_images_icons_icontheme.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-xhdpi/app_images_icons_iconusageexamples.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-xhdpi/app_images_launchicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-xhdpi/app_images_top_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-xhdpi/app_images_yourapp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-xhdpi/node_modules_reactnavigationstack_dist_views_assets_backicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-xxhdpi/app_images_icons_closebutton.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-xxhdpi/app_images_icons_faqicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-xxhdpi/app_images_launchicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-xxhdpi/app_images_top_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-xxhdpi/app_images_yourapp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-xxhdpi/node_modules_reactnavigationstack_dist_views_assets_backicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-xxxhdpi/node_modules_reactnavigationstack_dist_views_assets_backicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/values/styles.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/keystores/BUCK" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/keystores/debug.keystore.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ignite/Examples/Components/animatableExample.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ignite/Examples/Components/i18nExample.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ignite/Examples/Components/vectorExample.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ignite/ignite.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ignite/plugins/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Bitt-tvOS/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Bitt-tvOSTests/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Bitt.xcodeproj/project.pbxproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Bitt.xcodeproj/xcshareddata/xcschemes/Bitt-tvOS.xcscheme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Bitt.xcodeproj/xcshareddata/xcschemes/Bitt.xcscheme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Bitt/AppDelegate.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Bitt/AppDelegate.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Bitt/Base.lproj/LaunchScreen.xib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Bitt/Images.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Bitt/Images.xcassets/Contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Bitt/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Bitt/main.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/BittTests/BittTests.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/BittTests/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/master" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/boilerplate/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/component/component.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/component/index.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/component/style/style.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/directionComponent/component.ltr.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/directionComponent/component.rtl.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/directionComponent/index.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/directionComponent/style/style.ltr.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/directionComponent/style/style.rtl.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate.js" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Navigation/MainTabNavigator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/App/Navigation/MainTabNavigator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/package.json.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/package.json.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands/component.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands/container.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/container.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands/list.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands/redux.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/redux.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands/saga.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/saga.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands/screen.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/screen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/options.js" beforeDir="false" afterPath="$PROJECT_DIR$/options.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rn-cli.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storybook/addons.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storybook/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storybook/storybook.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-preprocessor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-setup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-shim.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tslint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/typings.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -333,52 +37,83 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+            <state relative-caret-position="46">
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="patterns.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/patterns.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/directionComponent/index.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/component/index.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="boilerplate.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/boilerplate.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="package.json.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boilerplate/package.json.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3082">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="595">
+              <caret line="261" column="1" lean-forward="true" selection-start-line="261" selection-start-column="1" selection-end-line="261" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ignite.json.ejs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/boilerplate/ignite.json.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boilerplate/index.js.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="327">
+                <caret line="217" column="45" selection-start-line="217" selection-start-column="45" selection-end-line="217" selection-end-column="45" />
+                <folding>
+                  <element signature="e#2#40#0" expanded="true" />
+                  <element signature="e#0#31#0" expanded="true" />
+                  <element signature="e#0#37#0" expanded="true" />
+                  <element signature="e#2#56#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>react-native-parsed-text</find>
+      <find>react-native-vector-icons</find>
+      <find>react-native-lightbox</find>
+      <find>react-native-communications</find>
+      <find>blue</find>
+      <find>mapbox</find>
+      <find>options</find>
+      <find>.js</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -386,10 +121,36 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/boilerplate/index.js" />
-        <option value="$PROJECT_DIR$/boilerplate/package.json" />
         <option value="$PROJECT_DIR$/boilerplate/ignite.json.ejs" />
+        <option value="$PROJECT_DIR$/boilerplate/README.md" />
+        <option value="$PROJECT_DIR$/boilerplate/package.json" />
+        <option value="$PROJECT_DIR$/options.js" />
+        <option value="$PROJECT_DIR$/boilerplate/App/Navigation/MainTabNavigator.tsx" />
+        <option value="$PROJECT_DIR$/boilerplate/package.json.ejs" />
+        <option value="$PROJECT_DIR$/boilerplate.js" />
+        <option value="$PROJECT_DIR$/templates/component/style/style.ltr.ejs" />
+        <option value="$PROJECT_DIR$/templates/component/style/style.rtl.ejs" />
+        <option value="$PROJECT_DIR$/templates/component/component.rtl.ejs" />
+        <option value="$PROJECT_DIR$/templates/component/component.ltr.ejs" />
+        <option value="$PROJECT_DIR$/commands/directioncomponent.js" />
+        <option value="$PROJECT_DIR$/commands/component.js" />
+        <option value="$PROJECT_DIR$/templates/directionComponent/style/style.rtl.ejs" />
+        <option value="$PROJECT_DIR$/templates/directionComponent/style/style.ltr.ejs" />
+        <option value="$PROJECT_DIR$/templates/component/style/style.ejs" />
+        <option value="$PROJECT_DIR$/templates/component/component.ejs" />
+        <option value="$PROJECT_DIR$/templates/directionComponent/component.ltr.ejs" />
+        <option value="$PROJECT_DIR$/templates/directionComponent/component.rtl.ejs" />
+        <option value="$PROJECT_DIR$/commands/container.js" />
+        <option value="$PROJECT_DIR$/commands/screen.js" />
+        <option value="$PROJECT_DIR$/commands/list.js" />
+        <option value="$PROJECT_DIR$/commands/redux.js" />
+        <option value="$PROJECT_DIR$/commands/saga.js" />
+        <option value="$PROJECT_DIR$/templates/container.ejs" />
+        <option value="$PROJECT_DIR$/templates/component/index.ejs" />
+        <option value="$PROJECT_DIR$/templates/directionComponent/index.ejs" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -403,7 +164,6 @@
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
-      <path value="$PROJECT_DIR$/boilerplate/package.json.ejs" />
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
@@ -417,6 +177,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -429,16 +190,62 @@
               <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
               <item name="boilerplate" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
+              <item name="boilerplate" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
+              <item name="boilerplate" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
+              <item name="boilerplate" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="Navigation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
+              <item name="commands" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="directionComponent" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ReactNative/Tests/fsdx/fsdx" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -448,6 +255,19 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\Component" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\commands" />
+      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\component" />
+      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\Component\Style" />
+      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\Component" />
+      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -471,12 +291,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541415781062</updated>
-      <workItem from="1541415782650" duration="641000" />
+      <workItem from="1541415782650" duration="14254000" />
+      <workItem from="1541491723587" duration="9516000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="641000" />
+    <option name="totallyTimeSpent" value="23770000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -484,23 +305,24 @@
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="GitLabIntegration" />
+      <window_info anchor="bottom" id="GitLabIntegration" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.4627383" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.17259787" />
+      <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24925596" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32928944" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32928944" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -509,59 +331,334 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ignite.json">
+    <entry file="file://$PROJECT_DIR$/boilerplate/test-preprocessor.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate/1.0.0">
+    <entry file="file://$PROJECT_DIR$/boilerplate/test-setup.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate/1.0.1">
+    <entry file="file://$PROJECT_DIR$/boilerplate/test-shim.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate/1.13.0">
+    <entry file="file://$PROJECT_DIR$/boilerplate/rn-cli.config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/react-native-version.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-179" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate/yarn.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="6170" column="27" selection-start-line="6170" selection-start-column="27" selection-end-line="6170" selection-end-column="27" />
+        <state relative-caret-position="253">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate/index.js.ejs">
+    <entry file="file://$PROJECT_DIR$/options.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+        <state relative-caret-position="759">
+          <caret line="33" column="6" selection-start-line="4" selection-start-column="5" selection-end-line="33" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/App/Navigation/ChatsTabNavigator.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/boilerplate/App/Containers/MainTabs/LocationTab.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        <state relative-caret-position="805">
+          <caret line="41" column="3" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="20" selection-start-column="20" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/boilerplate/package.json.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3082">
+        <state relative-caret-position="69">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/.watchmanconfig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/.env.example">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/.babelrc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/webpack.config.js" />
+    <entry file="file://$PROJECT_DIR$/boilerplate/App/Components/LaunchScreen/ChatsTab/CallsListItem/CallsListItem.rtl.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69">
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/examples/Styles/GridExampleStyle.js.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="32" column="12" lean-forward="true" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/component/component.rtl.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/component/style/style.rtl.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/App/Components/LaunchScreen/ChatsTab/CallsListItem/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenExamples.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-759" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commands/directioncomponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="43" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commands/component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-401">
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/directionComponent/style/style.rtl.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="68" selection-start-line="1" selection-start-column="68" selection-end-line="1" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/directionComponent/style/style.ltr.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="68" selection-start-line="1" selection-start-column="68" selection-end-line="1" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/component/style/style.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="68" selection-start-line="1" selection-start-column="68" selection-end-line="1" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/directionComponent/component.rtl.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate/ignite.json.ejs">
+    <entry file="file://$PROJECT_DIR$/boilerplate/App/Containers/RootContainer.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-860">
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/App/Containers/LoginScreen.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-483">
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/App/Containers/App.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-897">
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commands/container.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-391">
+          <caret line="37" column="77" selection-start-line="37" selection-start-column="77" selection-end-line="37" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commands/screen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-331">
+          <caret line="37" column="48" lean-forward="true" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/App/Navigation/MainTabNavigator.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-138">
+          <caret line="9" column="98" selection-start-line="9" selection-start-column="98" selection-end-line="9" selection-end-column="98" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#33#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/App/Navigation/AppNavigation.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commands/list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="118" column="77" selection-start-line="118" selection-start-column="77" selection-end-line="118" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commands/listview.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commands/redux.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commands/saga.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/component.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/component/component.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/directionComponent/component.ltr.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/container.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/container-style.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/flatlist.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/flatlist-grid.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/component/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/directionComponent/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
-          <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/patterns.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="261" column="1" lean-forward="true" selection-start-line="261" selection-start-column="1" selection-end-line="261" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="327">
+            <caret line="217" column="45" selection-start-line="217" selection-start-column="45" selection-end-line="217" selection-end-column="45" />
+            <folding>
+              <element signature="e#2#40#0" expanded="true" />
+              <element signature="e#0#31#0" expanded="true" />
+              <element signature="e#0#37#0" expanded="true" />
+              <element signature="e#2#56#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

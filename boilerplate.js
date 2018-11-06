@@ -41,7 +41,7 @@ async function install (context) {
 
   const name = parameters.third
   const spinner = print
-    .spin(`using the ${red('Infinite Red')} boilerplate v2 (code name 'Andross')`)
+    .spin(`using the ${blue('Andross Typescript')} ignite boilerplate`)
     .succeed()
 
   // attempt to install React Native or die trying
@@ -62,14 +62,14 @@ async function install (context) {
     overwrite: true,
     matching: '!*.ejs'
   })
-  filesystem.copy(`${__dirname}/boilerplate/Tests`, `${process.cwd()}/Tests`, {
-    overwrite: true,
-    matching: '!*.ejs'
-  })
-  filesystem.copy(`${__dirname}/boilerplate/storybook`, `${process.cwd()}/storybook`, {
-    overwrite: true,
-    matching: '!*.ejs'
-  })
+  // filesystem.copy(`${__dirname}/boilerplate/Tests`, `${process.cwd()}/Tests`, {
+  //   overwrite: true,
+  //   matching: '!*.ejs'
+  // })
+  // filesystem.copy(`${__dirname}/boilerplate/storybook`, `${process.cwd()}/storybook`, {
+  //   overwrite: true,
+  //   matching: '!*.ejs'
+  // })
   spinner.stop()
 
   // --max, --min, interactive
@@ -90,17 +90,27 @@ async function install (context) {
     { template: 'ignite.json.ejs', target: 'ignite/ignite.json' },
     { template: '.editorconfig', target: '.editorconfig' },
     { template: '.babelrc', target: '.babelrc' },
-    { template: 'Tests/Setup.js.ejs', target: 'Tests/Setup.js' },
-    { template: 'storybook/storybook.ejs', target: 'storybook/storybook.js' },
-    { template: '.env.example', target: '.env.example' }
+  //  { template: 'Tests/Setup.js.ejs', target: 'Tests/Setup.js' },
+  //  { template: 'storybook/storybook.ejs', target: 'storybook/storybook.js' },
+    { template: '.env.example', target: '.env.example' },
+    { template: 'rn-cli.config.js', target: 'rn-cli.config.js' },
+    { template: 'test-preprocessor.js', target: 'test-preprocessor.js' },
+    { template: 'test-setup.js', target: 'test-setup.js' },
+    { template: 'test-shim.js', target: 'test-shim.js' },
+    { template: 'tsconfig.json', target: 'tsconfig.json' },
+    { template: 'jsconfig.json', target: 'jsconfig.json' },
+    { template: 'tslint.json', target: 'tslint.json' },
+    { template: 'typings.d.ts', target: 'typings.d.ts' },
+    { template: 'app.json', target: 'app.json' }
+
   ]
   const templateProps = {
     name,
     igniteVersion: ignite.version,
     reactNativeVersion: rnInstall.version,
-    vectorIcons: answers['vector-icons'],
-    animatable: answers['animatable'],
-    i18n: answers['i18n']
+    // vectorIcons: answers['vector-icons'],
+    // animatable: answers['animatable'],
+    // i18n: answers['i18n']
   }
   await ignite.copyBatch(context, templates, templateProps, {
     quiet: true,
@@ -174,39 +184,39 @@ async function install (context) {
     await system.spawn(`ignite add ${boilerplate} ${debugFlag}`, { stdio: 'inherit' })
 
     // now run install of Ignite Plugins
-    if (answers['dev-screens'] === 'Yes') {
-      await system.spawn(`ignite add dev-screens@"~>2.2.0" ${debugFlag}`, {
-        stdio: 'inherit'
-      })
-    }
-
-    if (answers['vector-icons'] === 'react-native-vector-icons') {
-      await system.spawn(`ignite add vector-icons@"~>1.0.0" ${debugFlag}`, {
-        stdio: 'inherit'
-      })
-    }
-
-    if (answers['i18n'] === 'react-native-i18n') {
-      await system.spawn(`ignite add i18n@"~>1.0.0" ${debugFlag}`, { stdio: 'inherit' })
-    }
-
-    if (answers['animatable'] === 'react-native-animatable') {
-      await system.spawn(`ignite add animatable@"~>1.0.0" ${debugFlag}`, {
-        stdio: 'inherit'
-      })
-    }
-
-    if (answers['redux-persist'] === 'Yes') {
-      await system.spawn(`ignite add redux-persist@"~>1.0.1" ${debugFlag}`, {
-        stdio: 'inherit'
-      })
-    }
-
-    if (parameters.options.lint !== 'false') {
-      await system.spawn(`ignite add standard@"~>1.0.0" ${debugFlag}`, {
-        stdio: 'inherit'
-      })
-    }
+    // if (answers['dev-screens'] === 'Yes') {
+    //   await system.spawn(`ignite add dev-screens@"~>2.2.0" ${debugFlag}`, {
+    //     stdio: 'inherit'
+    //   })
+    // }
+    //
+    // if (answers['vector-icons'] === 'react-native-vector-icons') {
+    //   await system.spawn(`ignite add vector-icons@"~>1.0.0" ${debugFlag}`, {
+    //     stdio: 'inherit'
+    //   })
+    // }
+    //
+    // if (answers['i18n'] === 'react-native-i18n') {
+    //   await system.spawn(`ignite add i18n@"~>1.0.0" ${debugFlag}`, { stdio: 'inherit' })
+    // }
+    //
+    // if (answers['animatable'] === 'react-native-animatable') {
+    //   await system.spawn(`ignite add animatable@"~>1.0.0" ${debugFlag}`, {
+    //     stdio: 'inherit'
+    //   })
+    // }
+    //
+    // if (answers['redux-persist'] === 'Yes') {
+    //   await system.spawn(`ignite add redux-persist@"~>1.0.1" ${debugFlag}`, {
+    //     stdio: 'inherit'
+    //   })
+    // }
+    //
+    // if (parameters.options.lint !== 'false') {
+    //   await system.spawn(`ignite add standard@"~>1.0.0" ${debugFlag}`, {
+    //     stdio: 'inherit'
+    //   })
+    // }
   } catch (e) {
     ignite.log(e)
     throw e

@@ -21,11 +21,11 @@ module.exports = async function (context) {
   const jobs = [
     {
       template: 'container.ejs',
-      target: `App/Containers/${name}.js`
+      target: `App/Containers/${name}.tsx`
     },
     {
       template: 'container-style.ejs',
-      target: `App/Containers/Styles/${name}Style.js`
+      target: `App/Containers/Styles/${name}Style.tsx`
     }
   ]
 
@@ -35,7 +35,7 @@ module.exports = async function (context) {
   // and insert the container into the nav router
   if (config.navigation === 'react-navigation') {
     const containerName = name
-    const appNavFilePath = `${process.cwd()}/App/Navigation/AppNavigation.js`
+    const appNavFilePath = `${process.cwd()}/App/Navigation/AppNavigation.tsx`
     const importToAdd = `import ${containerName} from '../Containers/${containerName}'`
     const routeToAdd = `  ${containerName}: { screen: ${containerName} },`
 
