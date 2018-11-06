@@ -148,6 +148,15 @@ npm install -g ignite-cli
 <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/template.png" width="90%">
 
 You can select a template based on app's usage when initializing the app with boilerplate so it will just copies or replaces some files to the app folder . templates are for time saving and some example to see how to use this boilerplate.
+Templates files mostly are in these folders:
+```
+Components
+Containers
+Navigation
+Redux
+```
+you can edit their files if you want
+
 If you don't want to use a template you can just use first option in the list
 ## :arrow_down_small: Recommended Structure For Rtl/Ltr Support
 <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/rtl.gif" width="250">
