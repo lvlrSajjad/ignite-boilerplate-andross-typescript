@@ -6,7 +6,7 @@ const questions = [
     name: 'initial-template',
     message: 'Select a template to use when app initializes: ',
     type: 'list',
-    choices: ['Just a simple screen','With login screen', 'With sms login screen','Social media app']
+    choices: ['Just a simple screen','With simple login screen', 'With sms login screen','Social media app']
   },
   // {
   //   name: 'dev-screens',
