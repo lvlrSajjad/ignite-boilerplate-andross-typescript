@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f62ad2c-1973-43c4-a49a-dc82052ec6be" name="Default" comment="" />
+    <list default="true" id="3f62ad2c-1973-43c4-a49a-dc82052ec6be" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/login/Components/LoginScreen/Forms/LoginCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/login/Components/LoginScreen/Forms/LoginForm/LoginForm.ltr.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/login/Components/LoginScreen/Forms/LoginForm/LoginForm.rtl.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/login/Components/LoginScreen/Forms/Styles/LoginCardStyles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/I18n/locales/en.ts" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/App/I18n/locales/en.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/I18n/locales/fa.ts" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/App/I18n/locales/fa.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login/Components/LoginScreen/Forms/PhoneNumberForm/PhoneNumberForm.ltr.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login/Components/LoginScreen/Forms/PhoneNumberForm/PhoneNumberForm.rtl.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login/Components/LoginScreen/Forms/PhoneNumberForm/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login/Components/LoginScreen/Forms/LoginForm/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login/Components/LoginScreen/Forms/PhoneValidationForm/PhoneValidationForm.ltr.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login/Components/LoginScreen/Forms/PhoneValidationForm/PhoneValidationForm.rtl.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login/Components/LoginScreen/Forms/PhoneValidationForm/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login/Components/LoginScreen/Forms/UserInfoForm/UserInfoForm.ltr.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login/Components/LoginScreen/Forms/UserInfoForm/UserInfoForm.rtl.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login/Components/LoginScreen/Forms/UserInfoForm/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login/Components/LoginScreen/Forms/__tests__/PhoneNumberFormTest.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login/Components/LoginScreen/Forms/__tests__/PhoneValidationFormTest.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login/Components/LoginScreen/Forms/__tests__/UserInfoFormTest.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login/Components/LoginScreen/Forms/__tests__/__snapshots__/PhoneNumberFormTest.tsx.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login/Containers/LoginScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login/Containers/LoginScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login/Redux/Login/LoginActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login/Redux/Login/LoginActions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login/Redux/Login/LoginRedux.ts" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login/Redux/Login/LoginRedux.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login/Redux/Login/Types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login/Redux/Login/Types.ts" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,22 +40,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="270">
-                <caret line="78" column="18" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
-                <folding>
-                  <element signature="e#2#32#0" expanded="true" />
-                  <element signature="e#0#31#0" expanded="true" />
-                  <element signature="e#0#37#0" expanded="true" />
-                  <element signature="e#2#56#0" expanded="true" />
-                </folding>
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginScreen.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/login/Containers/LoginScreen.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="en.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boilerplate/App/I18n/locales/en.ts">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="Types.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/login/Redux/Login/Types.ts">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -93,9 +129,9 @@
         <option value="$PROJECT_DIR$/boilerplate/App/Redux/Navigation/NavigationRedux.tsx" />
         <option value="$PROJECT_DIR$/boilerplate/App/Redux/index.tsx" />
         <option value="$PROJECT_DIR$/templates/login/Containers/Styles/ChatScreenStyle.tsx" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/boilerplate.js" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -133,7 +169,47 @@
             <path>
               <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
               <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
-              <item name="gifs" type="462c0819:PsiDirectoryNode" />
+              <item name="boilerplate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginScreen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="Containers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="Redux" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -157,18 +233,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\login\Redux\Login" />
+      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\login\Redux" />
       <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\smslogin\Containers" />
       <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\boilerplate\TestConfig\Setup" />
       <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\boilerplate\TestConfig" />
-      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\boilerplate\TestSetup" />
-      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\Component" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\gifs" />
+      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\boilerplate\App\Redux" />
+      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\boilerplate\App\I18n\locales" />
+      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\login\Containers" />
+      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\login\Components\LoginScreen\Forms" />
       <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\boilerplate\App\Containers" />
-      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\login" />
-      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\smslogin\Navigation" />
-      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\smslogin" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -194,12 +270,12 @@
       <option name="presentableId" value="Default" />
       <updated>1541415781062</updated>
       <workItem from="1541415782650" duration="14254000" />
-      <workItem from="1541491723587" duration="27954000" />
+      <workItem from="1541491723587" duration="29696000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42208000" />
+    <option name="totallyTimeSpent" value="43950000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -239,33 +315,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/commands/saga.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/component.ejs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/component/component.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/directionComponent/component.ltr.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/container.ejs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/container-style.ejs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -344,13 +393,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate/App/I18n/locales/en.ts">
+    <entry file="file://$PROJECT_DIR$/templates/login/Redux/Login/LoginActions.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate/App/Redux/Login/LoginActions.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate/App/Redux/Login/LoginRedux.ts">
+    <entry file="file://$PROJECT_DIR$/templates/login/Redux/Login/LoginRedux.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -358,9 +404,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate/App/Redux/Login/Types.ts">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/socialmedia/Components/LaunchScreen/ChatsTab/__tests__/__snapshots__/CallsListItemTest.tsx.snap">
       <provider selected="true" editor-type-id="text-editor" />
@@ -526,9 +569,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate/App/Containers/LaunchScreen.tsx">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/boilerplate/App/Navigation/AppNavigation.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -539,13 +579,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/boilerplate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -553,10 +586,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login/Containers/LaunchScreen.tsx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/smslogin/LaunchScreen.tsx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="270">
+          <first_editor relative-caret-position="477">
             <caret line="78" column="18" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
             <folding>
               <element signature="e#2#32#0" expanded="true" />
@@ -566,6 +605,48 @@
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/smslogin/Components/LoginScreen/LoginCard.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login/Components/LoginScreen/Forms/LoginForm/index.tsx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/App/I18n/locales/en.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/App/Containers/LaunchScreen.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login/Redux/Login/Types.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login/Containers/LoginScreen.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
         </state>
       </provider>
     </entry>

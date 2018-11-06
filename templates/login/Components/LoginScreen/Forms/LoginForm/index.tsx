@@ -1,13 +1,14 @@
-import Ltr from "./PhoneNumberForm.ltr";
-import Rtl from "./PhoneNumberForm.rtl";
+import Ltr from "./LoginForm.ltr";
+import Rtl from "./LoginForm.rtl";
 import {connect} from "react-redux";
 import * as React from "react";
 
 export interface PhoneNumberFormProps {
-  prefixNumber: string,
   primaryColor: string,
-  onTextChange?(text:string): void,
-  phoneNumber: string,
+  onTextChangeUserName?(text:string): void,
+  onTextChangePasword?(text:string): void,
+  userName: string,
+  password: string,
   isLoading?: boolean,
   onPress?(): void,
   isDarkMode?: boolean,

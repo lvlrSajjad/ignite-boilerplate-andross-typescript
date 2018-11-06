@@ -5,6 +5,8 @@ export default {
   phoneNumber: "شماره همراه",
   verificationNumber: "کد تایید",
   userName: "نام کاربری",
+  password:"رمز عبور",
+  login:"ورود",
   chats: "چت ها",
   channels: "کانال ها",
   location: "مکان",

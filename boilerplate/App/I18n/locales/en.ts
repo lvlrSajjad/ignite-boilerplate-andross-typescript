@@ -4,6 +4,8 @@ export default {
   phoneNumber:"Phone Number",
   verificationNumber:"Verification Number",
   userName:"User Name",
+  password:"Password",
+  login:"Login",
   chats:"Chats",
   channels:"Channels",
   location:"Location",

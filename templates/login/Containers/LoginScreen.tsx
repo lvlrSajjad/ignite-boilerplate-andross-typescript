@@ -40,14 +40,8 @@ class LoginScreen extends Component<LoginScreenProps,LoginScreenState> {
       <View style={[styles.mainContainer, styles.loginForm,{backgroundColor:this.props.colorScheme.containersBackground}]}>
         <LoginCard
           isLoading={this.state.isLoading}
-          onButtonPress={(step)=>{
-            if (step === 1){
-              this.props.loginStep(2);
-            } else if (step===2){
-              this.props.loginStep(3);
-            } else if (step ===3){
+          onButtonPress={()=>{
               this.props.navigation.dispatch(navigateAction);
-            }
           }}
           primaryColor={MKColor.Blue}
           onBackButtonPressed={()=>{console.log('back')}}
