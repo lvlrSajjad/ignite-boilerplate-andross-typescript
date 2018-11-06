@@ -107,9 +107,9 @@
        
        |Containers < Our Main Containers Like Login Screen ...
        
-                   |MainTabs < Main Tabs (Made For Example) 
+                   |MainTabs < Main Tabs (Made For Example)  <-------- this is for social media template
                    
-                                  |ChatsTabScreens < Chat Tabs (Made For Example)  
+                                  |ChatsTabScreens < Chat Tabs (Made For Example)   <-------- this is for social media template
                                                      
        |Fixtures < All key API responses are housed here.
        
@@ -133,7 +133,10 @@
        |Themes < Application specific themes
        
        |Transforms < You can do conversions 
-                   
+## :arrow_down_small: Templates
+<img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/template.png" width="500">
+
+You can select a template based on app's usage when initializing the app with boilerplate so it will just copies or replaces some files to the app folder . templates are for time saving and some example to see how to use this boilerplate.
 ## :arrow_down_small: Recommended Structure For Rtl/Ltr Support
 <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/rtl.gif" width="250">
 
