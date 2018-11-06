@@ -224,8 +224,12 @@ export default connect(mapStateToProps)(PizzaComponent);
 actually below reducer And action playing important roles for settings like direction(rtl/ltr) 
 or colorScheme and any settings like these :
 
-`App/Redux/AppSettingsRedux`
-`App/Redux/Actions/AppSettinsAction` 
+```
+App/Redux/AppSettingsRedux
+```
+```
+App/Redux/Actions/AppSettinsAction
+```
 
 for example for colorScheme we have colorScheme state in this reducer which contans below structure :
 

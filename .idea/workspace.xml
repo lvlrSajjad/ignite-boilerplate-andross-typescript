@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f62ad2c-1973-43c4-a49a-dc82052ec6be" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/boilerplate/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/component/component.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/component/index.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/component/style/style.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/directionComponent/component.ltr.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/directionComponent/component.rtl.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/directionComponent/index.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/directionComponent/style/style.ltr.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/directionComponent/style/style.rtl.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate.js" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Navigation/MainTabNavigator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/App/Navigation/MainTabNavigator.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/package.json.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/package.json.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/webpack.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commands/component.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commands/container.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/container.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commands/list.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commands/redux.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/redux.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commands/saga.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/saga.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commands/screen.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/screen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/options.js" beforeDir="false" afterPath="$PROJECT_DIR$/options.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="3f62ad2c-1973-43c4-a49a-dc82052ec6be" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -87,8 +63,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="327">
-                <caret line="217" column="45" selection-start-line="217" selection-start-column="45" selection-end-line="217" selection-end-column="45" />
+              <first_editor relative-caret-position="1477">
+                <caret line="219" column="3" lean-forward="true" selection-start-line="219" selection-start-column="3" selection-end-line="219" selection-end-column="3" />
                 <folding>
                   <element signature="e#2#40#0" expanded="true" />
                   <element signature="e#0#31#0" expanded="true" />
@@ -292,16 +268,15 @@
       <option name="presentableId" value="Default" />
       <updated>1541415781062</updated>
       <workItem from="1541415782650" duration="14254000" />
-      <workItem from="1541491723587" duration="9516000" />
+      <workItem from="1541491723587" duration="10132000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23770000" />
+    <option name="totallyTimeSpent" value="24386000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
@@ -309,9 +284,9 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.4627383" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.17259787" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.17259787" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24925596" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24925596" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -649,8 +624,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="327">
-            <caret line="217" column="45" selection-start-line="217" selection-start-column="45" selection-end-line="217" selection-end-column="45" />
+          <first_editor relative-caret-position="1477">
+            <caret line="219" column="3" lean-forward="true" selection-start-line="219" selection-start-column="3" selection-end-line="219" selection-end-column="3" />
             <folding>
               <element signature="e#2#40#0" expanded="true" />
               <element signature="e#0#31#0" expanded="true" />
