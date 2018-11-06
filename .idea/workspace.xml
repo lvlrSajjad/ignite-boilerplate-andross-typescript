@@ -2,18 +2,133 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f62ad2c-1973-43c4-a49a-dc82052ec6be" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/boilerplate/App/Containers/LaunchScreen.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/login/Containers/LaunchScreen.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/login/Containers/Styles/ChatScreenStyle.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/login/Containers/Styles/LaunchScreenStyles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/login/Containers/Styles/LoginScreenStyles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/login/Containers/Styles/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/login/Containers/Styles/RootContainerStyles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/login/Navigation/AppNavigation.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/login/Navigation/Styles/NavigationStyles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/login/Redux/Navigation/NavigationRedux.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/login/Redux/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/smslogin/Components/LoginScreen/Forms/PhoneNumberForm/PhoneNumberForm.ltr.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/smslogin/Components/LoginScreen/Forms/PhoneNumberForm/PhoneNumberForm.rtl.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/smslogin/Components/LoginScreen/Forms/PhoneNumberForm/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/smslogin/Components/LoginScreen/Forms/PhoneValidationForm/PhoneValidationForm.ltr.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/smslogin/Components/LoginScreen/Forms/PhoneValidationForm/PhoneValidationForm.rtl.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/smslogin/Components/LoginScreen/Forms/PhoneValidationForm/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/smslogin/Components/LoginScreen/Forms/UserInfoForm/UserInfoForm.ltr.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/smslogin/Components/LoginScreen/Forms/UserInfoForm/UserInfoForm.rtl.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/smslogin/Components/LoginScreen/Forms/UserInfoForm/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/smslogin/Components/LoginScreen/Forms/__tests__/PhoneNumberFormTest.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/smslogin/Components/LoginScreen/Forms/__tests__/PhoneValidationFormTest.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/smslogin/Components/LoginScreen/Forms/__tests__/UserInfoFormTest.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/smslogin/Components/LoginScreen/Forms/__tests__/__snapshots__/PhoneNumberFormTest.tsx.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/smslogin/Components/LoginScreen/LoginCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/smslogin/Components/LoginScreen/Styles/LoginCardStyles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/smslogin/Components/LoginScreen/__tests__/LoginCardTest.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/smslogin/Containers/LaunchScreen.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/smslogin/Containers/LoginScreen.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/smslogin/Containers/Styles/ChatScreenStyle.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/smslogin/Containers/Styles/LaunchScreenStyles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/smslogin/Containers/Styles/LoginScreenStyles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/smslogin/Containers/Styles/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/smslogin/Containers/Styles/RootContainerStyles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/smslogin/Navigation/AppNavigation.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/smslogin/Navigation/Styles/NavigationStyles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/smslogin/Redux/Login/LoginActions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/smslogin/Redux/Login/LoginRedux.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/smslogin/Redux/Login/Types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/smslogin/Redux/Navigation/NavigationRedux.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/smslogin/Redux/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/socialmedia/Components/LoginScreen/Forms/PhoneNumberForm/PhoneNumberForm.ltr.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/socialmedia/Components/LoginScreen/Forms/PhoneNumberForm/PhoneNumberForm.rtl.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/socialmedia/Components/LoginScreen/Forms/PhoneNumberForm/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/socialmedia/Components/LoginScreen/Forms/PhoneValidationForm/PhoneValidationForm.ltr.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/socialmedia/Components/LoginScreen/Forms/PhoneValidationForm/PhoneValidationForm.rtl.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/socialmedia/Components/LoginScreen/Forms/PhoneValidationForm/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/socialmedia/Components/LoginScreen/Forms/UserInfoForm/UserInfoForm.ltr.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/socialmedia/Components/LoginScreen/Forms/UserInfoForm/UserInfoForm.rtl.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/socialmedia/Components/LoginScreen/Forms/UserInfoForm/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/socialmedia/Components/LoginScreen/Forms/__tests__/PhoneNumberFormTest.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/socialmedia/Components/LoginScreen/Forms/__tests__/PhoneValidationFormTest.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/socialmedia/Components/LoginScreen/Forms/__tests__/UserInfoFormTest.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/socialmedia/Components/LoginScreen/Forms/__tests__/__snapshots__/PhoneNumberFormTest.tsx.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/socialmedia/Components/LoginScreen/LoginCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/socialmedia/Components/LoginScreen/Styles/LoginCardStyles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/socialmedia/Components/LoginScreen/__tests__/LoginCardTest.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/socialmedia/Containers/LoginScreen.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/socialmedia/Containers/Styles/ChatScreenStyle.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/socialmedia/Containers/Styles/LaunchScreenStyles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/socialmedia/Containers/Styles/LoginScreenStyles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/socialmedia/Containers/Styles/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/socialmedia/Containers/Styles/RootContainerStyles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/socialmedia/Navigation/AppNavigation.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/socialmedia/Navigation/Styles/NavigationStyles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/socialmedia/Redux/Login/LoginActions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/socialmedia/Redux/Login/LoginRedux.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/socialmedia/Redux/Login/Types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/socialmedia/Redux/Navigation/NavigationRedux.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/socialmedia/Redux/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/boilerplate.js" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/__mocks__/fileMock.js" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/TestConfig/__mocks__/fileMock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/__mocks__/react-native-i18n.mock.js" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/TestConfig/__mocks__/react-native-i18n.mock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/__mocks__/react-native-mapbox-gl.mock.js" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/TestConfig/__mocks__/react-native-mapbox-gl.mock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/__mocks__/styleMock.js" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/TestConfig/__mocks__/styleMock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/package.json.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/package.json.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/rn-cli.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/rn-cli.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/test-preprocessor.js" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/TestConfig/Setup/test-preprocessor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/test-setup.js" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/TestConfig/Setup/test-setup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/test-shim.js" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/TestConfig/Setup/test-shim.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Components/LaunchScreen/ChatsTab/CallsListItem/CallsListItem.ltr.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/socialmedia/Components/LaunchScreen/ChatsTab/CallsListItem/CallsListItem.ltr.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Components/LaunchScreen/ChatsTab/CallsListItem/CallsListItem.rtl.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/socialmedia/Components/LaunchScreen/ChatsTab/CallsListItem/CallsListItem.rtl.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Components/LaunchScreen/ChatsTab/CallsListItem/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/socialmedia/Components/LaunchScreen/ChatsTab/CallsListItem/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Components/LaunchScreen/ChatsTab/ChatsListItem/ChatsListItem.ltr.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/socialmedia/Components/LaunchScreen/ChatsTab/ChatsListItem/ChatsListItem.ltr.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Components/LaunchScreen/ChatsTab/ChatsListItem/ChatsListItem.rtl.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/socialmedia/Components/LaunchScreen/ChatsTab/ChatsListItem/ChatsListItem.rtl.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Components/LaunchScreen/ChatsTab/ChatsListItem/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/socialmedia/Components/LaunchScreen/ChatsTab/ChatsListItem/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Components/LaunchScreen/ChatsTab/__tests__/CallsListItemTest.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/socialmedia/Components/LaunchScreen/ChatsTab/__tests__/CallsListItemTest.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Components/LaunchScreen/ChatsTab/__tests__/ChatsListItemTest.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/socialmedia/Components/LaunchScreen/ChatsTab/__tests__/ChatsListItemTest.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Components/LaunchScreen/ChatsTab/__tests__/__snapshots__/CallsListItemTest.tsx.snap" beforeDir="false" afterPath="$PROJECT_DIR$/templates/socialmedia/Components/LaunchScreen/ChatsTab/__tests__/__snapshots__/CallsListItemTest.tsx.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Components/LaunchScreen/ChatsTab/__tests__/__snapshots__/ChatsListItemTest.tsx.snap" beforeDir="false" afterPath="$PROJECT_DIR$/templates/socialmedia/Components/LaunchScreen/ChatsTab/__tests__/__snapshots__/ChatsListItemTest.tsx.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Components/LaunchScreen/SettingsTab/SettingsListItem/SettingsListItem.ltr.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/socialmedia/Components/LaunchScreen/SettingsTab/SettingsListItem/SettingsListItem.ltr.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Components/LaunchScreen/SettingsTab/SettingsListItem/SettingsListItem.rtl.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/socialmedia/Components/LaunchScreen/SettingsTab/SettingsListItem/SettingsListItem.rtl.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Components/LaunchScreen/SettingsTab/SettingsListItem/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/socialmedia/Components/LaunchScreen/SettingsTab/SettingsListItem/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Components/LaunchScreen/SettingsTab/SettingsToggleItem/SettingsToggleItem.ltr.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/socialmedia/Components/LaunchScreen/SettingsTab/SettingsToggleItem/SettingsToggleItem.ltr.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Components/LaunchScreen/SettingsTab/SettingsToggleItem/SettingsToggleItem.rtl.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/socialmedia/Components/LaunchScreen/SettingsTab/SettingsToggleItem/SettingsToggleItem.rtl.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Components/LaunchScreen/SettingsTab/SettingsToggleItem/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/socialmedia/Components/LaunchScreen/SettingsTab/SettingsToggleItem/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Components/LaunchScreen/SettingsTab/__tests__/SettingsListItemTest.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/socialmedia/Components/LaunchScreen/SettingsTab/__tests__/SettingsListItemTest.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Components/LaunchScreen/SettingsTab/__tests__/SettingsToggleItemTest.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/socialmedia/Components/LaunchScreen/SettingsTab/__tests__/SettingsToggleItemTest.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Components/LaunchScreen/SettingsTab/__tests__/__snapshots__/SettingsListItemTest.tsx.snap" beforeDir="false" afterPath="$PROJECT_DIR$/templates/socialmedia/Components/LaunchScreen/SettingsTab/__tests__/__snapshots__/SettingsListItemTest.tsx.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Components/LaunchScreen/SettingsTab/__tests__/__snapshots__/SettingsToggleItemTest.tsx.snap" beforeDir="false" afterPath="$PROJECT_DIR$/templates/socialmedia/Components/LaunchScreen/SettingsTab/__tests__/__snapshots__/SettingsToggleItemTest.tsx.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Components/LoginScreen/Forms/PhoneNumberForm/PhoneNumberForm.ltr.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login/Components/LoginScreen/Forms/PhoneNumberForm/PhoneNumberForm.ltr.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Components/LoginScreen/Forms/PhoneNumberForm/PhoneNumberForm.rtl.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login/Components/LoginScreen/Forms/PhoneNumberForm/PhoneNumberForm.rtl.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Components/LoginScreen/Forms/PhoneNumberForm/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login/Components/LoginScreen/Forms/PhoneNumberForm/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Components/LoginScreen/Forms/PhoneValidationForm/PhoneValidationForm.ltr.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login/Components/LoginScreen/Forms/PhoneValidationForm/PhoneValidationForm.ltr.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Components/LoginScreen/Forms/PhoneValidationForm/PhoneValidationForm.rtl.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login/Components/LoginScreen/Forms/PhoneValidationForm/PhoneValidationForm.rtl.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Components/LoginScreen/Forms/PhoneValidationForm/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login/Components/LoginScreen/Forms/PhoneValidationForm/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Components/LoginScreen/Forms/UserInfoForm/UserInfoForm.ltr.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login/Components/LoginScreen/Forms/UserInfoForm/UserInfoForm.ltr.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Components/LoginScreen/Forms/UserInfoForm/UserInfoForm.rtl.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login/Components/LoginScreen/Forms/UserInfoForm/UserInfoForm.rtl.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Components/LoginScreen/Forms/UserInfoForm/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login/Components/LoginScreen/Forms/UserInfoForm/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Components/LoginScreen/Forms/__tests__/PhoneNumberFormTest.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login/Components/LoginScreen/Forms/__tests__/PhoneNumberFormTest.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Components/LoginScreen/Forms/__tests__/PhoneValidationFormTest.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login/Components/LoginScreen/Forms/__tests__/PhoneValidationFormTest.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Components/LoginScreen/Forms/__tests__/UserInfoFormTest.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login/Components/LoginScreen/Forms/__tests__/UserInfoFormTest.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Components/LoginScreen/Forms/__tests__/__snapshots__/PhoneNumberFormTest.tsx.snap" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login/Components/LoginScreen/Forms/__tests__/__snapshots__/PhoneNumberFormTest.tsx.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Components/LoginScreen/LoginCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login/Components/LoginScreen/LoginCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Components/LoginScreen/Styles/LoginCardStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login/Components/LoginScreen/Styles/LoginCardStyles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Components/LoginScreen/__tests__/LoginCardTest.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login/Components/LoginScreen/__tests__/LoginCardTest.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Containers/LoginScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login/Containers/LoginScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Containers/MainTabs/ChannelsTab.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/socialmedia/Containers/MainTabs/ChannelsTab.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Containers/MainTabs/ChatsTabScreens/CallsScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/socialmedia/Containers/MainTabs/ChatsTabScreens/CallsScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Containers/MainTabs/ChatsTabScreens/ChatsScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/socialmedia/Containers/MainTabs/ChatsTabScreens/ChatsScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Containers/MainTabs/ChatsTabScreens/GroupsScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/socialmedia/Containers/MainTabs/ChatsTabScreens/GroupsScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Containers/MainTabs/LocationTab.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/socialmedia/Containers/MainTabs/LocationTab.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Containers/MainTabs/SearchTab.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/socialmedia/Containers/MainTabs/SearchTab.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Containers/MainTabs/SettingsTab.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/socialmedia/Containers/MainTabs/SettingsTab.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Navigation/AppNavigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/App/Navigation/AppNavigation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Navigation/ChatsTabNavigator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/socialmedia/Navigation/ChatsTabNavigator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Navigation/MainTabNavigator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/socialmedia/Navigation/MainTabNavigator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Redux/Login/LoginActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login/Redux/Login/LoginActions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Redux/Login/LoginRedux.ts" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login/Redux/Login/LoginRedux.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Redux/Login/Types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login/Redux/Login/Types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Redux/Navigation/NavigationRedux.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/App/Redux/Navigation/NavigationRedux.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/Redux/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/App/Redux/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/patterns.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/patterns.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/options.js" beforeDir="false" afterPath="$PROJECT_DIR$/options.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,7 +142,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
@@ -36,77 +151,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="patterns.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/patterns.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="interface.test.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/interface.test.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="component-test.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/component-test.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="22" lean-forward="true" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="boilerplate.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="boilerplate.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/boilerplate.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1497">
-              <caret line="98" column="91" selection-start-line="98" selection-start-column="91" selection-end-line="98" selection-end-column="91" />
+            <state relative-caret-position="130">
+              <caret line="191" column="44" lean-forward="true" selection-start-line="191" selection-start-column="44" selection-end-line="191" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test-preprocessor.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boilerplate/TestConfig/Setup/test-preprocessor.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-159" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test-setup.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boilerplate/TestConfig/Setup/test-setup.js">
+      <file leaf-file-name="AppNavigation.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/login/Navigation/AppNavigation.tsx">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#0#56#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test-shim.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boilerplate/TestConfig/Setup/test-shim.js">
+      <file leaf-file-name="LaunchScreen.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boilerplate/App/Containers/LaunchScreen.tsx">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="CallsListItem.rtl.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boilerplate/App/Components/LaunchScreen/ChatsTab/CallsListItem/CallsListItem.rtl.tsx">
+      <file leaf-file-name="options.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/options.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
+              <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
               <folding>
-                <element signature="e#0#31#0" expanded="true" />
+                <marker date="1541516538883" expanded="true" signature="307:458" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boilerplate/package.json.ejs">
+      <file leaf-file-name="AppNavigation.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boilerplate/App/Navigation/AppNavigation.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-429">
-              <caret line="140" column="51" selection-start-line="140" selection-start-column="34" selection-end-line="140" selection-end-column="51" />
+            <state relative-caret-position="230">
+              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#56#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,6 +216,9 @@
       <find>test-shim</find>
       <find>test-setup</find>
       <find>test-preprocessor</find>
+      <find>templates</find>
+      <find>answers</find>
+      <find>fs-jetpack</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -139,7 +231,6 @@
         <option value="$PROJECT_DIR$/boilerplate/ignite.json.ejs" />
         <option value="$PROJECT_DIR$/boilerplate/README.md" />
         <option value="$PROJECT_DIR$/boilerplate/package.json" />
-        <option value="$PROJECT_DIR$/options.js" />
         <option value="$PROJECT_DIR$/boilerplate/App/Navigation/MainTabNavigator.tsx" />
         <option value="$PROJECT_DIR$/templates/component/style/style.ltr.ejs" />
         <option value="$PROJECT_DIR$/templates/component/style/style.rtl.ejs" />
@@ -164,8 +255,15 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/boilerplate/rn-cli.config.js" />
         <option value="$PROJECT_DIR$/boilerplate/package.json.ejs" />
-        <option value="$PROJECT_DIR$/boilerplate.js" />
+        <option value="$PROJECT_DIR$/lib/patterns.js" />
+        <option value="$PROJECT_DIR$/options.js" />
+        <option value="$PROJECT_DIR$/templates/smslogin/Navigation/AppNavigation.tsx" />
+        <option value="$PROJECT_DIR$/boilerplate/App/Navigation/AppNavigation.tsx" />
+        <option value="$PROJECT_DIR$/boilerplate/App/Redux/Navigation/NavigationRedux.tsx" />
+        <option value="$PROJECT_DIR$/boilerplate/App/Redux/index.tsx" />
+        <option value="$PROJECT_DIR$/templates/login/Containers/Styles/ChatScreenStyle.tsx" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/boilerplate.js" />
       </list>
     </option>
   </component>
@@ -203,24 +301,6 @@
             <path>
               <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
               <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
-              <item name="boilerplate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
-              <item name="boilerplate" type="462c0819:PsiDirectoryNode" />
-              <item name="TestConfig" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
-              <item name="boilerplate" type="462c0819:PsiDirectoryNode" />
-              <item name="TestConfig" type="462c0819:PsiDirectoryNode" />
-              <item name="__mocks__" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -245,17 +325,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\smslogin\Containers" />
       <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\boilerplate\TestConfig\Setup" />
       <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\boilerplate\TestConfig" />
       <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\boilerplate\TestSetup" />
       <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\Component" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\commands" />
-      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\component" />
-      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\Component\Style" />
-      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\Component" />
-      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates" />
+      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\boilerplate\App\Containers" />
+      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\login" />
+      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\smslogin\Navigation" />
+      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\smslogin" />
+      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\socialmedia\Redux" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -281,12 +362,12 @@
       <option name="presentableId" value="Default" />
       <updated>1541415781062</updated>
       <workItem from="1541415782650" duration="14254000" />
-      <workItem from="1541491723587" duration="13809000" />
+      <workItem from="1541491723587" duration="25317000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28063000" />
+    <option name="totallyTimeSpent" value="39571000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -298,10 +379,11 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.4627383" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.17259787" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.27402136" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24925596" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3291815" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -311,7 +393,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32928944" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,200 +407,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/boilerplate/App/Navigation/ChatsTabNavigator.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate/App/Containers/MainTabs/LocationTab.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="805">
-          <caret line="41" column="3" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="20" selection-start-column="20" selection-end-column="20" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate/.watchmanconfig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate/.env.example">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate/.babelrc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate/webpack.config.js" />
-    <entry file="file://$PROJECT_DIR$/templates/examples/Styles/GridExampleStyle.js.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="32" column="12" lean-forward="true" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/component/component.rtl.ejs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/component/style/style.rtl.ejs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate/App/Components/LaunchScreen/ChatsTab/CallsListItem/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/screenExamples.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-759" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commands/directioncomponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="43" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commands/component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-401">
-          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/directionComponent/style/style.rtl.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="68" selection-start-line="1" selection-start-column="68" selection-end-line="1" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/directionComponent/style/style.ltr.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="68" selection-start-line="1" selection-start-column="68" selection-end-line="1" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/component/style/style.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="68" selection-start-line="1" selection-start-column="68" selection-end-line="1" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/directionComponent/component.rtl.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate/App/Containers/RootContainer.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-860">
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate/App/Containers/LoginScreen.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-483">
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate/App/Containers/App.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-897">
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commands/container.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-391">
-          <caret line="37" column="77" selection-start-line="37" selection-start-column="77" selection-end-line="37" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commands/screen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-331">
-          <caret line="37" column="48" lean-forward="true" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate/App/Navigation/MainTabNavigator.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-138">
-          <caret line="9" column="98" selection-start-line="9" selection-start-column="98" selection-end-line="9" selection-end-column="98" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#33#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate/App/Navigation/AppNavigation.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commands/list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="118" column="77" selection-start-line="118" selection-start-column="77" selection-end-line="118" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commands/listview.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commands/redux.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/commands/saga.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -588,13 +475,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/patterns.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/interface.test.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -613,11 +493,6 @@
         <state relative-caret-position="-429">
           <caret line="140" column="51" selection-start-line="140" selection-start-column="34" selection-end-line="140" selection-end-column="51" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate/TestConfig/Setup/test-preprocessor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-159" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/boilerplate/TestConfig/Setup/test-setup.js">
@@ -641,10 +516,210 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate.js">
+    <entry file="file://$PROJECT_DIR$/boilerplate/TestConfig/Setup/test-preprocessor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1497">
-          <caret line="98" column="91" selection-start-line="98" selection-start-column="91" selection-end-line="98" selection-end-column="91" />
+        <state relative-caret-position="-159" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/patterns.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/App/I18n/locales/en.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/App/Redux/Login/LoginActions.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/App/Redux/Login/LoginRedux.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/App/Redux/Login/Types.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/socialmedia/Components/LaunchScreen/ChatsTab/__tests__/__snapshots__/CallsListItemTest.tsx.snap">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/App/Containers/App.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/socialmedia/Containers/LoginScreen.tsx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/App/Navigation/ReduxNavigation.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/socialmedia/Navigation/Styles/NavigationStyles.tsx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/socialmedia/Redux/index.tsx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/smslogin/Components/LoginScreen/Forms/__tests__/__snapshots__/PhoneNumberFormTest.tsx.snap">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/smslogin/Containers/LaunchScreen.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-391" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/smslogin/Navigation/AppNavigation.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/smslogin/Redux/Navigation/NavigationRedux.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/smslogin/Redux/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/smslogin/Redux/Login/LoginActions.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-446" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/smslogin/Redux/Login/LoginRedux.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-483">
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/smslogin/Containers/LoginScreen.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login/Components/LoginScreen/Forms/__tests__/__snapshots__/PhoneNumberFormTest.tsx.snap">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/App/Redux/Navigation/NavigationRedux.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-253">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/App/Redux/CreateStore.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-897">
+          <folding>
+            <element signature="e#0#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/App/Redux/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="18" column="64" lean-forward="true" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/App/Redux/StartupRedux.tsx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/options.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <folding>
+            <marker date="1541516538883" expanded="true" signature="307:458" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login/Containers/Styles/ChatScreenStyle.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/socialmedia/Navigation/AppNavigation.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login/Navigation/AppNavigation.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/App/Containers/LaunchScreen.tsx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/App/Navigation/AppNavigation.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -652,6 +727,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="191" column="44" lean-forward="true" selection-start-line="191" selection-start-column="44" selection-end-line="191" selection-end-column="44" />
         </state>
       </provider>
     </entry>

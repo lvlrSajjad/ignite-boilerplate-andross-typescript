@@ -1,11 +1,18 @@
 import AppNavigation from "../../Navigation/AppNavigation";
-//import { NavigationActions } from 'react-navigation';
+import { NavigationActions } from 'react-navigation';
 
 export const reducer = (state, action) => {
   let newState;
 
   switch (action.type) {
-
+    case 'LoginScreen':
+      newState = AppNavigation.router.getStateForAction(
+        NavigationActions.navigate({
+          routeName: 'LoginScreen',
+        }),
+        state
+      );
+      break;
     // case 'ChatScreen':
     //   newState = AppNavigation.router.getStateForAction(
     //     NavigationActions.navigate({

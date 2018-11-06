@@ -62,6 +62,7 @@ async function install (context) {
     overwrite: true,
     matching: '!*.ejs'
   })
+
   // filesystem.copy(`${__dirname}/boilerplate/Tests`, `${process.cwd()}/Tests`, {
   //   overwrite: true,
   //   matching: '!*.ejs'
@@ -84,14 +85,13 @@ async function install (context) {
 
   // generate some templates
   spinner.text = '▸ generating files'
+
   const templates = [
     { template: 'index.js.ejs', target: 'index.js' },
     { template: 'README.md', target: 'README.md' },
     { template: 'ignite.json.ejs', target: 'ignite/ignite.json' },
     { template: '.editorconfig', target: '.editorconfig' },
     { template: '.babelrc', target: '.babelrc' },
-  //  { template: 'Tests/Setup.js.ejs', target: 'Tests/Setup.js' },
-  //  { template: 'storybook/storybook.ejs', target: 'storybook/storybook.js' },
     { template: '.env.example', target: '.env.example' },
     { template: 'rn-cli.config.js', target: 'rn-cli.config.js' },
     { template: 'TestConfig/Setup/test-preprocessor.js', target: 'TestConfig/Setup/test-preprocessor.js' },
@@ -112,6 +112,7 @@ async function install (context) {
     name,
     igniteVersion: ignite.version,
     reactNativeVersion: rnInstall.version,
+    template:answers['initial-template']
     // vectorIcons: answers['vector-icons'],
     // animatable: answers['animatable'],
     // i18n: answers['i18n']
@@ -188,6 +189,45 @@ async function install (context) {
     await system.spawn(`ignite add ${boilerplate} ${debugFlag}`, { stdio: 'inherit' })
 
     // now run install of Ignite Plugins
+    switch ((answers['initial-template'])) {
+      case 'Just a simple screen':{
+        break;
+      }
+      case 'With login screen':{
+        spinner.text = '▸ copying files'
+        spinner.start()
+
+        filesystem.copy(`${__dirname}/templates/login`, `${process.cwd()}/App`, {
+          overwrite: true
+        })
+        spinner.stop()
+
+        break;
+      }
+      case 'With sms login screen':{
+        spinner.text = '▸ copying files'
+        spinner.start()
+
+        filesystem.copy(`${__dirname}/templates/smslogin`, `${process.cwd()}/App`, {
+          overwrite: true
+        })
+        spinner.stop()
+
+        break;
+      }
+      case 'Social media app':{
+        spinner.text = '▸ copying files'
+        spinner.start()
+
+
+        filesystem.copy(`${__dirname}/templates/socialmedia`, `${process.cwd()}/App`, {
+          overwrite: true
+        })
+        spinner.stop()
+
+        break;
+      }
+    }
     // if (answers['dev-screens'] === 'Yes') {
     //   await system.spawn(`ignite add dev-screens@"~>2.2.0" ${debugFlag}`, {
     //     stdio: 'inherit'
