@@ -13,7 +13,7 @@
 * HighLighted Dependencies that installed and linked to android :
 
     ```
-      MapBox For Maps And Locations Using
+      MapBox For Maps And Geolocation
     
       Realm For DB Uses
       
@@ -366,8 +366,6 @@ End usage:
 
 ```typescript jsx
 import I18n from "../path/to/App/I18n";
-
-
 
 <SomeComponent
 placeholder={I18n.t('phoneNumber')}

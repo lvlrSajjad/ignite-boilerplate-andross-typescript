@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f62ad2c-1973-43c4-a49a-dc82052ec6be" name="Default" comment="" />
+    <list default="true" id="3f62ad2c-1973-43c4-a49a-dc82052ec6be" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate.js" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/__mocks__/fileMock.js" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/TestConfig/__mocks__/fileMock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/__mocks__/react-native-i18n.mock.js" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/TestConfig/__mocks__/react-native-i18n.mock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/__mocks__/react-native-mapbox-gl.mock.js" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/TestConfig/__mocks__/react-native-mapbox-gl.mock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/__mocks__/styleMock.js" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/TestConfig/__mocks__/styleMock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/package.json.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/package.json.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/rn-cli.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/rn-cli.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/test-preprocessor.js" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/TestConfig/Setup/test-preprocessor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/test-setup.js" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/TestConfig/Setup/test-setup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/test-shim.js" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/TestConfig/Setup/test-shim.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,10 +27,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
+            <state relative-caret-position="138">
               <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
             </state>
           </provider>
@@ -32,20 +45,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/directionComponent/index.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-            </state>
-          </provider>
+      <file leaf-file-name="interface.test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/interface.test.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/component/index.ejs">
+      <file leaf-file-name="component-test.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/component-test.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+            <state>
+              <caret column="22" lean-forward="true" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -53,26 +62,51 @@
       <file leaf-file-name="boilerplate.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/boilerplate.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="261" column="1" lean-forward="true" selection-start-line="261" selection-start-column="1" selection-end-line="261" selection-end-column="1" />
+            <state relative-caret-position="1497">
+              <caret line="98" column="91" selection-start-line="98" selection-start-column="91" selection-end-line="98" selection-end-column="91" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1477">
-                <caret line="219" column="3" lean-forward="true" selection-start-line="219" selection-start-column="3" selection-end-line="219" selection-end-column="3" />
-                <folding>
-                  <element signature="e#2#40#0" expanded="true" />
-                  <element signature="e#0#31#0" expanded="true" />
-                  <element signature="e#0#37#0" expanded="true" />
-                  <element signature="e#2#56#0" expanded="true" />
-                </folding>
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="test-preprocessor.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boilerplate/TestConfig/Setup/test-preprocessor.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-159" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test-setup.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boilerplate/TestConfig/Setup/test-setup.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test-shim.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boilerplate/TestConfig/Setup/test-shim.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="CallsListItem.rtl.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boilerplate/App/Components/LaunchScreen/ChatsTab/CallsListItem/CallsListItem.rtl.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boilerplate/package.json.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-429">
+              <caret line="140" column="51" selection-start-line="140" selection-start-column="34" selection-end-line="140" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -89,6 +123,10 @@
       <find>mapbox</find>
       <find>options</find>
       <find>.js</find>
+      <find>__Mocks</find>
+      <find>test-shim</find>
+      <find>test-setup</find>
+      <find>test-preprocessor</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -103,8 +141,6 @@
         <option value="$PROJECT_DIR$/boilerplate/package.json" />
         <option value="$PROJECT_DIR$/options.js" />
         <option value="$PROJECT_DIR$/boilerplate/App/Navigation/MainTabNavigator.tsx" />
-        <option value="$PROJECT_DIR$/boilerplate/package.json.ejs" />
-        <option value="$PROJECT_DIR$/boilerplate.js" />
         <option value="$PROJECT_DIR$/templates/component/style/style.ltr.ejs" />
         <option value="$PROJECT_DIR$/templates/component/style/style.rtl.ejs" />
         <option value="$PROJECT_DIR$/templates/component/component.rtl.ejs" />
@@ -125,8 +161,11 @@
         <option value="$PROJECT_DIR$/templates/container.ejs" />
         <option value="$PROJECT_DIR$/templates/component/index.ejs" />
         <option value="$PROJECT_DIR$/templates/directionComponent/index.ejs" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/boilerplate/rn-cli.config.js" />
+        <option value="$PROJECT_DIR$/boilerplate/package.json.ejs" />
+        <option value="$PROJECT_DIR$/boilerplate.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -170,48 +209,19 @@
               <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
               <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
               <item name="boilerplate" type="462c0819:PsiDirectoryNode" />
-              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="TestConfig" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
               <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
               <item name="boilerplate" type="462c0819:PsiDirectoryNode" />
-              <item name="App" type="462c0819:PsiDirectoryNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
-              <item name="boilerplate" type="462c0819:PsiDirectoryNode" />
-              <item name="App" type="462c0819:PsiDirectoryNode" />
-              <item name="Navigation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
-              <item name="commands" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="TestConfig" type="462c0819:PsiDirectoryNode" />
+              <item name="__mocks__" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
               <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="directionComponent" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -235,6 +245,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\boilerplate\TestConfig\Setup" />
+      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\boilerplate\TestConfig" />
+      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\boilerplate\TestSetup" />
       <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\Component" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -268,15 +281,16 @@
       <option name="presentableId" value="Default" />
       <updated>1541415781062</updated>
       <workItem from="1541415782650" duration="14254000" />
-      <workItem from="1541491723587" duration="10132000" />
+      <workItem from="1541491723587" duration="13809000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24386000" />
+    <option name="totallyTimeSpent" value="28063000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
@@ -312,32 +326,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/boilerplate/test-preprocessor.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate/test-setup.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate/test-shim.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate/rn-cli.config.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/react-native-version.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/options.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="33" column="6" selection-start-line="4" selection-start-column="5" selection-end-line="33" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/boilerplate/App/Navigation/ChatsTabNavigator.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -367,13 +355,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate/package.json.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/boilerplate/.watchmanconfig">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -384,15 +365,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/boilerplate/webpack.config.js" />
-    <entry file="file://$PROJECT_DIR$/boilerplate/App/Components/LaunchScreen/ChatsTab/CallsListItem/CallsListItem.rtl.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-69">
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/examples/Styles/GridExampleStyle.js.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
@@ -586,13 +558,6 @@
         <state relative-caret-position="-69" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/component/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/directionComponent/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -600,10 +565,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="138">
+            <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+            <folding>
+              <element signature="e#2#40#0" expanded="true" />
+              <element signature="e#0#31#0" expanded="true" />
+              <element signature="e#0#37#0" expanded="true" />
+              <element signature="e#2#56#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/component/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        <state relative-caret-position="69">
+          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -614,26 +595,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate.js">
+    <entry file="file://$PROJECT_DIR$/test/interface.test.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/component-test.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="261" column="1" lean-forward="true" selection-start-line="261" selection-start-column="1" selection-end-line="261" selection-end-column="1" />
+        <state>
+          <caret column="22" lean-forward="true" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1477">
-            <caret line="219" column="3" lean-forward="true" selection-start-line="219" selection-start-column="3" selection-end-line="219" selection-end-column="3" />
-            <folding>
-              <element signature="e#2#40#0" expanded="true" />
-              <element signature="e#0#31#0" expanded="true" />
-              <element signature="e#0#37#0" expanded="true" />
-              <element signature="e#2#56#0" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/boilerplate/rn-cli.config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/package.json.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-429">
+          <caret line="140" column="51" selection-start-line="140" selection-start-column="34" selection-end-line="140" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/TestConfig/Setup/test-preprocessor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-159" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/TestConfig/Setup/test-setup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/TestConfig/Setup/test-shim.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/App/Components/LaunchScreen/ChatsTab/CallsListItem/CallsListItem.rtl.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1497">
+          <caret line="98" column="91" selection-start-line="98" selection-start-column="91" selection-end-line="98" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
         </state>
       </provider>
     </entry>
