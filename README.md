@@ -71,10 +71,12 @@
   ```
 npm install -g ignite-cli
 ```
-  Then you can create your app using this boilerplate with this command
+  Then you can create your app using this boilerplate with this commands
   
  ```
  ignite new YourAppName -b ignite-boilerplate-andross-typescript
+ cd YourAppName
+ react-native link
  ```
   For More Cli Instructions Please refer to below sections and ignite boilerplate page :
   
