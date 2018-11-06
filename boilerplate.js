@@ -193,7 +193,7 @@ async function install (context) {
       case 'Just a simple screen':{
         break;
       }
-      case 'With login screen':{
+      case 'With simple login screen':{
         spinner.text = '▸ copying files'
         spinner.start()
 
