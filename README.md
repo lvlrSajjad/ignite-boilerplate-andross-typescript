@@ -67,7 +67,16 @@
    
 ## :fire: Ignite Cli
   
-  For Cli Instructions Please refer to ignite boilerplate page :
+  First you must install ignite cli as gobal with this command
+  ```
+npm install -g ignite-cli
+```
+  Then you can create your app using this boilerplate with this command
+  
+ ```
+ ignite new YourAppName -b ignite-boilerplate-andross-typescript
+ ```
+  For More Cli Instructions Please refer to below sections and ignite boilerplate page :
   
   https://github.com/infinitered/ignite
   
