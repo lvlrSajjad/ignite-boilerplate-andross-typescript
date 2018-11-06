@@ -134,7 +134,7 @@
        
        |Transforms < You can do conversions 
 ## :arrow_down_small: Templates
-<img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/template.png" width="500">
+<img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/template.png" width="90%">
 
 You can select a template based on app's usage when initializing the app with boilerplate so it will just copies or replaces some files to the app folder . templates are for time saving and some example to see how to use this boilerplate.
 ## :arrow_down_small: Recommended Structure For Rtl/Ltr Support

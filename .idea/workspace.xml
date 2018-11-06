@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f62ad2c-1973-43c4-a49a-dc82052ec6be" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/gifs/template.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -22,7 +21,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="161">
-                <caret line="136" column="113" selection-start-line="136" selection-start-column="105" selection-end-line="136" selection-end-column="113" />
+                <caret line="136" column="129" selection-start-line="136" selection-start-column="129" selection-end-line="136" selection-end-column="129" />
                 <folding>
                   <element signature="e#2#32#0" expanded="true" />
                   <element signature="e#0#31#0" expanded="true" />
@@ -115,7 +114,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -197,15 +196,16 @@
       <option name="presentableId" value="Default" />
       <updated>1541415781062</updated>
       <workItem from="1541415782650" duration="14254000" />
-      <workItem from="1541491723587" duration="26591000" />
+      <workItem from="1541491723587" duration="26756000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40845000" />
+    <option name="totallyTimeSpent" value="41010000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
@@ -559,7 +559,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="161">
-            <caret line="136" column="113" selection-start-line="136" selection-start-column="105" selection-end-line="136" selection-end-column="113" />
+            <caret line="136" column="129" selection-start-line="136" selection-start-column="129" selection-end-line="136" selection-end-column="129" />
             <folding>
               <element signature="e#2#32#0" expanded="true" />
               <element signature="e#0#31#0" expanded="true" />
