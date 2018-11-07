@@ -109,7 +109,7 @@ const tavNav = (props) => React.createElement(
           backgroundColor: props.colorScheme.tabBarBackground
         },
       },
-      initialRouteName: I18n.t('chats'),
+      initialRouteName: I18n.t('First'),
       labelStyle: {
         fontSize: 10,
         fontFamily: Fonts.type.farsi,

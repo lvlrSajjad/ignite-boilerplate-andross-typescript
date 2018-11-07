@@ -62,4 +62,4 @@ class FourthTab extends Component {
 
 //const mapDispatchToProps = dispatch => ({});
 
-export default connect(/**mapStateToProps*/ null,/** mapDispatchToProps*/null)(SearchTab);
+export default connect(/**mapStateToProps*/ null,/** mapDispatchToProps*/null)(FourthTab);

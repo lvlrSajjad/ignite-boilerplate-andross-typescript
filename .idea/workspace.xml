@@ -2,55 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f62ad2c-1973-43c4-a49a-dc82052ec6be" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/tabbed/Components/LaunchScreen/SettingsTab/SettingsToggleItem/SettingsToggleItem.ltr.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/tabbed/Components/LaunchScreen/SettingsTab/SettingsToggleItem/SettingsToggleItem.rtl.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/tabbed/Components/LaunchScreen/SettingsTab/SettingsToggleItem/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/tabbed/Components/LaunchScreen/SettingsTab/__tests__/SettingsToggleItemTest.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/tabbed/Components/LaunchScreen/SettingsTab/__tests__/__snapshots__/SettingsToggleItemTest.tsx.snap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/tabbed/Containers/LaunchScreen.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/tabbed/Containers/MainTabs/FifthTab.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/tabbed/Containers/MainTabs/FirstTab.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/tabbed/Containers/MainTabs/FourthTab.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/tabbed/Containers/MainTabs/SecondTab.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/tabbed/Containers/MainTabs/ThirdTab.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/tabbed/Containers/Styles/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/tabbed/Containers/Styles/RootContainerStyles.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate.js" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/options.js" beforeDir="false" afterPath="$PROJECT_DIR$/options.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/I18n/locales/en.ts" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/App/I18n/locales/en.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/App/I18n/locales/fa.ts" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/App/I18n/locales/fa.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login/Containers/LaunchScreen.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login/Containers/Styles/ChatScreenStyle.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login/Containers/Styles/LaunchScreenStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tabbed/Containers/Styles/LaunchScreenStyles.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/smslogin/Containers/LaunchScreen.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/smslogin/Containers/Styles/ChatScreenStyle.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/smslogin/Containers/Styles/LaunchScreenStyles.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/socialmedia/Components/LoginScreen/Forms/PhoneNumberForm/PhoneNumberForm.ltr.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/socialmedia/Components/LoginScreen/Forms/PhoneNumberForm/PhoneNumberForm.rtl.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/socialmedia/Components/LoginScreen/Forms/PhoneNumberForm/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/socialmedia/Components/LoginScreen/Forms/PhoneValidationForm/PhoneValidationForm.ltr.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/socialmedia/Components/LoginScreen/Forms/PhoneValidationForm/PhoneValidationForm.rtl.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/socialmedia/Components/LoginScreen/Forms/PhoneValidationForm/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/socialmedia/Components/LoginScreen/Forms/UserInfoForm/UserInfoForm.ltr.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/socialmedia/Components/LoginScreen/Forms/UserInfoForm/UserInfoForm.rtl.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/socialmedia/Components/LoginScreen/Forms/UserInfoForm/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/socialmedia/Components/LoginScreen/Forms/__tests__/PhoneNumberFormTest.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/socialmedia/Components/LoginScreen/Forms/__tests__/PhoneValidationFormTest.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/socialmedia/Components/LoginScreen/Forms/__tests__/UserInfoFormTest.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/socialmedia/Components/LoginScreen/Forms/__tests__/__snapshots__/PhoneNumberFormTest.tsx.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/socialmedia/Components/LoginScreen/LoginCard.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/socialmedia/Components/LoginScreen/Styles/LoginCardStyles.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/socialmedia/Components/LoginScreen/__tests__/LoginCardTest.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/socialmedia/Containers/LoginScreen.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/socialmedia/Navigation/AppNavigation.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/socialmedia/Navigation/ChatsTabNavigator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/socialmedia/Containers/ChatsTabNavigator.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/socialmedia/Navigation/MainTabNavigator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/socialmedia/Containers/LaunchScreen.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/socialmedia/Navigation/Styles/NavigationStyles.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/socialmedia/Redux/Login/LoginActions.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/socialmedia/Redux/Login/LoginRedux.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/socialmedia/Redux/Login/Types.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/socialmedia/Redux/Navigation/NavigationRedux.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/socialmedia/Redux/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/tabbed/Containers/LaunchScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tabbed/Containers/LaunchScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/tabbed/Containers/MainTabs/FirstTab.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tabbed/Containers/MainTabs/FirstTab.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/tabbed/Containers/MainTabs/FourthTab.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tabbed/Containers/MainTabs/FourthTab.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/tabbed/Containers/MainTabs/SecondTab.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tabbed/Containers/MainTabs/SecondTab.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/tabbed/Containers/MainTabs/ThirdTab.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tabbed/Containers/MainTabs/ThirdTab.tsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -67,38 +26,31 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
+            <state relative-caret-position="138">
               <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="boilerplate.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/boilerplate.js">
+      <file leaf-file-name="FirstTab.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/tabbed/Containers/MainTabs/FirstTab.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="232" column="7" lean-forward="true" selection-start-line="232" selection-start-column="7" selection-end-line="232" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/tabbed/Containers/Styles/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChatsTabNavigator.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/socialmedia/Containers/ChatsTabNavigator.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="103">
+              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#33#64#0" expanded="true" />
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FifthTab.tsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/tabbed/Containers/MainTabs/FifthTab.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="90" column="56" lean-forward="true" selection-start-line="90" selection-start-column="56" selection-end-line="90" selection-end-column="56" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,7 +59,8 @@
       <file leaf-file-name="LaunchScreen.tsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/tabbed/Containers/LaunchScreen.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="23">
+              <caret line="117" column="12" lean-forward="true" selection-start-line="117" selection-start-column="12" selection-end-line="117" selection-end-column="12" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#33#64#0" expanded="true" />
@@ -119,7 +72,8 @@
       <file leaf-file-name="ThirdTab.tsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/tabbed/Containers/MainTabs/ThirdTab.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="200">
+              <caret line="64" column="87" selection-start-line="64" selection-start-column="87" selection-end-line="64" selection-end-column="87" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -130,7 +84,8 @@
       <file leaf-file-name="SecondTab.tsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/tabbed/Containers/MainTabs/SecondTab.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="224">
+              <caret line="64" column="88" selection-start-line="64" selection-start-column="88" selection-end-line="64" selection-end-column="88" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -141,7 +96,8 @@
       <file leaf-file-name="FourthTab.tsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/tabbed/Containers/MainTabs/FourthTab.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="224">
+              <caret line="64" column="88" selection-start-line="64" selection-start-column="88" selection-end-line="64" selection-end-column="88" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -149,22 +105,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FirstTab.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/tabbed/Containers/MainTabs/FirstTab.tsx">
+      <file leaf-file-name="en.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boilerplate/App/I18n/locales/en.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="138">
+              <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FifthTab.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/tabbed/Containers/MainTabs/FifthTab.tsx">
+      <file leaf-file-name="fa.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boilerplate/App/I18n/locales/fa.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="138">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -240,8 +194,15 @@
         <option value="$PROJECT_DIR$/templates/socialmedia/Navigation/AppNavigation.tsx" />
         <option value="$PROJECT_DIR$/templates/socialmedia/Containers/ChatsTabNavigator.tsx" />
         <option value="$PROJECT_DIR$/templates/tabbed/Containers/MainTabs/FifthTab.tsx" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/boilerplate.js" />
+        <option value="$PROJECT_DIR$/templates/tabbed/Containers/MainTabs/FirstTab.tsx" />
+        <option value="$PROJECT_DIR$/templates/tabbed/Containers/MainTabs/FourthTab.tsx" />
+        <option value="$PROJECT_DIR$/templates/tabbed/Containers/MainTabs/SecondTab.tsx" />
+        <option value="$PROJECT_DIR$/templates/tabbed/Containers/MainTabs/ThirdTab.tsx" />
+        <option value="$PROJECT_DIR$/templates/tabbed/Containers/LaunchScreen.tsx" />
+        <option value="$PROJECT_DIR$/boilerplate/App/I18n/locales/en.ts" />
+        <option value="$PROJECT_DIR$/boilerplate/App/I18n/locales/fa.ts" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -258,7 +219,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -279,26 +240,44 @@
             <path>
               <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
               <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
+              <item name="boilerplate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
+              <item name="boilerplate" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
+              <item name="boilerplate" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="I18n" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
               <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="socialmedia" type="462c0819:PsiDirectoryNode" />
+              <item name="tabbed" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
               <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="socialmedia" type="462c0819:PsiDirectoryNode" />
+              <item name="tabbed" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
               <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="socialmedia" type="462c0819:PsiDirectoryNode" />
+              <item name="tabbed" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
               <item name="LaunchScreen" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -307,6 +286,15 @@
               <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="tabbed" type="462c0819:PsiDirectoryNode" />
+              <item name="Containers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="tabbed" type="462c0819:PsiDirectoryNode" />
+              <item name="Containers" type="462c0819:PsiDirectoryNode" />
+              <item name="MainTabs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -368,15 +356,16 @@
       <updated>1541415781062</updated>
       <workItem from="1541415782650" duration="14254000" />
       <workItem from="1541491723587" duration="34255000" />
-      <workItem from="1541586721183" duration="12843000" />
+      <workItem from="1541586721183" duration="14783000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61352000" />
+    <option name="totallyTimeSpent" value="63292000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
@@ -384,9 +373,9 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.4627383" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.23843417" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.23843417" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27455357" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27455357" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291815" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -412,15 +401,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/smslogin/Redux/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/smslogin/Redux/Login/LoginActions.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-446" />
@@ -492,9 +472,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/boilerplate/App/Containers/LaunchScreen.tsx">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate/App/I18n/locales/en.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/login/Containers/LoginScreen.tsx">
@@ -731,9 +708,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="230" selection-start-line="230" selection-end-line="230" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/App/I18n/locales/fa.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/App/I18n/locales/en.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/tabbed/Containers/LaunchScreen.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="23">
+          <caret line="117" column="12" lean-forward="true" selection-start-line="117" selection-start-column="12" selection-end-line="117" selection-end-column="12" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#33#64#0" expanded="true" />
@@ -743,7 +749,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/tabbed/Containers/MainTabs/ThirdTab.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="200">
+          <caret line="64" column="87" selection-start-line="64" selection-start-column="87" selection-end-line="64" selection-end-column="87" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
@@ -752,7 +759,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/tabbed/Containers/MainTabs/SecondTab.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="224">
+          <caret line="64" column="88" selection-start-line="64" selection-start-column="88" selection-end-line="64" selection-end-column="88" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
@@ -761,7 +769,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/tabbed/Containers/MainTabs/FourthTab.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="224">
+          <caret line="64" column="88" selection-start-line="64" selection-start-column="88" selection-end-line="64" selection-end-column="88" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/tabbed/Containers/MainTabs/FirstTab.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
@@ -770,31 +789,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/tabbed/Containers/MainTabs/FifthTab.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/tabbed/Containers/MainTabs/FirstTab.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="200">
+          <caret line="90" column="56" lean-forward="true" selection-start-line="90" selection-start-column="56" selection-end-line="90" selection-end-column="56" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="232" column="7" lean-forward="true" selection-start-line="232" selection-start-column="7" selection-end-line="232" selection-end-column="7" />
         </state>
       </provider>
     </entry>

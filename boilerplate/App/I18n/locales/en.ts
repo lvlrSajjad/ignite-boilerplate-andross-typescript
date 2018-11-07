@@ -1,4 +1,11 @@
+import FourthTab from "../../../../templates/tabbed/Containers/MainTabs/FourthTab";
+
 export default {
+  First:'First',
+  Second:'Second',
+  Third:'Third',
+  Fourth:'Fourth',
+  Fifth:'Fifth',
   confirm:"Confirm",
   back:"Back",
   phoneNumber:"Phone Number",

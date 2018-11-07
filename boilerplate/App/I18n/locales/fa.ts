@@ -1,5 +1,10 @@
 
 export default {
+  First:'اول',
+  Second:'دوم',
+  Third:'سوم',
+  Fourth:'چهارم',
+  Fifth:'پنجم',
   confirm: "تایید",
   back: "بازگشت",
   phoneNumber: "شماره همراه",
