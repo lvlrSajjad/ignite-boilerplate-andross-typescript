@@ -17,17 +17,54 @@ module.exports = async function (context) {
 
   const name = pascalCase(parameters.first)
   const props = { name }
+  let jobs = [];
+  if (name === "LoginScreen"){
+    filesystem.copy(`${__dirname}/../templates/login/Components/LoginScreen`, `${process.cwd()}/App/Components/LoginScreen`, {
+      overwrite: true
+    })
+    filesystem.copy(`${__dirname}/../templates/login/Redux/Login`, `${process.cwd()}/App/Redux/Login`, {
+      overwrite: true
+    })
+    jobs = [
+      {
+        template: 'login/Containers/LoginScreen.tsx',
+        target: `App/Containers/LoginScreen.tsx`
+      },
+      {
+        template: 'login/Containers/Styles/LoginScreenStyles.tsx',
+        target: `App/Containers/Styles/LoginScreenStyles.tsx`
+      }
+    ]
+  } else if (name === "SmsLoginScreen"){
+    filesystem.copy(`${__dirname}/../templates/smslogin/Components/LoginScreen`, `${process.cwd()}/App/Components/LoginScreen`, {
+      overwrite: true
+    })
+    filesystem.copy(`${__dirname}/../templates/smslogin/Redux/Login`, `${process.cwd()}/App/Redux/Login`, {
+      overwrite: true
+    })
+    jobs = [
+      {
+        template: 'smslogin/Containers/LoginScreen.tsx',
+        target: `App/Containers/LoginScreen.tsx`
+      },
+      {
+        template: 'smslogin/Containers/Styles/LoginScreenStyles.tsx',
+        target: `App/Containers/Styles/LoginScreenStyles.tsx`
+      }
+    ]
+  } else {
+    jobs = [
+      {
+        template: 'container.ejs',
+        target: `App/Containers/${name}.tsx`
+      },
+      {
+        template: 'container-style.ejs',
+        target: `App/Containers/Styles/${name}Style.tsx`
+      }
+    ]
+  }
 
-  const jobs = [
-    {
-      template: 'container.ejs',
-      target: `App/Containers/${name}.tsx`
-    },
-    {
-      template: 'container-style.ejs',
-      target: `App/Containers/Styles/${name}Style.tsx`
-    }
-  ]
 
   await ignite.copyBatch(context, jobs, props)
 

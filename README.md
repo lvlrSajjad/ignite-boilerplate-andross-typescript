@@ -236,6 +236,50 @@ return {
 export default connect(mapStateToProps)(PizzaComponent);
 
 ```
+## :arrow_down_small: Generate Screens
+You can generate normal screens in containers folder then add them to the navigation by this command
+   ```
+    ignite g container ScreenName
+   ```
+   
+   ## :arrow_down_small: Generate Login Screens
+
+You can also generate a material designed Login screen with some related components and reduxs by this command:
+
+Normal Login Screen:
+```
+    ignite g container LoginScreen
+   ```
+Sms Login Screen:
+```
+      ignite g container SmsLoginScreen
+``` 
+   
+   
+   
+   then just add 
+   ```typescript jsx
+  login: require('./Login/LoginRedux').reducer
+
+```
+in the end of 
+```typescript jsx
+reducers: Reducer<ApplicationState> = combineReducers 
+```
+array in
+```
+App/Redux/index.tsx
+```
+If you want set the login screen as launch screen edit 
+```
+App/Navigation/AppNavigation.tsx
+```
+this way :
+```typescript jsx
+...
+initialRouteName: "LoginScreen",
+...
+```
 ## :arrow_down_small: If you want switchable color theme in your app    
 <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/darkmode.gif" width="250">
 
