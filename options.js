@@ -3,10 +3,16 @@
  */
 const questions = [
   {
-    name: 'initial-template',
-    message: 'Select a template to use when app initializes: ',
+    name: 'login-screen',
+    message: 'Choose Login Screen ',
     type: 'list',
-    choices: ['Just a simple screen','With simple login screen', 'With sms login screen','Social media app']
+    choices: ['No Login Screen','Simple Login Screen', 'Sms Login Screen']
+  },
+  {
+    name: 'main-screen',
+    message: 'Choose Main Screen ',
+    type: 'list',
+    choices: ['Simple Screen','Tabbed Screen', 'Navigation Drawer Screen','Social Media Screen']
   },
   // {
   //   name: 'dev-screens',

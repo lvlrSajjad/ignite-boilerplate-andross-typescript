@@ -189,11 +189,11 @@ async function install (context) {
     await system.spawn(`ignite add ${boilerplate} ${debugFlag}`, { stdio: 'inherit' })
 
     // now run install of Ignite Plugins
-    switch ((answers['initial-template'])) {
-      case 'Just a simple screen':{
+    switch ((answers['login-screen'])) {
+      case 'No Login Screen':{
         break;
       }
-      case 'With simple login screen':{
+      case 'Simple Login Screen':{
         spinner.text = '▸ copying files'
         spinner.start()
 
@@ -204,7 +204,7 @@ async function install (context) {
 
         break;
       }
-      case 'With sms login screen':{
+      case 'Sms Login Screen':{
         spinner.text = '▸ copying files'
         spinner.start()
 
@@ -215,10 +215,28 @@ async function install (context) {
 
         break;
       }
-      case 'Social media app':{
+    }
+    switch ((answers['main-screen'])) {
+      case 'Simple Screen':{
+        break;
+      }
+      case 'Tabbed Screen':{
         spinner.text = '▸ copying files'
         spinner.start()
 
+        filesystem.copy(`${__dirname}/templates/tabbed`, `${process.cwd()}/App`, {
+          overwrite: true
+        })
+        spinner.stop()
+
+        break;
+      }
+      case 'Navigation Drawer Screen':{
+        break;
+      }
+      case 'Social Media Screen':{
+        spinner.text = '▸ copying files'
+        spinner.start()
 
         filesystem.copy(`${__dirname}/templates/socialmedia`, `${process.cwd()}/App`, {
           overwrite: true
@@ -228,6 +246,45 @@ async function install (context) {
         break;
       }
     }
+    // switch ((answers['initial-template'])) {
+    //   case 'Just a simple screen':{
+    //     break;
+    //   }
+    //   case 'With simple login screen':{
+    //     spinner.text = '▸ copying files'
+    //     spinner.start()
+    //
+    //     filesystem.copy(`${__dirname}/templates/login`, `${process.cwd()}/App`, {
+    //       overwrite: true
+    //     })
+    //     spinner.stop()
+    //
+    //     break;
+    //   }
+    //   case 'With sms login screen':{
+    //     spinner.text = '▸ copying files'
+    //     spinner.start()
+    //
+    //     filesystem.copy(`${__dirname}/templates/smslogin`, `${process.cwd()}/App`, {
+    //       overwrite: true
+    //     })
+    //     spinner.stop()
+    //
+    //     break;
+    //   }
+    //   case 'Social media app':{
+    //     spinner.text = '▸ copying files'
+    //     spinner.start()
+    //
+    //
+    //     filesystem.copy(`${__dirname}/templates/socialmedia`, `${process.cwd()}/App`, {
+    //       overwrite: true
+    //     })
+    //     spinner.stop()
+    //
+    //     break;
+    //   }
+    // }
     // if (answers['dev-screens'] === 'Yes') {
     //   await system.spawn(`ignite add dev-screens@"~>2.2.0" ${debugFlag}`, {
     //     stdio: 'inherit'
