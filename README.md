@@ -71,29 +71,25 @@
   ```
 npm install -g ignite-cli
 ```
-  Then you can create your app using this boilerplate with this commands
+  For More Cli Instructions Please refer to below sections and ignite boilerplate page :
+  https://github.com/infinitered/ignite
+
+## :ice: Usage
+
+  You can create your app using this boilerplate with this commands
   
  ```
  ignite new YourAppName -b ignite-boilerplate-andross-typescript
  cd YourAppName
  react-native link
  ```
-  For More Cli Instructions Please refer to below sections and ignite boilerplate page :
-  
-  https://github.com/infinitered/ignite
-  
-## :black_nib: Changing The Package Name
-
-  You Can Change PackageName And Boundler ID Using this tool
-  https://www.npmjs.com/package/react-native-rename
-  
   
 ## :exclamation: Possible Errors
   
    if you've got transform-hmr error on boundle so start your boundler with this command:
    `` react-native start --reset-cache ``
    
-## :file_folder: Folders
+## :file_folder: Folder Structure
 
     Attention : some files and folders are just for example and you can remove them when ever you want
         
