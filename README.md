@@ -80,10 +80,24 @@ npm install -g ignite-cli
   
  ```
  ignite new YourAppName -b ignite-boilerplate-andross-typescript
- cd YourAppName
- react-native link
- ```
-  
+```
+During the installation,
+You can choose your login screen style or no login screen:
+
+<img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/login.jpg" width="60%">
+
+if you choose a login screen, redux,components,login screen will be generated then you can change them.
+
+
+You can choose your main screen style or just a simple screen:
+
+<img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/main.jpg" width="60%">
+
+
+```
+   cd YourAppName
+   react-native link
+   ```
 ## :exclamation: Possible Errors
   
    if you've got transform-hmr error on boundle so start your boundler with this command:
@@ -138,20 +152,6 @@ npm install -g ignite-cli
        |Themes < Application specific themes
        
        |Transforms < You can do conversions 
-## :arrow_down_small: Templates
-<img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/template.png" width="90%">
-
-You can select a template based on app's usage when initializing the app with boilerplate so it will just copies or replaces some files to the app folder . templates are for time saving and some example to see how to use this boilerplate.
-Templates files mostly are in these folders:
-```
-Components
-Containers
-Navigation
-Redux
-```
-you can edit files if you want
-
-If you don't want to use a template you can just use first option in the list
 ## :arrow_down_small: Rtl/Ltr support components
 <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/rtl.gif" width="250">
 
