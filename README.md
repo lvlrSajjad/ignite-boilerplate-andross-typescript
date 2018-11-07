@@ -152,7 +152,7 @@ Redux
 you can edit files if you want
 
 If you don't want to use a template you can just use first option in the list
-## :arrow_down_small: Recommended Structure For Rtl/Ltr Support
+## :arrow_down_small: Rtl/Ltr support components
 <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/rtl.gif" width="250">
 
 If you want to your app support ltr/rtl layouts separately
