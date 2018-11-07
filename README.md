@@ -1,7 +1,6 @@
 #  ignite boilerplate andross typescript
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
 
-* Standard compliant React Native App Utilizing [Ignite](https://github.com/infinitered/ignite)
 * This Boiler Plate is just my Customized version of ignite Andross 
 * Installed And Configed With TypeScript
 * Updated React Native To The Lastest Version (0.57.2)
@@ -12,9 +11,7 @@
 * TODO // Internal Set Of Material Components
 * HighLighted Dependencies that installed and linked to android :
 
-    ```
-      MapBox For Maps And Geolocation
-    
+    ```    
       Realm For DB Uses
       
       Jest And Enzyme For Tests
@@ -51,7 +48,10 @@
     
     You can see more on package .json
  * Recommended Dependencies :
-    
+ ```
+       MapBox 
+        For Maps And Geolocation
+
        Lottie React Native 
         For Animations Like Animated Logos
         
@@ -64,7 +64,7 @@
        WebRtc
         Real-Time Communications
   
-   
+ ```  
 ## :fire: Ignite Cli
   
   First you must install ignite cli as gobal with this command
@@ -418,8 +418,8 @@ then changes on your reducer will be persisted
 
   ### Map Component
   
-  Mapbox installed in the project and linked with android (not ios yet so open for pull requests)
-  
+  You can install mapbox and link it then use it as below 
+    
   and you can get your token key with instructions inside mapbox github https://github.com/mapbox/react-native-mapbox-gl
   
   then you can use it inside `App>Config>MapboxConfig.tsx`
@@ -499,6 +499,8 @@ https://github.com/xinthink/react-native-material-kit#radio-button
 ### TopTabNavigation (See ChatsTabNavigator.tsx for more info)
 
     import {createMaterialTopTabNavigator, TabBarTop} from 'react-navigation-tabs';
+### Material input  (installed on the boilerplate)
+https://github.com/n4kz/react-native-material-textfield
 
 
 ## :closed_lock_with_key: Secrets

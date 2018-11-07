@@ -13,7 +13,6 @@
 * HighLighted Dependencies that installed and linked to android :
 
     ```
-      MapBox For Maps And Locations Using
     
       Realm For DB Uses
       
@@ -51,7 +50,10 @@
     
     You can see more on package .json
  * Recommended Dependencies :
-    
+ ```
+       MapBox 
+        For Maps And Locations Using
+       
        Lottie React Native 
         For Animations Like Animated Logos
         
@@ -64,7 +66,7 @@
        WebRtc
         Real-Time Communications
   
-   
+```   
 ## :fire: Ignite Cli
   
   For Cli Instructions Please refer to ignite boilerplate page :
@@ -346,31 +348,7 @@ then changes on your reducer will be persisted
 
 
 ## :heart: Recommended Components For Use In The Project
-
-  ### Map Component
   
-  Mapbox installed in the project and linked with android (not ios yet so open for pull requests)
-  
-  and you can get your token key with instructions inside mapbox github https://github.com/mapbox/react-native-mapbox-gl
-  
-  then you can use it inside `App>Config>MapboxConfig.tsx`
-  
- #### then use it like :
-  
-  ```typescript jsx
-  import MapboxGL from '@mapbox/react-native-mapbox-gl';
-  import MapboxConfig from "../../Config/MapboxConfig";
-  MapboxGL.setAccessToken(MapboxConfig.accessToken);
-  ...
-  <MapboxGL.MapView
-   styleURL={ColorScheme.mapStyleUrl}
-   zoomLevel={15}
-   centerCoordinate={[51.3890,35.6892]}
-   style={{flex:1}}
-   >
-  </MapboxGL.MapView>
-  ```
-
   ### List Component 
 
   https://docs.nativebase.io/Components.html#list-avatar-headref
@@ -430,7 +408,9 @@ https://github.com/xinthink/react-native-material-kit#radio-button
 ### TopTabNavigation (See ChatsTabNavigator.tsx for more info)
 
     import {createMaterialTopTabNavigator, TabBarTop} from 'react-navigation-tabs';
-
+    
+### Material input
+https://github.com/n4kz/react-native-material-textfield
 
 ## :closed_lock_with_key: Secrets
 
