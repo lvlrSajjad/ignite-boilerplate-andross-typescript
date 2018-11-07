@@ -63,14 +63,7 @@ async function install (context) {
     matching: '!*.ejs'
   })
 
-  // filesystem.copy(`${__dirname}/boilerplate/Tests`, `${process.cwd()}/Tests`, {
-  //   overwrite: true,
-  //   matching: '!*.ejs'
-  // })
-  // filesystem.copy(`${__dirname}/boilerplate/storybook`, `${process.cwd()}/storybook`, {
-  //   overwrite: true,
-  //   matching: '!*.ejs'
-  // })
+
   spinner.stop()
 
   // --max, --min, interactive
@@ -112,10 +105,6 @@ async function install (context) {
     name,
     igniteVersion: ignite.version,
     reactNativeVersion: rnInstall.version,
-    template:answers['initial-template']
-    // vectorIcons: answers['vector-icons'],
-    // animatable: answers['animatable'],
-    // i18n: answers['i18n']
   }
   await ignite.copyBatch(context, templates, templateProps, {
     quiet: true,
@@ -232,6 +221,13 @@ async function install (context) {
         break;
       }
       case 'Navigation Drawer Screen':{
+        spinner.text = '▸ copying files'
+        spinner.start()
+
+        filesystem.copy(`${__dirname}/templates/drawer`, `${process.cwd()}/App`, {
+          overwrite: true
+        })
+        spinner.stop()
         break;
       }
       case 'Social Media Screen':{
@@ -246,78 +242,6 @@ async function install (context) {
         break;
       }
     }
-    // switch ((answers['initial-template'])) {
-    //   case 'Just a simple screen':{
-    //     break;
-    //   }
-    //   case 'With simple login screen':{
-    //     spinner.text = '▸ copying files'
-    //     spinner.start()
-    //
-    //     filesystem.copy(`${__dirname}/templates/login`, `${process.cwd()}/App`, {
-    //       overwrite: true
-    //     })
-    //     spinner.stop()
-    //
-    //     break;
-    //   }
-    //   case 'With sms login screen':{
-    //     spinner.text = '▸ copying files'
-    //     spinner.start()
-    //
-    //     filesystem.copy(`${__dirname}/templates/smslogin`, `${process.cwd()}/App`, {
-    //       overwrite: true
-    //     })
-    //     spinner.stop()
-    //
-    //     break;
-    //   }
-    //   case 'Social media app':{
-    //     spinner.text = '▸ copying files'
-    //     spinner.start()
-    //
-    //
-    //     filesystem.copy(`${__dirname}/templates/socialmedia`, `${process.cwd()}/App`, {
-    //       overwrite: true
-    //     })
-    //     spinner.stop()
-    //
-    //     break;
-    //   }
-    // }
-    // if (answers['dev-screens'] === 'Yes') {
-    //   await system.spawn(`ignite add dev-screens@"~>2.2.0" ${debugFlag}`, {
-    //     stdio: 'inherit'
-    //   })
-    // }
-    //
-    // if (answers['vector-icons'] === 'react-native-vector-icons') {
-    //   await system.spawn(`ignite add vector-icons@"~>1.0.0" ${debugFlag}`, {
-    //     stdio: 'inherit'
-    //   })
-    // }
-    //
-    // if (answers['i18n'] === 'react-native-i18n') {
-    //   await system.spawn(`ignite add i18n@"~>1.0.0" ${debugFlag}`, { stdio: 'inherit' })
-    // }
-    //
-    // if (answers['animatable'] === 'react-native-animatable') {
-    //   await system.spawn(`ignite add animatable@"~>1.0.0" ${debugFlag}`, {
-    //     stdio: 'inherit'
-    //   })
-    // }
-    //
-    // if (answers['redux-persist'] === 'Yes') {
-    //   await system.spawn(`ignite add redux-persist@"~>1.0.1" ${debugFlag}`, {
-    //     stdio: 'inherit'
-    //   })
-    // }
-    //
-    // if (parameters.options.lint !== 'false') {
-    //   await system.spawn(`ignite add standard@"~>1.0.0" ${debugFlag}`, {
-    //     stdio: 'inherit'
-    //   })
-    // }
   } catch (e) {
     ignite.log(e)
     throw e
