@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f62ad2c-1973-43c4-a49a-dc82052ec6be" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/gifs/login.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gifs/main.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gifs/combine.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -22,8 +21,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="152">
-                <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+              <first_editor relative-caret-position="276">
+                <caret line="97" column="130" selection-start-line="97" selection-start-column="130" selection-end-line="97" selection-end-column="130" />
                 <folding>
                   <element signature="e#0#37#0" expanded="true" />
                   <element signature="e#2#56#0" expanded="true" />
@@ -149,42 +148,6 @@
               <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
               <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
-              <item name="boilerplate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
-              <item name="boilerplate" type="462c0819:PsiDirectoryNode" />
-              <item name="App" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
-              <item name="boilerplate" type="462c0819:PsiDirectoryNode" />
-              <item name="App" type="462c0819:PsiDirectoryNode" />
-              <item name="I18n" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="drawer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="drawer" type="462c0819:PsiDirectoryNode" />
-              <item name="Containers" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -245,12 +208,12 @@
       <updated>1541415781062</updated>
       <workItem from="1541415782650" duration="14254000" />
       <workItem from="1541491723587" duration="34255000" />
-      <workItem from="1541586721183" duration="25423000" />
+      <workItem from="1541586721183" duration="26562000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73932000" />
+    <option name="totallyTimeSpent" value="75071000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -689,8 +652,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="152">
-            <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+          <first_editor relative-caret-position="276">
+            <caret line="97" column="130" selection-start-line="97" selection-start-column="130" selection-end-line="97" selection-end-column="130" />
             <folding>
               <element signature="e#0#37#0" expanded="true" />
               <element signature="e#2#56#0" expanded="true" />
