@@ -2,8 +2,10 @@ const type = {
   base: "Avenir-Book",
   bold: "Avenir-Black",
   emphasis: "HelveticaNeue-Italic",
-  farsi: "BYekan+",
-  farsiBold: "BYekan+ Bold"
+  // farsi: "BYekan+",
+  // farsiBold: "BYekan+ Bold"
+  farsi: "Avenir-Book",
+  farsiBold: "Avenir-Black"
 
 };
 
