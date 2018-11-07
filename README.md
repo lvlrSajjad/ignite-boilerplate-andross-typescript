@@ -409,8 +409,7 @@ then changes on your reducer will be persisted
 
 
 ## :heart: Recommended Components For Use In The Project
-
-  ### Map Component
+  ### Mapbox Component
   
   You can install mapbox and link it then use it as below 
     
