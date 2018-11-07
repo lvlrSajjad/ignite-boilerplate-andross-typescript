@@ -74,7 +74,7 @@ npm install -g ignite-cli
   For More Cli Instructions Please refer to below sections and ignite boilerplate page :
   https://github.com/infinitered/ignite
 
-## :fire_engine: Usage
+## :snowflake: Usage
 
   You can create your app using this boilerplate with this commands
   
@@ -90,8 +90,6 @@ npm install -g ignite-cli
    `` react-native start --reset-cache ``
    
 ## :file_folder: Folder Structure
-
-    Attention : some files and folders are just for example and you can remove them when ever you want
         
     App  < Almost All Functional Files And Codes are in this folder
     
@@ -151,7 +149,7 @@ Containers
 Navigation
 Redux
 ```
-you can edit their files if you want
+you can edit files if you want
 
 If you don't want to use a template you can just use first option in the list
 ## :arrow_down_small: Recommended Structure For Rtl/Ltr Support
