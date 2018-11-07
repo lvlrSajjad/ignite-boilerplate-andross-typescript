@@ -74,7 +74,7 @@ npm install -g ignite-cli
   For More Cli Instructions Please refer to below sections and ignite boilerplate page :
   https://github.com/infinitered/ignite
 
-## :ice: Usage
+## :fire_engine: Usage
 
   You can create your app using this boilerplate with this commands
   
