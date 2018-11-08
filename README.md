@@ -62,7 +62,7 @@ You can choose your main screen style or just a simple screen:
 
 You can work with combination of this options for example if you choose sms login and social media after installation your app will be like this:
 <p align="center">
-<img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/combined.gif" width="250px">
+<img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/combined.gif" width="100%">
 </p>
 
 after installation run below commands:
