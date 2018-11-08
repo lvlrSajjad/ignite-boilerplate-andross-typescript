@@ -238,7 +238,27 @@ async function install (context) {
           overwrite: true
         })
         spinner.stop()
+          const appNavFilePath = `${process.cwd()}/App/Navigation/AppNavigation.tsx`
+          const importToAdd = `import ChatScreen from '../Containers/ChatScreen'`
+          const routeToAdd = `  ChatScreen: { screen: ChatScreen },`
 
+          if (!filesystem.exists(appNavFilePath)) {
+            const msg = `No '${appNavFilePath}' file found.  Can't insert container.`
+            print.error(msg)
+            process.exit(1)
+          }
+
+          // insert container import
+          ignite.patchInFile(appNavFilePath, {
+            after: patterns[patterns.constants.PATTERN_IMPORTS],
+            insert: importToAdd
+          })
+
+          // insert container route
+          ignite.patchInFile(appNavFilePath, {
+            after: patterns[patterns.constants.PATTERN_ROUTES],
+            insert: routeToAdd
+          })
         break;
       }
     }
