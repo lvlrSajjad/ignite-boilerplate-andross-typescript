@@ -251,9 +251,11 @@ this way :
 initialRouteName: "LoginScreen",
 ...
 ```
-## :arrow_down_small: If you want switchable color theme in your app    
+## :arrow_down_small: If you want switchable color theme in your app 
+<p align="center">
+   
 <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/darkmode.gif" width="250">
-
+</p>
 actually below reducer And action playing important roles for settings like direction(rtl/ltr) 
 or colorScheme and any settings like these :
 
@@ -334,7 +336,10 @@ you can see similiar usage in example files inside Container folder or another f
 you can also test this in the settings tab
 
 ## :arrow_down_small: Switchable locale
+<p align="center">
+
 <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/locale.gif" width="250">
+</p>
 
 ```typescript jsx
 import * as Actions from '../../Redux/Actions/AppSettingsAction';
@@ -405,7 +410,10 @@ placeholder={I18n.t('phoneNumber')}
 />
 ```
 ## :arrow_down_small: Persisted States (Redux-Persist)
+<p align="center">
+
 <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/persist.gif" width="250">
+</p>
 
 for using redux-persist to persist your settings or any states you can go to this path
 
