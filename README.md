@@ -301,30 +301,16 @@ you can create you locales in `App/I18n/locales folder` like :
 
 then in `App/I18n` folder I18n.ts file :
 
-```typescript jsx
-import I18n from 'react-native-i18n';
-import en from './locales/en';
-
-I18n.fallbacks = true;
-
-I18n.translations = {
-  en,
-  fa
-};
-
-export default I18n;
-
-```
+ <p align="center">
+ <img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/i18nts.png" width="80%">
+ </p>
 
 End usage:
 
-```typescript jsx
-import I18n from "../path/to/App/I18n";
-
-<SomeComponent
-placeholder={I18n.t('phoneNumber')}
-/>
-```
+ <p align="center">
+ <img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/i18nusage.png" width="80%">
+ </p>
+ 
 ## :arrow_down_small: Persisted States (Redux-Persist)
 <p align="center">
 
