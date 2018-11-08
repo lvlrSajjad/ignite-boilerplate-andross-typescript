@@ -42,11 +42,15 @@ npm install -g ignite-cli
 ```
 During the installation,
 You can choose your login screen style or no login screen:
+
 <p align="center">
 
 <img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/login.png" width="100%">
 
 if you choose a login screen, redux,components,login screen will be generated then you can change them.
+you can see what will be these login screens look like in  
+<a href="https://github.com/lvlrSajjad/ignite-boilerplate-andross-typescript#arrow_down_small-generate-login-screens">Here</a>
+
 </p>
 
 
