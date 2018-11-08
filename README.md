@@ -104,29 +104,11 @@ Just use it as :
 import Pizza from './path/to/Pizza'
 ```
 The generated index.tsx will be like below:
-  ```typescript jsx
-  import Ltr from "./Pizza.ltr";
-  import Rtl from "./Pizza.rtl";
-  import {connect} from "react-redux";
-  import * as React from "react";
-  
-  export interface PizzaProps {
-    //you can use this interface in ltr/rtl component
-    ...,
-    isRtl:boolean
-  }
-  
-  const Direction = (props:PizzaProps) => props.isRtl ? <Rtl {...props} /> : <Ltr {...props}/>;
-  
-  const mapStateToProps = state => {
-    return {
-      isRtl: state.appSettings.isRtl // appSettings is my reducer in Redux folder
-    };
-  };
-  
-  export default connect(mapStateToProps)(Direction);
-
-  ```
+ 
+ <p align="center">
+ <img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/rtl-component-index.png" width="80%">
+ </p>
+ 
 If you don't want Rtl/Ltr Switchable component us just create the component with this command:
 ```
 ignite g component pizza
@@ -142,28 +124,11 @@ Just use it as :
 import Pizza from './path/to/Pizza'
 ```
 The generated index.tsx will be like below:
-```typescript jsx
-import * as React from "react";
-import Pizza from './Pizzaa';
-import {connect} from "react-redux";
-import {ColorScheme} from "../../Themes/Colors";
 
-
-export interface PizzaProps {
-isDarkMode?: boolean,
-colorScheme?:ColorScheme
-}
-
-export const PizzaComponent = (props:PizzaProps) => <Pizza {...props} />;
-
-const mapStateToProps = state => {
-return {
-};
-};
-
-export default connect(mapStateToProps)(PizzaComponent);
-
-```
+ <p align="center">
+ <img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/normal-component-index.png" width="80%">
+ </p>
+ 
 ## :arrow_down_small: Generate Screens
 You can generate normal screens in containers folder then add them to the navigation by this command
    ```
