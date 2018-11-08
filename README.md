@@ -183,7 +183,7 @@ You can also generate a material designed Login screen with some related compone
    
 
    
-<h3 align="center">Sms Login Screen<h3>
+<h3 align="center">Sms Login Screen</h3>
 
 
 <p align="center">
