@@ -58,6 +58,9 @@ You can choose your main screen style or just a simple screen:
 <p align="center">
 
 <img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/main.png" width="80%">
+You can see a gif and read about social media template  
+<a href="https://github.com/lvlrSajjad/ignite-boilerplate-andross-typescript#arrow_down_small-generate-login-screens">Here</a>
+
 </p>
 
 You can work with combination of this options for example if you choose sms login and social media after installation your app will be like this:
@@ -83,7 +86,8 @@ after installation run below commands:
 <img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/folder.png" width="100%">
 </p>
 
-## :arrow_down_small: Rtl/Ltr support components
+## :arrow_down_small: Rtl Support Component Generate
+
 <p align="center">
 <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/rtl.gif" width="100%">
 </p>
@@ -108,7 +112,9 @@ The generated index.tsx will be like below:
  <p align="center">
  <img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/rtl-component-index.png" width="80%">
  </p>
- 
+
+## :arrow_down_small: Normal Component Generate
+
 If you don't want Rtl/Ltr Switchable component us just create the component with this command:
 ```
 ignite g component pizza
@@ -129,13 +135,13 @@ The generated index.tsx will be like below:
  <img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/normal-component-index.png" width="80%">
  </p>
  
-## :arrow_down_small: Generate Screens
+## :arrow_down_small: Screen Generate
 You can generate normal screens in containers folder then add them to the navigation by this command
    ```
     ignite g container ScreenName
    ```
    
-   ## :arrow_down_small: Generate Login Screens
+## :arrow_down_small: Generate Login Screens
 
 You can also generate a material designed Login screen with some related components and reduxs by this command:
 
@@ -189,7 +195,7 @@ this way :
 initialRouteName: "LoginScreen",
 ...
 ```
-## :arrow_down_small: If you want switchable color theme in your app 
+## :arrow_down_small: Switchable color scheme 
 <p align="center">
    
 <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/darkmode.gif" width="100%">
@@ -287,6 +293,9 @@ then go to your reducer and add this code :
             
 then changes on your reducer will be persisted 
 
+## :smiley: Social Media Template
+This template provides some components and screens with navigation for starting a chat app project .
+Inside the template i used farid safi's Gifted Chat for chat screen.
 
 ## :heart: Recommended Components For Use In The Project
   ### Mapbox Component
