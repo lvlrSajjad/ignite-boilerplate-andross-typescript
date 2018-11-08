@@ -96,7 +96,7 @@ ignite g component pizza --rtlsupport
 it will produce this file/folders inside your Components folder :
 
 <p align="center">
-<img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/rtl.png" width="100%">
+<img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/rtl.png" width="80%">
 </p>
 
 Just use it as :
@@ -116,7 +116,7 @@ ignite g component pizza
 it will produce this file/folders inside your Components folder :
 
 <p align="center">
-<img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/component.png" width="100%">
+<img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/component.png" width="80%">
 </p>
 
 Just use it as :
