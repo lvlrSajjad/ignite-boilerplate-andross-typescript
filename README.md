@@ -91,7 +91,7 @@ During the installation,
 You can choose your login screen style or no login screen:
 <p align="center">
 
-<img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/login.png" width="70%">
+<img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/login.png" width="50%">
 
 if you choose a login screen, redux,components,login screen will be generated then you can change them.
 </p>
@@ -100,7 +100,7 @@ if you choose a login screen, redux,components,login screen will be generated th
 You can choose your main screen style or just a simple screen:
 <p align="center">
 
-<img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/main.png" width="70%">
+<img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/main.png" width="50%">
 </p>
 
 You can work with combination of this options for example if you choose simple login and social media after installation your app will be like this:
@@ -122,53 +122,9 @@ after installation run below commands:
    
 ## :file_folder: Folder Structure
         
-    App  < Almost All Functional Files And Codes are in this folder
-    
-       |Components  < Components like dialogs , bottons , forms , can be in this folder
-       
-                   |Styles < Style files of this folder
-                                      
-                   |--tests-- < Test files of folder
-                   
-                   |MaterialComponents < Some Components that made with material guidlines
-                   
-                          |ComponentName < If You want to work with rtl/ltr layouts separately
-                                |index.tsx
-                                |ComponentName.rtl.tsx
-                                |ComponentName.ltr.tsx
-                          
-                          |ComponentName.tsx < If You Want Just A Layout No And Dont Want To Support Rtl/Ltr      
-
-       |Config  < Config files folder
-       
-       |Containers < Our Main Containers Like Login Screen ...
-       
-                   |MainTabs < Main Tabs (Made For Example)  <-------- this is for social media template
-                   
-                                  |ChatsTabScreens < Chat Tabs (Made For Example)   <-------- this is for social media template
-                                                     
-       |Fixtures < All key API responses are housed here.
-       
-       |i18n  < Localization
-                   
-       |Images < Holds all images for the applications.     
-                         
-       |Lib < Components that reusable even outside of the project and in other projects           
-                   
-       |Navigation  < Navigation Files And Redux Navigation Config 
-                   
-       |Redux < All Redux Files , Reducers and Actions 
-       
-                NavigationRedux File is For Routing Between Screens With Redux So You Dont Need Pass Any Props
-                 to access outer navigation screens
-                   
-       |Sagas  <  Redux Saga Files
-                   
-       |Services < 
-
-       |Themes < Application specific themes
-       
-       |Transforms < You can do conversions 
+<p align="center">
+<img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/folders.png" width="100%">
+</p>
 ## :arrow_down_small: Rtl/Ltr support components
 <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/rtl.gif" width="250">
 
