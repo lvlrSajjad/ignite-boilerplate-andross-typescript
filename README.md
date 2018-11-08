@@ -15,62 +15,15 @@
 * Add Better Multi language Support And Add Language To App Settings Redux
 * Keep Settings Even When The App Closed
 * TODO // Internal Set Of Material Components
-* HighLighted Dependencies that installed and linked to android :
+* HighLighted Dependencies that installed :
 
-    ```    
-      Realm For DB Uses
-      
-      Jest And Enzyme For Tests
-      
-      Axios
-      
-      Redux
-      
-      Redux-Saga
-      
-      ReduxSauce For Reducers/Actions Management
-      
-      socket.io,socket.io-client For Socket Uses 
-        For using socket you can use this tutorial link below
-        https://hackernoon.com/a-simple-messaging-app-with-react-native-and-socket-io-e1cae3df7bda
-        
-      eslint , eslint-config-airbnb For Code formatting
-      
-      Typescript for oop and typechecking 
-      
-      react-native-firebase for firebase usage
-      
-      react-navigation,react-navigation-material-bottom-tabs,... for navigation
-      
-      native-base,paper,react-native-material-kit for Ui/Ux
-        Actually the goal is deploying ui/ux exactly like material design guidlines
-        so i'm using a combination of above libraries components to achive this goal
-        
-      react-native-animatable For animations
-      
-      react-native-vector-icons For Vector Icons  
-      
-    ```
+<img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/deps.png" width="100%">
+
     
     You can see more on package .json
  * Recommended Dependencies :
- ```
-       MapBox 
-        For Maps And Geolocation
+<img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/recommended.png" width="100%">
 
-       Lottie React Native 
-        For Animations Like Animated Logos
-        
-       react-navigation-fluid-transitions 
-        For Animations Like Shared Elements For React-navigation
-        
-       HightCharts And D3js
-        For Data Visualizations
-        
-       WebRtc
-        Real-Time Communications
-  
- ```  
 ## :fire: Ignite Cli
   
   First you must install ignite cli as gobal with this command
@@ -91,7 +44,7 @@ During the installation,
 You can choose your login screen style or no login screen:
 <p align="center">
 
-<img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/login.png" width="50%">
+<img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/login.png" width="100%">
 
 if you choose a login screen, redux,components,login screen will be generated then you can change them.
 </p>
@@ -100,7 +53,7 @@ if you choose a login screen, redux,components,login screen will be generated th
 You can choose your main screen style or just a simple screen:
 <p align="center">
 
-<img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/main.png" width="50%">
+<img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/main.png" width="100%">
 </p>
 
 You can work with combination of this options for example if you choose simple login and social media after installation your app will be like this:
