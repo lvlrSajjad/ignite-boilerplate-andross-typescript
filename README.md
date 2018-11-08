@@ -45,7 +45,7 @@ You can choose your login screen style or no login screen:
 
 <p align="center">
 
-<img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/login.png" width="100%">
+<img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/login.png" width="80%">
 
 if you choose a login screen, redux,components,login screen will be generated then you can change them.
 you can see what will be these login screens look like in  
@@ -57,7 +57,7 @@ you can see what will be these login screens look like in
 You can choose your main screen style or just a simple screen:
 <p align="center">
 
-<img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/main.png" width="100%">
+<img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/main.png" width="80%">
 </p>
 
 You can work with combination of this options for example if you choose sms login and social media after installation your app will be like this:
