@@ -23,8 +23,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="179">
-                <caret line="310" column="116" selection-start-line="310" selection-start-column="116" selection-end-line="310" selection-end-column="116" />
+              <first_editor relative-caret-position="133">
+                <caret line="281" column="69" selection-start-line="281" selection-start-column="69" selection-end-line="281" selection-end-column="69" />
                 <folding>
                   <element signature="e#2#56#0" expanded="true" />
                 </folding>
@@ -235,12 +235,12 @@
       <workItem from="1541415782650" duration="14254000" />
       <workItem from="1541491723587" duration="34255000" />
       <workItem from="1541586721183" duration="28508000" />
-      <workItem from="1541685767469" duration="11720000" />
+      <workItem from="1541685767469" duration="11931000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88737000" />
+    <option name="totallyTimeSpent" value="88948000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -559,8 +559,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="179">
-            <caret line="310" column="116" selection-start-line="310" selection-start-column="116" selection-end-line="310" selection-end-column="116" />
+          <first_editor relative-caret-position="133">
+            <caret line="281" column="69" selection-start-line="281" selection-start-column="69" selection-end-line="281" selection-end-column="69" />
             <folding>
               <element signature="e#2#56#0" expanded="true" />
             </folding>

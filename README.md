@@ -279,19 +279,11 @@ you can also test this in the settings tab
 <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/locale.gif" width="100%">
 </p>
 
-```typescript jsx
-import * as Actions from '../../Redux/Actions/AppSettingsAction';
+you can change/select locale in a redux connected component this way:
 
-.
-.
-.
-this.props.selectLocale(localName /** eg. 'en'*/); 
-.
-.
-.
-export default connect(mapStateToProps, Actions)(ComponentName);
-
-```
+ <p align="center">
+ <img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/i18nchange.png" width="80%">
+ </p>
 
 you can create you locales in `App/I18n/locales folder` like :
 
