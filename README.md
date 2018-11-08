@@ -125,6 +125,7 @@ after installation run below commands:
 <p align="center">
 <img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/folders.png" width="100%">
 </p>
+
 ## :arrow_down_small: Rtl/Ltr support components
 <p align="center">
 <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/rtl.gif" width="250">
@@ -137,9 +138,9 @@ ignite g component pizza --rtlsupport
 ```
 it will produce this file/folders inside your Components folder :
 
-     <p align="center">
-     <img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/rtl.png" width="100%">
-     </p>
+<p align="center">
+<img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/rtl.png" width="100%">
+</p>
 
 Just use it as :
 ```typescript jsx
