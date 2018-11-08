@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f62ad2c-1973-43c4-a49a-dc82052ec6be" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="3f62ad2c-1973-43c4-a49a-dc82052ec6be" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -42,7 +40,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="23">
-                <caret line="1" column="152" selection-start-line="1" selection-start-column="152" selection-end-line="1" selection-end-column="152" />
+                <caret line="1" column="131" selection-start-line="1" selection-start-column="131" selection-end-line="1" selection-end-column="131" />
                 <folding>
                   <element signature="e#2#32#0" expanded="true" />
                   <element signature="e#0#31#0" expanded="true" />
@@ -187,6 +185,11 @@
               <item name="App" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
+              <item name="gifs" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -249,12 +252,12 @@
       <workItem from="1541415782650" duration="14254000" />
       <workItem from="1541491723587" duration="34255000" />
       <workItem from="1541586721183" duration="28508000" />
-      <workItem from="1541685767469" duration="855000" />
+      <workItem from="1541685767469" duration="908000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77872000" />
+    <option name="totallyTimeSpent" value="77925000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -574,7 +577,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="23">
-            <caret line="1" column="152" selection-start-line="1" selection-start-column="152" selection-end-line="1" selection-end-column="152" />
+            <caret line="1" column="131" selection-start-line="1" selection-start-column="131" selection-end-line="1" selection-end-column="131" />
             <folding>
               <element signature="e#2#32#0" expanded="true" />
               <element signature="e#0#31#0" expanded="true" />
