@@ -295,31 +295,9 @@ export default connect(mapStateToProps, Actions)(ComponentName);
 
 you can create you locales in `App/I18n/locales folder` like :
 
-```typescript jsx
-//en.ts
-
-export default {
-  confirm:"Confirm",
-  back:"Back",
-  phoneNumber:"Phone Number",
-  verificationNumber:"Verification Number",
-  userName:"User Name",
-  chats:"Chats",
-  channels:"Channels",
-  location:"Location",
-  search:"Search",
-  settings:"Settings",
-  groups: "Groups",
-  calls:"Calls",
-  contacts:"Contacts",
-  savedMessages:"Saved Messages",
-  inviteFriends:"Invite Friends",
-  help:"Help",
-  darkMode:"Dark Mode",
-  rtl:"Right To Left",
-  translate: "Translate"
-};
-```
+ <p align="center">
+ <img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/i18n.png" width="80%">
+ </p>
 
 then in `App/I18n` folder I18n.ts file :
 
