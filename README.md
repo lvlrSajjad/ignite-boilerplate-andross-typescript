@@ -177,7 +177,7 @@ Normal Login Screen:
    Or Choosing Simple login screen at project initialization
    
    <p align="center">
-   <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/login.gif" width="250">
+   <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/login.gif" width="100%">
    </p>
    
 Sms Login Screen:
@@ -188,7 +188,7 @@ Sms Login Screen:
    Or Choosing Sms login screen at project initialization
 
 <p align="center">
- <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/smslogin.gif" width="250">
+ <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/smslogin.gif" width="100%">
  </p>
    
    
