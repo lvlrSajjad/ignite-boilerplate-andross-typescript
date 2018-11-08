@@ -123,7 +123,7 @@ after installation run below commands:
 ## :file_folder: Folder Structure
         
 <p align="center">
-<img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/folders.png" width="100%">
+<img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/folder.png" width="100%">
 </p>
 
 ## :arrow_down_small: Rtl/Ltr support components
