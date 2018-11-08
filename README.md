@@ -174,11 +174,18 @@ Normal Login Screen:
 ```
     ignite g container LoginScreen
    ```
+   <p align="center">
+   <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/login.gif" width="250">
+   </p>
+   
 Sms Login Screen:
+
 ```
       ignite g container SmsLoginScreen
 ``` 
-   
+<p align="center">
+ <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/smslogin.gif" width="250">
+ </p>
    
    
    then just add 
