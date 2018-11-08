@@ -176,11 +176,10 @@ ignite g component pizza
 ```
 it will produce this file/folders inside your Components folder :
 
-     Pizza>
-        Styles>
-            PizzaStyle.tsx
-        Pizza.tsx
-        index.tsx
+<p align="center">
+<img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/component.png" width="100%">
+</p>
+
 Just use it as :
 ```typescript jsx
 import Pizza from './path/to/Pizza'
