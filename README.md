@@ -126,7 +126,9 @@ after installation run below commands:
 <img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/folders.png" width="100%">
 </p>
 ## :arrow_down_small: Rtl/Ltr support components
+<p align="center">
 <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/rtl.gif" width="250">
+</p>
 
 If you want to your app support ltr/rtl layouts separately
 you can just use this command inside the app folder (just replace pizza with your app name): 
@@ -135,13 +137,9 @@ ignite g component pizza --rtlsupport
 ```
 it will produce this file/folders inside your Components folder :
 
-     Pizza>
-        Styles>
-            PizzaStyle.ltr.tsx
-            PizzaStyle.rtl.tsx
-        Pizza.ltr.tsx
-        Pizza.rtl.tsx
-        index.tsx
+     <p align="center">
+     <img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/rtl.png" width="100%">
+     </p>
 
 Just use it as :
 ```typescript jsx
