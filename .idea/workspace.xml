@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="3f62ad2c-1973-43c4-a49a-dc82052ec6be" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gifs/combine.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gifs/darkmode.gif" beforeDir="false" afterPath="$PROJECT_DIR$/gifs/darkmode.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gifs/locale.gif" beforeDir="false" afterPath="$PROJECT_DIR$/gifs/locale.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gifs/rtl.gif" beforeDir="false" afterPath="$PROJECT_DIR$/gifs/rtl.gif" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,22 +23,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="148">
-                <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+              <first_editor relative-caret-position="149">
+                <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
                 <folding>
+                  <element signature="e#2#32#0" expanded="true" />
+                  <element signature="e#0#31#0" expanded="true" />
                   <element signature="e#0#37#0" expanded="true" />
                   <element signature="e#2#56#0" expanded="true" />
                 </folding>
@@ -145,9 +142,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
     <option name="width" value="697" />
-    <option name="height" value="735" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -246,12 +242,12 @@
       <workItem from="1541415782650" duration="14254000" />
       <workItem from="1541491723587" duration="34255000" />
       <workItem from="1541586721183" duration="28508000" />
-      <workItem from="1541685767469" duration="9426000" />
+      <workItem from="1541685767469" duration="10606000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86443000" />
+    <option name="totallyTimeSpent" value="87623000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -570,9 +566,11 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="148">
-            <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+          <first_editor relative-caret-position="149">
+            <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
             <folding>
+              <element signature="e#2#32#0" expanded="true" />
+              <element signature="e#0#31#0" expanded="true" />
               <element signature="e#0#37#0" expanded="true" />
               <element signature="e#2#56#0" expanded="true" />
             </folding>
