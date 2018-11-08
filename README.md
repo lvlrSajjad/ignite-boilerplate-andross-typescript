@@ -183,7 +183,7 @@ You can also generate a material designed Login screen with some related compone
    
 
    
-<h3 align="center">Sms Login Screen <h3>
+<h3 align="center">Sms Login Screen<h3>
 
 <p align="center">
  <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/smslogin.gif" width="100%">
