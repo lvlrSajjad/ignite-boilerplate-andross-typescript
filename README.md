@@ -60,9 +60,9 @@ You can choose your main screen style or just a simple screen:
 <img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/main.png" width="100%">
 </p>
 
-You can work with combination of this options for example if you choose simple login and social media after installation your app will be like this:
+You can work with combination of this options for example if you choose sms login and social media after installation your app will be like this:
 <p align="center">
-<img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/combine.gif" width="250px">
+<img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/combined.gif" width="250px">
 </p>
 
 after installation run below commands:
