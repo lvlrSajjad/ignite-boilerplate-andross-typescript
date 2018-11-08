@@ -90,18 +90,18 @@ npm install -g ignite-cli
 During the installation,
 You can choose your login screen style or no login screen:
 
-<img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/login.jpg" width="40%">
+<img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/login.png" width="40%">
 
 if you choose a login screen, redux,components,login screen will be generated then you can change them.
 
 
 You can choose your main screen style or just a simple screen:
 
-<img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/main.jpg" width="40%">
+<img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/main.png" width="40%">
 
 You can work with combination of this options for example if you choose simple login and social media after installation your app will be like this:
 
-<img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/combine.gif" width="250px">
+<img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/combine.gif" width="250px">
 
 
 after installation run below commands:
