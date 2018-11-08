@@ -206,40 +206,21 @@ App/Redux/Actions/AppSettinsAction
 
 for example for colorScheme we have colorScheme state in this reducer which contans below structure :
 
-```typescript
-export interface ColorScheme {
-  fullToneText: string,
-  midToneText: string,
-  lightText: string,
-  fullToneBackground: string,
-  midToneBackground: string,
-  lightBackground: string,
-  cardBackground: string,
-  mapStyleUrl: string,
-  tabBarBackground: string,
-  containersBackground: string
-}
-```    
+ <p align="center">
+ <img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/color-structure.png" width="80%">
+ </p>
+ 
 you can also view or change it's structure and values in below file :
 
 `App/Themes/Colors`
 
 this scheme have two states for now dark and light themes
 
-this is how we can change state of this scheme :
+this is how we can change state of this scheme in a redux connected component :
 
-```typescript jsx
-import * as Actions from '../../Redux/Actions/AppSettingsAction';
-.
-.
-.
-onValueChange={() => { this.props.toggleDirection() }}
-.
-.
-.
-export default connect(mapStateToProps, Actions)(SettingsTab);
-
-```
+ <p align="center">
+ <img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/color-scheme-usage.png" width="80%">
+ </p>
 
 you can see below file for more detail :
 
@@ -247,28 +228,10 @@ you can see below file for more detail :
 
 then you can use it as :
 
-```typescript jsx
-.
-.
-.
-const ColorScheme = this.props.colorScheme;
-.
-.
-.
-style={{backgroundColor:ColorScheme.containersBackground}}
-.
-.
-.
-const mapStateToProps = state => ({
-  isDarkMode: state.appSettings.isDarkMode,
-  colorScheme: state.appSettings.colorScheme
-});
-.
-.
-export default connect(mapStateToProps, mapDispatchToProps)(ChannelsTab);
-
-```
-
+ <p align="center">
+ <img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/color-scheme-usage2.png" width="80%">
+ </p>
+ 
 you can see similiar usage in example files inside Container folder or another folders ...
 
 you can also test this in the settings tab
