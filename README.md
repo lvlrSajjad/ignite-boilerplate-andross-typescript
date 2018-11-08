@@ -170,26 +170,30 @@ You can generate normal screens in containers folder then add them to the naviga
 
 You can also generate a material designed Login screen with some related components and reduxs by this command:
 
-Normal Login Screen:
+<h3 align="center">Normal Login Screen</h3>
+
+   <p align="center">
+   <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/login.gif" width="100%">
+   </p>
+   
 ```
     ignite g container LoginScreen
    ```
    Or Choosing Simple login screen at project initialization
    
-   <p align="center">
-   <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/login.gif" width="100%">
-   </p>
-   
-Sms Login Screen:
 
+   
+<h3 align="center">Sms Login Screen <h3>
+
+<p align="center">
+ <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/smslogin.gif" width="100%">
+ </p>
+ 
 ```
       ignite g container SmsLoginScreen
 ``` 
    Or Choosing Sms login screen at project initialization
 
-<p align="center">
- <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/smslogin.gif" width="100%">
- </p>
    
    
    then just add 
