@@ -213,21 +213,68 @@ async function install (context) {
         spinner.text = '▸ copying files'
         spinner.start()
 
-        filesystem.copy(`${__dirname}/templates/tabbed`, `${process.cwd()}/App`, {
+        filesystem.copy(`${__dirname}/templates/tabbed/Components`, `${process.cwd()}/App/Components`, {
           overwrite: true
         })
         spinner.stop()
-
+        const props = { name:'LaunchScreen' }
+        const jobs = [
+          {
+            template: 'tabbed/Containers/LaunchScreen.ejs',
+            target: `App/Containers/LaunchScreen.tsx`
+          },
+          {
+            template: 'tabbed/Containers/MainTabs/FifthTab.tsx',
+            target: `App/Containers/LaunchScreenTabs/FifthTab.tsx`
+          },
+          {
+            template: 'tabbed/Containers/MainTabs/FirstTab.tsx',
+            target: `App/Containers/LaunchScreenTabs/FirstTab.tsx`
+          },
+          {
+            template: 'tabbed/Containers/MainTabs/FourthTab.tsx',
+            target: `App/Containers/LaunchScreenTabs/FourthTab.tsx`
+          },
+          {
+            template: 'tabbed/Containers/MainTabs/SecondTab.tsx',
+            target: `App/Containers/LaunchScreenTabs/SecondTab.tsx`
+          },
+          {
+            template: 'tabbed/Containers/MainTabs/ThirdTab.tsx',
+            target: `App/Containers/LaunchScreenTabs/ThirdTab.tsx`
+          }
+        ]
+        await ignite.copyBatch(context, jobs, props)
         break;
       }
       case 'Top Tabbed Screen':{
         spinner.text = '▸ copying files'
         spinner.start()
 
-        filesystem.copy(`${__dirname}/templates/toptabbed`, `${process.cwd()}/App`, {
+        filesystem.copy(`${__dirname}/templates/toptabbed/Components`, `${process.cwd()}/App/Components`, {
           overwrite: true
         })
         spinner.stop()
+        const props = { name:'LaunchScreen' }
+        const jobs = [
+          {
+            template: 'toptabbed/Containers/ttlaunchscreen.ejs',
+            target: `App/Containers/LaunchScreen.tsx`
+          },
+          {
+            template: 'toptabbed/Containers/MainTabs/CallsScreen.tsx',
+            target: `App/Containers/LaunchScreenTabs/CallsScreen.tsx`
+          },
+          {
+            template: 'toptabbed/Containers/MainTabs/ChatsScreen.tsx',
+            target: `App/Containers/LaunchScreenTabs/ChatsScreen.tsx`
+          },
+          {
+            template: 'toptabbed/Containers/MainTabs/GroupsScreen.tsx',
+            target: `App/Containers/LaunchScreenTabs/GroupsScreen.tsx`
+          }
+        ]
+        await ignite.copyBatch(context, jobs, props)
 
         break;
       }
@@ -235,10 +282,38 @@ async function install (context) {
         spinner.text = '▸ copying files'
         spinner.start()
 
-        filesystem.copy(`${__dirname}/templates/drawer`, `${process.cwd()}/App`, {
+        filesystem.copy(`${__dirname}/templates/drawer/Components`, `${process.cwd()}/App/Components`, {
           overwrite: true
         })
         spinner.stop()
+        const props = { name:'LaunchScreen' }
+        const jobs = [
+          {
+            template: 'drawer/Containers/LaunchScreen.ejs',
+            target: `App/Containers/LaunchScreen.tsx`
+          },
+          {
+            template: 'drawer/Containers/MainTabs/FifthTab.tsx',
+            target: `App/Containers/LaunchScreenTabs/FifthTab.tsx`
+          },
+          {
+            template: 'drawer/Containers/MainTabs/FirstTab.tsx',
+            target: `App/Containers/LaunchScreenTabs/FirstTab.tsx`
+          },
+          {
+            template: 'drawer/Containers/MainTabs/FourthTab.tsx',
+            target: `App/Containers/LaunchScreenTabs/FourthTab.tsx`
+          },
+          {
+            template: 'drawer/Containers/MainTabs/SecondTab.tsx',
+            target: `App/Containers/LaunchScreenTabs/SecondTab.tsx`
+          },
+          {
+            template: 'drawer/Containers/MainTabs/ThirdTab.tsx',
+            target: `App/Containers/LaunchScreenTabs/ThirdTab.tsx`
+          }
+        ]
+        await ignite.copyBatch(context, jobs, props)
         break;
       }
       case 'Social Media Screen':{
