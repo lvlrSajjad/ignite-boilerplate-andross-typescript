@@ -48,7 +48,8 @@ You can choose your login screen style or no login screen:
 <img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/login.png" width="80%">
 
 if you choose a login screen, redux,components,login screen will be generated then you can change them.
-you can see what will be these login screens look like in  
+
+You can see what will be these login screens look like in  
 <a href="https://github.com/lvlrSajjad/ignite-boilerplate-andross-typescript#arrow_down_small-generate-login-screens">Here</a>
 
 </p>
@@ -58,6 +59,7 @@ You can choose your main screen style or just a simple screen:
 <p align="center">
 
 <img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/main.png" width="80%">
+
 You can see a gif and read about social media template  
 <a href="https://github.com/lvlrSajjad/ignite-boilerplate-andross-typescript#smiley-social-media-template">Here</a>
 
