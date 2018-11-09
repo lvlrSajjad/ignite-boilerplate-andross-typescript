@@ -382,21 +382,21 @@ Then Your App/Redux/NavigationRedux/NavigationRedux.tsx Should be look like this
 
 ```typescript jsx
 import AppNavigation from "../../Navigation/AppNavigation";
-+import { NavigationActions } from 'react-navigation';
+import { NavigationActions } from 'react-navigation'; //add
 
 export const reducer = (state, action) => {
   let newState;
 
   switch (action.type) {
-+case 'YourScreen':
-+     newState = AppNavigation.router.getStateForAction(
-+     NavigationActions.navigate({
-+       routeName: 'YourScreen',
-+        params:{isDarkMode:action.payload}
-+ }),
-+        state
-+      );
-+      break;
+        case 'YourScreen'://add
+             newState = AppNavigation.router.getStateForAction(//add
+             NavigationActions.navigate({//add
+               routeName: 'YourScreen',//add
+                params:{isDarkMode:action.payload}//add
+             }),//add
+                state//add
+            );//add
+        break;//add
     default :
       newState = AppNavigation.router.getStateForAction(action, state);
       break;
