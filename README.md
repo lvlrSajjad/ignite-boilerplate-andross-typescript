@@ -22,7 +22,7 @@
     
     You can see more on package .json
  * Recommended Dependencies :
-<img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/recommended.png" width="100%">
+<img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/recommended.png" width="80%">
 
 ## :fire: Ignite Cli
   
@@ -59,7 +59,7 @@ You can choose your main screen style or just a simple screen:
 
 <img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/main.png" width="80%">
 You can see a gif and read about social media template  
-<a href="https://github.com/lvlrSajjad/ignite-boilerplate-andross-typescript#arrow_down_small-generate-login-screens">Here</a>
+<a href="https://github.com/lvlrSajjad/ignite-boilerplate-andross-typescript#smiley-social-media-template">Here</a>
 
 </p>
 
@@ -294,9 +294,9 @@ then go to your reducer and add this code :
 then changes on your reducer will be persisted 
 
 ## :smiley: Social Media Template
-This template provides some components and screens with navigation for starting a chat app project .
+This template provides some components and screens with navigation for starting a chat app project. it's also an example of how to start working with this boiler plate.
 Inside the template i used farid safi's Gifted Chat for chat screen.
-
+You can use this template by choosing it on boilerplate installation.
 ## :heart: Recommended Components For Use In The Project
   ### Mapbox Component
   
