@@ -309,6 +309,7 @@ this is a preview of Social Media Template :
 <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/socialmedia.gif" width="100%">
 </p>
 
+
 ## :arrow_heading_down: Bottom Tabbed Template
 This template provides some components and screens with navigation for having a bottom tabbed container with 5 tabs in the first page of your app.
 you can change tabs names and contents after installation.
@@ -318,6 +319,14 @@ this is a preview of Bottom Tabbed Template :
 <p align="center">
 <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/bottomtabbed.gif" width="100%">
 </p>
+
+You can generate a screen with this template using below command :
+
+```
+ ignite g container YourScreenName BottomTabbed
+```
+this command will produce a screen file with tab files and will add this screen to AppNavigation file
+
 
 ## :top: Top Tabbed Template
 This template provides some components and screens with navigation for having a top tabbed container with 3 tabs with list content in the first page of your app.
@@ -329,6 +338,15 @@ this is a preview of Top Tabbed Template :
 <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/toptabbed.gif" width="100%">
 </p>
 
+You can generate a screen with this template using below command :
+
+```
+ ignite g container YourScreenName TopTabbed
+```
+
+this command will produce a screen file with tab files and will add this screen to AppNavigation file
+
+
 ## :top: Navigation Drawer Template
 This template provides some components and screens with navigation for having a navigation drawer container with 5 pages.
 you can change tabs names and contents after installation.
@@ -339,6 +357,13 @@ this is a preview of Navigation Drawer Template :
 <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/drawer.gif" width="100%">
 </p>
 
+You can generate a screen with this template using below command :
+
+```
+ ignite g container YourScreenName Drawer
+```
+
+this command will produce a screen file with tab files and will add this screen to AppNavigation file
 
 ## :heart: Recommended Components For Use In The Project
   ### Mapbox Component
