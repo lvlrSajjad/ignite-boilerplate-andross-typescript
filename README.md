@@ -64,7 +64,7 @@ You can see a gif and read about templates in below links:
 <p align="center">
 <a href="https://github.com/lvlrSajjad/ignite-boilerplate-andross-typescript#smiley-social-media-template">Social Media</a><br>
 <a href="https://github.com/lvlrSajjad/ignite-boilerplate-andross-typescript#arrow_heading_down-bottom-tabbed-template">Bottom Tab Bar</a><br>
-<a href="https://github.com/lvlrSajjad/ignite-boilerplate-andross-typescript#top-top-tabbed-template">Top Tab Bar</a>
+<a href="https://github.com/lvlrSajjad/ignite-boilerplate-andross-typescript#top-top-tabbed-template">Top Tab Bar</a><br>
 <a href="https://github.com/lvlrSajjad/ignite-boilerplate-andross-typescript#top-navigation-drawer-template">Navigation Drawer</a>
 </p>
 </p>
