@@ -299,11 +299,30 @@ then changes on your reducer will be persisted
 This template provides some components and screens with navigation for starting a chat app project. it's also an example of how to start working with this boiler plate.
 Inside the template i used farid safi's Gifted Chat for chat screen.
 You can use this template by choosing it on boilerplate installation.
-this is a preview of social media template : 
+this is a preview of Social Media Template : 
 
 <p align="center">
-
 <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/socialmedia.gif" width="100%">
+</p>
+
+## :smiley: Bottom Tabbed Template
+This template provides some components and screens with navigation for having a bottom tabbed container with 5 tabs in the first page of your app.
+you can change tabs names and contents after installation.
+You can use this template by choosing it on boilerplate installation.
+this is a preview of Bottom Tabbed Template : 
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/bottomtabbed.gif" width="100%">
+</p>
+
+## :smiley: Top Tabbed Template
+This template provides some components and screens with navigation for having a top tabbed container with 3 tabs with list content in the first page of your app.
+you can change tabs names and contents after installation.
+You can use this template by choosing it on boilerplate installation.
+this is a preview of Top Tabbed Template : 
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/toptabbed.gif" width="100%">
 </p>
 
 ## :heart: Recommended Components For Use In The Project

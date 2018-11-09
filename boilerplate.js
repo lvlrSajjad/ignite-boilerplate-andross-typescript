@@ -209,11 +209,22 @@ async function install (context) {
       case 'Simple Screen':{
         break;
       }
-      case 'Tabbed Screen':{
+      case 'Bottom Tabbed Screen':{
         spinner.text = '▸ copying files'
         spinner.start()
 
         filesystem.copy(`${__dirname}/templates/tabbed`, `${process.cwd()}/App`, {
+          overwrite: true
+        })
+        spinner.stop()
+
+        break;
+      }
+      case 'Top Tabbed Screen':{
+        spinner.text = '▸ copying files'
+        spinner.start()
+
+        filesystem.copy(`${__dirname}/templates/toptabbed`, `${process.cwd()}/App`, {
           overwrite: true
         })
         spinner.stop()

@@ -12,7 +12,7 @@ const questions = [
     name: 'main-screen',
     message: 'Choose Main Screen ',
     type: 'list',
-    choices: ['Simple Screen','Tabbed Screen', 'Navigation Drawer Screen','Social Media Screen']
+    choices: ['Simple Screen','Bottom Tabbed Screen','Top Tabbed Screen', 'Navigation Drawer Screen','Social Media Screen']
   },
 ]
 
