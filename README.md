@@ -328,6 +328,17 @@ this is a preview of Top Tabbed Template :
 <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/toptabbed.gif" width="100%">
 </p>
 
+## :top: Navigation Drawer Template
+This template provides some components and screens with navigation for having a navigation drawer container with 5 pages.
+you can change tabs names and contents after installation.
+You can use this template by choosing it on boilerplate installation.
+this is a preview of Top Tabbed Template : 
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/drawer.gif" width="100%">
+</p>
+
+
 ## :heart: Recommended Components For Use In The Project
   ### Mapbox Component
   
