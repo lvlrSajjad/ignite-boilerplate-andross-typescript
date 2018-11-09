@@ -1,7 +1,7 @@
 const options = require('./options')
 const { merge, pipe, assoc, omit, __ } = require('ramda')
 const { getReactNativeVersion } = require('./lib/react-native-version')
-
+const patterns = require('./lib/patterns')
 /**
  * Is Android installed?
  *
