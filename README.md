@@ -65,6 +65,7 @@ You can see a gif and read about templates in below links:
 <a href="https://github.com/lvlrSajjad/ignite-boilerplate-andross-typescript#smiley-social-media-template">Social Media</a><br>
 <a href="https://github.com/lvlrSajjad/ignite-boilerplate-andross-typescript#arrow_heading_down-bottom-tabbed-template">Bottom Tab Bar</a><br>
 <a href="https://github.com/lvlrSajjad/ignite-boilerplate-andross-typescript#top-top-tabbed-template">Top Tab Bar</a>
+<a href="https://github.com/lvlrSajjad/ignite-boilerplate-andross-typescript#top-navigation-drawer-template">Navigation Drawer</a>
 </p>
 </p>
 
@@ -332,7 +333,7 @@ this is a preview of Top Tabbed Template :
 This template provides some components and screens with navigation for having a navigation drawer container with 5 pages.
 you can change tabs names and contents after installation.
 You can use this template by choosing it on boilerplate installation.
-this is a preview of Top Tabbed Template : 
+this is a preview of Navigation Drawer Template : 
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/drawer.gif" width="100%">
