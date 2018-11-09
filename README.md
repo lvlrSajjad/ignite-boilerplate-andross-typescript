@@ -365,6 +365,65 @@ You can generate a screen with this template using below command :
 
 this command will produce a screen file with tab files and will add this screen to AppNavigation file
 
+## :grey_question: How to navigate screens via redux 
+
+Be sure about screen added to the AppNavigation.tsx
+
+Then Your App/Redux/NavigationRedux/NavigationRedux.tsx Should be look like this
+
+```typescript jsx
+import AppNavigation from "../../Navigation/AppNavigation";
++import { NavigationActions } from 'react-navigation';
+
+export const reducer = (state, action) => {
+  let newState;
+
+  switch (action.type) {
++case 'YourScreen':
++     newState = AppNavigation.router.getStateForAction(
++     NavigationActions.navigate({
++       routeName: 'YourScreen',
++        params:{isDarkMode:action.payload}
++ }),
++        state
++      );
++      break;
+    default :
+      newState = AppNavigation.router.getStateForAction(action, state);
+      break;
+  }
+  return newState || state;
+};
+
+```
+
+Then in a redux connected component you can navigate like this
+
+```typescript jsx
+ <SomeButton
+        onPress={()=>{
+         this.props.YourScreen(this.props.isDarkMode)
+        }}
+      />
+.
+.
+.
+const mapStateToProps = state => ({
+  isDarkMode: state.appSettings.isDarkMode,
+  nav: state.nav,
+  colorScheme: state.appSettings.colorScheme
+});
+
+const mapDispatchToProps = dispatch => ({
+   YourScreen: (darkMode) => {
+     dispatch({ type: 'YourScreen' , payload : darkMode});
+   },
+});
+
+export default withNavigation(connect(mapStateToProps, mapDispatchToProps)(ReduxConnectedComponent));
+
+```
+
 ## :heart: Recommended Components For Use In The Project
   ### Mapbox Component
   
