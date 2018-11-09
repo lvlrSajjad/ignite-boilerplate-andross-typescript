@@ -32,8 +32,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="171">
-                <caret line="65" column="142" selection-start-line="65" selection-start-column="142" selection-end-line="65" selection-end-column="142" />
+              <first_editor relative-caret-position="263">
+                <caret line="63" column="17" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
                 <folding>
                   <element signature="e#2#56#0" expanded="true" />
                 </folding>
@@ -276,12 +276,12 @@
       <workItem from="1541491723587" duration="34255000" />
       <workItem from="1541586721183" duration="28508000" />
       <workItem from="1541685767469" duration="18451000" />
-      <workItem from="1541752540695" duration="4198000" />
+      <workItem from="1541752540695" duration="4232000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99666000" />
+    <option name="totallyTimeSpent" value="99700000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -609,8 +609,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="171">
-            <caret line="65" column="142" selection-start-line="65" selection-start-column="142" selection-end-line="65" selection-end-column="142" />
+          <first_editor relative-caret-position="263">
+            <caret line="63" column="17" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
             <folding>
               <element signature="e#2#56#0" expanded="true" />
             </folding>
