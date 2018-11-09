@@ -5,30 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f62ad2c-1973-43c4-a49a-dc82052ec6be" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/gifs/bottomtabbed.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gifs/toptabbed.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/toptabbed/Components/LaunchScreen/ChatsTab/CallsListItem/CallsListItem.ltr.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/toptabbed/Components/LaunchScreen/ChatsTab/CallsListItem/CallsListItem.rtl.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/toptabbed/Components/LaunchScreen/ChatsTab/CallsListItem/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/toptabbed/Components/LaunchScreen/ChatsTab/ChatsListItem/ChatsListItem.ltr.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/toptabbed/Components/LaunchScreen/ChatsTab/ChatsListItem/ChatsListItem.rtl.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/toptabbed/Components/LaunchScreen/ChatsTab/ChatsListItem/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/toptabbed/Components/LaunchScreen/ChatsTab/__tests__/CallsListItemTest.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/toptabbed/Components/LaunchScreen/ChatsTab/__tests__/ChatsListItemTest.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/toptabbed/Components/LaunchScreen/ChatsTab/__tests__/__snapshots__/CallsListItemTest.tsx.snap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/toptabbed/Components/LaunchScreen/ChatsTab/__tests__/__snapshots__/ChatsListItemTest.tsx.snap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/toptabbed/Containers/LaunchScreen.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/toptabbed/Containers/MainTabs/CallsScreen.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/toptabbed/Containers/MainTabs/ChatsScreen.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/toptabbed/Containers/MainTabs/GroupsScreen.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/toptabbed/Containers/Styles/LaunchScreenStyles.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/toptabbed/Containers/Styles/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/toptabbed/Containers/Styles/RootContainerStyles.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate.js" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/options.js" beforeDir="false" afterPath="$PROJECT_DIR$/options.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gifs/main.png" beforeDir="false" afterPath="$PROJECT_DIR$/gifs/main.png" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,7 +20,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="23">
@@ -51,12 +29,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="79">
-                <caret line="314" column="121" selection-start-line="314" selection-start-column="121" selection-end-line="314" selection-end-column="121" />
+              <first_editor relative-caret-position="125">
+                <caret line="307" column="22" selection-start-line="307" selection-start-column="22" selection-end-line="307" selection-end-column="22" />
                 <folding>
                   <element signature="e#2#56#0" expanded="true" />
                 </folding>
@@ -175,8 +153,8 @@
         <option value="$PROJECT_DIR$/boilerplate/package.json.ejs" />
         <option value="$PROJECT_DIR$/options.js" />
         <option value="$PROJECT_DIR$/boilerplate.js" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -299,12 +277,12 @@
       <workItem from="1541491723587" duration="34255000" />
       <workItem from="1541586721183" duration="28508000" />
       <workItem from="1541685767469" duration="18451000" />
-      <workItem from="1541752540695" duration="3622000" />
+      <workItem from="1541752540695" duration="4028000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99090000" />
+    <option name="totallyTimeSpent" value="99496000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -622,23 +600,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="79">
-            <caret line="314" column="121" selection-start-line="314" selection-start-column="121" selection-end-line="314" selection-end-column="121" />
+          <first_editor relative-caret-position="125">
+            <caret line="307" column="22" selection-start-line="307" selection-start-column="22" selection-end-line="307" selection-end-column="22" />
             <folding>
               <element signature="e#2#56#0" expanded="true" />
             </folding>
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
         </state>
       </provider>
     </entry>
