@@ -4,9 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/README.md" line="72" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f62ad2c-1973-43c4-a49a-dc82052ec6be" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/gifs/ignite-typescript-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/gifs/ignite-typescript-logo.png" afterDir="false" />
-    </list>
+    <list default="true" id="3f62ad2c-1973-43c4-a49a-dc82052ec6be" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -232,12 +230,12 @@
       <workItem from="1541491723587" duration="34255000" />
       <workItem from="1541586721183" duration="28508000" />
       <workItem from="1541685767469" duration="18451000" />
-      <workItem from="1541752540695" duration="15755000" />
+      <workItem from="1541752540695" duration="16353000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111223000" />
+    <option name="totallyTimeSpent" value="111821000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
