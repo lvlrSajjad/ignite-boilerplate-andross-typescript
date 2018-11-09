@@ -327,6 +327,9 @@ You can generate a screen with this template using below command :
 ```
 this command will produce a screen file with tab files and will add this screen to AppNavigation file
 
+You can edit file names and contents of files inside YourScreenNameTabs folder, just be sure if you edited the file names you also edit the imports inside YourScreenName.tsx file.
+You can also edit navigation icon names inside YourScreenName.tsx
+
 
 ## :top: Top Tabbed Template
 This template provides some components and screens with navigation for having a top tabbed container with 3 tabs with list content in the first page of your app.
@@ -346,6 +349,9 @@ You can generate a screen with this template using below command :
 
 this command will produce a screen file with tab files and will add this screen to AppNavigation file
 
+You can edit file names and contents of files inside YourScreenNameTabs folder, just be sure if you edited the file names you also edit the imports inside YourScreenName.tsx file.
+You can also edit navigation icon names inside YourScreenName.tsx
+
 
 ## :top: Navigation Drawer Template
 This template provides some components and screens with navigation for having a navigation drawer container with 5 pages.
@@ -362,6 +368,9 @@ You can generate a screen with this template using below command :
 ```
  ignite g container YourScreenName Drawer
 ```
+
+You can edit file names and contents of files inside YourScreenNameTabs folder, just be sure if you edited the file names you also edit the imports inside YourScreenName.tsx file.
+You can also edit navigation icon names inside YourScreenName.tsx
 
 this command will produce a screen file with tab files and will add this screen to AppNavigation file
 
