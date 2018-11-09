@@ -8,12 +8,16 @@ import {
   ScrollView, Text, Image, View
 } from "react-native";
 import {connect} from "react-redux";
+import NavHeaders from "../../Components/NavHeaders";
+import { DrawerActions } from 'react-navigation-drawer';
 
 class FourthTab extends Component {
   render() {
     return (
       <View style={styles.mainContainer}>
         <Image source={Images.background} style={styles.backgroundImage} resizeMode="stretch" />
+        <NavHeaders onPress={()=>{this.props.navigation.dispatch(DrawerActions.toggleDrawer())}} title="Fourth"/>
+
         <ScrollView style={styles.container}>
           <View style={styles.centered}>
             <Image source={Images.launch} style={styles.logo} />

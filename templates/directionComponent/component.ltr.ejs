@@ -1,8 +1,10 @@
-import React, { Component } from 'react'
+import * as React from 'react';
+import {Component} from 'react';
 import { View, Text } from 'react-native'
 import styles from './Styles/<%= props.name %>Style.ltr'
+import {<%= props.name %>Props} from './index'
 
-export default class <%= props.name %> extends Component {
+export default class <%= props.name %> extends Component<<%= props.name %>Props> {
 
   // // Defaults for props
   // static defaultProps = {
