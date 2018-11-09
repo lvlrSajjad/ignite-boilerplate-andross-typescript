@@ -7,7 +7,8 @@ container: {
   width:'100%',
   flexDirection:'row',
   height:56,
-  alignItems:'center'
+  alignItems:'center',
+    padding:16
 },
   titleContainer:{
   flex:1,

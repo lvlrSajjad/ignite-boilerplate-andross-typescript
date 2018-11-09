@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import * as React from 'react';
+import {Component} from 'react';
 import {View, Text, TouchableOpacity} from 'react-native'
 import styles from './Styles/NavHeadersStyle.ltr'
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
@@ -24,7 +25,7 @@ export default class NavHeaders extends Component<NavHeadersProps> {
           />
         </TouchableOpacity>
         <View style={styles.titleContainer}>
-          <Text>{this.props.title}</Text>
+          <Text style={{color:'white'}}>{this.props.title}</Text>
         </View>
       </View>
     )
