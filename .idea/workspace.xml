@@ -4,16 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/README.md" line="72" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f62ad2c-1973-43c4-a49a-dc82052ec6be" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/index.js.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/index.js.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/package.json.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/package.json.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login/Redux/Navigation/NavigationRedux.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login/Redux/Navigation/NavigationRedux.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/smslogin/Redux/Navigation/NavigationRedux.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/smslogin/Redux/Navigation/NavigationRedux.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/socialmedia/Components/ChatScreen/src/MessageContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/socialmedia/Components/ChatScreen/src/MessageContainer.js" afterDir="false" />
-    </list>
+    <list default="true" id="3f62ad2c-1973-43c4-a49a-dc82052ec6be" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -280,15 +271,16 @@
       <workItem from="1541586721183" duration="28508000" />
       <workItem from="1541685767469" duration="18451000" />
       <workItem from="1541752540695" duration="16353000" />
-      <workItem from="1541844973214" duration="2543000" />
+      <workItem from="1541844973214" duration="3224000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114364000" />
+    <option name="totallyTimeSpent" value="115045000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
