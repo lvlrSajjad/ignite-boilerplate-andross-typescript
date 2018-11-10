@@ -4,7 +4,16 @@
     <bookmark url="file://$PROJECT_DIR$/README.md" line="72" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f62ad2c-1973-43c4-a49a-dc82052ec6be" name="Default" comment="" />
+    <list default="true" id="3f62ad2c-1973-43c4-a49a-dc82052ec6be" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/index.js.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/index.js.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/package.json.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/package.json.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login/Redux/Navigation/NavigationRedux.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login/Redux/Navigation/NavigationRedux.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/smslogin/Redux/Navigation/NavigationRedux.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/smslogin/Redux/Navigation/NavigationRedux.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/socialmedia/Components/ChatScreen/src/MessageContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/socialmedia/Components/ChatScreen/src/MessageContainer.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -21,23 +30,28 @@
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
-              <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="175">
-                <caret line="384" column="59" lean-forward="true" selection-start-line="384" selection-start-column="59" selection-end-line="384" selection-end-column="59" />
-                <folding>
-                  <element signature="e#0#59#0" expanded="true" />
-                  <element signature="e#2#56#0" expanded="true" />
-                </folding>
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="index.js.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boilerplate/index.js.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageContainer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/socialmedia/Components/ChatScreen/src/MessageContainer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="127" column="29" selection-start-line="127" selection-start-column="29" selection-end-line="127" selection-end-column="29" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,7 +60,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>react-native-lightbox</find>
       <find>blue</find>
       <find>mapbox</find>
       <find>options</find>
@@ -76,6 +89,7 @@
       <find>here</find>
       <find>Tabbed</find>
       <find>parameters.</find>
+      <find>flatlist</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -84,10 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/commands/directioncomponent.js" />
-        <option value="$PROJECT_DIR$/commands/component.js" />
-        <option value="$PROJECT_DIR$/templates/directionComponent/style/style.rtl.ejs" />
-        <option value="$PROJECT_DIR$/templates/directionComponent/style/style.ltr.ejs" />
         <option value="$PROJECT_DIR$/templates/component/style/style.ejs" />
         <option value="$PROJECT_DIR$/commands/screen.js" />
         <option value="$PROJECT_DIR$/commands/list.js" />
@@ -118,7 +128,6 @@
         <option value="$PROJECT_DIR$/templates/drawer/Containers/LaunchScreen.tsx" />
         <option value="$PROJECT_DIR$/templates/socialmedia/Containers/MainTabs/ChatsTabScreens/ChatsScreen.tsx" />
         <option value="$PROJECT_DIR$/boilerplate/App/Redux/Navigation/NavigationRedux.tsx" />
-        <option value="$PROJECT_DIR$/boilerplate/package.json.ejs" />
         <option value="$PROJECT_DIR$/options.js" />
         <option value="$PROJECT_DIR$/templates/ttlaunchscreen.ejs" />
         <option value="$PROJECT_DIR$/templates/toptabbed/Containers/LaunchScreen.tsx" />
@@ -134,6 +143,11 @@
         <option value="$PROJECT_DIR$/templates/drawer/Components/NavHeaders/Styles/NavHeadersStyle.ltr.tsx" />
         <option value="$PROJECT_DIR$/commands/container.js" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/boilerplate/package.json.ejs" />
+        <option value="$PROJECT_DIR$/templates/smslogin/Redux/Navigation/NavigationRedux.tsx" />
+        <option value="$PROJECT_DIR$/templates/login/Redux/Navigation/NavigationRedux.tsx" />
+        <option value="$PROJECT_DIR$/boilerplate/index.js.ejs" />
+        <option value="$PROJECT_DIR$/templates/socialmedia/Components/ChatScreen/src/MessageContainer.js" />
         <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
@@ -167,6 +181,41 @@
               <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
               <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="socialmedia" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="socialmedia" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="socialmedia" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="ChatScreen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="socialmedia" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="ChatScreen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -176,7 +225,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ReactNative/Tests/Drawer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ReactNative/Tests/full" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -231,11 +280,12 @@
       <workItem from="1541586721183" duration="28508000" />
       <workItem from="1541685767469" duration="18451000" />
       <workItem from="1541752540695" duration="16353000" />
+      <workItem from="1541844973214" duration="2543000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111821000" />
+    <option name="totallyTimeSpent" value="114364000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -246,20 +296,20 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.46263346" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.27935943" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.27935943" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27752978" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27752978" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3291815" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3291815" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,31 +324,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/login/Redux/Login/LoginActions.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/login/Navigation/Styles/NavigationStyles.tsx">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/login/Redux/Navigation/NavigationRedux.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-39">
-          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/login/Redux/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="14" column="66" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="66" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/socialmedia/Navigation/AppNavigation.tsx" />
-    <entry file="file://$PROJECT_DIR$/templates/socialmedia/Redux/Navigation/NavigationRedux.tsx" />
     <entry file="file://$PROJECT_DIR$/templates/login/Navigation/AppNavigation.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -397,9 +422,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -413,16 +435,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate/package.json.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/toptabbed/Components/LaunchScreen/SettingsTab/__tests__/__snapshots__/SettingsToggleItemTest.tsx.snap">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/toptabbed/Components/LaunchScreen/SettingsTab/__tests__/__snapshots__/SettingsToggleItemTest.tsx.snap" />
     <entry file="file://$PROJECT_DIR$/templates/toptabbed/Components/LaunchScreen/ChatsTab/__tests__/__snapshots__/CallsListItemTest.tsx.snap">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -430,13 +443,7 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/toptabbed/Containers/MainTabs/GroupsScreen.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/component.ejs">
       <provider selected="true" editor-type-id="text-editor">
@@ -445,22 +452,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/toptabbed/Containers/LaunchScreen.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/toptabbed/Containers/LaunchScreen.tsx" />
     <entry file="file://$PROJECT_DIR$/templates/toptabbed/Containers/Styles/LaunchScreenStyles.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-104">
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-104" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/options.js">
@@ -524,9 +519,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -534,9 +526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -551,9 +540,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
           <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -561,9 +547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="644">
           <caret line="28" column="39" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -574,34 +557,92 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="8832">
+            <caret line="384" column="59" selection-start-line="384" selection-start-column="59" selection-end-line="384" selection-end-column="59" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/package.json.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1541">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/boilerplate/App/Redux/Navigation/NavigationRedux.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-219">
-          <caret line="6" column="24" lean-forward="true" selection-end-line="23" />
+        <state relative-caret-position="253">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
           <folding>
             <element signature="e#0#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="175">
-            <caret line="384" column="59" lean-forward="true" selection-start-line="384" selection-start-column="59" selection-end-line="384" selection-end-column="59" />
-            <folding>
-              <element signature="e#0#59#0" expanded="true" />
-              <element signature="e#2#56#0" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/boilerplate/App/Navigation/AppNavigation.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login/Redux/Navigation/NavigationRedux.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/smslogin/Redux/Navigation/NavigationRedux.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/smslogin/Navigation/AppNavigation.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/index.js.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/socialmedia/Components/ChatScreen/src/MessageContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="127" column="29" selection-start-line="127" selection-start-column="29" selection-end-line="127" selection-end-column="29" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
         </state>
       </provider>
     </entry>
