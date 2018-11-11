@@ -12,6 +12,7 @@ import FifthTab from './<%= props.name %>Tabs/FifthTab';
 import Fonts from "../Themes/Fonts";
 import {BottomNavigation} from 'react-native-paper';
 import I18n from "../I18n";
+import {Text} from "react-native";
 
 const commonNavigationOptions = ({navigation}) => ({
   header: null,
@@ -92,7 +93,15 @@ const tavNav = (props) => React.createElement(
               }
             />
           );
-        }
+        },tabBarLabel: <Text
+        style={{
+        fontSize: 12,
+        fontFamily: Fonts.type.farsi,
+        color: props.colorScheme.fullToneText
+        }}
+        >
+          {navigation.state.routeName}
+        </Text>
       }),
       shifting: true,
       tabBarComponent: BottomNavigation,
@@ -100,21 +109,11 @@ const tavNav = (props) => React.createElement(
       animationEnabled: true,
       swipeEnabled: true,
       tabBarOptions: {
-        labelStyle: {
-          fontSize: 10,
-          fontFamily: Fonts.type.farsi,
-          color: props.colorScheme.fullToneText
-        },
         style: {
           backgroundColor: props.colorScheme.tabBarBackground
         },
       },
       initialRouteName: I18n.t('First'),
-      labelStyle: {
-        fontSize: 10,
-        fontFamily: Fonts.type.farsi,
-        color: props.colorScheme.fullToneText
-      },
       barStyle: {
         backgroundColor: props.colorScheme.tabBarBackground
       },
