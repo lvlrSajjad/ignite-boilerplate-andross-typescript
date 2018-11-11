@@ -78,7 +78,6 @@ after installation run below commands:
 ```
    cd YourAppName
    react-native link
-   npm start
    react-native run-ios or react-native run-android
    ```
 ## :exclamation: Possible Errors
