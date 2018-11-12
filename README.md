@@ -439,6 +439,10 @@ export default withNavigation(connect(mapStateToProps, mapDispatchToProps)(Redux
   The goal is making ui development easy and seamless (Ui/ux itself with material design rules and Coding Experience)
   For now, components are in a limited number but i'm working on increasing their number to fulfill all ui/ux needed components
 ### Material Colors 
+ <p align="center">
+ <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/colors.png" width="50%">
+ </p>
+
   I just converted <a href="https://www.materialui.co/colors"> www.materialui.co/colors </a> colors to an object for easier use of these colors
    
 #### Usage :

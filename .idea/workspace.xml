@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f62ad2c-1973-43c4-a49a-dc82052ec6be" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/boilerplate/App/Components/MaterialComponents/MaterialTextInput/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boilerplate/App/Components/MaterialComponents/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gifs/material-horizontal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gifs/material-vertical.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gifs/colors.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/package.json.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/package.json.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,8 +33,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="185">
-                <caret line="453" column="123" selection-start-line="453" selection-start-column="123" selection-end-line="453" selection-end-column="123" />
+              <first_editor relative-caret-position="139">
+                <caret line="442" column="112" selection-start-line="442" selection-start-column="112" selection-end-line="442" selection-end-column="112" />
                 <folding>
                   <element signature="e#2#56#0" expanded="true" />
                 </folding>
@@ -216,8 +210,8 @@
         <option value="$PROJECT_DIR$/boilerplate/App/Components/MaterialComponents/MaterialTextInput/MaterialTextInput.ltr.tsx" />
         <option value="$PROJECT_DIR$/boilerplate/App/Components/MaterialComponents/index.ts" />
         <option value="$PROJECT_DIR$/boilerplate/package.json.ejs" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -323,12 +317,12 @@
       <workItem from="1541844973214" duration="4423000" />
       <workItem from="1541925779487" duration="6672000" />
       <workItem from="1541958482849" duration="8751000" />
-      <workItem from="1542024880765" duration="11123000" />
+      <workItem from="1542024880765" duration="11488000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142790000" />
+    <option name="totallyTimeSpent" value="143155000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -340,9 +334,9 @@
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.46263346" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.5245536" visible="true" weight="0.3206239" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.5245536" visible="true" weight="0.3206239" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27752978" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27752978" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -674,8 +668,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="185">
-            <caret line="453" column="123" selection-start-line="453" selection-start-column="123" selection-end-line="453" selection-end-column="123" />
+          <first_editor relative-caret-position="139">
+            <caret line="442" column="112" selection-start-line="442" selection-start-column="112" selection-end-line="442" selection-end-column="112" />
             <folding>
               <element signature="e#2#56#0" expanded="true" />
             </folding>
