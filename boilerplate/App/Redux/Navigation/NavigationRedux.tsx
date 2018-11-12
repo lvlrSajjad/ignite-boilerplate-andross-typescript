@@ -15,6 +15,15 @@ export const reducer = (state, action) => {
         state
       );
       break;
+    case 'LaunchScreen':
+      newState = AppNavigation.router.getStateForAction(
+        NavigationActions.navigate({
+          routeName: 'LaunchScreen',
+          params:{isDarkMode:action.payload}
+        }),
+        state
+      );
+      break;
     default :
       newState = AppNavigation.router.getStateForAction(action, state);
       break;

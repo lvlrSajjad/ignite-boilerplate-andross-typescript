@@ -14,6 +14,7 @@ export interface ApplicationState {
 /* ------------- Assemble The Reducers ------------- */
 export const reducers: Reducer<ApplicationState> = combineReducers({
   nav: require("./Navigation/NavigationRedux").reducer,
+  mainNav: require("./Navigation/MainNavigationRedux").reducer,
   github: require("./Github/GithubRedux").reducer,
   search: require("./Search/SearchRedux").reducer,
   appSettings: require('./AppSettings/AppSettingsRedux').reducer
