@@ -5,17 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f62ad2c-1973-43c4-a49a-dc82052ec6be" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/boilerplate/App/Components/MaterialComponents/MaterialTextInput/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boilerplate/App/Components/MaterialComponents/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gifs/material-horizontal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gifs/material-vertical.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/package.json.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/package.json.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/component-test.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/component-test.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/component.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/component.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/container.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/container.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/flatlist-grid.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/flatlist-grid.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/flatlist-sections.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/flatlist-sections.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/flatlist.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/flatlist.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/listview-sections.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/listview-sections.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/listview.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/listview.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/screen.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/screen.ejs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,50 +26,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
+            <state relative-caret-position="138">
               <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="flatlist-sections.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/flatlist-sections.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="30" selection-start-column="30" selection-end-column="30" />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="185">
+                <caret line="453" column="123" selection-start-line="453" selection-start-column="123" selection-end-line="453" selection-end-column="123" />
+                <folding>
+                  <element signature="e#2#56#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="flatlist-grid-style.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/flatlist-grid-style.ejs">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="flatlist-grid.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/flatlist-grid.ejs">
+      <file leaf-file-name="package.json.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boilerplate/package.json.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="30" selection-start-column="30" selection-end-column="30" />
+            <state relative-caret-position="331">
+              <caret line="69" column="21" lean-forward="true" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="flatlist.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/flatlist.ejs">
+      <file leaf-file-name="Colors.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boilerplate/App/Themes/Colors.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="30" selection-start-column="30" selection-end-column="30" />
+            <state relative-caret-position="-759">
+              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="container-style.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/container-style.ejs">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="index.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boilerplate/App/Components/MaterialComponents/index.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boilerplate/App/Components/MaterialComponents/MaterialTextInput/index.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-828">
+              <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="container.ejs" pinned="false" current-in-tab="false">
@@ -109,9 +120,15 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>fs-jetpack</find>
       <find>fire_w</find>
       <find>__dirname</find>
       <find>material-text</find>
@@ -141,6 +158,7 @@
       <find>Text</find>
       <find>backPr</find>
       <find>componentWillUnmount</find>
+      <find>compoonen</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -149,9 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/templates/tabbed/Containers/MainTabs/FirstTab.tsx" />
-        <option value="$PROJECT_DIR$/templates/tabbed/Containers/MainTabs/FourthTab.tsx" />
-        <option value="$PROJECT_DIR$/templates/tabbed/Containers/MainTabs/SecondTab.tsx" />
         <option value="$PROJECT_DIR$/templates/tabbed/Containers/MainTabs/ThirdTab.tsx" />
         <option value="$PROJECT_DIR$/templates/tabbed/Containers/LaunchScreen.tsx" />
         <option value="$PROJECT_DIR$/boilerplate/App/I18n/locales/en.ts" />
@@ -176,8 +191,6 @@
         <option value="$PROJECT_DIR$/boilerplate/index.js.ejs" />
         <option value="$PROJECT_DIR$/templates/socialmedia/Components/ChatScreen/src/MessageContainer.js" />
         <option value="$PROJECT_DIR$/lib/react-native-version.js" />
-        <option value="$PROJECT_DIR$/boilerplate/package.json.ejs" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/templates/socialmedia/Containers/LaunchScreen.tsx" />
         <option value="$PROJECT_DIR$/templates/tabbed/Containers/LaunchScreen.ejs" />
         <option value="$PROJECT_DIR$/boilerplate/App/Redux/Navigation/NavigationRedux.tsx" />
@@ -199,6 +212,11 @@
         <option value="$PROJECT_DIR$/templates/flatlist-sections.ejs" />
         <option value="$PROJECT_DIR$/templates/screen.ejs" />
         <option value="$PROJECT_DIR$/templates/listview-sections.ejs" />
+        <option value="$PROJECT_DIR$/boilerplate/App/Components/MaterialComponents/MaterialTextInput/index.tsx" />
+        <option value="$PROJECT_DIR$/boilerplate/App/Components/MaterialComponents/MaterialTextInput/MaterialTextInput.ltr.tsx" />
+        <option value="$PROJECT_DIR$/boilerplate/App/Components/MaterialComponents/index.ts" />
+        <option value="$PROJECT_DIR$/boilerplate/package.json.ejs" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
@@ -217,8 +235,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="676" />
     <option name="width" value="697" />
-    <option name="height" value="728" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -232,6 +251,11 @@
             <path>
               <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
               <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
+              <item name="gifs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -254,19 +278,19 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\gifs" />
+      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\boilerplate\App\Components\MaterialComponents" />
+      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\boilerplate\App\Components\MaterialComponents\MaterialTextInput" />
+      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\boilerplate\App\Redux\Navigation" />
+      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\drawer\Containers\MainTabs" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\toptabbed\Containers" />
       <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\toptabbed" />
       <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\drawer" />
       <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\socialmedia\Containers" />
       <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\login\Components\LoginScreen" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\boilerplate\App\Redux\Navigation" />
-      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\gifs" />
-      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\drawer\Containers\MainTabs" />
-      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\drawer\Components" />
-      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -299,26 +323,26 @@
       <workItem from="1541844973214" duration="4423000" />
       <workItem from="1541925779487" duration="6672000" />
       <workItem from="1541958482849" duration="8751000" />
-      <workItem from="1542024880765" duration="211000" />
+      <workItem from="1542024880765" duration="11123000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131878000" />
+    <option name="totallyTimeSpent" value="142790000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.47544643" side_tool="true" visible="true" weight="0.3206239" />
       <window_info anchor="bottom" id="GitLabIntegration" order="11" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.46263346" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.18370883" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.5245536" visible="true" weight="0.3206239" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27752978" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27752978" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -344,41 +368,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/drawer/Components/NavHeaders/NavHeaders.rtl.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="28" column="39" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commands/container.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="65" column="8" lean-forward="true" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/login/Redux/Navigation/NavigationRedux.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/socialmedia/Components/ChatScreen/src/MessageContainer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2622">
-          <caret line="127" column="29" selection-start-line="127" selection-start-column="29" selection-end-line="127" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate/index.js.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/screenExamples.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -389,23 +378,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate/package.json.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="1840">
-            <caret line="80" selection-start-line="80" selection-end-line="80" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -651,10 +623,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/App/Components/MaterialComponents/MaterialTextInput/MaterialTextInput.ltr.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/App/Components/MaterialComponents/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/typings.d.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/App/Components/MaterialComponents/MaterialTextInput/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-828">
+          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/App/Themes/Colors.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-759">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/package.json.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="69" column="21" lean-forward="true" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
+        <state relative-caret-position="138">
           <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="185">
+            <caret line="453" column="123" selection-start-line="453" selection-start-column="123" selection-end-line="453" selection-end-column="123" />
+            <folding>
+              <element signature="e#2#56#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

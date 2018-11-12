@@ -432,6 +432,106 @@ export default withNavigation(connect(mapStateToProps, mapDispatchToProps)(Redux
 
 ```
 
+## :nut_and_bolt: Material Ui Collection
+  Here you can see a created by me or hand picked collection of material components from various ui libraries.
+  Added typescript support for these components if there not supported by default.
+  Added rtl support if needed.
+  The goal is making ui development easy and seamless (Ui/ux itself with material design rules and Coding Experience)
+  For now, components are in a limited number but i'm working on increasing their number to fulfill all ui/ux needed components
+### Material Colors 
+  I just converted <a href="https://www.materialui.co/colors"> www.materialui.co/colors </a> colors to an object for easier use of these colors
+   
+#### Usage :
+   ```typescript jsx
+       import {MaterialColors} from 'react-native-typescript-material-ui-collection';
+        MaterialColors.colorName.colorTone
+        eg:
+        MaterialColors.deepPurple.400 //returns: #7E57C2 as string
+   ```
+### Material Vertical Linear 
+
+ <p align="center">
+ <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/material-vertical.png" width="50%">
+ </p>
+ 
+this component is a view with default column direction it can be used for better readability of jsx ui code 
+
+#### Usage :
+
+  ```typescript jsx
+     import {MaterialHorizontalLinear} from 'react-native-typescript-material-ui-collection';
+      <MaterialHorizontalLinear>
+      </MaterialHorizontalLinear>
+   ```
+ ### Material Horizontal Linear 
+ 
+ <p align="center">
+ <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/material-horizontal.png" width="50%">
+ </p>
+  
+  this component is a view with default row direction it can be used for better readability of jsx ui code 
+ #### Usage :
+   ```typescript jsx
+      import {MaterialVerticalLinear} from 'react-native-typescript-material-ui-collection';
+       <MaterialVerticalLinear>
+       </MaterialVerticalLinear>
+   ```    
+   
+  ### Material Container 
+  This component is a full width/height view for container view you can use it for more ui/ux code readability
+  #### Usage :
+   ```typescript jsx
+       import {MaterialContainer} from 'react-native-typescript-material-ui-collection';
+        <MaterialContainer
+          isRoot: boolean // if you set this prop true , your component will have no padding and you can render a toolbar view at top of it the default padding is 16
+          toolbar:React.ReactNode // this view will render at top of the view if you set isRoot true
+        >
+            <MaterialContainer
+             // if you want to use this inside a root it is still a full width/height view with 16 dp padding
+            >
+            </MaterialContainer>
+        </MaterialContainer>
+   ```        
+### Material Text Input 
+
+<img src="https://cloud.githubusercontent.com/assets/2055622/24325711/eaa4ff08-11af-11e7-8550-2504c1580979.gif" alt="example" style="max-width:100%;">
+
+this component is basically
+<a href="https://github.com/n4kz/react-native-material-textfield" >react-native-material-textfield</a>
+i just added it's types to typescript and rtl support (for it's label)
+#### Usage :
+  ```typescript jsx
+     import {MaterialTextInput} from 'react-native-typescript-material-ui-collection';
+      <MaterialTextInput
+      isRtl={true} //just added this prop you can see other props from above link
+      />
+   ```    
+
+### Material Button       
+#### Usage:
+   ```typescript jsx
+   import {MaterialButton} from 'react-native-typescript-material-ui-collection';
+      <MaterialButton
+        text={'Confirm'}
+        color={MKColor.Teal}
+        textColor = 'white'
+        isLoading={true}
+        />
+   ```
+### Material FAB 
+#### Usage :
+  ```typescript jsx
+     import {MaterialFab} from 'react-native-typescript-material-ui-collection';
+      <MaterialFab
+          size={metrics.regularMaterialFab.size}
+          color={MKColor.Teal}
+          isLoading={false}
+          icon={'check'}
+          iconColor={'white'}
+        />
+        // props {size,color,onPress,iconColor,icon}
+   ```
+  
 ## :heart: Recommended Components For Use In The Project
   ### Mapbox Component
   
@@ -461,38 +561,7 @@ export default withNavigation(connect(mapStateToProps, mapDispatchToProps)(Redux
 
   https://docs.nativebase.io/Components.html#list-avatar-headref
 
-  ### Material Button Component 
 
-  #### Component's Location
-  
-  MaterialComponents/MaterialButton
-
-  #### Usage:
-  ```typescript jsx
-    <MaterialButton
-      text={'Confirm'}
-      color={MKColor.Teal}
-      textColor = 'white'
-      isLoading={true}
-      />
-  ```
-  ### FAB 
-
-  Component's Location
-  
-  MaterialComponents/MaterialFab
-
-  #### Usage :
-```typescript jsx
-    <MaterialFab
-        size={metrics.regularMaterialFab.size}
-        color={MKColor.Teal}
-        isLoading={false}
-        icon={'check'}
-        iconColor={'white'}
-      />
-      // props {size,color,onPress,iconColor,icon}
- ```
  ### Toggle
 
 https://github.com/xinthink/react-native-material-kit#toggles
