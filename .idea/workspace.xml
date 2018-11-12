@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f62ad2c-1973-43c4-a49a-dc82052ec6be" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/gifs/materialbuttons.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/package.json.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/package.json.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,7 +28,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json.ejs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/boilerplate/package.json.ejs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="141">
@@ -41,12 +37,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1056">
-                <caret line="641" column="3" lean-forward="true" selection-start-line="641" selection-start-column="3" selection-end-line="641" selection-end-column="3" />
+              <first_editor relative-caret-position="251">
+                <caret line="438" column="20" lean-forward="true" selection-start-line="438" selection-start-column="20" selection-end-line="438" selection-end-column="20" />
                 <folding>
                   <element signature="e#3#33#0" expanded="true" />
                   <element signature="e#124#172#0" expanded="true" />
@@ -160,8 +156,8 @@
         <option value="$PROJECT_DIR$/boilerplate/App/Components/MaterialComponents/index.ts" />
         <option value="$PROJECT_DIR$/boilerplate/App/Themes/Colors.tsx" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/boilerplate/package.json.ejs" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -267,12 +263,12 @@
       <workItem from="1541844973214" duration="4423000" />
       <workItem from="1541925779487" duration="6672000" />
       <workItem from="1541958482849" duration="8751000" />
-      <workItem from="1542024880765" duration="20618000" />
+      <workItem from="1542024880765" duration="20896000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152285000" />
+    <option name="totallyTimeSpent" value="152563000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -607,21 +603,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1056">
-            <caret line="641" column="3" lean-forward="true" selection-start-line="641" selection-start-column="3" selection-end-line="641" selection-end-column="3" />
-            <folding>
-              <element signature="e#3#33#0" expanded="true" />
-              <element signature="e#124#172#0" expanded="true" />
-              <element signature="e#2#56#0" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-733">
@@ -633,6 +614,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
           <caret line="63" column="39" lean-forward="true" selection-start-line="63" selection-start-column="39" selection-end-line="63" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="251">
+            <caret line="438" column="20" lean-forward="true" selection-start-line="438" selection-start-column="20" selection-end-line="438" selection-end-column="20" />
+            <folding>
+              <element signature="e#3#33#0" expanded="true" />
+              <element signature="e#124#172#0" expanded="true" />
+              <element signature="e#2#56#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

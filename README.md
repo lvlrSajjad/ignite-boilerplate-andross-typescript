@@ -433,9 +433,7 @@ export default withNavigation(connect(mapStateToProps, mapDispatchToProps)(Redux
 ```
 
 ## :nut_and_bolt: Material Ui Collection
-  Here you can see a created by me or hand picked collection of material components from various ui libraries.
-  Added typescript support for these components if there not supported by default.
-  Added rtl support if needed.
+  Here you can see a Created by me and some hand picked collection of material components from various ui libraries.
   The goal is making ui development easy and seamless (Ui/ux itself with material design rules and Coding Experience)
   For now, components are in a limited number but i'm working on increasing their number to fulfill all ui/ux needed components
 ### Material Colors 
@@ -524,10 +522,10 @@ i just added it's types to typescript and rtl support (for it's label)
 
 ### Material Buttons       
  <p align="center">
- <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/materialbuttons.gif" width="50%">
+ <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/materialbuttons.gif" width="30%">
  </p>
   
-  Created these three buttons exactly based on material.io design guidelines
+  I Made these three buttons exactly based on material.io design guidelines
   
 #### Usage:
 
