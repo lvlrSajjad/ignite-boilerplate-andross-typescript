@@ -397,10 +397,6 @@ https://github.com/xinthink/react-native-material-kit#checkbox
 
 https://github.com/xinthink/react-native-material-kit#radio-button
 
-### MaterialColors
-
-    import {MKColor} from 'react-native-material-kit';
-
 ### BottomTabNavigation (See MainTabNavigator.tsx for more info)
 
     import {createMaterialBottomTabNavigator} from 'react-navigation-material-bottom-tabs';
@@ -408,9 +404,6 @@ https://github.com/xinthink/react-native-material-kit#radio-button
 ### TopTabNavigation (See ChatsTabNavigator.tsx for more info)
 
     import {createMaterialTopTabNavigator, TabBarTop} from 'react-navigation-tabs';
-    
-### Material input
-https://github.com/n4kz/react-native-material-textfield
 
 ## :closed_lock_with_key: Secrets
 
