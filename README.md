@@ -448,9 +448,9 @@ export default withNavigation(connect(mapStateToProps, mapDispatchToProps)(Redux
 #### Usage :
    ```typescript jsx
        import {MaterialColors} from 'react-native-typescript-material-ui-collection';
-        MaterialColors.colorName.colorTone
+        MaterialColors.colorName.CcolorTone
         eg:
-        MaterialColors.deepPurple.400 //returns: #7E57C2 as string
+        MaterialColors.deepPurple.C400 //returns: #7E57C2 as string
    ```
 ### Material Vertical Linear 
 
@@ -522,17 +522,124 @@ i just added it's types to typescript and rtl support (for it's label)
       />
    ```    
 
-### Material Button       
+### Material Buttons       
+ <p align="center">
+ <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/materialbuttons.gif" width="50%">
+ </p>
+  
+  Created these three buttons exactly based on material.io design guidelines
+  
 #### Usage:
+
+this is exactly the code of above gif
+
    ```typescript jsx
-   import {MaterialButton} from 'react-native-typescript-material-ui-collection';
-      <MaterialButton
-        text={'Confirm'}
-        color={MKColor.Teal}
-        textColor = 'white'
-        isLoading={true}
-        />
+   import * as React from 'react'
+   import {Component} from 'react';
+   import { View} from 'react-native'
+   // Styles
+   import styles from './Styles/LaunchScreenStyles'
+   import {MaterialTextButton,
+   MaterialOutlinedButton,
+   MaterialContainedButton} from 'react-native-typescript-material-ui-collection';
+   
+   export default class LaunchScreen extends Component {
+     render() {
+       return (
+         <View style={styles.container}>
+           <MaterialTextButton
+             onPress={() => {
+               console.log("pressed")
+             }}
+             text="Material Text Button"
+             textColor="purple"
+             margin={8}
+           />
+           <MaterialOutlinedButton
+             onPress={() => {
+               console.log("pressed")
+             }}
+             text="Material Outlined Button"
+             textColor="purple"
+             margin={8}
+           />
+           <MaterialContainedButton
+             onPress={() => {
+               console.log("pressed")
+             }}
+             color='purple'
+             text="Material Contained Button"
+             textColor="white"
+             margin={8}
+           />
+           <MaterialTextButton
+             onPress={() => {
+               console.log("pressed")
+             }}
+             text="Material Text Button"
+             textColor="purple"
+             margin={8}
+             iconName="check-circle"
+           />
+           <MaterialOutlinedButton
+             onPress={() => {
+               console.log("pressed")
+             }}
+             text="Material Outlined Button"
+             textColor="purple"
+             margin={8}
+             iconName="check-circle"
+           />
+           <MaterialContainedButton
+             onPress={() => {
+               console.log("pressed")
+             }}
+             color='purple'
+             text="Material Contained Button"
+             textColor="white"
+             margin={8}
+             iconName="check-circle"
+           />
+         </View>
+       )
+     }
+   }
+
    ```
+#### Props:
+
+##### MaterialTextButton:
+```typescript jsx
+    text: string,
+    icon?: React.ReactNode, // you can use your custom icon component , whatever, the button have react-native-vector-icons inside
+    margin?:number,
+    textColor?: string,
+    textFont?: string,
+    iconName?:string, // if you set the material icon name from https://materialdesignicons.com/ the icon will displayed
+    onPress?():void
+```
+##### MaterialOutlinedButton:
+```typescript jsx
+  text: string,
+  icon?: React.ReactNode, // you can use your custom icon component , whatever, the button have react-native-vector-icons inside
+  margin?:number,
+  textColor?: string,
+  textFont?: string,
+  onPress?():void,
+  iconName?:string // if you set the material icon name from https://materialdesignicons.com/ the icon will displayed
+```
+##### MaterialContainedButton:
+```typescript jsx
+  text: string,
+  icon?: React.ReactNode, // you can use your custom icon component , whatever, the button have react-native-vector-icons inside
+  margin?:number,
+  color?:string,
+  textColor?: string,
+  textFont?: string,
+  onPress?():void,
+  iconName?:string// if you set the material icon name from https://materialdesignicons.com/ the icon will displayed
+```
+   
 ### Material FAB 
 #### Usage :
   ```typescript jsx
