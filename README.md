@@ -482,6 +482,11 @@ this component is a view with default column direction it can be used for better
    ```    
    
   ### Material Container 
+   
+ <p align="center">
+ <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/container.png" width="50%">
+ </p>
+ 
   This component is a full width/height view for container view you can use it for more ui/ux code readability
   #### Usage :
    ```typescript jsx
@@ -497,9 +502,10 @@ this component is a view with default column direction it can be used for better
         </MaterialContainer>
    ```        
 ### Material Text Input 
-
+ 
+ <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/2055622/24325711/eaa4ff08-11af-11e7-8550-2504c1580979.gif" alt="example" style="max-width:100%;">
-
+ </p>
 this component is basically
 <a href="https://github.com/n4kz/react-native-material-textfield" >react-native-material-textfield</a>
 i just added it's types to typescript and rtl support (for it's label)
