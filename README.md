@@ -491,7 +491,7 @@ this component is a view with default column direction it can be used for better
  
   This component is a full width/height view for container view you can use it for more ui/ux code readability
   
-  #### Usage :
+ #### Usage :
   
    ```typescript jsx
        import {MaterialContainer} from 'react-native-typescript-material-ui-collection';
@@ -513,6 +513,7 @@ this component is a view with default column direction it can be used for better
 this component is basically
 <a href="https://github.com/n4kz/react-native-material-textfield" >react-native-material-textfield</a>
 i just added it's types to typescript and rtl support (for it's label)
+
 #### Usage :
   ```typescript jsx
      import {MaterialTextInput} from 'react-native-typescript-material-ui-collection';
