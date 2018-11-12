@@ -5,18 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f62ad2c-1973-43c4-a49a-dc82052ec6be" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/boilerplate/App/Redux/Navigation/MainNavigationRedux.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Navigation/AppNavigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/App/Navigation/AppNavigation.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Redux/Navigation/NavigationRedux.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/App/Redux/Navigation/NavigationRedux.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Redux/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/App/Redux/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/patterns.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/patterns.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login/Navigation/AppNavigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login/Navigation/AppNavigation.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login/Redux/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login/Redux/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/smslogin/Navigation/AppNavigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/smslogin/Navigation/AppNavigation.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/smslogin/Redux/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/smslogin/Redux/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/socialmedia/Containers/ChatScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/socialmedia/Containers/ChatScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/component-test.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/component-test.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/component.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/component.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/container.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/container.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/flatlist-grid.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/flatlist-grid.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/flatlist-sections.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/flatlist-sections.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/flatlist.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/flatlist.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/listview-sections.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/listview-sections.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/listview.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/listview.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/screen.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/screen.ejs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,6 +34,75 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="89">
               <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flatlist-sections.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/flatlist-sections.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="30" selection-start-column="30" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flatlist-grid-style.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/flatlist-grid-style.ejs">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="flatlist-grid.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/flatlist-grid.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="30" selection-start-column="30" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flatlist.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/flatlist.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="30" selection-start-column="30" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="container-style.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/container-style.ejs">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="container.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/container.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="1" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="component-test.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/component-test.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="component-style.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/component-style.ejs">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="component.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/component.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -81,15 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/templates/directionComponent/index.ejs" />
-        <option value="$PROJECT_DIR$/templates/login/Containers/Styles/ChatScreenStyle.tsx" />
-        <option value="$PROJECT_DIR$/templates/smslogin/Containers/LaunchScreen.tsx" />
-        <option value="$PROJECT_DIR$/boilerplate/App/Themes/Fonts.tsx" />
-        <option value="$PROJECT_DIR$/boilerplate/rn-cli.config.js" />
-        <option value="$PROJECT_DIR$/boilerplate/README.md" />
-        <option value="$PROJECT_DIR$/templates/socialmedia/Navigation/AppNavigation.tsx" />
-        <option value="$PROJECT_DIR$/templates/socialmedia/Containers/ChatsTabNavigator.tsx" />
-        <option value="$PROJECT_DIR$/templates/tabbed/Containers/MainTabs/FifthTab.tsx" />
         <option value="$PROJECT_DIR$/templates/tabbed/Containers/MainTabs/FirstTab.tsx" />
         <option value="$PROJECT_DIR$/templates/tabbed/Containers/MainTabs/FourthTab.tsx" />
         <option value="$PROJECT_DIR$/templates/tabbed/Containers/MainTabs/SecondTab.tsx" />
@@ -131,6 +190,15 @@
         <option value="$PROJECT_DIR$/templates/smslogin/Navigation/AppNavigation.tsx" />
         <option value="$PROJECT_DIR$/boilerplate/App/Navigation/AppNavigation.tsx" />
         <option value="$PROJECT_DIR$/lib/patterns.js" />
+        <option value="$PROJECT_DIR$/templates/component.ejs" />
+        <option value="$PROJECT_DIR$/templates/container.ejs" />
+        <option value="$PROJECT_DIR$/templates/listview.ejs" />
+        <option value="$PROJECT_DIR$/templates/component-test.ejs" />
+        <option value="$PROJECT_DIR$/templates/flatlist.ejs" />
+        <option value="$PROJECT_DIR$/templates/flatlist-grid.ejs" />
+        <option value="$PROJECT_DIR$/templates/flatlist-sections.ejs" />
+        <option value="$PROJECT_DIR$/templates/screen.ejs" />
+        <option value="$PROJECT_DIR$/templates/listview-sections.ejs" />
         <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
@@ -164,60 +232,6 @@
             <path>
               <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
               <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
-              <item name="boilerplate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
-              <item name="boilerplate" type="462c0819:PsiDirectoryNode" />
-              <item name="App" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
-              <item name="boilerplate" type="462c0819:PsiDirectoryNode" />
-              <item name="App" type="462c0819:PsiDirectoryNode" />
-              <item name="Navigation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-              <item name="Navigation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="smslogin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="smslogin" type="462c0819:PsiDirectoryNode" />
-              <item name="Navigation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -284,12 +298,13 @@
       <workItem from="1541752540695" duration="16353000" />
       <workItem from="1541844973214" duration="4423000" />
       <workItem from="1541925779487" duration="6672000" />
-      <workItem from="1541958482849" duration="8151000" />
+      <workItem from="1541958482849" duration="8751000" />
+      <workItem from="1542024880765" duration="211000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131067000" />
+    <option name="totallyTimeSpent" value="131878000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -298,10 +313,10 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="GitLabIntegration" order="11" />
+      <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.46263346" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.18505338" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.18370883" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27752978" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -329,121 +344,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/boilerplate/App/I18n/locales/en.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/drawer/Containers/Styles/README.md" />
-    <entry file="file://$PROJECT_DIR$/boilerplate/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="9453">
-            <caret line="411" selection-start-line="411" selection-end-line="413" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/socialmedia/Components/ChatScreen/src/Day.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/socialmedia/Containers/MainTabs/ChatsTabScreens/ChatsScreen.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/toptabbed/Components/LaunchScreen/SettingsTab/__tests__/__snapshots__/SettingsToggleItemTest.tsx.snap" />
-    <entry file="file://$PROJECT_DIR$/templates/toptabbed/Components/LaunchScreen/ChatsTab/__tests__/__snapshots__/CallsListItemTest.tsx.snap">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/toptabbed/Containers/MainTabs/CallsScreen.tsx">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/toptabbed/Containers/MainTabs/GroupsScreen.tsx">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/component.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/toptabbed/Containers/LaunchScreen.tsx" />
-    <entry file="file://$PROJECT_DIR$/templates/toptabbed/Containers/Styles/LaunchScreenStyles.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-104" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/toptabbed/Containers/ttlaunchscreen.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="48" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/drawer/Containers/LaunchScreen.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/drawer/Containers/MainTabs/FifthTab.tsx">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commands/component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-621" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/directionComponent/component.rtl.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="80" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/component/component.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="31" selection-start-column="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/directionComponent/component.ltr.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/drawer/Components/NavHeaders/Styles/NavHeadersStyle.rtl.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/drawer/Components/NavHeaders/Styles/NavHeadersStyle.ltr.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/drawer/Components/NavHeaders/NavHeaders.ltr.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/drawer/Components/NavHeaders/NavHeaders.rtl.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="644">
@@ -469,9 +369,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2622">
           <caret line="127" column="29" selection-start-line="127" selection-start-column="29" selection-end-line="127" selection-end-column="29" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -520,13 +417,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/boilerplate/App/Navigation/ReduxNavigation.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/boilerplate/App/Redux/Navigation/NavigationRedux.tsx">
       <provider selected="true" editor-type-id="text-editor">
@@ -546,9 +437,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#60#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -584,11 +472,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/login/Containers/LoginScreen.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-621">
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-621" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/socialmedia/Containers/ChatScreen.tsx">
@@ -623,9 +507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1403">
           <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-          <folding>
-            <element signature="e#33#64#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -654,6 +535,119 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="8" column="111" selection-start-line="8" selection-start-column="111" selection-end-line="8" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/smslogin/Containers/LoginScreen.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/listview.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/redux.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/listview-sections.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/listview-style.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/listview-grid-style.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/redux-test-ava.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/redux-test-jest.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/saga.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/saga-test-ava.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/saga-test-jest.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/screen.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/screen-style.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/flatlist-sections.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/flatlist-grid-style.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/flatlist-grid.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/flatlist.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/container-style.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/container.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/component-test.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/component-style.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/component.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
         </state>
       </provider>
     </entry>
