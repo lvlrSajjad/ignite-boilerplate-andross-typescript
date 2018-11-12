@@ -486,7 +486,7 @@ this component is a view with default column direction it can be used for better
   ### Material Container 
    
  <p align="center">
- <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/container.png" width="50%">
+ <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/container.png" width="30%">
  </p>
  
   This component is a full width/height view for container view you can use it for more ui/ux code readability
