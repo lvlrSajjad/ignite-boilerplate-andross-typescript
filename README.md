@@ -535,7 +535,6 @@ this is exactly the code of above gif
    import * as React from 'react'
    import {Component} from 'react';
    import { View} from 'react-native'
-   // Styles
    import styles from './Styles/LaunchScreenStyles'
    import {MaterialTextButton,
    MaterialOutlinedButton,
@@ -639,19 +638,78 @@ this is exactly the code of above gif
 ```
    
 ### Material FAB 
+
+ <p align="center">
+ <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/materialfab.gif" width="30%">
+ </p>
+   I Made these two FABs exactly based on material.io design guidelines
+
 #### Usage :
+this is exactly the code of above gif
+
   ```typescript jsx
-     import {MaterialFab} from 'react-native-typescript-material-ui-collection';
-      <MaterialFab
-          size={metrics.regularMaterialFab.size}
-          color={MKColor.Teal}
-          isLoading={false}
-          icon={'check'}
-          iconColor={'white'}
-        />
-        // props {size,color,onPress,iconColor,icon}
+     import * as React from 'react'
+     import {Component} from 'react';
+     import { View} from 'react-native'
+     import styles from './Styles/LaunchScreenStyles'
+     import {MaterialFab, MaterialExtendedFab} from 'react-native-typescript-material-ui-collection';
+     
+     export default class LaunchScreen extends Component {
+       render() {
+         return (
+           <View style={styles.container}>
+             <MaterialFab 
+             mini 
+             onPress={()=>{console.log('onpress')}} 
+             position="bottomLeft" 
+             iconColor="white" 
+             iconName='check-circle' color="purple"
+             />
+             <MaterialFab 
+             onPress={()=>{console.log('onpress')}} 
+             position="bottomRight" 
+             iconColor="white" 
+             iconName='check-circle' 
+             color="purple"
+             />
+             <MaterialExtendedFab 
+             onPress={()=>{console.log('onpress')}} 
+             text="Extended" 
+             position="bottom" 
+             iconColor="white" 
+             iconName='check-circle' 
+             color="purple"
+             />
+           </View>
+         )
+       }
+     }
+
    ```
-  
+#### Props:
+
+##### MaterialFab:
+```typescript jsx
+      icon?: React.ReactNode, // you can use your custom icon component , whatever, the button have react-native-vector-icons inside
+      color?:string,
+      iconColor?: string, 
+      onPress?():void,
+      iconName:string,// if you set the material icon name from https://materialdesignicons.com/ the icon will displayed
+      mini?:boolean,
+      position:string// one of {'bottomLeft','topRight','topLeft','bottomRight'}
+```
+##### MaterialExtendedFab:
+```typescript jsx
+  icon?: React.ReactNode, // you can use your custom icon component , whatever, the button have react-native-vector-icons inside
+  color?:string,
+  iconColor?: string,
+  onPress?():void,
+  iconName:string,// if you set the material icon name from https://materialdesignicons.com/ the icon will displayed
+  textFont?:string,
+  text:string,
+  position:string// one of {'top','bottom'}
+```
+     
 ## :heart: Recommended Components For Use In The Project
   ### Mapbox Component
   

@@ -2,9 +2,12 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/README.md" line="72" />
+    <bookmark url="file://$PROJECT_DIR$/README.md" line="644" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f62ad2c-1973-43c4-a49a-dc82052ec6be" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/gifs/materialfab.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -40,12 +43,10 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="251">
-                <caret line="438" column="20" lean-forward="true" selection-start-line="438" selection-start-column="20" selection-end-line="438" selection-end-column="20" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="210">
+                <caret line="696" column="120" selection-start-line="696" selection-start-column="120" selection-end-line="696" selection-end-column="120" />
                 <folding>
-                  <element signature="e#3#33#0" expanded="true" />
-                  <element signature="e#124#172#0" expanded="true" />
                   <element signature="e#2#56#0" expanded="true" />
                 </folding>
               </first_editor>
@@ -195,7 +196,7 @@
             <path>
               <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
               <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
-              <item name="boilerplate" type="462c0819:PsiDirectoryNode" />
+              <item name="gifs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -263,12 +264,12 @@
       <workItem from="1541844973214" duration="4423000" />
       <workItem from="1541925779487" duration="6672000" />
       <workItem from="1541958482849" duration="8751000" />
-      <workItem from="1542024880765" duration="20896000" />
+      <workItem from="1542024880765" duration="22060000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152563000" />
+    <option name="totallyTimeSpent" value="153727000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -280,7 +281,7 @@
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49925596" weight="0.4610052" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.5245536" visible="true" weight="0.3206239" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.5245536" visible="true" weight="0.31715772" />
       <window_info anchor="bottom" id="TypeScript" order="11" sideWeight="0.49925596" weight="0.32928944" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27752978" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -619,12 +620,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="251">
-            <caret line="438" column="20" lean-forward="true" selection-start-line="438" selection-start-column="20" selection-end-line="438" selection-end-column="20" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="210">
+            <caret line="696" column="120" selection-start-line="696" selection-start-column="120" selection-end-line="696" selection-end-column="120" />
             <folding>
-              <element signature="e#3#33#0" expanded="true" />
-              <element signature="e#124#172#0" expanded="true" />
               <element signature="e#2#56#0" expanded="true" />
             </folding>
           </first_editor>
