@@ -474,7 +474,9 @@ this component is a view with default column direction it can be used for better
  </p>
   
   this component is a view with default row direction it can be used for better readability of jsx ui code 
+  
  #### Usage :
+ 
    ```typescript jsx
       import {MaterialVerticalLinear} from 'react-native-typescript-material-ui-collection';
        <MaterialVerticalLinear>
@@ -488,7 +490,9 @@ this component is a view with default column direction it can be used for better
  </p>
  
   This component is a full width/height view for container view you can use it for more ui/ux code readability
+  
   #### Usage :
+  
    ```typescript jsx
        import {MaterialContainer} from 'react-native-typescript-material-ui-collection';
         <MaterialContainer
