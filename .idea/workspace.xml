@@ -6,9 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f62ad2c-1973-43c4-a49a-dc82052ec6be" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/gifs/materialprogress.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gifs/progressbuttons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gifs/progressfab.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gifs/materialcheckbox.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/boilerplate/package.json.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/package.json.ejs" afterDir="false" />
@@ -26,26 +24,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
+            <state relative-caret-position="138">
               <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="182">
-                <caret line="529" column="1" selection-start-line="529" selection-start-column="1" selection-end-line="529" selection-end-column="1" />
+              <first_editor relative-caret-position="126">
+                <caret line="765" lean-forward="true" selection-start-line="765" selection-end-line="837" />
                 <folding>
                   <element signature="e#0#59#0" expanded="true" />
                   <element signature="e#0#30#0" expanded="true" />
                   <element signature="e#3#33#0" expanded="true" />
                   <element signature="e#5#35#0" expanded="true" />
+                  <element signature="e#0#30#0" expanded="true" />
                   <element signature="e#2#56#0" expanded="true" />
                 </folding>
               </first_editor>
@@ -164,9 +163,9 @@
         <option value="$PROJECT_DIR$/boilerplate/App/Components/MaterialComponents/index.ts" />
         <option value="$PROJECT_DIR$/boilerplate/App/Themes/Colors.tsx" />
         <option value="$PROJECT_DIR$/boilerplate/README.md" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/boilerplate/package.json.ejs" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -200,11 +199,6 @@
             <path>
               <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
               <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
-              <item name="boilerplate" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -274,18 +268,18 @@
       <workItem from="1541958482849" duration="8751000" />
       <workItem from="1542024880765" duration="23558000" />
       <workItem from="1542068308052" duration="633000" />
-      <workItem from="1542109090737" duration="666000" />
+      <workItem from="1542109090737" duration="4855000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156524000" />
+    <option name="totallyTimeSpent" value="160713000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27752978" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27752978" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50074404" side_tool="true" weight="0.4610052" />
@@ -294,7 +288,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49925596" weight="0.4610052" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.5245536" visible="true" weight="0.31715772" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.5245536" visible="true" weight="0.21663778" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TypeScript" order="11" sideWeight="0.49925596" weight="0.32928944" />
@@ -587,20 +581,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="182">
-            <caret line="529" column="1" selection-start-line="529" selection-start-column="1" selection-end-line="529" selection-end-column="1" />
-            <folding>
-              <element signature="e#0#59#0" expanded="true" />
-              <element signature="e#0#30#0" expanded="true" />
-              <element signature="e#3#33#0" expanded="true" />
-              <element signature="e#5#35#0" expanded="true" />
-              <element signature="e#2#56#0" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -611,10 +595,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="126">
+            <caret line="765" lean-forward="true" selection-start-line="765" selection-end-line="837" />
+            <folding>
+              <element signature="e#0#59#0" expanded="true" />
+              <element signature="e#0#30#0" expanded="true" />
+              <element signature="e#3#33#0" expanded="true" />
+              <element signature="e#5#35#0" expanded="true" />
+              <element signature="e#0#30#0" expanded="true" />
+              <element signature="e#2#56#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
