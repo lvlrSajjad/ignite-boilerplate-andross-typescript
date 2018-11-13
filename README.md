@@ -520,10 +520,53 @@ i just added it's types to typescript and rtl support (for it's label)
       isRtl={true} //just added this prop you can see other props from above link
       />
    ```    
+### Material Progress
+<p align="center">
+ <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/materialprogress.gif" width="30%">
+ </p>
+ 
+ I used <a href="https://github.com/n4kz/react-native-indicators">react-native-indicators</a> code to do this with a few changes and turning the used code to typescript
+ I have also used this component for progress inside below button components
+ 
+ #### Usage:
+ 
+ this is exactly the code of above gif
+ 
+ ```typescript jsx
+import * as React from 'react'
+import {Component} from 'react';
+import { View} from 'react-native'
+import styles from './Styles/LaunchScreenStyles'
+import {MaterialProgress} from 'react-native-typescript-material-ui-collection';
+
+export default class LaunchScreen extends Component {
+  render() {
+    return (
+      <View style={styles.container}>
+        <MaterialProgress
+          color="purple"
+        />
+        <MaterialProgress
+          color="purple"
+          small
+        />
+      </View>
+    )
+  }
+}
+
+```
+#### Props:
+ 
+ ```typescript jsx
+  color:string,//just the color
+  small?:boolean// using this will render small progress i'ts good for using inside buttons or etc.
+```
 
 ### Material Buttons       
  <p align="center">
  <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/materialbuttons.gif" width="30%">
+  <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/progressbuttons.gif" width="30%">
  </p>
   
   I Made these three buttons exactly based on material.io design guidelines
@@ -614,7 +657,8 @@ this is exactly the code of above gif
     textColor?: string,
     textFont?: string,
     iconName?:string, // if you set the material icon name from https://materialdesignicons.com/ the icon will displayed
-    onPress?():void
+    onPress?():void,
+    progress:boolean // if you set this true the button will render a circular progressbar inside like above gifs
 ```
 ##### MaterialOutlinedButton:
 ```typescript jsx
@@ -624,7 +668,9 @@ this is exactly the code of above gif
   textColor?: string,
   textFont?: string,
   onPress?():void,
-  iconName?:string // if you set the material icon name from https://materialdesignicons.com/ the icon will displayed
+  iconName?:string, // if you set the material icon name from https://materialdesignicons.com/ the icon will displayed
+  progress:boolean // if you set this true the button will render a circular progressbar inside like above gifs
+
 ```
 ##### MaterialContainedButton:
 ```typescript jsx
@@ -635,13 +681,16 @@ this is exactly the code of above gif
   textColor?: string,
   textFont?: string,
   onPress?():void,
-  iconName?:string// if you set the material icon name from https://materialdesignicons.com/ the icon will displayed
+  iconName?:string,// if you set the material icon name from https://materialdesignicons.com/ the icon will displayed
+  progress:boolean // if you set this true the button will render a circular progressbar inside like above gifs
+
 ```
    
 ### Material FAB 
 
  <p align="center">
  <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/materialfab.gif" width="30%">
+ <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/progressfab.gif" width="30%">
  </p>
    I Made these two FABs exactly based on material.io design guidelines
 
@@ -697,7 +746,9 @@ this is exactly the code of above gif
       onPress?():void,
       iconName:string,// if you set the material icon name from https://materialdesignicons.com/ the icon will displayed
       mini?:boolean,
-      position:string// one of {'bottomLeft','topRight','topLeft','bottomRight'}
+      position:string,// one of {'bottomLeft','topRight','topLeft','bottomRight'}
+      progress:boolean // if you set this true the button will render a circular progressbar inside like above gifs
+
 ```
 ##### MaterialExtendedFab:
 ```typescript jsx
@@ -708,7 +759,9 @@ this is exactly the code of above gif
   iconName:string,// if you set the material icon name from https://materialdesignicons.com/ the icon will displayed
   textFont?:string,
   text:string,
-  position:string// one of {'top','bottom'}
+  position:string,// one of {'top','bottom'}
+  progress:boolean // if you set this true the button will render a circular progressbar inside like above gifs
+
 ```
      
 ## :heart: Recommended Components For Use In The Project
