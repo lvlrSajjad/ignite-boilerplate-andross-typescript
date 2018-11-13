@@ -504,6 +504,90 @@ this component is a view with default column direction it can be used for better
             </MaterialContainer>
         </MaterialContainer>
    ```        
+### Material Collapsible Toolbar Container
+ <p align="center">
+ <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/collapsibletoolbarcontainer.gif" width="30%">
+ </p>
+ 
+This is a pure js material collapsible toolbar container
+#### Usage :
+
+The exact code of above gif
+
+```typescript jsx
+import * as React from 'react'
+import {Component} from 'react';
+import {Image, Text, View} from 'react-native'
+import CollapsibleToolbarContainer from '../Components/CollapsibleToolbarContainer'
+
+export default class LaunchScreen extends Component {
+  componentWillMount() {
+  }
+
+  renderContent = () => (
+    <View>
+      {new Array(40).fill().map((_, i) => (
+        <View
+          key={i}
+          style={{
+            backgroundColor: '#F5F5F5',
+            padding: 10,
+            borderBottomWidth: 1,
+            borderBottomColor: '#E5E5E5'
+          }}
+        >
+          <Text>{`Item ${i + 1}`}</Text>
+        </View>
+      ))}
+    </View>
+  );
+
+  renderCollapsedToolbarContent = () => <Image
+    source={{uri: 'https://facebook.github.io/react-native/img/header_logo.png'}}
+
+    style={{
+      width: 50,
+      height: 50,
+      borderRadius: 25,
+      overflow: 'hidden'
+    }}/>;
+
+  render() {
+    return (
+      <CollapsibleToolbarContainer
+        renderContent={this.renderContent}
+        imageSource='https://lorempixel.com/400/300/'
+        collapsedNavBarBackgroundColor='#009688'
+        translucentStatusBar
+        showsVerticalScrollIndicator={false}
+        textColor='white'
+        renderCollapsedToolbarContent={this.renderCollapsedToolbarContent}
+        leftButtonIcon='menu'
+        onLeftIconPress={() => console.log('onlefticonpress')}
+        // toolBarHeight={300}
+      />
+    );
+  }
+}
+``` 
+
+#### Usage :
+
+```typescript jsx
+  collapsedNavBarBackgroundColor?: string,
+  imageSource?: string,
+  onContentScroll?(): void,
+  renderContent?(): React.ReactNode,
+  renderCollapsedToolbarContent?():React.ReactNode, // this component will be rendered on the toolbar 
+  toolBarHeight?: number,
+  translucentStatusBar?: boolean,
+  textColor?: string,
+  leftButtonIcon?: string,
+  onLeftIconPress?(): void,
+  rightButtonIcon?: string,
+  onRightIconPress?(): void
+```
+
 ### Material Text Input 
  
  <p align="center">
