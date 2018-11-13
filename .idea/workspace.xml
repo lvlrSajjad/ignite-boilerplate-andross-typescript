@@ -77,7 +77,7 @@
       <find>react-native-communications</find>
       <find />
       <find>querystringify</find>
-      <find>social media template</find>
+      <find />
       <find>parsed</find>
       <find>template</find>
       <find>here</find>
@@ -89,8 +89,8 @@
       <find>version</find>
       <find>typescript</find>
       <find>react-navigation</find>
-      <find>Bottom Tabbed Screen</find>
-      <find>npm s</find>
+      <find />
+      <find />
       <find>Text</find>
       <find>backPr</find>
       <find>componentWillUnmount</find>
@@ -182,7 +182,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
