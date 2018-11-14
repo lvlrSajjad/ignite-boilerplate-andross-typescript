@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/README.md" line="110" />
-    <bookmark url="file://$PROJECT_DIR$/README.md" line="853" />
+    <bookmark url="file://$PROJECT_DIR$/README.md" line="135" />
+    <bookmark url="file://$PROJECT_DIR$/README.md" line="879" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f62ad2c-1973-43c4-a49a-dc82052ec6be" name="Default" comment="">
@@ -33,8 +33,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="-2584">
-                <caret line="510" selection-start-line="510" selection-end-line="510" />
+              <first_editor relative-caret-position="-214">
+                <caret line="539" selection-start-line="539" selection-end-line="539" />
                 <folding>
                   <element signature="e#0#59#0" expanded="true" />
                   <element signature="e#0#30#0" expanded="true" />
@@ -328,12 +328,12 @@
       <workItem from="1542150514250" duration="3734000" />
       <workItem from="1542155009844" duration="3028000" />
       <workItem from="1542164566995" duration="1039000" />
-      <workItem from="1542193013734" duration="9847000" />
+      <workItem from="1542193013734" duration="10662000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182955000" />
+    <option name="totallyTimeSpent" value="183770000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -345,9 +345,9 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49925596" weight="0.4610052" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.51116073" visible="true" weight="0.13691507" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.51116073" visible="true" weight="0.41767764" />
       <window_info anchor="bottom" id="TypeScript" order="11" sideWeight="0.49925596" weight="0.32928944" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27752978" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27752978" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -665,8 +665,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="-2584">
-            <caret line="510" selection-start-line="510" selection-end-line="510" />
+          <first_editor relative-caret-position="-214">
+            <caret line="539" selection-start-line="539" selection-end-line="539" />
             <folding>
               <element signature="e#0#59#0" expanded="true" />
               <element signature="e#0#30#0" expanded="true" />

@@ -7,21 +7,46 @@
 
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
 
-## :clipboard: Table of contents
+<h2 align="center">Table of contents</h2>
+
 <!--ts-->
-   * [About](#gh-md-toc)
+   * [About](#about)
       * [Folder Structure](#file_folder-folder-structure) 
-   * [Ignite Cli](#fire-ignite-cli)
-   * [Usage](#snowflake-usage)
+   * [Ignite Cli](#ignite-cli)
    * [Usage](#usage)
-      * [STDIN](#stdin)
-      * [Local files](#local-files)
-      * [Remote files](#remote-files)
-      * [Multiple files](#multiple-files)
-      * [Combo](#combo)
-      * [Auto insert and update TOC](#auto-insert-and-update-toc)
-   * [Tests](#tests)
-   * [Dependency](#dependency)
+   * [Component Generation](#component-generation)
+      * [Generate Rtl Support Component](#stdin)
+      * [Generate Normal Component](#local-files)
+   * [Screen Generation](#component-generation)
+      * [Generate a Simple Screen](#stdin)
+      * [Generate Login Screens](#local-files)
+         * [Normal Login Screen](#local-files)
+         * [Sms Login Screen](#local-files)
+      * [Generate Templated Screens](#local-files)
+         * [Bottom Tabbed Screen](#local-files)
+         * [Top Tabbed Screen](#local-files)  
+         * [Drawer Navigation Screen](#local-files)    
+         * [Simple Collapsible Toolbar Screen](#local-files)   
+         * [Collapsible Screen With Drawer Navigation](#local-files) 
+   * [App Templates](#tests)
+      * [Social Media Template](#tests)
+   * [Using App Settings Redux](#dependency)
+      * [Switchable color scheme](#dependency)
+      * [Switchable locale](#dependency)
+   * [Tips](#tests)
+      * [Persisted States](#tests)    
+      * [How to navigate screens via redux](#tests)    
+   * [Material Ui Collection](#tests)
+      * [Material Colors](#tests)    
+      * [Material Vertical Linear](#tests)
+      * [Material Horizontal Linear](#tests)
+      * [Material Container](#tests)
+      * [Material Collapsible Toolbar Container](#tests)
+      * [Material Text Input](#tests)   
+      * [Material Progress](#tests) 
+      * [Material Buttons](#tests) 
+      * [Material FAB](#tests)
+      * [Material Checkbox](#tests)   
 <!--te-->
 
 <h2 align="center">About</h2>
@@ -511,6 +536,7 @@ export default withNavigation(connect(mapStateToProps, mapDispatchToProps)(Redux
   Here you can see a Created by me and some hand picked collection of material components from various ui libraries.
   The goal is making ui development easy and seamless (Ui/ux itself with material design rules and Coding Experience)
   For now, components are in a limited number but i'm working on increasing their number to fulfill all ui/ux needed components
+
 ### Material Colors 
  <p align="center">
  <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/colors.png" width="50%">
