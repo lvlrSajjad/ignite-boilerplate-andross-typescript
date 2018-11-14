@@ -66,6 +66,8 @@ You can see a gif and read about templates in below links:
 <a href="https://github.com/lvlrSajjad/ignite-boilerplate-andross-typescript#arrow_heading_down-bottom-tabbed-template">Bottom Tab Bar</a><br>
 <a href="https://github.com/lvlrSajjad/ignite-boilerplate-andross-typescript#top-top-tabbed-template">Top Tab Bar</a><br>
 <a href="https://github.com/lvlrSajjad/ignite-boilerplate-andross-typescript#top-navigation-drawer-template">Navigation Drawer</a>
+<a href="https://github.com/lvlrSajjad/ignite-boilerplate-andross-typescript#top-simple-collapsible-screen-template">Simple Collapsible Screen Template</a>
+<a href="https://github.com/lvlrSajjad/ignite-boilerplate-andross-typescript#top-collapsible-screen-with-drawer-navigation-template">Collapsible Screen With Drawer Navigation Template</a>
 </p>
 </p>
 
