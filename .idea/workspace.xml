@@ -2,11 +2,38 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/README.md" line="72" />
-    <bookmark url="file://$PROJECT_DIR$/README.md" line="778" />
+    <bookmark url="file://$PROJECT_DIR$/README.md" line="779" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f62ad2c-1973-43c4-a49a-dc82052ec6be" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/collapsible/LaunchScreen.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/collapsibledrawer/Components/LaunchScreen/SettingsTab/SettingsToggleItem/SettingsToggleItem.ltr.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/collapsibledrawer/Components/LaunchScreen/SettingsTab/SettingsToggleItem/SettingsToggleItem.rtl.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/collapsibledrawer/Components/LaunchScreen/SettingsTab/SettingsToggleItem/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/collapsibledrawer/Components/LaunchScreen/SettingsTab/__tests__/SettingsToggleItemTest.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/collapsibledrawer/Components/LaunchScreen/SettingsTab/__tests__/__snapshots__/SettingsToggleItemTest.tsx.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/collapsibledrawer/Components/NavHeaders/NavHeaders.ltr.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/collapsibledrawer/Components/NavHeaders/NavHeaders.rtl.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/collapsibledrawer/Components/NavHeaders/Styles/NavHeadersStyle.ltr.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/collapsibledrawer/Components/NavHeaders/Styles/NavHeadersStyle.rtl.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/collapsibledrawer/Components/NavHeaders/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/collapsibledrawer/Containers/LaunchScreen.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/collapsibledrawer/Containers/MainTabs/FifthTab.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/collapsibledrawer/Containers/MainTabs/FirstTab.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/collapsibledrawer/Containers/MainTabs/FourthTab.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/collapsibledrawer/Containers/MainTabs/SecondTab.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/collapsibledrawer/Containers/MainTabs/ThirdTab.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/collapsibledrawer/Containers/Styles/LaunchScreenStyles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate.js" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/index.js.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/index.js.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate/package.json.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/package.json.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands/container.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/container.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gifs/main.png" beforeDir="false" afterPath="$PROJECT_DIR$/gifs/main.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/react-native-version.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/react-native-version.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/options.js" beforeDir="false" afterPath="$PROJECT_DIR$/options.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,16 +51,7 @@
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
-              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json.ejs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/boilerplate/package.json.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="68" column="62" selection-start-line="68" selection-start-column="62" selection-end-line="68" selection-end-column="62" />
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -42,11 +60,10 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="314">
-                <caret line="520" column="87" selection-start-line="520" selection-start-column="87" selection-end-line="520" selection-end-column="87" />
+              <first_editor relative-caret-position="188">
+                <caret line="566" column="8" selection-start-line="566" selection-start-column="8" selection-end-line="566" selection-end-column="21" />
                 <folding>
                   <element signature="e#0#30#0" expanded="true" />
-                  <element signature="e#3#33#0" expanded="true" />
                   <element signature="e#5#35#0" expanded="true" />
                   <element signature="e#0#30#0" expanded="true" />
                   <element signature="e#2#56#0" expanded="true" />
@@ -57,9 +74,90 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="collapsibletoolbarcontainer.gif" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gifs/collapsibletoolbarcontainer.gif">
-          <provider selected="true" editor-type-id="images" />
+      <file leaf-file-name="FifthTab.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/collapsibledrawer/Containers/MainTabs/FifthTab.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FirstTab.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/collapsibledrawer/Containers/MainTabs/FirstTab.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="50" column="16" lean-forward="true" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FourthTab.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/collapsibledrawer/Containers/MainTabs/FourthTab.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SecondTab.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/collapsibledrawer/Containers/MainTabs/SecondTab.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThirdTab.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/collapsibledrawer/Containers/MainTabs/ThirdTab.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LaunchScreen.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/collapsible/LaunchScreen.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json.ejs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/boilerplate/package.json.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="68" column="62" selection-start-line="68" selection-start-column="62" selection-end-line="68" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boilerplate/index.js.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -73,19 +171,9 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/rtl.png</find>
-      <find>react-native-communications</find>
-      <find />
-      <find>querystringify</find>
-      <find>social media template</find>
-      <find>parsed</find>
-      <find>template</find>
-      <find>here</find>
       <find>Tabbed</find>
       <find>parameters.</find>
       <find>flatlist</find>
-      <find>react-native</find>
-      <find>react-test-re</find>
       <find>version</find>
       <find>typescript</find>
       <find>react-navigation</find>
@@ -103,6 +191,16 @@
       <find>generate</find>
       <find>Materi</find>
       <find>material</find>
+      <find>launchScreen</find>
+      <find>name</find>
+      <find>react-native</find>
+      <find>//</find>
+      <find>node-fetch</find>
+      <find>react&quot;</find>
+      <find>react-test</find>
+      <find>react-test-re</find>
+      <find>test-renderer</find>
+      <find>Collapsible</find>
     </findStrings>
     <dirStrings>
       <dir>D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\boilerplate</dir>
@@ -115,15 +213,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/boilerplate/App/I18n/locales/en.ts" />
-        <option value="$PROJECT_DIR$/boilerplate/App/I18n/locales/fa.ts" />
-        <option value="$PROJECT_DIR$/templates/drawer/Containers/LaunchScreen.tsx" />
-        <option value="$PROJECT_DIR$/templates/socialmedia/Containers/MainTabs/ChatsTabScreens/ChatsScreen.tsx" />
-        <option value="$PROJECT_DIR$/options.js" />
-        <option value="$PROJECT_DIR$/templates/ttlaunchscreen.ejs" />
         <option value="$PROJECT_DIR$/templates/toptabbed/Containers/LaunchScreen.tsx" />
         <option value="$PROJECT_DIR$/templates/drawer/Containers/LaunchScreen.ejs" />
-        <option value="$PROJECT_DIR$/boilerplate.js" />
         <option value="$PROJECT_DIR$/templates/directionComponent/component.rtl.ejs" />
         <option value="$PROJECT_DIR$/templates/component/component.ejs" />
         <option value="$PROJECT_DIR$/templates/directionComponent/component.ltr.ejs" />
@@ -131,12 +222,9 @@
         <option value="$PROJECT_DIR$/templates/drawer/Components/NavHeaders/NavHeaders.ltr.tsx" />
         <option value="$PROJECT_DIR$/templates/drawer/Components/NavHeaders/Styles/NavHeadersStyle.rtl.tsx" />
         <option value="$PROJECT_DIR$/templates/drawer/Components/NavHeaders/Styles/NavHeadersStyle.ltr.tsx" />
-        <option value="$PROJECT_DIR$/commands/container.js" />
         <option value="$PROJECT_DIR$/templates/smslogin/Redux/Navigation/NavigationRedux.tsx" />
         <option value="$PROJECT_DIR$/templates/login/Redux/Navigation/NavigationRedux.tsx" />
-        <option value="$PROJECT_DIR$/boilerplate/index.js.ejs" />
         <option value="$PROJECT_DIR$/templates/socialmedia/Components/ChatScreen/src/MessageContainer.js" />
-        <option value="$PROJECT_DIR$/lib/react-native-version.js" />
         <option value="$PROJECT_DIR$/templates/socialmedia/Containers/LaunchScreen.tsx" />
         <option value="$PROJECT_DIR$/templates/tabbed/Containers/LaunchScreen.ejs" />
         <option value="$PROJECT_DIR$/boilerplate/App/Redux/Navigation/NavigationRedux.tsx" />
@@ -163,7 +251,17 @@
         <option value="$PROJECT_DIR$/boilerplate/App/Components/MaterialComponents/index.ts" />
         <option value="$PROJECT_DIR$/boilerplate/App/Themes/Colors.tsx" />
         <option value="$PROJECT_DIR$/boilerplate/README.md" />
+        <option value="$PROJECT_DIR$/boilerplate.js" />
+        <option value="$PROJECT_DIR$/commands/container.js" />
+        <option value="$PROJECT_DIR$/options.js" />
+        <option value="$PROJECT_DIR$/lib/react-native-version.js" />
+        <option value="$PROJECT_DIR$/boilerplate/index.js.ejs" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/templates/collapsibledrawer/Containers/MainTabs/FirstTab.tsx" />
+        <option value="$PROJECT_DIR$/templates/collapsibledrawer/Containers/MainTabs/SecondTab.tsx" />
+        <option value="$PROJECT_DIR$/templates/collapsibledrawer/Containers/MainTabs/ThirdTab.tsx" />
+        <option value="$PROJECT_DIR$/templates/collapsibledrawer/Containers/MainTabs/FourthTab.tsx" />
+        <option value="$PROJECT_DIR$/templates/collapsible/LaunchScreen.ejs" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/boilerplate/package.json.ejs" />
       </list>
@@ -183,16 +281,16 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="676" />
+    <option name="x" value="-7" />
+    <option name="y" value="2" />
     <option name="width" value="697" />
-    <option name="height" value="735" />
+    <option name="height" value="733" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,12 +301,50 @@
             <path>
               <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
               <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
-              <item name="gifs" type="462c0819:PsiDirectoryNode" />
+              <item name="boilerplate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="collapsible" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="collapsibledrawer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="collapsibledrawer" type="462c0819:PsiDirectoryNode" />
+              <item name="Containers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="collapsibledrawer" type="462c0819:PsiDirectoryNode" />
+              <item name="Containers" type="462c0819:PsiDirectoryNode" />
+              <item name="MainTabs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -226,19 +362,19 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\gifs" />
+      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\boilerplate" />
+      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\collapsibledrawer" />
+      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\collapsible" />
+      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\boilerplate\App\Components\MaterialComponents" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\toptabbed\Containers" />
       <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\toptabbed" />
       <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\drawer" />
       <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\socialmedia\Containers" />
       <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\login\Components\LoginScreen" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\gifs" />
-      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\boilerplate\App\Components\MaterialComponents" />
-      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\boilerplate\App\Components\MaterialComponents\MaterialTextInput" />
-      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\boilerplate\App\Redux\Navigation" />
-      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\drawer\Containers\MainTabs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -273,37 +409,41 @@
       <workItem from="1541958482849" duration="8751000" />
       <workItem from="1542024880765" duration="23558000" />
       <workItem from="1542068308052" duration="633000" />
-      <workItem from="1542109090737" duration="7267000" />
+      <workItem from="1542109090737" duration="9449000" />
+      <workItem from="1542150514250" duration="3734000" />
+      <workItem from="1542155009844" duration="3028000" />
+      <workItem from="1542164566995" duration="1039000" />
+      <workItem from="1542193013734" duration="2120000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163125000" />
+    <option name="totallyTimeSpent" value="175228000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27752978" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.4888393" side_tool="true" weight="0.21663778" />
       <window_info anchor="bottom" id="GitLabIntegration" order="11" />
-      <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49925596" weight="0.4610052" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.51116073" visible="true" weight="0.22530329" />
+      <window_info anchor="bottom" id="TypeScript" order="11" sideWeight="0.49925596" weight="0.32928944" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27752978" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.51116073" visible="true" weight="0.2287695" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="TypeScript" order="11" sideWeight="0.49925596" weight="0.32928944" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291815" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,117 +458,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/login/Containers/LoginScreen.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-621" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/socialmedia/Containers/ChatScreen.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/socialmedia/Containers/ChatsTabNavigator.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="92" column="14" selection-start-line="92" selection-start-column="14" selection-end-line="92" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/options.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="14" column="51" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="294" column="11" selection-start-line="294" selection-start-column="11" selection-end-line="294" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/socialmedia/Containers/LaunchScreen.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1403">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/login/Navigation/AppNavigation.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="79" selection-start-column="79" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/smslogin/Navigation/AppNavigation.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="79" selection-start-column="79" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate/App/Navigation/AppNavigation.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="79" selection-start-column="79" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/patterns.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="111" selection-start-line="8" selection-start-column="111" selection-end-line="8" selection-end-column="111" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/smslogin/Containers/LoginScreen.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/listview.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/redux.ejs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/listview-sections.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/listview-style.ejs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/listview-grid-style.ejs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/redux-test-ava.ejs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/redux-test-jest.ejs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/saga.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/saga-test-ava.ejs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -471,13 +500,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/container-style.ejs">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/container.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="32" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/component-test.ejs">
       <provider selected="true" editor-type-id="text-editor">
@@ -576,24 +598,155 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/gifs/collapsibletoolbarcontainer.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/component/component.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/container.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        <state relative-caret-position="275">
+          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gifs/collapsibletoolbarcontainer.gif">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/templates/drawer/Containers/LaunchScreen.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-207" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/tabbed/Containers/LaunchScreen.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-621" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/toptabbed/Containers/ttlaunchscreen.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/collapsibledrawer/Components/NavHeaders/Styles/NavHeadersStyle.ltr.tsx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/package.json" />
+    <entry file="file://$PROJECT_DIR$/commands/container.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2645">
+          <caret line="115" column="63" selection-start-line="115" selection-start-column="63" selection-end-line="115" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5106">
+          <caret line="222" column="12" selection-start-line="222" selection-start-column="12" selection-end-line="222" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/options.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="43" column="10" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/react-native-version.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/index.js.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/collapsibledrawer/Containers/MainTabs/FifthTab.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/collapsibledrawer/Containers/MainTabs/FirstTab.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="50" column="16" lean-forward="true" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/collapsibledrawer/Containers/MainTabs/SecondTab.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/collapsibledrawer/Containers/MainTabs/ThirdTab.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/collapsibledrawer/Containers/MainTabs/FourthTab.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/collapsible/LaunchScreen.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="29" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="314">
-            <caret line="520" column="87" selection-start-line="520" selection-start-column="87" selection-end-line="520" selection-end-column="87" />
+          <first_editor relative-caret-position="188">
+            <caret line="566" column="8" selection-start-line="566" selection-start-column="8" selection-end-line="566" selection-end-column="21" />
             <folding>
               <element signature="e#0#30#0" expanded="true" />
-              <element signature="e#3#33#0" expanded="true" />
               <element signature="e#5#35#0" expanded="true" />
               <element signature="e#0#30#0" expanded="true" />
               <element signature="e#2#56#0" expanded="true" />
@@ -605,7 +758,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/boilerplate/package.json.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
+        <state relative-caret-position="140">
           <caret line="68" column="62" selection-start-line="68" selection-start-column="62" selection-end-line="68" selection-end-column="62" />
         </state>
       </provider>

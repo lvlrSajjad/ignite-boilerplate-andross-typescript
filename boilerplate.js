@@ -209,6 +209,55 @@ async function install (context) {
       case 'Simple Screen':{
         break;
       }
+      case 'Collapsible Toolbar Screen':{
+        const props = { name:'LaunchScreen' }
+        const jobs = [
+          {
+            template: 'collapsible/LaunchScreen.ejs',
+            target: `App/Containers/LaunchScreen.tsx`
+          }
+        ]
+        await ignite.copyBatch(context, jobs, props)
+        break;
+      }
+      case 'Collapsible Toolbar Screens With Drawer Navigation':{
+        spinner.text = '▸ copying files'
+        spinner.start()
+
+        filesystem.copy(`${__dirname}/templates/collapsibledrawer/Components`, `${process.cwd()}/App/Components`, {
+          overwrite: true
+        })
+        spinner.stop()
+        const props = { name:'LaunchScreen' }
+        const jobs = [
+          {
+            template: 'collapsibledrawer/Containers/LaunchScreen.ejs',
+            target: `App/Containers/LaunchScreen.tsx`
+          },
+          {
+            template: 'collapsibledrawer/Containers/MainTabs/FifthTab.tsx',
+            target: `App/Containers/LaunchScreenTabs/FifthTab.tsx`
+          },
+          {
+            template: 'collapsibledrawer/Containers/MainTabs/FirstTab.tsx',
+            target: `App/Containers/LaunchScreenTabs/FirstTab.tsx`
+          },
+          {
+            template: 'collapsibledrawer/Containers/MainTabs/FourthTab.tsx',
+            target: `App/Containers/LaunchScreenTabs/FourthTab.tsx`
+          },
+          {
+            template: 'collapsibledrawer/Containers/MainTabs/SecondTab.tsx',
+            target: `App/Containers/LaunchScreenTabs/SecondTab.tsx`
+          },
+          {
+            template: 'collapsibledrawer/Containers/MainTabs/ThirdTab.tsx',
+            target: `App/Containers/LaunchScreenTabs/ThirdTab.tsx`
+          }
+        ]
+        await ignite.copyBatch(context, jobs, props)
+        break;
+      }
       case 'Bottom Tabbed Screen':{
         spinner.text = '▸ copying files'
         spinner.start()

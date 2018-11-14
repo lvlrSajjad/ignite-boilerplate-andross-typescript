@@ -12,7 +12,15 @@ const questions = [
     name: 'main-screen',
     message: 'Choose Main Screen ',
     type: 'list',
-    choices: ['Simple Screen','Bottom Tabbed Screen','Top Tabbed Screen', 'Navigation Drawer Screen','Social Media Screen']
+    choices: [
+      'Simple Screen',
+      'Collapsible Toolbar Screen',
+      'Bottom Tabbed Screen',
+      'Top Tabbed Screen',
+      'Navigation Drawer Screen',
+      'Collapsible Toolbar Screens With Drawer Navigation',
+      'Social Media Screen'
+    ]
   },
 ]
 
