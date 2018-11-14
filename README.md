@@ -280,6 +280,8 @@ You can generate a screen with this template using below command :
  ignite g container YourScreenName CollapsibleToolbar
 ```
 
+for customization or etc , i've used <a href="https://github.com/lvlrSajjad/ignite-boilerplate-andross-typescript#material-collapsible-toolbar-container">MaterialCollapsibleToolbarContainer</a> in this screen so you can get more info from mentioned link
+
 ## :top: Collapsible Screen With Drawer Navigation Template
 this template provides a navigation drawer screen with 5 tabs , four of them have collapsible toolbars as below gif
 
@@ -297,6 +299,8 @@ You can edit file names and contents of files inside YourScreenNameTabs folder, 
 You can also edit navigation icon names inside YourScreenName.tsx
 
 this command will produce a screen file with tab files and will add this screen to AppNavigation file
+
+for customization or etc , i've used <a href="https://github.com/lvlrSajjad/ignite-boilerplate-andross-typescript#material-collapsible-toolbar-container">MaterialCollapsibleToolbarContainer</a> in this screen so you can get more info from mentioned link
 
 
 ## :smiley: Social Media Template
