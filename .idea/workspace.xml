@@ -35,7 +35,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="209">
-                <caret line="69" column="183" selection-start-line="69" selection-start-column="183" selection-end-line="69" selection-end-column="183" />
+                <caret line="69" column="187" lean-forward="true" selection-start-line="69" selection-start-column="187" selection-end-line="69" selection-end-column="187" />
                 <folding>
                   <element signature="e#0#30#0" expanded="true" />
                   <element signature="e#5#35#0" expanded="true" />
@@ -361,12 +361,12 @@
       <workItem from="1542150514250" duration="3734000" />
       <workItem from="1542155009844" duration="3028000" />
       <workItem from="1542164566995" duration="1039000" />
-      <workItem from="1542193013734" duration="5449000" />
+      <workItem from="1542193013734" duration="5971000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178557000" />
+    <option name="totallyTimeSpent" value="179079000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -692,7 +692,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="209">
-            <caret line="69" column="183" selection-start-line="69" selection-start-column="183" selection-end-line="69" selection-end-column="183" />
+            <caret line="69" column="187" lean-forward="true" selection-start-line="69" selection-start-column="187" selection-end-line="69" selection-end-column="187" />
             <folding>
               <element signature="e#0#30#0" expanded="true" />
               <element signature="e#5#35#0" expanded="true" />
