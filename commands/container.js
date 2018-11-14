@@ -109,7 +109,7 @@ module.exports = async function (context) {
     const jobs = [
       {
         template: 'collapsible/LaunchScreen.ejs',
-        target: `App/Containers/LaunchScreen.tsx`
+        target: `App/Containers/${name}.tsx`
       }
     ]
     await ignite.copyBatch(context, jobs, props)
