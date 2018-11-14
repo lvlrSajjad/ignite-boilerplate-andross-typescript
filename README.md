@@ -7,24 +7,60 @@
 
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
 
-* This Boiler Plate is just my Customized version of ignite Andross 
-* Installed And Configed With TypeScript
-* Updated React Native To The Lastest Version (0.57.4)
-* Added Rtl Support
-* Added Switchable ColorScheme Support
-* Add Better Multi language Support And Add Language To App Settings Redux
-* Keep Settings Even When The App Closed
-* TODO // Internal Set Of Material Components
-* HighLighted Dependencies that installed :
+## :clipboard: Table of contents
+<!--ts-->
+   * [About](#gh-md-toc)
+      * [Folder Structure](#file_folder-folder-structure) 
+   * [Ignite Cli](#fire-ignite-cli)
+   * [Usage](#snowflake-usage)
+   * [Usage](#usage)
+      * [STDIN](#stdin)
+      * [Local files](#local-files)
+      * [Remote files](#remote-files)
+      * [Multiple files](#multiple-files)
+      * [Combo](#combo)
+      * [Auto insert and update TOC](#auto-insert-and-update-toc)
+   * [Tests](#tests)
+   * [Dependency](#dependency)
+<!--te-->
+
+<h2 align="center">About</h2>
+
+This Boiler Plate is just my Customized version of ignite Andross 
+
+Changes :
+* Installed and configured with typeScript
+* Updated react native to the latest version (0.57.4)
+* Added rtl support
+* Added switchable colorScheme support
+* Add better multi language support and add language to app settings redux
+* Keep settings even When app closed
+* Added selectable templates on boilerplate installation and generating screens with those templates after installation
+* WIP // Internal set of material components
+* HighLighted dependencies that installed :
 
 <img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/deps.png" width="100%">
 
     
     You can see more on package .json
  * Recommended Dependencies :
+ 
+ <p align="center">
 <img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/recommended.png" width="80%">
+</p>
 
-## :fire: Ignite Cli
+### :file_folder: Folder Structure
+
+It's actually similar to andross folder structure i think this folder structure based in container/component pattern
+
+So the Components won't have much work with data and getting/setting data is trough containers (//TODO i will edit component generation based on this pattern so components must on connected to redux and they just getting props from the outside contaner)
+        
+<p align="center">
+<img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/folder.png" width="100%">
+</p>
+
+
+<h2 align="center">Ignite Cli</h2>
   
   First you must install ignite cli as gobal with this command
   ```
@@ -33,7 +69,7 @@ npm install -g ignite-cli
   For More Cli Instructions Please refer to below sections and ignite boilerplate page :
   https://github.com/infinitered/ignite
 
-## :snowflake: Usage
+<h2 align="center">Usage</h2>
 
   You can create your app using this boilerplate with this commands
   
@@ -82,18 +118,10 @@ after installation run below commands:
    react-native link
    react-native run-ios or react-native run-android
    ```
-## :exclamation: Possible Errors
-  
-   if you've got transform-hmr error on boundle so start your boundler with this command:
-   `` react-native start --reset-cache ``
    
-## :file_folder: Folder Structure
-        
-<p align="center">
-<img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/folder.png" width="100%">
-</p>
+<h2 align="center">Component Generation</h2>
 
-## :arrow_down_small: Rtl Support Component Generate
+### :arrow_down_small: Rtl Support Component Generate
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/rtl.gif" width="100%">
@@ -120,7 +148,7 @@ The generated index.tsx will be like below:
  <img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/rtl-component-index.png" width="80%">
  </p>
 
-## :arrow_down_small: Normal Component Generate
+### :arrow_down_small: Normal Component Generate
 
 If you don't want Rtl/Ltr Switchable component us just create the component with this command:
 ```
@@ -141,18 +169,20 @@ The generated index.tsx will be like below:
  <p align="center">
  <img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/normal-component-index.png" width="80%">
  </p>
+    
+<h2 align="center">Screen Generation</h2>
  
-## :arrow_down_small: Screen Generate
+### Generate a Simple Screen
 You can generate normal screens in containers folder then add them to the navigation by this command
    ```
     ignite g container ScreenName
    ```
    
-## :arrow_down_small: Generate Login Screens
+### Generate Login Screens
 
 You can also generate a material designed Login screen with some related components and reduxs by this command:
 
-<h3 align="center">Normal Login Screen</h3>
+#### Normal Login Screen
 
    <p align="center">
    <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/login.gif" width="100%">
@@ -163,10 +193,7 @@ You can also generate a material designed Login screen with some related compone
    ```
    Or Choosing Simple login screen at project initialization
    
-
-   
-<h3 align="center">Sms Login Screen</h3>
-
+#### Sms Login Screen
 
 <p align="center">
  <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/smslogin.gif" width="100%">
@@ -202,8 +229,11 @@ this way :
 initialRouteName: "LoginScreen",
 ...
 ```
+### Generate Templated Screens
 
-## :arrow_heading_down: Bottom Tabbed Template
+Templated screens will provide container structures for some time saving based on common uses  
+
+#### Bottom Tabbed Screen
 This template provides some components and screens with navigation for having a bottom tabbed container with 5 tabs in the first page of your app.
 you can change tabs names and contents after installation.
 You can use this template by choosing it on boilerplate installation.
@@ -224,7 +254,7 @@ You can edit file names and contents of files inside YourScreenNameTabs folder, 
 You can also edit navigation icon names inside YourScreenName.tsx
 
 
-## :top: Top Tabbed Template
+#### Top Tabbed Screen
 This template provides some components and screens with navigation for having a top tabbed container with 3 tabs with list content in the first page of your app.
 you can change tabs names and contents after installation.
 You can use this template by choosing it on boilerplate installation.
@@ -246,7 +276,7 @@ You can edit file names and contents of files inside YourScreenNameTabs folder, 
 You can also edit navigation icon names inside YourScreenName.tsx
 
 
-## :top: Navigation Drawer Template
+#### Drawer Navigation Screen
 This template provides some components and screens with navigation for having a navigation drawer container with 5 pages.
 you can change tabs names and contents after installation.
 You can use this template by choosing it on boilerplate installation.
@@ -267,7 +297,7 @@ You can also edit navigation icon names inside YourScreenName.tsx
 
 this command will produce a screen file with tab files and will add this screen to AppNavigation file
 
-## :top: Simple Collapsible Screen Template
+#### Simple Collapsible Toolbar Screen
 this template provides a simple screen with a collapsible toolbar as below gif
 
 <p align="center">
@@ -282,7 +312,7 @@ You can generate a screen with this template using below command :
 
 for customization or etc , i've used <a href="https://github.com/lvlrSajjad/ignite-boilerplate-andross-typescript#material-collapsible-toolbar-container">MaterialCollapsibleToolbarContainer</a> in this screen so you can get more info from mentioned link
 
-## :top: Collapsible Screen With Drawer Navigation Template
+#### Collapsible Screen With Drawer Navigation
 this template provides a navigation drawer screen with 5 tabs , four of them have collapsible toolbars as below gif
 
 <p align="center">
@@ -302,8 +332,11 @@ this command will produce a screen file with tab files and will add this screen 
 
 for customization or etc , i've used <a href="https://github.com/lvlrSajjad/ignite-boilerplate-andross-typescript#material-collapsible-toolbar-container">MaterialCollapsibleToolbarContainer</a> in this screen so you can get more info from mentioned link
 
+<h2 align="center">App Templates</h2>
 
-## :smiley: Social Media Template
+These templates can't be generated after installation these are about a half-complete app (maybe complete app in future) so you can use them as example or if your app is just like them you can use them for time saving and just apply a few changes for customization.
+
+### Social Media Template
 This template provides some components and screens with navigation for starting a chat app project. it's also an example of how to start working with this boiler plate.
 Inside the template i used farid safi's Gifted Chat for chat screen.
 You can use this template by choosing it on boilerplate installation.
@@ -313,7 +346,9 @@ this is a preview of Social Media Template :
 <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/socialmedia.gif" width="100%">
 </p>
 
-## :arrow_down_small: Switchable color scheme 
+<h2 align="center">Using App Settings Redux</h2>
+
+### Switchable color scheme 
 <p align="center">
    
 <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/darkmode.gif" width="100%">
@@ -360,7 +395,7 @@ you can see similiar usage in example files inside Container folder or another f
 
 you can also test this in the settings tab
 
-## :arrow_down_small: Switchable locale
+### Switchable locale
 <p align="center">
 
 <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/locale.gif" width="100%">
@@ -390,7 +425,9 @@ End usage:
  <img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/i18nusage.png" width="80%">
  </p>
  
-## :arrow_down_small: Persisted States (Redux-Persist)
+ <h2 align="center">Tips</h2>
+
+### Persisted States (Redux-Persist)
 <p align="center">
 
 <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/persist.gif" width="100%">
@@ -412,7 +449,7 @@ then go to your reducer and add this code :
 then changes on your reducer will be persisted 
 
 
-## :grey_question: How to navigate screens via redux 
+### How to navigate screens via redux 
 
 Be sure about screen added to the AppNavigation.tsx
 
@@ -470,8 +507,7 @@ const mapDispatchToProps = dispatch => ({
 export default withNavigation(connect(mapStateToProps, mapDispatchToProps)(ReduxConnectedComponent));
 
 ```
-
-## :nut_and_bolt: Material Ui Collection
+ <h2 align="center">Material Ui Collection</h2>
   Here you can see a Created by me and some hand picked collection of material components from various ui libraries.
   The goal is making ui development easy and seamless (Ui/ux itself with material design rules and Coding Experience)
   For now, components are in a limited number but i'm working on increasing their number to fulfill all ui/ux needed components
