@@ -146,7 +146,7 @@ after installation run below commands:
    
 <h2 align="center">Component Generation</h2>
 
-### :arrow_down_small: Rtl Support Component Generate
+### Generate Rtl Support Component
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/rtl.gif" width="100%">
@@ -173,7 +173,7 @@ The generated index.tsx will be like below:
  <img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/rtl-component-index.png" width="80%">
  </p>
 
-### :arrow_down_small: Normal Component Generate
+### Generate Normal Component
 
 If you don't want Rtl/Ltr Switchable component us just create the component with this command:
 ```

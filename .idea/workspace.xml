@@ -33,8 +33,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="-214">
-                <caret line="539" selection-start-line="539" selection-end-line="539" />
+              <first_editor relative-caret-position="80">
+                <caret line="18" column="34" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="34" />
                 <folding>
                   <element signature="e#0#59#0" expanded="true" />
                   <element signature="e#0#30#0" expanded="true" />
@@ -112,8 +112,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>flatlist</find>
-      <find>version</find>
       <find>typescript</find>
       <find>react-navigation</find>
       <find>Bottom Tabbed Screen</find>
@@ -142,6 +140,8 @@
       <find>Collapsible</find>
       <find>a hre</find>
       <find>provides a sc</find>
+      <find>Component Generation</find>
+      <find>Generate Normal Component</find>
     </findStrings>
     <dirStrings>
       <dir>D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\boilerplate</dir>
@@ -328,12 +328,12 @@
       <workItem from="1542150514250" duration="3734000" />
       <workItem from="1542155009844" duration="3028000" />
       <workItem from="1542164566995" duration="1039000" />
-      <workItem from="1542193013734" duration="10662000" />
+      <workItem from="1542193013734" duration="11365000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="183770000" />
+    <option name="totallyTimeSpent" value="184473000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -665,8 +665,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="-214">
-            <caret line="539" selection-start-line="539" selection-end-line="539" />
+          <first_editor relative-caret-position="80">
+            <caret line="18" column="34" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="34" />
             <folding>
               <element signature="e#0#59#0" expanded="true" />
               <element signature="e#0#30#0" expanded="true" />
