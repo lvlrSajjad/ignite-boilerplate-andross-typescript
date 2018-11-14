@@ -40,7 +40,7 @@ class SecondTab extends Component {
         return (
             <MaterialCollapsibleToolbarContainer
                 renderContent={this.renderContent}
-                imageSource='https://lorempixel.com/400/300/'
+                imageSource='https://picsum.photos/400/300?image=1'
                 collapsedNavBarBackgroundColor='#009688'
                 translucentStatusBar
                 showsVerticalScrollIndicator={false}

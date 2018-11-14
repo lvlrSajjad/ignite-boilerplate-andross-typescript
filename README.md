@@ -265,6 +265,38 @@ You can also edit navigation icon names inside YourScreenName.tsx
 
 this command will produce a screen file with tab files and will add this screen to AppNavigation file
 
+## :top: Simple Collapsible Screen Template
+this template provides a simple screen with a collapsible toolbar as below gif
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/simplecollapsible.gif" width="100%">
+</p>
+
+You can generate a screen with this template using below command :
+
+```
+ ignite g container YourScreenName CollapsibleToolbar
+```
+
+## :top: Collapsible Screen With Drawer Navigation Template
+this template provides a navigation drawer screen with 5 tabs , four of them have collapsible toolbars as below gif
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/collapsibledrawer.gif" width="100%">
+</p>
+
+You can generate a screen with this template using below command :
+
+```
+ ignite g container YourScreenName CollapsibleToolbarDrawer
+```
+
+You can edit file names and contents of files inside YourScreenNameTabs folder, just be sure if you edited the file names you also edit the imports inside YourScreenName.tsx file.
+You can also edit navigation icon names inside YourScreenName.tsx
+
+this command will produce a screen file with tab files and will add this screen to AppNavigation file
+
+
 ## :smiley: Social Media Template
 This template provides some components and screens with navigation for starting a chat app project. it's also an example of how to start working with this boiler plate.
 Inside the template i used farid safi's Gifted Chat for chat screen.
