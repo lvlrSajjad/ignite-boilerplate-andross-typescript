@@ -44,7 +44,7 @@
       * [Material Collapsible Toolbar Container](#material-collapsible-toolbar-container)
       * [Material Text Input](#material-text-input)   
       * [Material Progress](#material-progress) 
-      * [Material Buttons](#material buttons) 
+      * [Material Buttons](#material-buttons) 
       * [Material FAB](#material-fab)
       * [Material Checkbox](#material-checkbox)   
 <!--te-->
