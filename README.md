@@ -56,7 +56,7 @@ This Boiler Plate is just my Customized version of ignite Andross
 
 Changes :
 * Installed and configured with typeScript
-* Updated react native to the latest version (0.57.4)
+* Updated react native to the latest version (0.57.5)
 * Added rtl support
 * Added switchable colorScheme support
 * Add better multi language support and add language to app settings redux
@@ -673,7 +673,7 @@ export default class LaunchScreen extends Component {
 }
 ``` 
 
-#### Usage :
+#### Props :
 
 ```typescript jsx
   collapsedNavBarBackgroundColor?: string,
