@@ -42,6 +42,7 @@
       * [Material Horizontal Linear](#material-horizontal-linear)
       * [Material Container](#material-container)
       * [Material Collapsible Toolbar Container](#material-collapsible-toolbar-container)
+      * [Material Backdrop](#material-backdrop)  
       * [Material Text Input](#material-text-input)   
       * [Material Progress](#material-progress) 
       * [Material Buttons](#material-buttons) 
@@ -687,6 +688,91 @@ export default class LaunchScreen extends Component {
   onLeftIconPress?(): void,
   rightButtonIcon?: string,
   onRightIconPress?(): void
+```
+
+### Material Backdrop
+ <p align="center">
+ <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/backdropimage.gif" width="30%">
+ <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/backdroplist.gif" width="30%">
+ </p>
+
+I tried to create this component using material.io guidelines in this <a href="https://material.io/design/components/backdrop.html">link</a>
+
+#### Usage :
+  ```typescript jsx
+    import * as React from 'react'
+    import {Component} from 'react';
+    import {connect} from 'react-redux'
+    import {MaterialBackdrop} from "react-native-typescript-material-ui-collection";
+    import {Image, Text, View} from "react-native";
+    
+    class ScreenName extends Component {
+      constructor(props) {
+        super(props);
+        this.state = {isExpanded: false}
+      }
+    
+      render() {
+        return (
+          <MaterialBackdrop
+            revealComponent={()=>this.renderRevealComponent()}
+            leftButtonIcon='menu'
+            expandedTitle='Expanded'
+            collapsedTitle='Collapsed'
+            content={()=>this.renderContent('black')}
+            textColor='white'
+            subHeaderText='subheader'
+            backdropBackgroundColor='purple'
+            contentBackgroundColor='white'
+            subheaderTextColor='#212121'
+          />
+        )
+      }
+      renderRevealComponent=()=><View>
+          <Image
+            style={{margin: 34, alignSelf: 'center', width: 84, height: 84, borderRadius: 42}}
+            source={{uri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwu7s_Ic3YioDVl9AmoJGsKbBuCKFVp2cD3KCPzdYlBLOcGmeV'}}
+          />
+        </View>
+      renderContent=(color)=><View>
+        {new Array(40).fill().map((_, i) => (
+          <View
+            key={i}
+            style={{
+              padding: 10,
+              borderBottomWidth: 1,
+              borderBottomColor: '#00000011'
+            }}
+          >
+            <Text style={{color:color}}>{`Item ${i + 1}`}</Text>
+          </View>
+        ))}
+      </View>
+    
+    }
+   ``` 
+      
+#### Props :
+
+```typescript jsx
+  revealComponent?(): React.ReactNode,
+  backdropBackgroundColor?: string,
+  leftButtonIcon?: string, // an icon name from https://materialdesignicons.com (this component using react-native-vector icons inside)
+  expandedTitle?: string,
+  collapsedTitle?: string,
+  content?(): React.ReactNode,
+  textColor?: string,
+  subHeaderText?: string,
+  horizontalContent?: boolean,
+  onSubheaderClick?(): void,
+  onLeftButtonClick?(): void,
+  onRightButtonClick?(): void,
+  contentBackgroundColor?: string,
+  subheaderTextColor?: string,
+  onExpand?(): void,
+  onCollapse?(): void,
+  rightButtonIcon?: string // an icon name from https://materialdesignicons.com (this component using react-native-vector icons inside)
+                            // if you give it an icon name icon will be rendered top right of backdrop and you can use it as you want
 ```
 
 ### Material Text Input 
