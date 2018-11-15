@@ -113,6 +113,14 @@ module.exports = async function (context) {
       }
     ]
     await ignite.copyBatch(context, jobs, props)
+  } else if (parameters.second === "Backdrop") {
+    const jobs = [
+      {
+        template: 'backdrop/LaunchScreen.ejs',
+        target: `App/Containers/${name}.tsx`
+      }
+    ]
+    await ignite.copyBatch(context, jobs, props)
   } else if (parameters.second === "CollapsibleToolbarDrawer"){
     filesystem.copy(`${__dirname}/../templates/collapsibledrawer/Components`, `${process.cwd()}/App/Components`, {
       overwrite: true

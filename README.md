@@ -26,7 +26,8 @@
          * [Bottom Tabbed Screen](#bottom-tabbed-screen)
          * [Top Tabbed Screen](#top-tabbed-screen)  
          * [Drawer Navigation Screen](#drawer-navigation-screen)    
-         * [Simple Collapsible Toolbar Screen](#simple-collapsible-toolbar-screen)   
+         * [Simple Collapsible Toolbar Screen](#simple-collapsible-toolbar-screen) 
+         * [Backdrop Screen](#backdrop-screen)  
          * [Collapsible Screen With Drawer Navigation](#collapsible-screen-with-drawer-navigation) 
    * [App Templates](#app-templates)
       * [Social Media Template](#social-media-template)
@@ -124,12 +125,13 @@ You can choose your main screen style or just a simple screen:
 
 You can see a gif and read about templates in below links: 
 <p align="center">
-<a href="https://github.com/lvlrSajjad/ignite-boilerplate-andross-typescript#smiley-social-media-template">Social Media</a><br>
-<a href="https://github.com/lvlrSajjad/ignite-boilerplate-andross-typescript#arrow_heading_down-bottom-tabbed-template">Bottom Tab Bar</a><br>
-<a href="https://github.com/lvlrSajjad/ignite-boilerplate-andross-typescript#top-top-tabbed-template">Top Tab Bar</a><br>
-<a href="https://github.com/lvlrSajjad/ignite-boilerplate-andross-typescript#top-navigation-drawer-template">Navigation Drawer</a><br>
-<a href="https://github.com/lvlrSajjad/ignite-boilerplate-andross-typescript#top-simple-collapsible-screen-template">Simple Collapsible Screen Template</a><br>
-<a href="https://github.com/lvlrSajjad/ignite-boilerplate-andross-typescript#top-collapsible-screen-with-drawer-navigation-template">Collapsible Screen With Drawer Navigation Template</a>
+<a href="#social-media-template">Social Media</a><br>
+<a href="#bottom-tabbed-screen">Bottom Tab Bar</a><br>
+<a href="#top-tabbed-screen">Top Tab Bar</a><br>
+<a href="#drawer-navigation-screen">Navigation Drawer</a><br>
+<a href="#simple-collapsible-toolbar-screen">Simple Collapsible Screen Template</a><br>
+<a href="#backdrop-screen">Backdrop Screen</a><br>
+<a href="#collapsible-screen-with-drawer-navigation">Collapsible Screen With Drawer Navigation Template</a>
 </p>
 </p>
 
@@ -337,6 +339,20 @@ You can generate a screen with this template using below command :
 ```
 
 for customization or etc , i've used <a href="https://github.com/lvlrSajjad/ignite-boilerplate-andross-typescript#material-collapsible-toolbar-container">MaterialCollapsibleToolbarContainer</a> in this screen so you can get more info from mentioned link
+
+#### Backdrop Screen
+
+this template provides a back screen as below gif i used <a href='#material-backdrop'>Material Backdrop</a> component for this
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/backdrop.gif" width="100%">
+</p>
+
+You can generate a screen with this template using below command :
+
+```
+ ignite g container YourScreenName Backdrop
+```
 
 #### Collapsible Screen With Drawer Navigation
 this template provides a navigation drawer screen with 5 tabs , four of them have collapsible toolbars as below gif

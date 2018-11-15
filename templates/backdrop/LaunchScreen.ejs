@@ -1,0 +1,68 @@
+import * as React from 'react'
+import {Component} from 'react';
+import {connect} from 'react-redux'
+import {MaterialBackdrop} from "react-native-typescript-material-ui-collection";
+import {Image, Text, View} from "react-native";
+
+interface <%= props.name %>Props {
+
+}
+
+interface <%= props.name %>State {
+isExpanded:boolean
+}
+
+class <%= props.name %> extends Component<<%= props.name %>Props , <%= props.name %>State> {
+constructor(props) {
+super(props);
+this.state = {isExpanded: false}
+}
+
+render() {
+return (
+<MaterialBackdrop
+        revealComponent={()=>this.renderRevealComponent()}
+    leftButtonIcon='menu'
+    expandedTitle='Expanded'
+    collapsedTitle='Collapsed'
+    content={()=>this.renderContent('black')}
+    textColor='white'
+    subHeaderText='subheader'
+    backdropBackgroundColor='purple'
+    contentBackgroundColor='white'
+    subheaderTextColor='#212121'
+    />
+    )
+    }
+    renderRevealComponent=()=><View>
+        <Image
+                style={{margin: 34, alignSelf: 'center', width: 84, height: 84, borderRadius: 42}}
+        source={{uri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwu7s_Ic3YioDVl9AmoJGsKbBuCKFVp2cD3KCPzdYlBLOcGmeV'}}
+        />
+    </View>
+    renderContent=(color)=><View>
+        {new Array(40).fill().map((_, i) => (
+        <View
+                key={i}
+                style={{
+                padding: 10,
+                borderBottomWidth: 1,
+                borderBottomColor: '#00000011'
+        }}
+        >
+        <Text style={{color:color}}>{`Item ${i + 1}`}</Text>
+    </View>
+    ))}
+    </View>
+
+    }
+
+    const mapStateToProps = (state) => {
+    return {}
+    }
+
+    const mapDispatchToProps = (dispatch) => {
+    return {}
+    }
+
+    export default connect(mapStateToProps, mapDispatchToProps)(<%= props.name %>)

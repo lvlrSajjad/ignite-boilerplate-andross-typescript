@@ -220,6 +220,17 @@ async function install (context) {
         await ignite.copyBatch(context, jobs, props)
         break;
       }
+      case 'Material Backdrop Screen':{
+        const props = { name:'LaunchScreen' }
+        const jobs = [
+          {
+            template: 'backdrop/LaunchScreen.ejs',
+            target: `App/Containers/LaunchScreen.tsx`
+          }
+        ]
+        await ignite.copyBatch(context, jobs, props)
+        break;
+      }
       case 'Collapsible Toolbar Screens With Drawer Navigation':{
         spinner.text = '▸ copying files'
         spinner.start()

@@ -15,6 +15,7 @@ const questions = [
     choices: [
       'Simple Screen',
       'Collapsible Toolbar Screen',
+      'Material Backdrop Screen',
       'Bottom Tabbed Screen',
       'Top Tabbed Screen',
       'Navigation Drawer Screen',
