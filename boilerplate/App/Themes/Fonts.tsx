@@ -1,12 +1,7 @@
 const type = {
   base: "Avenir-Book",
   bold: "Avenir-Black",
-  emphasis: "HelveticaNeue-Italic",
-  // farsi: "BYekan+",
-  // farsiBold: "BYekan+ Bold"
-  farsi: "Avenir-Book",
-  farsiBold: "Avenir-Black"
-
+  emphasis: "HelveticaNeue-Italic"
 };
 
 const size = {
@@ -56,12 +51,8 @@ const style = {
     fontFamily: type.base,
     fontSize: size.medium
   },
-  farsiNormal: {
-    fontFamily: type.farsi,
-    fontSize: size.regular
-  },
-  farsiInput: {
-    fontFamily: type.farsi,
+  input: {
+    fontFamily: type.base,
     fontSize: size.input
   },
 };

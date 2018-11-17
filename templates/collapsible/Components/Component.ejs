@@ -1,0 +1,36 @@
+import * as React from 'react'
+import {Component} from 'react';
+import {Image} from 'react-native'
+import {MaterialCollapsibleToolbarContainer} from 'react-native-typescript-material-ui-collection'
+import {<%= props.name %>MainContent,<%= props.name %>ToolbarContent} from ".";
+
+interface <%= props.name %>ComponentProps {
+
+}
+
+interface <%= props.name %>ComponentState {
+
+}
+
+export default class <%= props.name %>Component extends Component<<%= props.name %>Props,<%= props.name %>State> {
+  componentWillMount() {
+  }
+
+  render() {
+    return (
+      <MaterialCollapsibleToolbarContainer
+        renderContent={()=><<%= props.name %>MainContent/>}
+        imageSource='https://picsum.photos/400/300/?random'
+        collapsedNavBarBackgroundColor='#009688'
+        translucentStatusBar
+        showsVerticalScrollIndicator={false}
+        textColor='white'
+        renderCollapsedToolbarContent={()=><<%= props.name %>ToolbarContent uri="https://facebook.github.io/react-native/img/header_logo.png"/>}
+        leftButtonIcon='menu'
+        onLeftIconPress={() => console.log('onlefticonpress')}
+        title="Title"
+        // toolBarHeight={300}
+      />
+    );
+  }
+}

@@ -12,11 +12,11 @@ export default (item : ChatsListItemProps) => {
         <Thumbnail source={{uri: item.avatar}}/>
       </Left>
       <Body  style={{alignItems:'flex-start'}}>
-      <Text style ={{fontFamily:Fonts.type.farsi,color:ColorScheme.fullToneText}}>{item.name}</Text>
-      <Text style ={{fontFamily:Fonts.type.farsi,color:ColorScheme.midToneText}} note>{item.note}</Text>
+      <Text style ={{fontFamily:Fonts.type.base,color:ColorScheme.fullToneText}}>{item.name}</Text>
+      <Text style ={{fontFamily:Fonts.type.base,color:ColorScheme.midToneText}} note>{item.note}</Text>
       </Body>
       <Right>
-        <Text style ={{fontFamily:Fonts.type.farsi,color:ColorScheme.lightText}} note>{item.time}</Text>
+        <Text style ={{fontFamily:Fonts.type.base,color:ColorScheme.lightText}} note>{item.time}</Text>
       </Right>
     </ListItem>
 );

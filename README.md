@@ -342,7 +342,8 @@ for customization or etc , i've used <a href="https://github.com/lvlrSajjad/igni
 
 #### Backdrop Screen
 
-this template provides a back screen as below gif i used <a href='#material-backdrop'>Material Backdrop</a> component for this
+this template provides a back screen as below gif and two sub-components in YourComponentNameContent folder one for backdrop one for content that you will see in the front screen
+I used <a href='#material-backdrop'>Material Backdrop</a> component for this
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/backdrop.gif" width="100%">

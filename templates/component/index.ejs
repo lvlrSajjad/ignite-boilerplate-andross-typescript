@@ -1,6 +1,5 @@
 import * as React from "react";
 import <%= props.name %> from './<%= props.name %>';
-import {connect} from "react-redux";
 import {ColorScheme} from "../../Themes/Colors";
 
 
@@ -9,11 +8,4 @@ isDarkMode?: boolean,
 colorScheme?:ColorScheme
 }
 
-export const <%= props.name %>Component = (props:<%= props.name %>Props) => <<%= props.name %> {...props} />;
-
-const mapStateToProps = state => {
-return {
-};
-};
-
-export default connect(mapStateToProps)(<%= props.name %>Component);
+export default (props:<%= props.name %>Props) => <<%= props.name %> {...props} />;

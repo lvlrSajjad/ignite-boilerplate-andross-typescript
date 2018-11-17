@@ -1,7 +1,6 @@
+import * as React from "react";
 import Ltr from "./LoginForm.ltr";
 import Rtl from "./LoginForm.rtl";
-import {connect} from "react-redux";
-import * as React from "react";
 
 export interface PhoneNumberFormProps {
   primaryColor: string,
@@ -15,12 +14,4 @@ export interface PhoneNumberFormProps {
   isRtl?: boolean
 }
 
-export const Direction = (props:PhoneNumberFormProps) => props.isRtl ? <Rtl {...props} /> : <Ltr {...props}/>;
-
-const mapStateToProps = state => {
-  return {
-    isRtl: state.appSettings.isRtl
-  };
-};
-
-export default connect(mapStateToProps)(Direction);
+export default (props:PhoneNumberFormProps) => props.isRtl ? <Rtl {...props} /> : <Ltr {...props}/>;

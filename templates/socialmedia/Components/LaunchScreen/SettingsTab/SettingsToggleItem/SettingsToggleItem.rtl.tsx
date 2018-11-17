@@ -15,7 +15,7 @@ export default (item: SettingsToggleItemProps) => {
           onValueChange={item.onValueChange}
         />
         <Row style={{alignItems:'center',justifyContent:'center'}}>
-          <Text style={{fontFamily: Fonts.type.farsi, color: '#424242',flex:1}}>{item.name}</Text>
+          <Text style={{fontFamily: Fonts.type.base, color: '#424242',flex:1}}>{item.name}</Text>
 
           <MaterialIcons
             name={item.icon}

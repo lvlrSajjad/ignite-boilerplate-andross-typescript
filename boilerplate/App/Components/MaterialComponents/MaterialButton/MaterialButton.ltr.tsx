@@ -29,7 +29,7 @@ export default (props : MaterialButtonProps) => {
           style={{width:18,height:18}}
         />
         :
-        <Text style={{...Fonts.style.farsiNormal, color: props.textColor, alignSelf: 'center', fontSize: 18}}>
+        <Text style={{...Fonts.style.normal, color: props.textColor, alignSelf: 'center', fontSize: 18}}>
           {props.text}
         </Text>
       }

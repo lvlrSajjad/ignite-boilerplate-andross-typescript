@@ -213,8 +213,24 @@ async function install (context) {
         const props = { name:'LaunchScreen' }
         const jobs = [
           {
-            template: 'collapsible/LaunchScreen.ejs',
-            target: `App/Containers/LaunchScreen.tsx`
+            template: 'collapsible/Components/index.ejs',
+            target: `App/Components/LaunchScreen/index.ts`
+          },
+          {
+            template: 'collapsible/Components/Component.ejs',
+            target: `App/Components/LaunchScreen/LaunchScreenComponent.tsx`
+          },
+          {
+            template: 'collapsible/Components/MainContent.ejs',
+            target: `App/Components/LaunchScreen/LaunchScreenMainContent.tsx`
+          },
+          {
+            template: 'collapsible/Components/ToolbarContent.ejs',
+            target: `App/Components/LaunchScreen/LaunchScreenToolbarContent.tsx`
+          },
+          {
+            template: 'collapsible/Containers/LaunchScreen.ejs',
+            target: `App/Containers/LaunchScreen.ts`
           }
         ]
         await ignite.copyBatch(context, jobs, props)
@@ -224,8 +240,24 @@ async function install (context) {
         const props = { name:'LaunchScreen' }
         const jobs = [
           {
-            template: 'backdrop/LaunchScreen.ejs',
-            target: `App/Containers/LaunchScreen.tsx`
+            template: 'backdrop/Components/index.ejs',
+            target: `App/Components/LaunchScreen/index.ts`
+          },
+          {
+            template: 'backdrop/Components/Component.ejs',
+            target: `App/Components/LaunchScreen/LaunchScreenComponent.tsx`
+          },
+          {
+            template: 'backdrop/Components/Backdrop.ejs',
+            target: `App/Components/LaunchScreen/LaunchScreenBackLayerContent.tsx`
+          },
+          {
+            template: 'backdrop/Components/Content.ejs',
+            target: `App/Components/LaunchScreen/LaunchScreenFrontLayerContent.tsx`
+          },
+          {
+            template: 'backdrop/Containers/LaunchScreen.ejs',
+            target: `App/Containers/Containers/LaunchScreen.ts`
           }
         ]
         await ignite.copyBatch(context, jobs, props)
@@ -235,35 +267,42 @@ async function install (context) {
         spinner.text = '▸ copying files'
         spinner.start()
 
-        filesystem.copy(`${__dirname}/templates/collapsibledrawer/Components`, `${process.cwd()}/App/Components`, {
+        filesystem.copy(`${__dirname}/templates/collapsibledrawer/Components/MainTabs`, `${process.cwd()}/App/Components/LaunchScreenTabs`, {
+          overwrite: true
+        })
+        filesystem.copy(`${__dirname}/templates/collapsibledrawer/Components/LaunchScreen`, `${process.cwd()}/App/Components/LaunchScreen`, {
           overwrite: true
         })
         spinner.stop()
         const props = { name:'LaunchScreen' }
         const jobs = [
           {
+            template: 'collapsibledrawer/Components/LaunchScreenComponent.ejs',
+            target: `App/Components/LaunchScreen/LaunchScreenComponent.tsx`
+          },
+          {
             template: 'collapsibledrawer/Containers/LaunchScreen.ejs',
-            target: `App/Containers/LaunchScreen.tsx`
+            target: `App/Containers/LaunchScreen.ts`
           },
           {
-            template: 'collapsibledrawer/Containers/MainTabs/FifthTab.tsx',
-            target: `App/Containers/LaunchScreenTabs/FifthTab.tsx`
+            template: 'collapsibledrawer/Containers/MainTabs/FifthTab.ejs',
+            target: `App/Containers/LaunchScreenTabs/FifthTab.ts`
           },
           {
-            template: 'collapsibledrawer/Containers/MainTabs/FirstTab.tsx',
-            target: `App/Containers/LaunchScreenTabs/FirstTab.tsx`
+            template: 'collapsibledrawer/Containers/MainTabs/FirstTab.ejs',
+            target: `App/Containers/LaunchScreenTabs/FirstTab.ts`
           },
           {
-            template: 'collapsibledrawer/Containers/MainTabs/FourthTab.tsx',
-            target: `App/Containers/LaunchScreenTabs/FourthTab.tsx`
+            template: 'collapsibledrawer/Containers/MainTabs/FourthTab.ejs',
+            target: `App/Containers/LaunchScreenTabs/FourthTab.ts`
           },
           {
-            template: 'collapsibledrawer/Containers/MainTabs/SecondTab.tsx',
-            target: `App/Containers/LaunchScreenTabs/SecondTab.tsx`
+            template: 'collapsibledrawer/Containers/MainTabs/SecondTab.ejs',
+            target: `App/Containers/LaunchScreenTabs/SecondTab.ts`
           },
           {
-            template: 'collapsibledrawer/Containers/MainTabs/ThirdTab.tsx',
-            target: `App/Containers/LaunchScreenTabs/ThirdTab.tsx`
+            template: 'collapsibledrawer/Containers/MainTabs/ThirdTab.ejs',
+            target: `App/Containers/LaunchScreenTabs/ThirdTab.ts`
           }
         ]
         await ignite.copyBatch(context, jobs, props)
@@ -273,35 +312,45 @@ async function install (context) {
         spinner.text = '▸ copying files'
         spinner.start()
 
-        filesystem.copy(`${__dirname}/templates/tabbed/Components`, `${process.cwd()}/App/Components`, {
+        filesystem.copy(`${__dirname}/templates/tabbed/Components/ExampleComponent`, `${process.cwd()}/App/Components/ExampleComponent`, {
+          overwrite: true
+        })
+        filesystem.copy(`${__dirname}/templates/tabbed/Components/LaunchScreen`, `${process.cwd()}/App/Components/LaunchScreen`, {
+          overwrite: true
+        })
+        filesystem.copy(`${__dirname}/templates/tabbed/Components/MainTabs`, `${process.cwd()}/App/Components/LaunchScreenTabs`, {
           overwrite: true
         })
         spinner.stop()
         const props = { name:'LaunchScreen' }
         const jobs = [
           {
+            template: 'tabbed/Components/LaunchScreenComponent.ejs',
+            target: `App/Components/LaunchScreen/LaunchScreenComponent.tsx`
+          },
+          {
             template: 'tabbed/Containers/LaunchScreen.ejs',
-            target: `App/Containers/LaunchScreen.tsx`
+            target: `App/Containers/LaunchScreen.ts`
           },
           {
-            template: 'tabbed/Containers/MainTabs/FifthTab.tsx',
-            target: `App/Containers/LaunchScreenTabs/FifthTab.tsx`
+            template: 'tabbed/Containers/MainTabs/FifthTab.ejs',
+            target: `App/Containers/LaunchScreenTabs/FifthTab.ts`
           },
           {
-            template: 'tabbed/Containers/MainTabs/FirstTab.tsx',
-            target: `App/Containers/LaunchScreenTabs/FirstTab.tsx`
+            template: 'tabbed/Containers/MainTabs/FirstTab.ejs',
+            target: `App/Containers/LaunchScreenTabs/FirstTab.ts`
           },
           {
-            template: 'tabbed/Containers/MainTabs/FourthTab.tsx',
-            target: `App/Containers/LaunchScreenTabs/FourthTab.tsx`
+            template: 'tabbed/Containers/MainTabs/FourthTab.ejs',
+            target: `App/Containers/LaunchScreenTabs/FourthTab.ts`
           },
           {
-            template: 'tabbed/Containers/MainTabs/SecondTab.tsx',
-            target: `App/Containers/LaunchScreenTabs/SecondTab.tsx`
+            template: 'tabbed/Containers/MainTabs/SecondTab.ejs',
+            target: `App/Containers/LaunchScreenTabs/SecondTab.ts`
           },
           {
-            template: 'tabbed/Containers/MainTabs/ThirdTab.tsx',
-            target: `App/Containers/LaunchScreenTabs/ThirdTab.tsx`
+            template: 'tabbed/Containers/MainTabs/ThirdTab.ejs',
+            target: `App/Containers/LaunchScreenTabs/ThirdTab.ts`
           }
         ]
         await ignite.copyBatch(context, jobs, props)
@@ -311,27 +360,34 @@ async function install (context) {
         spinner.text = '▸ copying files'
         spinner.start()
 
-        filesystem.copy(`${__dirname}/templates/toptabbed/Components`, `${process.cwd()}/App/Components`, {
+        filesystem.copy(`${__dirname}/templates/toptabbed/Components/LaunchScreen`, `${process.cwd()}/App/Components/LaunchScreen`, {
+          overwrite: true
+        })
+        filesystem.copy(`${__dirname}/templates/toptabbed/Components/MainTabs`, `${process.cwd()}/App/Components/LaunchScreenTabs`, {
           overwrite: true
         })
         spinner.stop()
         const props = { name:'LaunchScreen' }
         const jobs = [
           {
+            template: 'toptabbed/Components/ttlaunchscreenComponent.ejs',
+            target: `App/Components/LaunchScreen/LaunchScreenComponent.tsx`
+          },
+          {
             template: 'toptabbed/Containers/ttlaunchscreen.ejs',
-            target: `App/Containers/LaunchScreen.tsx`
+            target: `App/Containers/LaunchScreen.ts`
           },
           {
-            template: 'toptabbed/Containers/MainTabs/CallsScreen.tsx',
-            target: `App/Containers/LaunchScreenTabs/CallsScreen.tsx`
+            template: 'toptabbed/Containers/MainTabs/CallsScreen.ejs',
+            target: `App/Containers/LaunchScreenTabs/CallsScreen.ts`
           },
           {
-            template: 'toptabbed/Containers/MainTabs/ChatsScreen.tsx',
-            target: `App/Containers/LaunchScreenTabs/ChatsScreen.tsx`
+            template: 'toptabbed/Containers/MainTabs/ChatsScreen.ejs',
+            target: `App/Containers/LaunchScreenTabs/ChatsScreen.ts`
           },
           {
-            template: 'toptabbed/Containers/MainTabs/GroupsScreen.tsx',
-            target: `App/Containers/LaunchScreenTabs/GroupsScreen.tsx`
+            template: 'toptabbed/Containers/MainTabs/GroupsScreen.ejs',
+            target: `App/Containers/LaunchScreenTabs/GroupsScreen.ts`
           }
         ]
         await ignite.copyBatch(context, jobs, props)
@@ -342,35 +398,48 @@ async function install (context) {
         spinner.text = '▸ copying files'
         spinner.start()
 
-        filesystem.copy(`${__dirname}/templates/drawer/Components`, `${process.cwd()}/App/Components`, {
+        filesystem.copy(`${__dirname}/templates/drawer/Components/ExampleComponent`, `${process.cwd()}/App/Components/ExampleComponent`, {
+          overwrite: true
+        })
+        filesystem.copy(`${__dirname}/templates/drawer/Components/LaunchScreen`, `${process.cwd()}/App/Components/LaunchScreen`, {
+          overwrite: true
+        })
+        filesystem.copy(`${__dirname}/templates/drawer/Components/MainTabs`, `${process.cwd()}/App/Components/LaunchScreenTabs`, {
+          overwrite: true
+        })
+        filesystem.copy(`${__dirname}/templates/drawer/Components/NavHeaders`, `${process.cwd()}/App/Components/NavHeaders`, {
           overwrite: true
         })
         spinner.stop()
         const props = { name:'LaunchScreen' }
         const jobs = [
           {
+            template: 'drawer/Components/LaunchScreenComponent.ejs',
+            target: `App/Components/LaunchScreen/LaunchScreenComponent.tsx`
+          },
+          {
             template: 'drawer/Containers/LaunchScreen.ejs',
-            target: `App/Containers/LaunchScreen.tsx`
+            target: `App/Containers/LaunchScreen.ts`
           },
           {
-            template: 'drawer/Containers/MainTabs/FifthTab.tsx',
-            target: `App/Containers/LaunchScreenTabs/FifthTab.tsx`
+            template: 'drawer/Containers/MainTabs/FifthTab.ejs',
+            target: `App/Containers/LaunchScreenTabs/FifthTab.ts`
           },
           {
-            template: 'drawer/Containers/MainTabs/FirstTab.tsx',
-            target: `App/Containers/LaunchScreenTabs/FirstTab.tsx`
+            template: 'drawer/Containers/MainTabs/FirstTab.ejs',
+            target: `App/Containers/LaunchScreenTabs/FirstTab.ts`
           },
           {
-            template: 'drawer/Containers/MainTabs/FourthTab.tsx',
-            target: `App/Containers/LaunchScreenTabs/FourthTab.tsx`
+            template: 'drawer/Containers/MainTabs/FourthTab.ejs',
+            target: `App/Containers/LaunchScreenTabs/FourthTab.ts`
           },
           {
-            template: 'drawer/Containers/MainTabs/SecondTab.tsx',
-            target: `App/Containers/LaunchScreenTabs/SecondTab.tsx`
+            template: 'drawer/Containers/MainTabs/SecondTab.ejs',
+            target: `App/Containers/LaunchScreenTabs/SecondTab.ts`
           },
           {
-            template: 'drawer/Containers/MainTabs/ThirdTab.tsx',
-            target: `App/Containers/LaunchScreenTabs/ThirdTab.tsx`
+            template: 'drawer/Containers/MainTabs/ThirdTab.ejs',
+            target: `App/Containers/LaunchScreenTabs/ThirdTab.ts`
           }
         ]
         await ignite.copyBatch(context, jobs, props)

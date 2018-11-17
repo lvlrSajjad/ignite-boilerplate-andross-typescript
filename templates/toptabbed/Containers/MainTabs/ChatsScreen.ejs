@@ -1,0 +1,18 @@
+import {connect} from "react-redux";
+import {ChatsScreenComponent} from '../../Components/<%= props.name %>Tabs'
+import {withNavigation} from 'react-navigation'
+
+const mapStateToProps = state => ({
+  isDarkMode: state.appSettings.isDarkMode,
+  nav: state.nav,
+  colorScheme: state.appSettings.colorScheme,
+  isRtl: state.appSettings.isRtl
+});
+
+const mapDispatchToProps = dispatch => ({
+   ChatScreen: (darkMode) => {
+     dispatch({ type: 'ChatScreen' , payload : darkMode});
+   },
+});
+
+export default withNavigation(connect(mapStateToProps, mapDispatchToProps)(ChatsScreenComponent));

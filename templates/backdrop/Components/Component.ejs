@@ -1,0 +1,21 @@
+import * as React from 'react'
+import {Component} from 'react';
+import {MaterialBackdrop} from "react-native-typescript-material-ui-collection";
+import {<%= props.name %>BackLayerContent , <%= props.name %>FrontLayerContent} from ".";
+
+interface <%= props.name %>Props {
+
+}
+
+export default (props:<%= props.name %>Props) =><MaterialBackdrop
+    revealComponent={()=><<%= props.name %>BackLayerContent/>}
+    leftButtonIcon='menu'
+    expandedTitle='Expanded'
+    collapsedTitle='Collapsed'
+    content={()=><<%= props.name %>FrontLayerContent/>}
+    textColor='white'
+    subHeaderText='subheader'
+    backdropBackgroundColor='purple'
+    contentBackgroundColor='white'
+    subheaderTextColor='#212121'
+    />;

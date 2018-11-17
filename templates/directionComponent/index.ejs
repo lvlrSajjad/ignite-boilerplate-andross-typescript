@@ -1,7 +1,6 @@
 import * as React from "react";
 import Rtl from './<%= props.name %>.rtl';
 import Ltr from './<%= props.name %>.ltr';
-import {connect} from "react-redux";
 import {ColorScheme} from "../../Themes/Colors";
 
 
@@ -11,12 +10,4 @@ isRtl?:boolean,
 colorScheme?:ColorScheme
 }
 
-export const Direction = (props:<%= props.name %>Props) => props.isRtl? <Rtl {...props} /> : <Ltr {...props} />;
-
-const mapStateToProps = state => {
-return {
-isRtl: state.appSettings.isRtl
-};
-};
-
-export default connect(mapStateToProps)(Direction);
+export default (props:<%= props.name %>Props) => props.isRtl? <Rtl {...props} /> : <Ltr {...props} />;

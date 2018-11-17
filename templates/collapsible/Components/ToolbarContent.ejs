@@ -1,0 +1,15 @@
+import * as React from 'react'
+import {Image} from 'react-native'
+
+interface <%= props.name %>ToolbarContentProps {
+uri?:string
+}
+
+export default (props:<%= props.name %>ToolbarContentProps)=><Image
+        source={{uri: props.uri}}
+style={{
+width: 50,
+height: 50,
+borderRadius: 25,
+overflow: 'hidden'
+}}/>

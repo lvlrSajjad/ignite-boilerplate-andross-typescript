@@ -1,13 +1,13 @@
 import * as React from "react";
-import styles from "../../Styles/LoginCardStyles";
 import {View} from "react-native";
-import Fonts from "../../../../Themes/Fonts";
 import {CardItem} from "native-base";
+import {TextField} from 'react-native-material-textfield';
+import styles from "../../Styles";
+import Fonts from "../../../../Themes/Fonts";
 import MaterialButton from "../../../MaterialComponents/MaterialButton";
 import {primaryColor} from "../../../../Themes/Colors";
 import I18n from "../../../../I18n";
 import {PhoneNumberFormProps} from "./index";
-import {TextField} from 'react-native-material-textfield';
 
 export default (props: PhoneNumberFormProps) => {
   return (
@@ -15,8 +15,8 @@ export default (props: PhoneNumberFormProps) => {
       <CardItem>
         <View style={styles.loginFormPhoneInputContainer}>
           <TextField
-            titleTextStyle={{...Fonts.style.farsiInput}}
-            labelTextStyle={{...Fonts.style.farsiInput}}
+            titleTextStyle={{...Fonts.style.input}}
+            labelTextStyle={{...Fonts.style.input}}
             containerStyle={{flex: 1}}
             label={I18n.t('userName')}
             value={props.userName}
@@ -27,8 +27,8 @@ export default (props: PhoneNumberFormProps) => {
       <CardItem>
         <View style={styles.loginFormPhoneInputContainer}>
           <TextField
-            titleTextStyle={{...Fonts.style.farsiInput}}
-            labelTextStyle={{...Fonts.style.farsiInput}}
+            titleTextStyle={{...Fonts.style.input}}
+            labelTextStyle={{...Fonts.style.input}}
             containerStyle={{flex: 1}}
             label={I18n.t('password')}
             value={props.password}

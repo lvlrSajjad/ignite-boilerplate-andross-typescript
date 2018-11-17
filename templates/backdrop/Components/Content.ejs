@@ -1,0 +1,37 @@
+import * as React from 'react'
+import {Component} from 'react';
+import {connect} from 'react-redux'
+import { Text, View} from "react-native";
+
+interface <%= props.name %>FrontLayerContentProps {
+
+}
+
+interface <%= props.name %>FrontLayerContentState {
+}
+
+export default class <%= props.name %>FrontLayerContent extends Component<<%= props.name %>FrontLayerContentProps, <%= props.name %>FrontLayerContentState> {
+  constructor(props) {
+    super(props);
+    this.state = {isExpanded: false}
+  }
+
+  render() {
+    return (
+      <View>
+        {new Array(40).fill().map((_, i) => (
+          <View
+            key={i}
+            style={{
+              padding: 10,
+              borderBottomWidth: 1,
+              borderBottomColor: '#00000011'
+            }}
+          >
+            <Text style={{color: '#000000'}}>{`Item ${i + 1}`}</Text>
+          </View>
+        ))}
+      </View>
+    )
+  }
+}

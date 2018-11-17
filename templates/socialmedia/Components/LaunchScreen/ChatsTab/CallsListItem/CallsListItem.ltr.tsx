@@ -17,7 +17,7 @@ export default (item : CallsListItemProps) => {
         <Thumbnail source={{uri: item.avatar}}/>
       </Left>
       <Body  style={{alignItems:'flex-start'}}>
-      <Text style ={{fontFamily:Fonts.type.farsi,color:ColorScheme.fullToneText}}>{item.name}</Text>
+      <Text style ={{fontFamily:Fonts.type.base,color:ColorScheme.fullToneText}}>{item.name}</Text>
       <View style = {{flexDirection:'row'}}>
         <MaterialIcons
           name={callStateData.icon}
@@ -25,11 +25,11 @@ export default (item : CallsListItemProps) => {
           style={{marginBottom: -3}}
           color={ callStateData.color}
         />
-        <Text style ={{fontFamily:Fonts.type.farsi,color:ColorScheme.midToneText}} note>{callStateData.text}</Text>
+        <Text style ={{fontFamily:Fonts.type.base,color:ColorScheme.midToneText}} note>{callStateData.text}</Text>
       </View>
       </Body>
       <Right>
-        <Text style ={{fontFamily:Fonts.type.farsi,color:ColorScheme.lightText}} note>{item.time}</Text>
+        <Text style ={{fontFamily:Fonts.type.base,color:ColorScheme.lightText}} note>{item.time}</Text>
       </Right>
     </ListItem>
 );

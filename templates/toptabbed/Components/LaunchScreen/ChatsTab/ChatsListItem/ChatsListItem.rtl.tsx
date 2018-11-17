@@ -9,12 +9,12 @@ export default (item : ChatsListItemProps) => {
   return (
     <ListItem button avatar onPress={()=>{item.onPress()}}>
       <Left>
-        <Text style ={{fontFamily:Fonts.type.farsi,color:ColorScheme.lightText}} note>{item.time}</Text>
+        <Text style ={{fontFamily:Fonts.type.base,color:ColorScheme.lightText}} note>{item.time}</Text>
 
       </Left>
       <Body  style={{alignItems:'flex-start'}}>
-      <Text style ={{alignSelf:'flex-end',fontFamily:Fonts.type.farsi,color:ColorScheme.fullToneText}}>{item.name}</Text>
-      <Text style ={{alignSelf:'flex-end',fontFamily:Fonts.type.farsi,color:ColorScheme.midToneText}} note>{item.note}</Text>
+      <Text style ={{alignSelf:'flex-end',fontFamily:Fonts.type.base,color:ColorScheme.fullToneText}}>{item.name}</Text>
+      <Text style ={{alignSelf:'flex-end',fontFamily:Fonts.type.base,color:ColorScheme.midToneText}} note>{item.note}</Text>
       </Body>
       <Right>
         <Thumbnail source={{uri: item.avatar}}/>

@@ -54,14 +54,14 @@ export interface TextFieldProps extends TextInputProps{
 export const Direction = (props:TextFieldProps) => props.isRtl ?
   <TextField
     inputContainerStyle={{alignItems:'flex-end',justifyContent:'flex-end'}}
-    titleTextStyle={{...Fonts.style.farsiInput}}
-    labelTextStyle={{...Fonts.style.farsiInput}}
+    titleTextStyle={{...Fonts.style.input}}
+    labelTextStyle={{...Fonts.style.input}}
     {...props}
   />
   :
   <TextField
-  titleTextStyle={{...Fonts.style.farsiInput}}
-  labelTextStyle={{...Fonts.style.farsiInput}}
+  titleTextStyle={{...Fonts.style.input}}
+  labelTextStyle={{...Fonts.style.input}}
   {...props}
 />;
 

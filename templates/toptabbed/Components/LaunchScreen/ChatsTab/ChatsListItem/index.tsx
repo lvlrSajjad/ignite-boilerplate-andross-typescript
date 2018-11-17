@@ -1,8 +1,7 @@
-import Ltr from "./ChatsListItem.ltr";
-import Rtl from "./ChatsListItem.rtl";
-import {connect} from "react-redux";
 import * as React from "react";
 import {ColorScheme} from "../../../../Themes/Colors";
+import Ltr from "./ChatsListItem.ltr";
+import Rtl from "./ChatsListItem.rtl";
 
 export interface ChatsListItemProps {
   avatar: string,
@@ -15,12 +14,4 @@ export interface ChatsListItemProps {
   colorScheme:ColorScheme
 }
 
-export const Direction = (props:ChatsListItemProps) => props.isRtl ? <Rtl {...props} /> : <Ltr {...props}/>;
-
-const mapStateToProps = state => {
-  return {
-    isRtl: state.appSettings.isRtl
-  };
-};
-
-export default connect(mapStateToProps)(Direction);
+export default (props:ChatsListItemProps) => props.isRtl ? <Rtl {...props} /> : <Ltr {...props}/>;

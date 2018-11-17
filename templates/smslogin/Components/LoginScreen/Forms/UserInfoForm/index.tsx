@@ -13,12 +13,4 @@ export interface UserInfoFormProps {
   isRtl?: boolean
 }
 
-export const Direction = (props:UserInfoFormProps) => props.isRtl ? <Rtl {...props} /> : <Ltr {...props}/>;
-
-const mapStateToProps = state => {
-  return {
-    isRtl: state.appSettings.isRtl
-  };
-};
-
-export default connect(mapStateToProps)(Direction);
+export default (props:UserInfoFormProps) => props.isRtl ? <Rtl {...props} /> : <Ltr {...props}/>;

@@ -10,7 +10,7 @@ export default (item: SettingsListItemProps) => {
     <CardItem button bordered>
       <Row style={{alignItems:'center',justifyContent:'center'}}>
 
-        <Text style={{fontFamily: Fonts.type.farsi, color: '#424242',flex:1}}>{item.name}</Text>
+        <Text style={{fontFamily: Fonts.type.base, color: '#424242',flex:1}}>{item.name}</Text>
 
         <MaterialIcons
           name={item.icon}

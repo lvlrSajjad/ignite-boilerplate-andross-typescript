@@ -1,13 +1,13 @@
 import * as React from "react";
-import styles from "../../Styles/LoginCardStyles";
 import {View} from "react-native";
-import Fonts from "../../../../Themes/Fonts";
 import {CardItem} from "native-base";
+import {TextField} from 'react-native-material-textfield';
+import styles from "../../Styles";
+import Fonts from "../../../../Themes/Fonts";
 import MaterialButton from "../../../MaterialComponents/MaterialButton";
 import {primaryColor} from "../../../../Themes/Colors";
 import I18n from "../../../../I18n";
 import {PhoneNumberFormProps} from "./index";
-import {TextField} from 'react-native-material-textfield';
 
 export default (props: PhoneNumberFormProps) => {
   return (

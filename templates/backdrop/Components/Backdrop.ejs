@@ -1,0 +1,28 @@
+import * as React from 'react'
+import {Component} from 'react';
+import {connect} from 'react-redux'
+import {Image, View} from "react-native";
+
+interface <%= props.name %>BackLayerContentProps {
+
+}
+
+interface <%= props.name %>BackLayerContentState {
+}
+
+export default class <%= props.name %>BackLayerContent extends Component<<%= props.name %>BackLayerContentProps, <%= props.name %>BackLayerContentState> {
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
+    return (
+      <View>
+        <Image
+          style={{margin: 34, alignSelf: 'center', width: 84, height: 84, borderRadius: 42}}
+          source={{uri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwu7s_Ic3YioDVl9AmoJGsKbBuCKFVp2cD3KCPzdYlBLOcGmeV'}}
+        />
+      </View>
+    )
+  }
+}

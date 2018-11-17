@@ -1,7 +1,6 @@
+import * as React from "react";
 import Ltr from "./PhoneNumberForm.ltr";
 import Rtl from "./PhoneNumberForm.rtl";
-import {connect} from "react-redux";
-import * as React from "react";
 
 export interface PhoneNumberFormProps {
   prefixNumber: string,
@@ -14,12 +13,4 @@ export interface PhoneNumberFormProps {
   isRtl?: boolean
 }
 
-export const Direction = (props:PhoneNumberFormProps) => props.isRtl ? <Rtl {...props} /> : <Ltr {...props}/>;
-
-const mapStateToProps = state => {
-  return {
-    isRtl: state.appSettings.isRtl
-  };
-};
-
-export default connect(mapStateToProps)(Direction);
+export default (props:PhoneNumberFormProps) => props.isRtl ? <Rtl {...props} /> : <Ltr {...props}/>;

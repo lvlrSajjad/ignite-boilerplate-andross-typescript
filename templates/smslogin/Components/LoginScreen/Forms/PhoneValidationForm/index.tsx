@@ -13,12 +13,4 @@ export interface PhoneValidationFormProps {
   isRtl?: boolean
 }
 
-export const Direction = (props: PhoneValidationFormProps) => props.isRtl ? <Rtl {...props} /> : <Ltr {...props}/>;
-
-const mapStateToProps = state => {
-  return {
-    isRtl: state.appSettings.isRtl
-  };
-};
-
-export default connect(mapStateToProps)(Direction);
+export default (props: PhoneValidationFormProps) => props.isRtl ? <Rtl {...props} /> : <Ltr {...props}/>;

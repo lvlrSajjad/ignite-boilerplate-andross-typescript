@@ -1,8 +1,6 @@
 import * as React from "react";
 import {Card} from 'native-base';
 import LoginForm from "./Forms/LoginForm";
-import {connect} from "react-redux";
-import * as LoginActions from "../../Redux/Login/LoginActions";
 
 interface LoginCardProps {
   primaryColor?: string,
@@ -10,8 +8,8 @@ interface LoginCardProps {
   onButtonPress?(): void
   password?: string,
   userName?: string,
-  setPassword?(text:string):void,
-  setUserName?(text:string):void
+  onTextChangePasword?(text:string):void,
+  onTextChangeUserName?(text:string):void
 }
 
 interface LoginCardState {
@@ -19,7 +17,7 @@ interface LoginCardState {
   userName: string
 }
 
-export class LoginCard extends React.Component<LoginCardProps, LoginCardState> {
+export default class LoginCard extends React.Component<LoginCardProps, LoginCardState> {
 
   render() {
     return (
@@ -28,23 +26,12 @@ export class LoginCard extends React.Component<LoginCardProps, LoginCardState> {
           onPress={()=>{this.props.onButtonPress();}}
           userName={this.props.userName}
           password={this.props.password}
-          onTextChangeUserName={(text)=>this.props.setUserName(text)}
-          onTextChangePasword={(text)=>this.props.setPassword(text)}
+          onTextChangeUserName={(text)=>this.props.onTextChangeUserName(text)}
+          onTextChangePasword={(text)=>this.props.onTextChangePasword(text)}
           isLoading={this.props.isLoading}
         />
       </Card>
     )
   }
 }
-
-const mapStateToProps = state => ({
-  userName: state.login.userName,
-  password: state.login.password
-
-});
-
-//const mapDispatchToProps = dispatch => ({});
-
-export default connect(mapStateToProps, /**mapDispatchToProps*/ LoginActions)(LoginCard);
-
 

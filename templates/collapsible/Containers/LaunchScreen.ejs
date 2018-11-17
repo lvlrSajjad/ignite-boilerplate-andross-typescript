@@ -1,0 +1,13 @@
+import {connect} from 'react-redux'
+import {Image} from 'react-native'
+import {<%= props.name %>Component} from "../Components/<%= props.name %>";
+
+const mapStateToProps = (state) => {
+  return {}
+};
+
+const mapDispatchToProps = (dispatch) => {
+  return {}
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(<%= props.name %>Component)

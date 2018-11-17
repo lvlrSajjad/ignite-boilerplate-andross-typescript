@@ -2,13 +2,13 @@ import * as React from "react";
 import {TextField} from 'react-native-material-textfield';
 import {MKColor} from 'react-native-material-kit'
 import {View} from "react-native";
-import Fonts from "../../../../Themes/Fonts";
 import {CardItem} from "native-base";
+import {PhoneValidationFormProps} from "./index";
+import styles from "../../Styles";
+import Fonts from "../../../../Themes/Fonts";
 import MaterialButton from "../../../MaterialComponents/MaterialButton";
 import {primaryColor} from "../../../../Themes/Colors";
 import I18n from "../../../../I18n";
-import {PhoneValidationFormProps} from "./index";
-import styles from "../../Styles/LoginCardStyles";
 
 export default (props: PhoneValidationFormProps) => {
 
