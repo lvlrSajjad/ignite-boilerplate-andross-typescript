@@ -4,7 +4,6 @@ import Rtl from "./PhoneNumberForm.rtl";
 
 export interface PhoneNumberFormProps {
   prefixNumber: string,
-  primaryColor: string,
   onTextChange?(text:string): void,
   phoneNumber: string,
   isLoading?: boolean,

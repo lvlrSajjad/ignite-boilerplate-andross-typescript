@@ -1,8 +1,7 @@
 import * as React from "react";
-import { TextField } from 'react-native-material-textfield';
 import { View} from "react-native";
 import { CardItem} from "native-base";
-import MaterialButton from "../../../MaterialComponents/MaterialButton";
+import {MaterialTextInput,MaterialContainedButton} from 'react-native-typescript-material-ui-collection';
 import { primaryColor} from "../../../../Themes/Colors";
 import I18n from "../../../../I18n";
 import {PhoneNumberFormProps} from "./index";
@@ -14,12 +13,13 @@ export default (props: PhoneNumberFormProps) => {
     <View>
     <CardItem>
       <View style={styles.loginFormPhoneInputContainer}>
-        <TextField
+        <MaterialTextInput
           inputContainerStyle={{alignItems:'flex-end',justifyContent:'flex-end'}}
-          titleTextStyle={{...Fonts.style.farsiInput}}
-          labelTextStyle={{...Fonts.style.farsiInput}}
+          titleTextStyle={{...Fonts.style.input}}
+          labelTextStyle={{...Fonts.style.input}}
           containerStyle={{flex:1}}
           prefix={props.prefixNumber}
+          isRtl
           label={I18n.t('phoneNumber')}
           value={props.phoneNumber}
           onChangeText={(text) => props.onTextChange(text)}
@@ -27,16 +27,14 @@ export default (props: PhoneNumberFormProps) => {
       </View>
     </CardItem>
     <CardItem>
-      <MaterialButton
-        text={I18n.t('confirm')}
-        color={primaryColor}
-        textColor='white'
-        isLoading={props.isLoading}
-        fullWidth={true}
-        flex={1}
+      <MaterialContainedButton
         onPress={() => {
           props.onPress();
         }}
+        color={primaryColor}
+        text={I18n.t('confirm')}
+        textColor="white"
+        progress={props.isLoading}
       />
     </CardItem>
     </View>

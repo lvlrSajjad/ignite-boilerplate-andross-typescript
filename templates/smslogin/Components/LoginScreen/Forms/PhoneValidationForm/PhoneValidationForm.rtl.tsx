@@ -1,12 +1,14 @@
 import * as React from "react";
-import {TextField} from 'react-native-material-textfield';
-import {MKColor} from 'react-native-material-kit'
 import {View} from "react-native";
 import {CardItem} from "native-base";
 import {PhoneValidationFormProps} from "./index";
 import styles from "../../Styles";
 import Fonts from "../../../../Themes/Fonts";
-import MaterialButton from "../../../MaterialComponents/MaterialButton";
+import {
+  MaterialTextInput,
+  MaterialContainedButton,
+  MaterialTextButton
+} from 'react-native-typescript-material-ui-collection';
 import {primaryColor} from "../../../../Themes/Colors";
 import I18n from "../../../../I18n";
 
@@ -16,10 +18,10 @@ export default (props: PhoneValidationFormProps) => {
     <View>
       <CardItem>
         <View style={styles.loginFormPhoneInputContainer}>
-          <TextField
-            inputContainerStyle={{alignItems:'flex-end',justifyContent:'flex-end'}}
-            titleTextStyle={{...Fonts.style.farsiInput}}
-            labelTextStyle={{...Fonts.style.farsiInput}}
+          <MaterialTextInput
+            inputContainerStyle={{alignItems: 'flex-end', justifyContent: 'flex-end'}}
+            titleTextStyle={{...Fonts.style.input}}
+            labelTextStyle={{...Fonts.style.input}}
             containerStyle={{flex: 1}}
             label={I18n.t('verificationNumber')}
             value={props.varCode}
@@ -29,22 +31,20 @@ export default (props: PhoneValidationFormProps) => {
       </CardItem>
       <CardItem>
         <View style={{flexDirection: 'row'}}>
-          <MaterialButton
-            text={I18n.t('confirm')}
-            color={primaryColor}
-            textColor='white'
-            isLoading={props.isLoading}
-            flex={1}
+          <MaterialContainedButton
             onPress={() => {
               props.onPress(props.varCode)
             }}
+            color={primaryColor}
+            text={I18n.t('confirm')}
+            textColor="white"
+            progress={props.isLoading}
           />
           <View style={{width: 4}}/>
-          < MaterialButton
+          < MaterialTextButton
             text={I18n.t('back')}
-            color={MKColor.Grey}
-            textColor='white'
-            isLoading={false}
+            textColor={primaryColor}
+            progress={false}
             //flex={1}
             onPress={() => {
               props.onBackButtonPress()
@@ -52,8 +52,6 @@ export default (props: PhoneValidationFormProps) => {
           />
 
         </View>
-
-
       </CardItem>
     </View>
   );

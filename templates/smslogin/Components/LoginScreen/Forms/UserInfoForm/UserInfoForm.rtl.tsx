@@ -1,59 +1,63 @@
 import * as React from "react";
-import {MKColor} from 'react-native-material-kit'
 import {Image, View} from "react-native";
-import { TextField } from 'react-native-material-textfield';
 import {CardItem} from "native-base";
 import I18n from "../../../../I18n";
 import {UserInfoFormProps} from "./index";
 import Fonts from "../../../../Themes/Fonts";
-import MaterialButton from "../../../MaterialComponents/MaterialButton";
+import {
+  MaterialTextInput,
+  MaterialContainedButton,
+  MaterialTextButton
+} from 'react-native-typescript-material-ui-collection';
 import {primaryColor} from "../../../../Themes/Colors";
 
 export default (props: UserInfoFormProps) => {
 
   return (
-    <View style={{alignItems: "center", justifyContent: 'center'}}>
+    <View>
       <CardItem button>
-        <Image
-          source={{uri: 'https://www.chaarat.com/wp-content/uploads/2017/08/placeholder-user.png'}}
-          style={{
-            width: 128,
-            height: 128,
-            borderRadius: 64,
-            overflow: 'hidden',
-            margin: 32,
-            alignSelf: 'center'
-          }}/>
+        <View style={{width:'100%',alignItems:'center',justifyContent:'center'}}>
+          <Image
+            source={{uri: 'https://www.chaarat.com/wp-content/uploads/2017/08/placeholder-user.png'}}
+            style={{
+              width: 128,
+              height: 128,
+              borderRadius: 64,
+              overflow: 'hidden',
+              margin: 32,
+              alignSelf: 'center'
+            }}
+          />
+        </View>
       </CardItem>
       <CardItem>
-        <TextField
-          inputContainerStyle={{alignItems:'flex-end',justifyContent:'flex-end'}}
-          titleTextStyle={{...Fonts.style.farsiInput}}
-          labelTextStyle={{...Fonts.style.farsiInput}}
-          containerStyle={{flex:1}}
+        <MaterialTextInput
+          inputContainerStyle={{alignItems: 'flex-end', justifyContent: 'flex-end'}}
+          titleTextStyle={{...Fonts.style.input}}
+          labelTextStyle={{...Fonts.style.input}}
+          containerStyle={{flex: 1}}
           label={I18n.t('userName')}
           value={props.userName}
           onChangeText={(text) => props.onTextChange(text)}
         />
       </CardItem>
       <CardItem>
-        <MaterialButton
-          text={I18n.t('confirm')}
-          color={primaryColor}
-          textColor='white'
-          isLoading={props.isLoading}
-          flex={1}
-          onPress={() => {
-            props.onPress()
-          }}
-        />
         <View style={{flexDirection: 'row'}}>
-          <View style={{width: 4}}/>
-          < MaterialButton
-            text={I18n.t('back')}
-            color={MKColor.Grey}
+          <MaterialContainedButton
+            text={I18n.t('confirm')}
+            color={primaryColor}
             textColor='white'
-            isLoading={false}
+            progress={props.isLoading}
+            onPress={() => {
+              props.onPress()
+            }}
+          />
+
+          <View style={{width: 4}}/>
+          < MaterialTextButton
+            text={I18n.t('back')}
+            textColor={primaryColor}
+            progress={false}
             //flex={1}
             onPress={() => {
               props.onBackButtonPress()

@@ -2,7 +2,7 @@ import * as React from "react";
 import Ltr from "./LoginForm.ltr";
 import Rtl from "./LoginForm.rtl";
 
-export interface PhoneNumberFormProps {
+export interface LoginFormProps {
   primaryColor: string,
   onTextChangeUserName?(text:string): void,
   onTextChangePasword?(text:string): void,
@@ -14,4 +14,4 @@ export interface PhoneNumberFormProps {
   isRtl?: boolean
 }
 
-export default (props:PhoneNumberFormProps) => props.isRtl ? <Rtl {...props} /> : <Ltr {...props}/>;
+export default (props:LoginFormProps) => props.isRtl ? <Rtl {...props} /> : <Ltr {...props}/>;

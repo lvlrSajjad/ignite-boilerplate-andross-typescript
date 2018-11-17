@@ -1,9 +1,11 @@
 import * as React from "react";
-import { TextField } from 'react-native-material-textfield';
-import {MKColor} from 'react-native-material-kit'
 import {Image, View} from "react-native";
 import Fonts from "../../../../Themes/Fonts";
-import MaterialButton from "../../../MaterialComponents/MaterialButton";
+import {
+  MaterialTextInput,
+  MaterialContainedButton,
+  MaterialTextButton
+} from 'react-native-typescript-material-ui-collection';
 import {primaryColor} from "../../../../Themes/Colors";
 import {CardItem} from "native-base";
 import I18n from "../../../../I18n";
@@ -12,8 +14,9 @@ import {UserInfoFormProps} from "./index";
 export default (props: UserInfoFormProps) => {
 
   return (
-    <View style={{alignItems: "center", justifyContent: 'center'}}>
+    <View>
       <CardItem button>
+        <View style={{width:'100%',alignItems:'center',justifyContent:'center'}}>
         <Image
           source={{uri: 'https://www.chaarat.com/wp-content/uploads/2017/08/placeholder-user.png'}}
           style={{
@@ -25,42 +28,39 @@ export default (props: UserInfoFormProps) => {
             alignSelf: 'center'
           }}
         />
-
+        </View>
       </CardItem>
       <CardItem>
-        <TextField
-          titleTextStyle={{...Fonts.style.farsiInput}}
-          labelTextStyle={{...Fonts.style.farsiInput}}
-          containerStyle={{flex:1}}
+        <MaterialTextInput
+          titleTextStyle={{...Fonts.style.input}}
+          labelTextStyle={{...Fonts.style.input}}
+          containerStyle={{flex: 1}}
           label={I18n.t('userName')}
           value={props.userName}
-          onChangeText={(text) => props.onTextChange(text)}        />
+          onChangeText={(text) => props.onTextChange(text)}/>
       </CardItem>
-      <CardItem>
+      <CardItem style={{justifyContent:'flex-end'}}>
         <View style={{flexDirection: 'row'}}>
-          < MaterialButton
+          < MaterialTextButton
             text={I18n.t('back')}
-            color={MKColor.Grey}
-            textColor='white'
-            isLoading={false}
+            textColor={primaryColor}
+            progress={false}
             //flex={1}
             onPress={() => {
               props.onBackButtonPress()
             }}
           />
           <View style={{width: 4}}/>
-
+          <MaterialContainedButton
+            text={I18n.t('confirm')}
+            color={primaryColor}
+            textColor='white'
+            progress={props.isLoading}
+            onPress={() => {
+              props.onPress()
+            }}
+          />
         </View>
-        <MaterialButton
-          text={I18n.t('confirm')}
-          color={primaryColor}
-          textColor='white'
-          isLoading={props.isLoading}
-          flex={1}
-          onPress={() => {
-            props.onPress()
-          }}
-        />
       </CardItem>
     </View>
   );

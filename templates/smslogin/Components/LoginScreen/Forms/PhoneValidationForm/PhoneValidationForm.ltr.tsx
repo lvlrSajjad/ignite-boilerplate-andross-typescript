@@ -1,9 +1,7 @@
 import * as React from "react";
-import {MKColor} from 'react-native-material-kit'
 import { View} from "react-native";
 import { CardItem} from "native-base";
-import { TextField } from 'react-native-material-textfield';
-import MaterialButton from "../../../MaterialComponents/MaterialButton";
+import {MaterialTextInput,MaterialContainedButton,MaterialTextButton} from 'react-native-typescript-material-ui-collection';
 import {primaryColor} from "../../../../Themes/Colors";
 import I18n from "../../../../I18n";
 import {PhoneValidationFormProps} from "./index";
@@ -14,39 +12,37 @@ export default (props : PhoneValidationFormProps) => {
   return (
     <View>
     <CardItem>
-      <TextField
-        titleTextStyle={{...Fonts.style.farsiInput}}
-        labelTextStyle={{...Fonts.style.farsiInput}}
+      <MaterialTextInput
+        titleTextStyle={{...Fonts.style.input}}
+        labelTextStyle={{...Fonts.style.input}}
         containerStyle={{flex:1}}
         label={I18n.t('verificationNumber')}
         value={props.varCode}
         onChangeText={(text) => props.onTextChange(text)}
       />
     </CardItem>
-    <CardItem>
+    <CardItem style={{justifyContent:'flex-end'}}>
       <View style={{flexDirection: 'row'}}>
-        < MaterialButton
+        < MaterialTextButton
           text={I18n.t('back')}
-          color={MKColor.Grey}
-          textColor='white'
-          isLoading={false}
+          textColor={primaryColor}
+          progress={false}
           //flex={1}
           onPress={() => {
             props.onBackButtonPress()
           }}
         />
         <View style={{width: 4}}/>
-      </View>
-      <MaterialButton
-        text={I18n.t('confirm')}
-        color={primaryColor}
-        textColor='white'
-        isLoading={props.isLoading}
-        flex={1}
-        onPress={() => {
-          props.onPress(props.varCode)
-        }}
-      />
+        <MaterialContainedButton
+          onPress={() => {
+            props.onPress(props.varCode)
+          }}
+          color={primaryColor}
+          text={I18n.t('confirm')}
+          textColor="white"
+          progress={props.isLoading}
+        />
+    </View>
 
     </CardItem>
     </View>
