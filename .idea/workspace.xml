@@ -1,25 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/README.md" line="138" />
-    <bookmark url="file://$PROJECT_DIR$/README.md" line="982" />
+    <bookmark url="file://$PROJECT_DIR$/README.md" line="196" />
+    <bookmark url="file://$PROJECT_DIR$/README.md" line="1040" />
     <bookmark url="file://$PROJECT_DIR$/templates/collapsibledrawer/Components/MainTabs/FirstTab/FirstTabComponent.tsx" line="3" />
     <bookmark url="file://$PROJECT_DIR$/templates/toptabbed/Components/MainTabs/index.ts" line="0" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f62ad2c-1973-43c4-a49a-dc82052ec6be" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/boilerplate/App/Lib/RealmPersistInterface.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Config/ReduxPersist.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/App/Config/ReduxPersist.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Redux/AppSettings/AppSettingsRedux.ts" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/App/Redux/AppSettings/AppSettingsRedux.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Redux/Github/GithubRedux.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/App/Redux/Github/GithubRedux.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Redux/Search/SearchRedux.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/App/Redux/Search/SearchRedux.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Services/ImmutablePersistenceTransform.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/App/Services/ImmutablePersistenceTransform.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/package.json.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/package.json.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login/Redux/Login/LoginRedux.ts" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login/Redux/Login/LoginRedux.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/smslogin/Redux/Login/LoginRedux.ts" beforeDir="false" afterPath="$PROJECT_DIR$/templates/smslogin/Redux/Login/LoginRedux.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,6 +28,54 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
               <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="-1189">
+                <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+                <folding>
+                  <element signature="e#0#38#0" expanded="true" />
+                  <element signature="e#0#30#0" expanded="true" />
+                  <element signature="e#0#59#0" expanded="true" />
+                  <element signature="e#0#30#0" expanded="true" />
+                  <element signature="e#4#34#0" expanded="true" />
+                  <element signature="e#0#30#0" expanded="true" />
+                  <element signature="e#3#33#0" expanded="true" />
+                  <element signature="e#5#35#0" expanded="true" />
+                  <element signature="e#0#30#0" expanded="true" />
+                  <element signature="e#2#56#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RootContainer.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boilerplate/App/Containers/RootContainer.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" lean-forward="true" selection-end-line="10" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RootContainerComponent.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boilerplate/App/Components/RootContainer/RootContainerComponent.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-483">
+              <caret selection-end-line="32" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,7 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/templates/tabbed/Components/LaunchScreenComponent.ejs" />
         <option value="$PROJECT_DIR$/templates/tabbed/Components/LaunchScreen/SettingsTab/SettingsToggleItem/SettingsToggleItem.ltr.tsx" />
         <option value="$PROJECT_DIR$/templates/tabbed/Components/LaunchScreen/SettingsTab/SettingsToggleItem/SettingsToggleItem.rtl.tsx" />
         <option value="$PROJECT_DIR$/templates/toptabbed/Components/ttlaunchscreenComponent.ejs" />
@@ -184,6 +221,7 @@
         <option value="$PROJECT_DIR$/boilerplate/tsconfig.json" />
         <option value="$PROJECT_DIR$/boilerplate/App/Config/ReduxPersist.tsx" />
         <option value="$PROJECT_DIR$/boilerplate/package.json.ejs" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
@@ -236,7 +274,22 @@
               <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
               <item name="boilerplate" type="462c0819:PsiDirectoryNode" />
               <item name="App" type="462c0819:PsiDirectoryNode" />
-              <item name="Config" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
+              <item name="boilerplate" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="RootContainer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
+              <item name="boilerplate" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="Containers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
@@ -338,12 +391,12 @@
       <workItem from="1542289283002" duration="12308000" />
       <workItem from="1542320933001" duration="10456000" />
       <workItem from="1542357456630" duration="45002000" />
-      <workItem from="1542461573060" duration="12585000" />
+      <workItem from="1542461573060" duration="13714000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="271529000" />
+    <option name="totallyTimeSpent" value="272658000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -355,9 +408,9 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49925596" weight="0.4610052" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.13345195" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.51116073" visible="true" weight="0.21174377" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.51116073" visible="true" weight="0.20996441" />
       <window_info anchor="bottom" id="TypeScript" order="11" sideWeight="0.49925596" weight="0.3188908" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32440478" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32440478" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32562277" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -383,27 +436,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/socialmedia/Containers/MainTabs/ChatsTabScreens/CallsScreen.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="62" selection-start-line="1" selection-start-column="62" selection-end-line="1" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/socialmedia/Containers/MainTabs/ChatsTabScreens/GroupsScreen.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="63" selection-start-line="1" selection-start-column="63" selection-end-line="1" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/socialmedia/Containers/MainTabs/ChatsTabScreens/ChatsScreen.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/interface.test.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -743,6 +775,48 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="67" column="4" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/App/Containers/RootContainer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" lean-forward="true" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/App/Components/RootContainer/RootContainerComponent.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-483">
+          <caret selection-end-line="32" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="-1189">
+            <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+            <folding>
+              <element signature="e#0#38#0" expanded="true" />
+              <element signature="e#0#30#0" expanded="true" />
+              <element signature="e#0#59#0" expanded="true" />
+              <element signature="e#0#30#0" expanded="true" />
+              <element signature="e#4#34#0" expanded="true" />
+              <element signature="e#0#30#0" expanded="true" />
+              <element signature="e#3#33#0" expanded="true" />
+              <element signature="e#5#35#0" expanded="true" />
+              <element signature="e#0#30#0" expanded="true" />
+              <element signature="e#2#56#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

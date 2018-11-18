@@ -58,10 +58,11 @@ This Boiler Plate is just my Customized version of ignite Andross
 Changes :
 * Installed and configured with typeScript
 * Updated react native to the latest version (0.57.5)
-* Added rtl support
+* Added better rtl support
 * Added switchable colorScheme support
 * Add better multi language support and add language to app settings redux
-* Keep settings even When app closed
+* Using realm in redux-persist for storing data instead asyncStorage
+* Using pure Container Component design pattern in all of templates and even default template 
 * Added selectable templates on boilerplate installation and generating screens with those templates after installation
 * WIP // Internal set of material components
 * HighLighted dependencies that installed :
@@ -78,14 +79,71 @@ Changes :
 
 ### :file_folder: Folder Structure
 
-It's actually similar to andross folder structure i think this folder structure based in container/component pattern
+It's actually similar to andross folder structure 
+ 
+this folder structure based on container/component design pattern
 
-So the Components won't have much work with data and getting/setting data is trough containers (//TODO i will edit component generation based on this pattern so components must on connected to redux and they just getting props from the outside contaner)
-        
 <p align="center">
 <img  src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/folder.png" width="100%">
 </p>
 
+So the Components won't have much work with data and getting/setting data is trough containers
+
+Actually containers are in .ts format so they won't and must not render jsx they only do the job with redux and data stuff and passing them to the related component
+
+A container code looks like :
+
+```typescript jsx
+import { connect } from "react-redux";
+import {RootContainerComponent} from '../Components/RootContainer'
+import StartupActions from "../Redux/StartupRedux";
+
+// wraps dispatch to create nicer functions to call within our component
+const mapDispatchToProps = dispatch => ({
+  startup: () => dispatch(StartupActions.startup())
+});
+
+export default connect(null, mapDispatchToProps)(RootContainerComponent);
+
+```
+
+A component code looks like :
+
+```typescript jsx
+import * as React from 'react'
+import { Component } from 'react';
+import { View, StatusBar } from "react-native";
+import ReduxNavigation from "../../Navigation/ReduxNavigation";
+import ReduxPersist from "../../Config/ReduxPersist";
+
+// Styles
+import styles from "./Styles/RootContainerStyles";
+
+interface RootContainerProps {
+  startup(): void,
+}
+
+export default class RootContainer extends Component<RootContainerProps> {
+  constructor(props){
+    super(props);
+  }
+  componentDidMount() {
+    if (!ReduxPersist.active) {
+      this.props.startup();
+    }
+  }
+
+  render() {
+    return (
+      <View style={styles.applicationView}>
+        <StatusBar barStyle="light-content" />
+        <ReduxNavigation />
+      </View>
+    );
+  }
+}
+
+```
 
 <h2 align="center">Ignite Cli</h2>
   
