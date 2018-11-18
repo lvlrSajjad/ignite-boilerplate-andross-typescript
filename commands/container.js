@@ -105,7 +105,7 @@ module.exports = async function (context) {
     })
     const jobs = [
       {
-        template: 'drawer/Components/LaunchScreen/LaunchScreenComponent.ejs',
+        template: 'drawer/Components/LaunchScreenComponent.ejs',
         target: `js/App/Components/${name}/${name}Component.tsx`
       },
       {
@@ -178,7 +178,7 @@ module.exports = async function (context) {
       },
       {
         template: 'backdrop/Containers/LaunchScreen.ejs',
-        target: `js/App/Containers/Containers/${name}.ts`
+        target: `js/App/Containers/${name}.ts`
       }
     ]
     await ignite.copyBatch(context, jobs, props)
@@ -193,10 +193,6 @@ module.exports = async function (context) {
       {
         template: 'collapsibledrawer/Components/LaunchScreenComponent.ejs',
         target: `js/App/Components/${name}/${name}Component.tsx`
-      },
-      {
-        template: 'collapsibledrawer/Containers/LaunchScreen.ejs',
-        target: `js/App/Containers/${name}.ts`
       },
       {
         template: 'collapsibledrawer/Containers/LaunchScreen.ejs',
@@ -270,7 +266,7 @@ module.exports = async function (context) {
       },
       {
         template: 'container-style.ejs',
-        target: `js/App/Containers/Styles/${name}Style.tsx`
+        target: `js/App/Components/${name}/Styles/${name}Style.tsx`
       }
     ]
   }

@@ -8,137 +8,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f62ad2c-1973-43c4-a49a-dc82052ec6be" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/boilerplate/js/App/Components/App/AppComponent.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boilerplate/js/App/Containers/App.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate.js" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Components/LaunchScreen/LaunchScreenComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Components/LaunchScreen/LaunchScreenComponent.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Components/LaunchScreen/Styles/LaunchScreenStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Components/LaunchScreen/Styles/LaunchScreenStyles.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Components/LaunchScreen/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Components/LaunchScreen/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Components/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Components/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Components/RootContainer/RootContainerComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Components/RootContainer/RootContainerComponent.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Components/RootContainer/Styles/RootContainerStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Components/RootContainer/Styles/RootContainerStyles.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Components/RootContainer/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Components/RootContainer/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Config/AppConfig.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Config/AppConfig.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Config/DebugConfig.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Config/DebugConfig.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Config/MapboxConfig.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Config/MapboxConfig.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Config/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Config/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Config/ReactotronConfig.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Config/ReactotronConfig.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Config/ReduxPersist.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Config/ReduxPersist.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Config/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Config/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Containers/App.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Containers/LaunchScreen.ts" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Containers/LaunchScreen.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Containers/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Containers/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Containers/RootContainer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Containers/RootContainer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Containers/Styles/ChatScreenStyle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Containers/Styles/ChatScreenStyle.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Containers/Styles/LaunchScreenStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Containers/Styles/LaunchScreenStyles.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Containers/Styles/LoginScreenStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Containers/Styles/LoginScreenStyles.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Containers/Styles/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Containers/Styles/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Containers/Styles/RootContainerStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Containers/Styles/RootContainerStyles.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Fixtures/DummyData.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Fixtures/DummyData.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Fixtures/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Fixtures/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Fixtures/gantman.json" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Fixtures/gantman.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Fixtures/rateLimit.json" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Fixtures/rateLimit.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Fixtures/root.json" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Fixtures/root.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Fixtures/skellock.json" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Fixtures/skellock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/I18n/I18n.ts" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/I18n/I18n.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/I18n/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/I18n/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/I18n/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/I18n/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/I18n/locales/en.ts" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/I18n/locales/en.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/I18n/locales/fa.ts" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/I18n/locales/fa.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/I18n/platform_languages.txt" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/I18n/platform_languages.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Images/BG.png" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Images/BG.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Images/Icons/back-button@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Images/Icons/back-button@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Images/Icons/chevron-right@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Images/Icons/chevron-right@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Images/Icons/close-button.png" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Images/Icons/close-button.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Images/Icons/close-button@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Images/Icons/close-button@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Images/Icons/close-button@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Images/Icons/close-button@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Images/Icons/faq-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Images/Icons/faq-icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Images/Icons/faq-icon@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Images/Icons/faq-icon@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Images/Icons/faq-icon@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Images/Icons/faq-icon@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Images/Icons/hamburger@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Images/Icons/hamburger@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Images/Icons/icon-api-testing@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Images/Icons/icon-api-testing@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Images/Icons/icon-components@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Images/Icons/icon-components@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Images/Icons/icon-device-information@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Images/Icons/icon-device-information@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Images/Icons/icon-home@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Images/Icons/icon-home@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Images/Icons/icon-theme@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Images/Icons/icon-theme@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Images/Icons/icon-usage-examples@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Images/Icons/icon-usage-examples@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Images/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Images/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Images/button-bg@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Images/button-bg@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Images/ignite-logo-transparent.png" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Images/ignite-logo-transparent.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Images/ignite_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Images/ignite_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Images/ir.png" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Images/ir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Images/launch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Images/launch-icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Images/launch-icon@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Images/launch-icon@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Images/launch-icon@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Images/launch-icon@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Images/tile_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Images/tile_bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Images/top_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Images/top_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Images/top_logo@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Images/top_logo@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Images/top_logo@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Images/top_logo@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Images/your-app.png" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Images/your-app.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Images/your-app@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Images/your-app@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Images/your-app@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Images/your-app@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Lib/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Lib/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Lib/RealmPersistInterface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Lib/RealmPersistInterface.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Navigation/AppNavigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Navigation/AppNavigation.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Navigation/ReduxNavigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Navigation/ReduxNavigation.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Navigation/Styles/NavigationStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Navigation/Styles/NavigationStyles.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Redux/AppSettings/AppSettingsAction.ts" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Redux/AppSettings/AppSettingsAction.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Redux/AppSettings/AppSettingsRedux.ts" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Redux/AppSettings/AppSettingsRedux.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Redux/AppSettings/Types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Redux/AppSettings/Types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Redux/CreateStore.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Redux/CreateStore.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Redux/Github/GithubRedux.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Redux/Github/GithubRedux.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Redux/Github/Types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Redux/Github/Types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Redux/Github/__tests__/GithubReduxTest.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Redux/Github/__tests__/GithubReduxTest.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Redux/Navigation/MainNavigationRedux.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Redux/Navigation/MainNavigationRedux.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Redux/Navigation/NavigationRedux.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Redux/Navigation/NavigationRedux.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Redux/ScreenTrackingMiddleware.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Redux/ScreenTrackingMiddleware.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Redux/Search/SearchRedux.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Redux/Search/SearchRedux.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Redux/StartupRedux.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Redux/StartupRedux.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Redux/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Redux/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Sagas/GithubSagas.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Sagas/GithubSagas.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Sagas/StartupSagas.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Sagas/StartupSagas.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Sagas/__tests__/GithubSagaTest.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Sagas/__tests__/GithubSagaTest.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Sagas/__tests__/StartupSagaTest.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Sagas/__tests__/StartupSagaTest.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Sagas/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Sagas/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Services/Api.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Services/Api.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Services/ExamplesRegistry.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Services/ExamplesRegistry.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Services/FixtureApi.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Services/FixtureApi.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Services/ImmutablePersistenceTransform.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Services/ImmutablePersistenceTransform.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Services/Rehydration.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Services/Rehydration.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Services/__tests__/FixtureAPITest.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Services/__tests__/FixtureAPITest.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Themes/ApplicationStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Themes/ApplicationStyles.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Themes/Colors.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Themes/Colors.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Themes/Fonts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Themes/Fonts.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Themes/Images.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Themes/Images.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Themes/Metrics.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Themes/Metrics.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Themes/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Themes/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Themes/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Themes/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Transforms/CallStateToData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Transforms/CallStateToData.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Transforms/ConvertFromKelvin.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Transforms/ConvertFromKelvin.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/App/Transforms/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/App/Transforms/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/TestConfig/Setup/test-preprocessor.js" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/Tests/Setup/test-preprocessor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/TestConfig/Setup/test-setup.js" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/Tests/Setup/test-setup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/TestConfig/Setup/test-shim.js" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/Tests/Setup/test-shim.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/TestConfig/__mocks__/fileMock.js" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/Tests/__mocks__/fileMock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/TestConfig/__mocks__/react-native-i18n.mock.js" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/Tests/__mocks__/react-native-i18n.mock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/TestConfig/__mocks__/react-native-mapbox-gl.mock.js" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/Tests/__mocks__/react-native-mapbox-gl.mock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/TestConfig/__mocks__/styleMock.js" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/js/Tests/__mocks__/styleMock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/index.js.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/index.js.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/package.json.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/package.json.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commands/component.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/component.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/commands/container.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/container.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commands/list.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commands/redux.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/redux.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commands/saga.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/saga.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commands/screen.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/screen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/socialmedia/Components/ChatScreen/ChatScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/socialmedia/Components/ChatScreen/ChatScreen.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/socialmedia/Components/ChatsTabNavigator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/socialmedia/Components/MainTabs/ChatsTabNavigator.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/socialmedia/Components/LaunchScreenNavigator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/templates/socialmedia/Components/LaunchScreen/LaunchScreenNavigator.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/socialmedia/Containers/ChatsTabNavigator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/templates/socialmedia/Containers/MainTabs/ChatsTab.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/socialmedia/Containers/LaunchScreen.ts" beforeDir="false" afterPath="$PROJECT_DIR$/templates/socialmedia/Containers/LaunchScreen.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/backdrop/Components/Backdrop.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/backdrop/Components/Backdrop.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/backdrop/Containers/LaunchScreen.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/backdrop/Containers/LaunchScreen.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/container.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/container.ejs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -152,94 +26,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boilerplate/js/App/Fixtures/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="23">
-                <caret line="1" column="2" selection-start-line="1" selection-end-line="1" selection-end-column="37" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rateLimit.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boilerplate/js/App/Fixtures/rateLimit.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="gantman.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boilerplate/js/App/Fixtures/gantman.json">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2070" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boilerplate/js/App/I18n/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-237" />
-              <second_editor />
+            <state relative-caret-position="138">
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boilerplate/js/App/Lib/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
+      <file leaf-file-name="container.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/commands/container.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="268" column="42" selection-start-line="268" selection-start-column="42" selection-end-line="268" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppNavigation.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boilerplate/js/App/Navigation/AppNavigation.tsx">
+      <file leaf-file-name="Backdrop.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/backdrop/Components/Backdrop.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LaunchScreen.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/backdrop/Containers/LaunchScreen.ejs">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <folding>
-                <element signature="e#0#79#0" expanded="true" />
-              </folding>
+              <caret column="6" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boilerplate/js/App/Themes/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
+      <file leaf-file-name="container.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/container.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Api.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boilerplate/js/App/Services/Api.tsx">
+      <file leaf-file-name="container-component.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/container-component.ejs">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="ImmutablePersistenceTransform.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boilerplate/js/App/Services/ImmutablePersistenceTransform.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rehydration.tsx" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/boilerplate/js/App/Services/Rehydration.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#49#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -254,9 +88,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Container</find>
-      <find>Grid</find>
-      <find>Row</find>
       <find>withNavigation</find>
       <find>top tabbed</find>
       <find>index.tsx</find>
@@ -284,6 +115,9 @@
       <find>MKColor</find>
       <find>app</find>
       <find>App</find>
+      <find>Drawer</find>
+      <find>backd</find>
+      <find>connect</find>
     </findStrings>
     <dirStrings>
       <dir>D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\boilerplate</dir>
@@ -297,9 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/templates/toptabbed/Containers/MainTabs/ChatsScreen.ejs" />
-        <option value="$PROJECT_DIR$/templates/toptabbed/Components/MainTabs/ChatsScreenComponent.tsx" />
-        <option value="$PROJECT_DIR$/templates/toptabbed/Components/MainTabs/CallsScreenComponent.tsx" />
         <option value="$PROJECT_DIR$/templates/drawer/Components/LaunchScreenComponent.ejs" />
         <option value="$PROJECT_DIR$/templates/drawer/Components/ExampleComponent/index.tsx" />
         <option value="$PROJECT_DIR$/templates/collapsibledrawer/Components/LaunchScreenComponent.ejs" />
@@ -342,11 +173,14 @@
         <option value="$PROJECT_DIR$/boilerplate/index.js.ejs" />
         <option value="$PROJECT_DIR$/boilerplate.js" />
         <option value="$PROJECT_DIR$/commands/component.js" />
-        <option value="$PROJECT_DIR$/commands/container.js" />
         <option value="$PROJECT_DIR$/commands/list.js" />
         <option value="$PROJECT_DIR$/commands/redux.js" />
         <option value="$PROJECT_DIR$/commands/saga.js" />
         <option value="$PROJECT_DIR$/commands/screen.js" />
+        <option value="$PROJECT_DIR$/templates/container.ejs" />
+        <option value="$PROJECT_DIR$/commands/container.js" />
+        <option value="$PROJECT_DIR$/templates/backdrop/Components/Backdrop.ejs" />
+        <option value="$PROJECT_DIR$/templates/backdrop/Containers/LaunchScreen.ejs" />
         <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
@@ -385,49 +219,27 @@
             <path>
               <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
               <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
-              <item name="boilerplate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
-              <item name="boilerplate" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
-              <item name="boilerplate" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="App" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
-              <item name="boilerplate" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="App" type="462c0819:PsiDirectoryNode" />
-              <item name="Navigation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
-              <item name="boilerplate" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="App" type="462c0819:PsiDirectoryNode" />
-              <item name="Services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
-              <item name="boilerplate" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="App" type="462c0819:PsiDirectoryNode" />
-              <item name="Themes" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
               <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="backdrop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="backdrop" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="backdrop" type="462c0819:PsiDirectoryNode" />
+              <item name="Containers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -437,7 +249,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ReactNative/Tests/Test11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ReactNative/Tests/Test10" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -524,12 +336,12 @@
       <workItem from="1542357456630" duration="45002000" />
       <workItem from="1542461573060" duration="14465000" />
       <workItem from="1542508741924" duration="4864000" />
-      <workItem from="1542518130700" duration="5990000" />
+      <workItem from="1542518130700" duration="8093000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="284263000" />
+    <option name="totallyTimeSpent" value="286366000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -541,9 +353,9 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49925596" weight="0.4610052" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.13345195" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.51116073" visible="true" weight="0.20996441" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.51116073" visible="true" weight="0.20996441" />
       <window_info anchor="bottom" id="TypeScript" order="11" sideWeight="0.49925596" weight="0.3188908" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32440478" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32440478" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32562277" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -569,31 +381,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/boilerplate/js/App/Sagas/GithubSagas.tsx">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/login/Navigation/AppNavigation.tsx">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/login/Redux/Navigation/NavigationRedux.tsx">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/login/Redux/Login/LoginRedux.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/smslogin/Navigation/AppNavigation.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#79#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/smslogin/LaunchScreen.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -767,20 +554,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/commands/component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1288">
-          <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commands/container.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-287">
-          <caret line="284" column="48" selection-start-line="284" selection-start-column="48" selection-end-line="284" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/commands/list.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2484">
@@ -816,13 +589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3226">
           <caret line="16" column="22" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -917,6 +683,54 @@
           <folding>
             <element signature="e#0#49#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commands/component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/component-test.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/container-component.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/container.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commands/container.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="268" column="42" selection-start-line="268" selection-start-column="42" selection-end-line="268" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/backdrop/Components/Backdrop.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/backdrop/Containers/LaunchScreen.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
         </state>
       </provider>
     </entry>
