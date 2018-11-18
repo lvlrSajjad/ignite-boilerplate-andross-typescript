@@ -1,5 +1,5 @@
 import { createReducer, createActions } from "reduxsauce";
-import * as Immutable from "seamless-immutable";
+import Immutable from "seamless-immutable";
 import { filter } from "ramda";
 import { startsWith } from "ramdasauce";
 

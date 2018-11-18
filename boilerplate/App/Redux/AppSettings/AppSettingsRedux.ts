@@ -1,7 +1,7 @@
 import {colorScheme} from "../../Themes/Colors";
 import I18n from "../../I18n/index";
 import { REHYDRATE } from 'redux-persist';
-import * as Immutable from "seamless-immutable";
+import Immutable from "seamless-immutable";
 import {Reducer} from "redux";
 import {AppSettingsState} from "./Types";
 
