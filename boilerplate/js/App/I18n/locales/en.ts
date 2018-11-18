@@ -1,4 +1,3 @@
-import FourthTab from "../../../../templates/tabbed/Containers/MainTabs/FourthTab";
 
 export default {
   First:'First',

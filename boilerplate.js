@@ -180,7 +180,10 @@ async function install (context) {
         spinner.text = '▸ copying files'
         spinner.start()
 
-        filesystem.copy(`${__dirname}/templates/login`, `${process.cwd()}/js/App`, {
+        filesystem.copy(`${__dirname}/templates/login/App`, `${process.cwd()}/js/App`, {
+          overwrite: true
+        })
+        filesystem.copy(`${__dirname}/templates/login/Tests`, `${process.cwd()}/js/Tests`, {
           overwrite: true
         })
         spinner.stop()
@@ -191,7 +194,10 @@ async function install (context) {
         spinner.text = '▸ copying files'
         spinner.start()
 
-        filesystem.copy(`${__dirname}/templates/smslogin`, `${process.cwd()}/js/App`, {
+        filesystem.copy(`${__dirname}/templates/smslogin/App`, `${process.cwd()}/js/App`, {
+          overwrite: true
+        })
+        filesystem.copy(`${__dirname}/templates/smslogin/Tests`, `${process.cwd()}/js/Tests`, {
           overwrite: true
         })
         spinner.stop()
@@ -207,23 +213,27 @@ async function install (context) {
         const props = { name:'LaunchScreen' }
         const jobs = [
           {
-            template: 'collapsible/Components/index.ejs',
+            template: 'collapsible/Tests/Components/Test.test.ejs',
+            target: `js/Tests/Components/LaunchScreen/LaunchScreen.test.tsx`
+          },
+          {
+            template: 'collapsible/App/Components/index.ejs',
             target: `js/App/Components/LaunchScreen/index.ts`
           },
           {
-            template: 'collapsible/Components/Component.ejs',
+            template: 'collapsible/App/Components/Component.ejs',
             target: `js/App/Components/LaunchScreen/LaunchScreenComponent.tsx`
           },
           {
-            template: 'collapsible/Components/MainContent.ejs',
+            template: 'collapsible/App/Components/MainContent.ejs',
             target: `js/App/Components/LaunchScreen/LaunchScreenMainContent.tsx`
           },
           {
-            template: 'collapsible/Components/ToolbarContent.ejs',
+            template: 'collapsible/App/Components/ToolbarContent.ejs',
             target: `js/App/Components/LaunchScreen/LaunchScreenToolbarContent.tsx`
           },
           {
-            template: 'collapsible/Containers/LaunchScreen.ejs',
+            template: 'collapsible/App/Containers/LaunchScreen.ejs',
             target: `js/App/Containers/LaunchScreen.ts`
           }
         ]
@@ -234,23 +244,27 @@ async function install (context) {
         const props = { name:'LaunchScreen' }
         const jobs = [
           {
-            template: 'backdrop/Components/index.ejs',
+            template: 'backdrop/Tests/Components/Test.test.ejs',
+            target: `js/Tests/Components/LaunchScreen/LaunchScreen.test.tsx`
+          },
+          {
+            template: 'backdrop/App/Components/index.ejs',
             target: `js/App/Components/LaunchScreen/index.ts`
           },
           {
-            template: 'backdrop/Components/Component.ejs',
+            template: 'backdrop/App/Components/Component.ejs',
             target: `js/App/Components/LaunchScreen/LaunchScreenComponent.tsx`
           },
           {
-            template: 'backdrop/Components/Backdrop.ejs',
+            template: 'backdrop/App/Components/Backdrop.ejs',
             target: `js/App/Components/LaunchScreen/LaunchScreenBackLayerContent.tsx`
           },
           {
-            template: 'backdrop/Components/Content.ejs',
+            template: 'backdrop/App/Components/Content.ejs',
             target: `js/App/Components/LaunchScreen/LaunchScreenFrontLayerContent.tsx`
           },
           {
-            template: 'backdrop/Containers/LaunchScreen.ejs',
+            template: 'backdrop/App/Containers/LaunchScreen.ejs',
             target: `js/App/Containers/Containers/LaunchScreen.ts`
           }
         ]
@@ -261,41 +275,41 @@ async function install (context) {
         spinner.text = '▸ copying files'
         spinner.start()
 
-        filesystem.copy(`${__dirname}/templates/collapsibledrawer/Components/MainTabs`, `${process.cwd()}/js/App/Components/LaunchScreenTabs`, {
+        filesystem.copy(`${__dirname}/templates/collapsibledrawer/App/Components/MainTabs`, `${process.cwd()}/js/App/Components/LaunchScreenTabs`, {
           overwrite: true
         })
-        filesystem.copy(`${__dirname}/templates/collapsibledrawer/Components/LaunchScreen`, `${process.cwd()}/js/App/Components/LaunchScreen`, {
+        filesystem.copy(`${__dirname}/templates/collapsibledrawer/App/Components/LaunchScreen`, `${process.cwd()}/js/App/Components/LaunchScreen`, {
           overwrite: true
         })
         spinner.stop()
         const props = { name:'LaunchScreen' }
         const jobs = [
           {
-            template: 'collapsibledrawer/Components/LaunchScreenComponent.ejs',
+            template: 'collapsibledrawer/App/Components/LaunchScreenComponent.ejs',
             target: `js/App/Components/LaunchScreen/LaunchScreenComponent.tsx`
           },
           {
-            template: 'collapsibledrawer/Containers/LaunchScreen.ejs',
+            template: 'collapsibledrawer/App/Containers/LaunchScreen.ejs',
             target: `js/App/Containers/LaunchScreen.ts`
           },
           {
-            template: 'collapsibledrawer/Containers/MainTabs/FifthTab.ejs',
+            template: 'collapsibledrawer/App/Containers/MainTabs/FifthTab.ejs',
             target: `js/App/Containers/LaunchScreenTabs/FifthTab.ts`
           },
           {
-            template: 'collapsibledrawer/Containers/MainTabs/FirstTab.ejs',
+            template: 'collapsibledrawer/App/Containers/MainTabs/FirstTab.ejs',
             target: `js/App/Containers/LaunchScreenTabs/FirstTab.ts`
           },
           {
-            template: 'collapsibledrawer/Containers/MainTabs/FourthTab.ejs',
+            template: 'collapsibledrawer/App/Containers/MainTabs/FourthTab.ejs',
             target: `js/App/Containers/LaunchScreenTabs/FourthTab.ts`
           },
           {
-            template: 'collapsibledrawer/Containers/MainTabs/SecondTab.ejs',
+            template: 'collapsibledrawer/App/Containers/MainTabs/SecondTab.ejs',
             target: `js/App/Containers/LaunchScreenTabs/SecondTab.ts`
           },
           {
-            template: 'collapsibledrawer/Containers/MainTabs/ThirdTab.ejs',
+            template: 'collapsibledrawer/App/Containers/MainTabs/ThirdTab.ejs',
             target: `js/App/Containers/LaunchScreenTabs/ThirdTab.ts`
           }
         ]
@@ -306,44 +320,44 @@ async function install (context) {
         spinner.text = '▸ copying files'
         spinner.start()
 
-        filesystem.copy(`${__dirname}/templates/tabbed/Components/ExampleComponent`, `${process.cwd()}/js/App/Components/ExampleComponent`, {
+        filesystem.copy(`${__dirname}/templates/tabbed/App/Components/ExampleComponent`, `${process.cwd()}/js/App/Components/ExampleComponent`, {
           overwrite: true
         })
-        filesystem.copy(`${__dirname}/templates/tabbed/Components/LaunchScreen`, `${process.cwd()}/js/App/Components/LaunchScreen`, {
+        filesystem.copy(`${__dirname}/templates/tabbed/App/Components/LaunchScreen`, `${process.cwd()}/js/App/Components/LaunchScreen`, {
           overwrite: true
         })
-        filesystem.copy(`${__dirname}/templates/tabbed/Components/MainTabs`, `${process.cwd()}/js/App/Components/LaunchScreenTabs`, {
+        filesystem.copy(`${__dirname}/templates/tabbed/App/Components/MainTabs`, `${process.cwd()}/js/App/Components/LaunchScreenTabs`, {
           overwrite: true
         })
         spinner.stop()
         const props = { name:'LaunchScreen' }
         const jobs = [
           {
-            template: 'tabbed/Components/LaunchScreenComponent.ejs',
+            template: 'tabbed/App/Components/LaunchScreenComponent.ejs',
             target: `js/App/Components/LaunchScreen/LaunchScreenComponent.tsx`
           },
           {
-            template: 'tabbed/Containers/LaunchScreen.ejs',
+            template: 'tabbed/App/Containers/LaunchScreen.ejs',
             target: `js/App/Containers/LaunchScreen.ts`
           },
           {
-            template: 'tabbed/Containers/MainTabs/FifthTab.ejs',
+            template: 'tabbed/App/Containers/MainTabs/FifthTab.ejs',
             target: `js/App/Containers/LaunchScreenTabs/FifthTab.ts`
           },
           {
-            template: 'tabbed/Containers/MainTabs/FirstTab.ejs',
+            template: 'tabbed/App/Containers/MainTabs/FirstTab.ejs',
             target: `js/App/Containers/LaunchScreenTabs/FirstTab.ts`
           },
           {
-            template: 'tabbed/Containers/MainTabs/FourthTab.ejs',
+            template: 'tabbed/App/Containers/MainTabs/FourthTab.ejs',
             target: `js/App/Containers/LaunchScreenTabs/FourthTab.ts`
           },
           {
-            template: 'tabbed/Containers/MainTabs/SecondTab.ejs',
+            template: 'tabbed/App/Containers/MainTabs/SecondTab.ejs',
             target: `js/App/Containers/LaunchScreenTabs/SecondTab.ts`
           },
           {
-            template: 'tabbed/Containers/MainTabs/ThirdTab.ejs',
+            template: 'tabbed/App/Containers/MainTabs/ThirdTab.ejs',
             target: `js/App/Containers/LaunchScreenTabs/ThirdTab.ts`
           }
         ]
@@ -354,33 +368,33 @@ async function install (context) {
         spinner.text = '▸ copying files'
         spinner.start()
 
-        filesystem.copy(`${__dirname}/templates/toptabbed/Components/LaunchScreen`, `${process.cwd()}/js/App/Components/LaunchScreen`, {
+        filesystem.copy(`${__dirname}/templates/toptabbed/App/Components/LaunchScreen`, `${process.cwd()}/js/App/Components/LaunchScreen`, {
           overwrite: true
         })
-        filesystem.copy(`${__dirname}/templates/toptabbed/Components/MainTabs`, `${process.cwd()}/js/App/Components/LaunchScreenTabs`, {
+        filesystem.copy(`${__dirname}/templates/toptabbed/App/Components/MainTabs`, `${process.cwd()}/js/App/Components/LaunchScreenTabs`, {
           overwrite: true
         })
         spinner.stop()
         const props = { name:'LaunchScreen' }
         const jobs = [
           {
-            template: 'toptabbed/Components/ttlaunchscreenComponent.ejs',
+            template: 'toptabbed/App/Components/ttlaunchscreenComponent.ejs',
             target: `js/App/Components/LaunchScreen/LaunchScreenComponent.tsx`
           },
           {
-            template: 'toptabbed/Containers/ttlaunchscreen.ejs',
+            template: 'toptabbed/App/Containers/ttlaunchscreen.ejs',
             target: `js/App/Containers/LaunchScreen.ts`
           },
           {
-            template: 'toptabbed/Containers/MainTabs/CallsScreen.ejs',
+            template: 'toptabbed/App/Containers/MainTabs/CallsScreen.ejs',
             target: `js/App/Containers/LaunchScreenTabs/CallsScreen.ts`
           },
           {
-            template: 'toptabbed/Containers/MainTabs/ChatsScreen.ejs',
+            template: 'toptabbed/App/Containers/MainTabs/ChatsScreen.ejs',
             target: `js/App/Containers/LaunchScreenTabs/ChatsScreen.ts`
           },
           {
-            template: 'toptabbed/Containers/MainTabs/GroupsScreen.ejs',
+            template: 'toptabbed/App/Containers/MainTabs/GroupsScreen.ejs',
             target: `js/App/Containers/LaunchScreenTabs/GroupsScreen.ts`
           }
         ]
@@ -392,47 +406,47 @@ async function install (context) {
         spinner.text = '▸ copying files'
         spinner.start()
 
-        filesystem.copy(`${__dirname}/templates/drawer/Components/ExampleComponent`, `${process.cwd()}/js/App/Components/ExampleComponent`, {
+        filesystem.copy(`${__dirname}/templates/drawer/App/Components/ExampleComponent`, `${process.cwd()}/js/App/Components/ExampleComponent`, {
           overwrite: true
         })
-        filesystem.copy(`${__dirname}/templates/drawer/Components/LaunchScreen`, `${process.cwd()}/js/App/Components/LaunchScreen`, {
+        filesystem.copy(`${__dirname}/templates/drawer/App/Components/LaunchScreen`, `${process.cwd()}/js/App/Components/LaunchScreen`, {
           overwrite: true
         })
-        filesystem.copy(`${__dirname}/templates/drawer/Components/MainTabs`, `${process.cwd()}/js/App/Components/LaunchScreenTabs`, {
+        filesystem.copy(`${__dirname}/templates/drawer/App/Components/MainTabs`, `${process.cwd()}/js/App/Components/LaunchScreenTabs`, {
           overwrite: true
         })
-        filesystem.copy(`${__dirname}/templates/drawer/Components/NavHeaders`, `${process.cwd()}/js/App/Components/NavHeaders`, {
+        filesystem.copy(`${__dirname}/templates/drawer/App/Components/NavHeaders`, `${process.cwd()}/js/App/Components/NavHeaders`, {
           overwrite: true
         })
         spinner.stop()
         const props = { name:'LaunchScreen' }
         const jobs = [
           {
-            template: 'drawer/Components/LaunchScreenComponent.ejs',
+            template: 'drawer/App/Components/LaunchScreenComponent.ejs',
             target: `js/App/Components/LaunchScreen/LaunchScreenComponent.tsx`
           },
           {
-            template: 'drawer/Containers/LaunchScreen.ejs',
+            template: 'drawer/App/Containers/LaunchScreen.ejs',
             target: `js/App/Containers/LaunchScreen.ts`
           },
           {
-            template: 'drawer/Containers/MainTabs/FifthTab.ejs',
+            template: 'drawer/App/Containers/MainTabs/FifthTab.ejs',
             target: `js/App/Containers/LaunchScreenTabs/FifthTab.ts`
           },
           {
-            template: 'drawer/Containers/MainTabs/FirstTab.ejs',
+            template: 'drawer/App/Containers/MainTabs/FirstTab.ejs',
             target: `js/App/Containers/LaunchScreenTabs/FirstTab.ts`
           },
           {
-            template: 'drawer/Containers/MainTabs/FourthTab.ejs',
+            template: 'drawer/App/Containers/MainTabs/FourthTab.ejs',
             target: `js/App/Containers/LaunchScreenTabs/FourthTab.ts`
           },
           {
-            template: 'drawer/Containers/MainTabs/SecondTab.ejs',
+            template: 'drawer/App/Containers/MainTabs/SecondTab.ejs',
             target: `js/App/Containers/LaunchScreenTabs/SecondTab.ts`
           },
           {
-            template: 'drawer/Containers/MainTabs/ThirdTab.ejs',
+            template: 'drawer/App/Containers/MainTabs/ThirdTab.ejs',
             target: `js/App/Containers/LaunchScreenTabs/ThirdTab.ts`
           }
         ]
@@ -443,7 +457,7 @@ async function install (context) {
         spinner.text = '▸ copying files'
         spinner.start()
 
-        filesystem.copy(`${__dirname}/templates/socialmedia`, `${process.cwd()}/js/App`, {
+        filesystem.copy(`${__dirname}/templates/socialmedia/App`, `${process.cwd()}/js/App`, {
           overwrite: true
         })
         spinner.stop()

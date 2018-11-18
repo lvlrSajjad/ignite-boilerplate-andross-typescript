@@ -80,7 +80,7 @@ const ApplicationStyles = {
     justifyContent: 'center' as 'center'
   },
   materialFarsiText:{
-    ...Fonts.style.farsiNormal
+    ...Fonts.style.normal
   },
   sectionTitle: {
     ...Fonts.style.h4,

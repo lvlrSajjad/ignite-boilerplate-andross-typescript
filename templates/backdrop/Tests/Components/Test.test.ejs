@@ -1,0 +1,16 @@
+import {<%= props.name %>Component,<%= props.name %>BackLayerContent,<%= props.name %>FrontLayerContent} from '../../App/Components/<%= props.name %>'
+
+test("Renders Correctly", () => {
+const tree = renderer.create(<<%= props.name %>Component/>).toJSON();
+expect(tree).toMatchSnapshot();
+});
+
+test("Renders Correctly", () => {
+const tree = renderer.create(<<%= props.name %>BackLayerContent/>).toJSON();
+expect(tree).toMatchSnapshot();
+});
+
+test("Renders Correctly", () => {
+const tree = renderer.create(<<%= props.name %>FrontLayerContent/>).toJSON();
+expect(tree).toMatchSnapshot();
+});

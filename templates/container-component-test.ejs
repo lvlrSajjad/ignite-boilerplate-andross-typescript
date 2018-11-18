@@ -1,0 +1,9 @@
+import "react-native";
+import * as React from "react";
+import * as renderer from 'react-test-renderer';
+import <%= props.name %>Component from '../../../App/Components/<%= props.name %>/<%= props.name %>Component'
+
+test("Renders Correctly", () => {
+const tree = renderer.create(<<%= props.name %>Component/>).toJSON();
+expect(tree).toMatchSnapshot();
+});

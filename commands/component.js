@@ -29,6 +29,9 @@ module.exports = async function (context) {
   let jobs = []
   if (rtlSupport) {
     jobs = [{
+      template: 'component-test.ejs',
+      target: `js/Tests/Components/${name}.test.tsx`
+    },{
       template: 'directionComponent/component.ltr.ejs',
       target: `js/App/Components/${relativePath}${name}/${name}.ltr.tsx`
     }, {
@@ -49,6 +52,9 @@ module.exports = async function (context) {
     jobs = [{
       template: 'component/component.ejs',
       target: `js/App/Components/${relativePath}${name}/${name}.tsx`
+    },{
+      template: 'component-test.ejs',
+      target: `js/Tests/Components/${name}.test.tsx`
     }, {
       template: 'component/style/style.ejs',
       target: `js/App/Components/${relativePath}${name}/Styles/${name}Style.tsx`
