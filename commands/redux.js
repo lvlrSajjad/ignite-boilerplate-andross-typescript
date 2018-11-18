@@ -16,7 +16,7 @@ module.exports = async function (context) {
   const name = pascalCase(parameters.first)
   const props = { name }
 
-  const jobs = [{ template: `redux.ejs`, target: `App/Redux/${name}Redux.tsx` }]
+  const jobs = [{ template: `redux.ejs`, target: `js/App/Redux/${name}Redux.tsx` }]
   if (config.tests) {
     jobs.push({
       template: `redux-test-${config.tests}.ejs`,

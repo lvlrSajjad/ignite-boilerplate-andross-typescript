@@ -30,31 +30,31 @@ module.exports = async function (context) {
   if (rtlSupport) {
     jobs = [{
       template: 'directionComponent/component.ltr.ejs',
-      target: `App/Components/${relativePath}${name}/${name}.ltr.tsx`
+      target: `js/App/Components/${relativePath}${name}/${name}.ltr.tsx`
     }, {
       template: 'directionComponent/component.rtl.ejs',
-      target: `App/Components/${relativePath}${name}/${name}.rtl.tsx`
+      target: `js/App/Components/${relativePath}${name}/${name}.rtl.tsx`
     }, {
       template: 'directionComponent/style/style.ltr.ejs',
-      target: `App/Components/${relativePath}${name}/Styles/${name}Style.ltr.tsx`
+      target: `js/App/Components/${relativePath}${name}/Styles/${name}Style.ltr.tsx`
     }, {
       template: 'directionComponent/style/style.rtl.ejs',
-      target: `App/Components/${relativePath}${name}/Styles/${name}Style.rtl.tsx`
+      target: `js/App/Components/${relativePath}${name}/Styles/${name}Style.rtl.tsx`
     }, {
       template: 'directionComponent/index.ejs',
-      target: `App/Components/${relativePath}${name}/index.tsx`
+      target: `js/App/Components/${relativePath}${name}/index.tsx`
     }]
 
   } else {
     jobs = [{
       template: 'component/component.ejs',
-      target: `App/Components/${relativePath}${name}/${name}.tsx`
+      target: `js/App/Components/${relativePath}${name}/${name}.tsx`
     }, {
       template: 'component/style/style.ejs',
-      target: `App/Components/${relativePath}${name}/Styles/${name}Style.tsx`
+      target: `js/App/Components/${relativePath}${name}/Styles/${name}Style.tsx`
     }, {
       template: 'component/index.ejs',
-      target: `App/Components/${relativePath}${name}/index.tsx`
+      target: `js/App/Components/${relativePath}${name}/index.tsx`
     }]
   }
   await ignite.copyBatch(context, jobs, props)

@@ -128,16 +128,16 @@
       "node_modules/(?!react-native|lottie-react-native|native-base|react-native-vector-icons|react-navigation|react-navigation-redux-helpers)/"
     ],
     "moduleNameMapper": {
-      "^.+\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga|json)$": "<rootDir>/TestConfig/__mocks__/fileMock.js"
+      "^.+\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga|json)$": "<rootDir>/js/Tests/__mocks__/fileMock.js"
     },
     "snapshotSerializers": [
       "enzyme-to-json/serializer"
     ],
     "setupFiles": [
-      "<rootDir>/TestConfig/__mocks__/react-native-i18n.mock",
-      "<rootDir>/TestConfig/Setup/test-shim.js",
-      "<rootDir>/TestConfig/Setup/test-setup.js",
-      "<rootDir>/TestConfig/Setup/test-preprocessor.js"
+      "<rootDir>/js/Tests/__mocks__/react-native-i18n.mock",
+      "<rootDir>/js/Tests/Setup/test-shim.js",
+      "<rootDir>/js/Tests/Setup/test-setup.js",
+      "<rootDir>/js/Tests/Setup/test-preprocessor.js"
     ],
     "preset": "react-native",
     "moduleFileExtensions": [

@@ -2,7 +2,7 @@ import * as React from 'react'
 import { View } from 'react-native'
 import {connect} from 'react-redux'
 import MaterialIcons from 'react-native-vector-icons/MaterialCommunityIcons';
-import * as Modal from 'react-native-modalbox';
+import Modal from 'react-native-modalbox';
 import {Card} from "native-base";
 import metrics from "../../Themes/Metrics";
 import SettingsListItem from "../LaunchScreen/SettingsTab/SettingsListItem";

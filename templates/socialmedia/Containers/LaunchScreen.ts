@@ -1,5 +1,5 @@
 import {connect} from "react-redux";
-import LaunchScreenNavigator from '../Components/LaunchScreenNavigator'
+import LaunchScreenNavigator from '../Components/LaunchScreen/LaunchScreenNavigator'
 
 const mapStateToProps = state => {
   return {
