@@ -4,7 +4,7 @@ import { DrawerActions } from 'react-navigation-drawer';
 import {FourthTabMainContent,FourthTabToolbarContent} from "./index";
 
 interface FourthTabComponentProps {
-
+    navigation?:any
 }
 
 export default class FourthTabComponent extends React.Component<FourthTabComponentProps> {

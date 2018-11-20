@@ -1,7 +1,7 @@
 /* eslint react/prop-types: 0 */
 import * as React from 'react';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
-import { SafeAreaView, ScrollView, StyleSheet, Text, View} from "react-native";
+import { SafeAreaView, ScrollView, StyleSheet, View} from "react-native";
 import {DrawerItems, createDrawerNavigator } from 'react-navigation';
 import metrics from "../../Themes/Metrics";
 import FirstTab from '../../Containers/<%= props.name %>Tabs/FirstTab';
@@ -11,7 +11,7 @@ import FourthTab from '../../Containers/<%= props.name %>Tabs/FourthTab';
 import FifthTab from '../../Containers/<%= props.name %>Tabs/FifthTab';
 
 const CustomDrawerContentComponent = (props) => <ScrollView>
-    <SafeAreaView style={styles.container} forceInset={{top: 'always', horizontal: 'never'}}>
+    <SafeAreaView style={styles.container}>
         <View>
             {/*Todo Here you can put some header to your drawer*/}
         </View>
@@ -72,5 +72,6 @@ const chooseIcon = (index)=>{
         case 2: return 'volume-mute';
         case 3: return 'place';
         case 4: return 'menu';
+        default : return 'menu';
     }
-}
+};

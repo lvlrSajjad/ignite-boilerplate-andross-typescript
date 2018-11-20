@@ -12,9 +12,9 @@ import Fonts from "../../Themes/Fonts";
 interface SettingsTabProps {
   isRtl?:boolean,
   isDarkMode?:boolean,
-  toggleDarkMode():void,
-  toggleDirection():void,
-  selectLocale(local:string):void,
+  toggleDarkMode?():void,
+  toggleDirection?():void,
+  selectLocale?(local:string):void,
   locale: string,
   colorScheme: ColorScheme
 }
@@ -49,11 +49,11 @@ export default class SettingsTabComponent extends React.Component<SettingsTabPro
             backgroundColor:ColorScheme.cardBackground
 
           }}>
-            <SettingsListItem colorScheme ={ColorScheme} icon={'account'} name={I18n.t('contacts')}/>
-            <SettingsListItem colorScheme ={ColorScheme} icon={'content-save'} name={I18n.t('savedMessages')}/>
-            <SettingsListItem colorScheme ={ColorScheme} icon={'folder-account'} name={I18n.t('inviteFriends')}/>
-            <SettingsListItem colorScheme ={ColorScheme} icon={'settings'} name={I18n.t('settings')}/>
-            <SettingsListItem colorScheme ={ColorScheme} icon={'help-circle'} name={I18n.t('help')}/>
+            <SettingsListItem isRtl={this.props.isRtl} colorScheme ={ColorScheme} icon={'account'} name={I18n.t('contacts')}/>
+            <SettingsListItem isRtl={this.props.isRtl} colorScheme ={ColorScheme} icon={'content-save'} name={I18n.t('savedMessages')}/>
+            <SettingsListItem isRtl={this.props.isRtl} colorScheme ={ColorScheme} icon={'folder-account'} name={I18n.t('inviteFriends')}/>
+            <SettingsListItem isRtl={this.props.isRtl} colorScheme ={ColorScheme} icon={'settings'} name={I18n.t('settings')}/>
+            <SettingsListItem isRtl={this.props.isRtl} colorScheme ={ColorScheme} icon={'help-circle'} name={I18n.t('help')}/>
           </Card>
           <Card style={{
             alignSelf: 'center',
@@ -62,6 +62,7 @@ export default class SettingsTabComponent extends React.Component<SettingsTabPro
             width: metrics.screenWidth - 32
           }}>
            <SettingsToggleItem
+             isRtl={this.props.isRtl}
              value = {this.props.isDarkMode}
              onValueChange={() => {
                this.props.toggleDarkMode()
@@ -71,6 +72,7 @@ export default class SettingsTabComponent extends React.Component<SettingsTabPro
              colorScheme={ColorScheme}
            />
             <SettingsToggleItem
+              isRtl={this.props.isRtl}
               value = {this.props.isRtl}
               onValueChange={() => {
                 this.props.toggleDirection()
@@ -80,6 +82,7 @@ export default class SettingsTabComponent extends React.Component<SettingsTabPro
               colorScheme={ColorScheme}
             />
             <SettingsToggleItem
+              isRtl={this.props.isRtl}
               value = {this.props.locale === 'fa'}
               onValueChange={(value) => {
                 this.props.selectLocale(value ? 'fa': 'en');

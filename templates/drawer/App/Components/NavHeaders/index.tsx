@@ -8,7 +8,7 @@ export interface NavHeadersProps {
 isDarkMode?: boolean,
 isRtl?:boolean,
 colorScheme?:ColorScheme,
-  onPress():void,
+  onPress?():void,
   title:string
 }
 

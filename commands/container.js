@@ -20,12 +20,31 @@ module.exports = async function (context) {
   let jobs = [];
   if (parameters.second === "TopTabbed"){
     filesystem.copy(`${__dirname}/../templates/toptabbed/App/Components/LaunchScreen`, `${process.cwd()}/js/App/Components/LaunchScreen`, {
-      overwrite: true
+      overwrite: false
     })
     filesystem.copy(`${__dirname}/../templates/toptabbed/App/Components/MainTabs`, `${process.cwd()}/js/App/Components/${name}Tabs`, {
       overwrite: true
     })
+
+    filesystem.copy(`${__dirname}/../templates/toptabbed/Tests/Components/LaunchScreen`, `${process.cwd()}/js/Tests/Components/LaunchScreen`, {
+      overwrite: false
+    })
+
     const jobs = [
+
+      {
+        template: 'toptabbed/Tests/Components/MainTabs/FirstTab.test.ejs',
+        target: `js/Tests/Containers/${name}Tabs/FirstTabComponent.test.tsx`
+      },
+      {
+        template: 'toptabbed/Tests/Components/MainTabs/SecondTab.test.ejs',
+        target: `js/Tests/Containers/${name}Tabs/SecondTabComponent.test.tsx`
+      },
+      {
+        template: 'toptabbed/Tests/Components/MainTabs/ThirdTab.test.ejs',
+        target: `js/Tests/Containers/${name}Tabs/ThirdTabComponent.test.tsx`
+      },
+
       {
         template: 'toptabbed/App/Components/ttlaunchscreenComponent.ejs',
         target: `js/App/Components/${name}/${name}Component.tsx`
@@ -35,31 +54,60 @@ module.exports = async function (context) {
         target: `js/App/Containers/${name}.ts`
       },
       {
-        template: 'toptabbed/App/Containers/MainTabs/CallsScreen.ejs',
-        target: `js/App/Containers/${name}Tabs/CallsScreen.ts`
+        template: 'toptabbed/App/Containers/MainTabs/FirstTab.ejs',
+        target: `js/App/Containers/${name}Tabs/FirstTab.ts`
       },
       {
-        template: 'toptabbed/App/Containers/MainTabs/ChatsScreen.ejs',
-        target: `js/App/Containers/${name}Tabs/ChatsScreen.ts`
+        template: 'toptabbed/App/Containers/MainTabs/SecondTab.ejs',
+        target: `js/App/Containers/${name}Tabs/SecondTab.ts`
       },
       {
-        template: 'toptabbed/App/Containers/MainTabs/GroupsScreen.ejs',
-        target: `js/App/Containers/${name}Tabs/GroupsScreen.ts`
+        template: 'toptabbed/App/Containers/MainTabs/ThirdTab.ejs',
+        target: `js/App/Containers/${name}Tabs/ThirdTab.ts`
       }
     ]
     await ignite.copyBatch(context, jobs, props)
 
   } else if (parameters.second === "BottomTabbed"){
     filesystem.copy(`${__dirname}/../templates/tabbed/App/Components/ExampleComponent`, `${process.cwd()}/js/App/Components/ExampleComponent`, {
-      overwrite: true
+      overwrite: false
     })
     filesystem.copy(`${__dirname}/../templates/tabbed/App/Components/LaunchScreen`, `${process.cwd()}/js/App/Components/LaunchScreen`, {
-      overwrite: true
+      overwrite: false
     })
     filesystem.copy(`${__dirname}/../templates/tabbed/App/Components/MainTabs`, `${process.cwd()}/js/App/Components/${name}Tabs`, {
       overwrite: true
     })
+
+    filesystem.copy(`${__dirname}/../templates/tabbed/Tests/Components/ExampleComponent`, `${process.cwd()}/js/Tests/Components/ExampleComponent`, {
+      overwrite: false
+    })
+    filesystem.copy(`${__dirname}/../templates/tabbed/Tests/Components/LaunchScreen`, `${process.cwd()}/js/Tests/Components/LaunchScreen`, {
+      overwrite: false
+    })
+
     const jobs = [
+      {
+        template: 'tabbed/Tests/Components/MainTabs/FifthTabComponent.test.ejs',
+        target: `js/Tests/Components/${name}/FifthTabComponent.test.tsx`
+      },
+      {
+        template: 'tabbed/Tests/Components/MainTabs/FirstTabComponent.test.ejs',
+        target: `js/Tests/Components/${name}/FirstTabComponent.test.tsx`
+      },
+      {
+        template: 'tabbed/Tests/Components/MainTabs/FourthTabComponent.test.ejs',
+        target: `js/Tests/Components/${name}/FourthTabComponent.test.tsx`
+      },
+      {
+        template: 'tabbed/Tests/Components/MainTabs/SecondTabComponent.test.ejs',
+        target: `js/Tests/Components/${name}/SecondTabComponent.test.tsx`
+      },
+      {
+        template: 'tabbed/Tests/Components/MainTabs/ThirdTabComponent.test.ejs',
+        target: `js/Tests/Components/${name}/ThirdTabComponent.test.tsx`
+      },
+
       {
         template: 'tabbed/App/Components/LaunchScreenComponent.ejs',
         target: `js/App/Components/${name}/${name}Component.tsx`
@@ -92,18 +140,50 @@ module.exports = async function (context) {
     await ignite.copyBatch(context, jobs, props)
   } else if (parameters.second === "Drawer"){
     filesystem.copy(`${__dirname}/../templates/drawer/App/Components/ExampleComponent`, `${process.cwd()}/js/App/Components/ExampleComponent`, {
-      overwrite: true
+      overwrite: false
     })
     filesystem.copy(`${__dirname}/../templates/drawer/App/Components/LaunchScreen`, `${process.cwd()}/js/App/Components/LaunchScreen`, {
-      overwrite: true
+      overwrite: false
     })
     filesystem.copy(`${__dirname}/../templates/drawer/App/Components/MainTabs`, `${process.cwd()}/js/App/Components/${name}Tabs`, {
       overwrite: true
     })
     filesystem.copy(`${__dirname}/../templates/drawer/App/Components/NavHeaders`, `${process.cwd()}/js/App/Components/NavHeaders`, {
-      overwrite: true
+      overwrite: false
     })
+
+    filesystem.copy(`${__dirname}/../templates/drawer/Tests/Components/NavHeaders`, `${process.cwd()}/js/Tests/Components/NavHeaders`, {
+      overwrite: false
+    })
+    filesystem.copy(`${__dirname}/../templates/drawer/Tests/Components/LaunchScreen`, `${process.cwd()}/js/Tests/Components/LaunchScreen`, {
+      overwrite: false
+    })
+    filesystem.copy(`${__dirname}/../templates/drawer/Tests/Components/ExampleComponent`, `${process.cwd()}/js/Tests/Components/ExampleComponent`, {
+      overwrite: false
+    })
+
     const jobs = [
+      {
+        template: 'drawer/Tests/Components/MainTabs/FifthTabComponent.test.ejs',
+        target: `js/Tests/Components/${name}/FifthTabComponent.test.tsx`
+      },
+      {
+        template: 'drawer/Tests/Components/MainTabs/FirstTabComponent.test.ejs',
+        target: `js/Tests/Components/${name}/FirstTabComponent.test.tsx`
+      },
+      {
+        template: 'drawer/Tests/Components/MainTabs/FourthTabComponent.test.ejs',
+        target: `js/Tests/Components/${name}/FourthTabComponent.test.tsx`
+      },
+      {
+        template: 'drawer/Tests/Components/MainTabs/SecondTabComponent.test.ejs',
+        target: `js/Tests/Components/${name}/SecondTabComponent.test.tsx`
+      },
+      {
+        template: 'drawer/Tests/Components/MainTabs/ThirdTabComponent.test.ejs',
+        target: `js/Tests/Components/${name}/ThirdTabComponent.test.tsx`
+      },
+
       {
         template: 'drawer/App/Components/LaunchScreenComponent.ejs',
         target: `js/App/Components/${name}/${name}Component.tsx`
@@ -136,6 +216,10 @@ module.exports = async function (context) {
     await ignite.copyBatch(context, jobs, props)
   } else if (parameters.second === "CollapsibleToolbar") {
     const jobs = [
+      {
+        template: 'collapsible/Tests/Components/Test.test.ejs',
+        target: `js/Tests/Components/${name}/${name}.test.tsx`
+      },
       {
         template: 'collapsible/App/Components/index.ejs',
         target: `js/App/Components/${name}/index.ts`
@@ -191,13 +275,35 @@ module.exports = async function (context) {
       overwrite: true
     })
     filesystem.copy(`${__dirname}/../templates/collapsibledrawer/App/Components/LaunchScreen`, `${process.cwd()}/js/App/Components/LaunchScreen`, {
-      overwrite: true
+      overwrite: false
     })
+
+    filesystem.copy(`${__dirname}/../templates/collapsibledrawer/Tests/Components/LaunchScreen`, `${process.cwd()}/js/Tests/Components/LaunchScreen`, {
+      overwrite: false
+    })
+
     const jobs = [
       {
-        template: 'collapsible/Tests/Components/Test.test.ejs',
-        target: `js/Tests/Components/${name}/${name}.test.tsx`
+        template: 'collapsibledrawer/Tests/Components/MainTabs/FifthTab.test.ejs',
+        target: `js/Tests/Components/${name}Tabs/FifthTab.test.tsx`
       },
+      {
+        template: 'collapsibledrawer/Tests/Components/MainTabs/FirstTab.test.ejs',
+        target: `js/Tests/Components/${name}Tabs/FirstTab.test.tsx`
+      },
+      {
+        template: 'collapsibledrawer/Tests/Components/MainTabs/FourthTab.test.ejs',
+        target: `js/Tests/Components/${name}Tabs/FourthTab.test.tsx`
+      },
+      {
+        template: 'collapsibledrawer/Tests/Components/MainTabs/SecondTab.test.ejs',
+        target: `js/Tests/Components/${name}Tabs/SecondTab.test.tsx`
+      },
+      {
+        template: 'collapsibledrawer/Tests/Components/MainTabs/ThirdTab.test.ejs',
+        target: `js/Tests/Components/${name}Tabs/ThirdTab.test.tsx`
+      },
+
       {
         template: 'collapsibledrawer/App/Components/LaunchScreenComponent.ejs',
         target: `js/App/Components/${name}/${name}Component.tsx`

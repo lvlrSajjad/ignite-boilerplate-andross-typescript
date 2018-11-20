@@ -1,0 +1,20 @@
+import "react-native";
+import * as React from "react";
+import * as renderer from 'react-test-renderer';
+import {SecondTabComponent,SecondTabMainContent,SecondTabToolbarContent} from '../../../App/Components/<%= props.name %>Tabs/SecondTab'
+
+test("Renders Correctly", () => {
+    const tree = renderer.create(<SecondTabComponent />).toJSON();
+    expect(tree).toMatchSnapshot();
+});
+
+test("Renders Correctly", () => {
+const tree = renderer.create(<SecondTabMainContent />).toJSON();
+expect(tree).toMatchSnapshot();
+});
+
+test("Renders Correctly", () => {
+const tree = renderer.create(<SecondTabToolbarContent />).toJSON();
+expect(tree).toMatchSnapshot();
+});
+

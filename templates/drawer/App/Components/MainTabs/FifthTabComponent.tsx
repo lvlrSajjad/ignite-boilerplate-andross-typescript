@@ -1,7 +1,7 @@
 import * as React from 'react'
 import {Component} from 'react';
-import {Image, ScrollView, View} from "react-native";
-import { Card, Text} from "native-base";
+import { ScrollView, View } from "react-native";
+import { Card } from "native-base";
 import metrics from "../../Themes/Metrics";
 import SettingsToggleItem from "../LaunchScreen/SettingsTab/SettingsToggleItem/index";
 import I18n from '../../I18n';
@@ -11,9 +11,9 @@ import styles from "./Styles/index";
 interface FifthTabComponentProps {
     isRtl?:boolean,
     isDarkMode?:boolean,
-    toggleDarkMode():void,
-    toggleDirection():void,
-    selectLocale(local:string):void,
+    toggleDarkMode?():void,
+    toggleDirection?():void,
+    selectLocale?(local:string):void,
     locale: string,
     colorScheme: ColorScheme
 }

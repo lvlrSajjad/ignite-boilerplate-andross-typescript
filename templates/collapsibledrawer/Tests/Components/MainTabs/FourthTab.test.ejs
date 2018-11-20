@@ -1,0 +1,19 @@
+import "react-native";
+import * as React from "react";
+import * as renderer from 'react-test-renderer';
+import {FourthTabComponent,FourthTabMainContent,FourthTabToolbarContent} from '../../../App/Components/<%= props.name %>Tabs/FourthTab'
+
+test("Renders Correctly", () => {
+const tree = renderer.create(<FourthTabComponent />).toJSON();
+expect(tree).toMatchSnapshot();
+});
+
+test("Renders Correctly", () => {
+const tree = renderer.create(<FourthTabMainContent />).toJSON();
+expect(tree).toMatchSnapshot();
+});
+
+test("Renders Correctly", () => {
+const tree = renderer.create(<FourthTabToolbarContent />).toJSON();
+expect(tree).toMatchSnapshot();
+});

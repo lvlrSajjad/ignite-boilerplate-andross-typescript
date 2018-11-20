@@ -1,0 +1,19 @@
+import "react-native";
+import * as React from "react";
+import * as renderer from 'react-test-renderer';
+import {FirstTabComponent,FirstTabMainContent,FirstTabToolbarContent} from '../../../App/Components/<%= props.name %>Tabs/FirstTab'
+
+test("Renders Correctly", () => {
+    const tree = renderer.create(<FirstTabComponent />).toJSON();
+    expect(tree).toMatchSnapshot();
+});
+
+test("Renders Correctly", () => {
+const tree = renderer.create(<FirstTabMainContent />).toJSON();
+expect(tree).toMatchSnapshot();
+});
+
+test("Renders Correctly", () => {
+const tree = renderer.create(<FirstTabToolbarContent />).toJSON();
+expect(tree).toMatchSnapshot();
+});

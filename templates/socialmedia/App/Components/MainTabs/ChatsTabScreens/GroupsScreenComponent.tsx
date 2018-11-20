@@ -7,7 +7,7 @@ import {dummyGroupsData} from "../../../Fixtures/DummyData";
 
 interface GroupsScreenProps {
   isDarkMode?:boolean,
-  colorScheme?:ColorScheme
+  colorScheme:ColorScheme
 }
 
 export default class GroupsScreenComponent extends React.Component<GroupsScreenProps> {

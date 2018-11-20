@@ -4,7 +4,7 @@ import { DrawerActions } from 'react-navigation-drawer';
 import {SecondTabMainContent,SecondTabToolbarContent} from "./index";
 
 interface SecondTabComponentProps {
-
+    navigation?:any
 }
 
 export default class SecondTabComponent extends React.Component<SecondTabComponentProps> {

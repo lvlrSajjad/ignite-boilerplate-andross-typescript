@@ -19,7 +19,7 @@ export default class <%= props.name %>FrontLayerContent extends Component<<%= pr
   render() {
     return (
       <View>
-        {new Array(40).fill().map((_, i) => (
+        {new Array(40).fill('item').map((_, i) => (
           <View
             key={i}
             style={{

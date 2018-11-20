@@ -7,7 +7,7 @@ import {ColorScheme} from "../../../Themes/Colors";
 
 interface CallsScreenProps {
   isDarkMode?:boolean,
-  colorScheme?:ColorScheme
+  colorScheme:ColorScheme
 }
 
 export default class CallsScreenComponent extends React.Component<CallsScreenProps> {

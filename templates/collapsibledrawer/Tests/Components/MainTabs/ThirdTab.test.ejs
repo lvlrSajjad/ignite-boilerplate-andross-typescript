@@ -1,0 +1,19 @@
+import "react-native";
+import * as React from "react";
+import * as renderer from 'react-test-renderer';
+import {ThirdTabComponent,ThirdTabMainContent,ThirdTabToolbarContent} from '../../../App/Components/<%= props.name %>Tabs/ThirdTab'
+
+test("Renders Correctly", () => {
+    const tree = renderer.create(<ThirdTabComponent />).toJSON();
+    expect(tree).toMatchSnapshot();
+});
+
+test("Renders Correctly", () => {
+const tree = renderer.create(<ThirdTabMainContent />).toJSON();
+expect(tree).toMatchSnapshot();
+});
+
+test("Renders Correctly", () => {
+const tree = renderer.create(<ThirdTabToolbarContent />).toJSON();
+expect(tree).toMatchSnapshot();
+});

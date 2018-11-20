@@ -7,7 +7,7 @@ import {ColorScheme} from "../../Themes/Colors";
 
 interface ChannelsTabProps {
   isDarkMode?:boolean,
-  colorScheme?:ColorScheme
+  colorScheme:ColorScheme
 }
 
 export default class ChannelsTabComponent extends React.Component<ChannelsTabProps> {

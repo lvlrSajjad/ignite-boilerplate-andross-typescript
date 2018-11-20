@@ -4,7 +4,7 @@ import { DrawerActions } from 'react-navigation-drawer';
 import {ThirdTabMainContent,ThirdTabToolbarContent} from "./index";
 
 interface ThirdTabComponentProps {
-
+    navigation?:any
 }
 
 export default class ThirdTabComponent extends React.Component<ThirdTabComponentProps> {

@@ -10,7 +10,7 @@ export default class SecondTabMainContent extends React.Component<SecondTabMainC
     render () {
         return (
             <View>
-                {new Array(40).fill().map((_, i) => (
+                {new Array(40).fill('item').map((_, i) => (
                     <View
                         key={i}
                         style={{

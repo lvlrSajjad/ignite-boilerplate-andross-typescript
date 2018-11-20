@@ -7,7 +7,8 @@ import {ColorScheme} from "../../../Themes/Colors";
 
 interface ChatsScreenProps {
   isDarkMode?:boolean,
-  colorScheme?:ColorScheme
+  colorScheme:ColorScheme,
+  ChatScreen?(nav:any):void
 }
 
 export default class ChatsScreenComponent extends React.Component<ChatsScreenProps> {

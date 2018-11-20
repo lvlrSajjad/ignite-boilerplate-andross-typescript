@@ -7,7 +7,8 @@ import ExampleComponent from '../ExampleComponent/index'
 interface FirstTabComponentProps {
     isDarkMode?: boolean,
     isRtl?: boolean,
-    colorScheme: ColorScheme
+    colorScheme?: ColorScheme,
+    navigation?:any
 }
 
 export default class FirstTabComponent extends Component<FirstTabComponentProps> {

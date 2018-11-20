@@ -1,0 +1,12 @@
+import {connect} from "react-redux";
+import {ThirdTabComponent} from '../../Components/<%= props.name %>Tabs'
+
+const mapStateToProps = state => ({
+  isDarkMode: state.appSettings.isDarkMode,
+  colorScheme: state.appSettings.colorScheme,
+  isRtl: state.appSettings.isRtl
+});
+
+//const mapDispatchToProps = dispatch => ({});
+
+export default connect(mapStateToProps, /**mapDispatchToProps*/ null)(ThirdTabComponent);

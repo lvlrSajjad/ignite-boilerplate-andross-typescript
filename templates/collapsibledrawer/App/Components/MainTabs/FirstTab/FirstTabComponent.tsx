@@ -4,7 +4,7 @@ import { DrawerActions } from 'react-navigation-drawer';
 import {FirstTabMainContent,FirstTabToolbarContent} from "./index";
 
 interface FirstTabComponentProps {
-
+    navigation?:any
 }
 
 export default class FirstTabComponent extends React.Component<FirstTabComponentProps> {

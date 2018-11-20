@@ -7,7 +7,7 @@ export interface SettingsToggleItemProps {
   name: string,
   icon: string,
   value: boolean,
-  onValueChange?(): void,
+  onValueChange?(value:any): void,
   // onPress(): void,
   colorScheme:ColorScheme,
   isRtl:boolean
