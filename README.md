@@ -57,6 +57,8 @@ This Boiler Plate is just my Customized version of ignite Andross
 
 Changes :
 * Installed and configured with typeScript
+* Moved all js related folders to js folder (App,Tests)
+* Using jest for tests
 * Updated react native to the latest version (0.57.5)
 * Added better rtl support
 * Added switchable colorScheme support
