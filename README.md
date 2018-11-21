@@ -1278,21 +1278,12 @@ ignite generate map MapName
   ```
 
 
-## :heart: Recommended Components For Use In The Project
+## Recommended Components For Use In The Project
   
 
   ### List Component 
 
   https://docs.nativebase.io/Components.html#list-avatar-headref
-
-
- ### Toggle
-
-https://github.com/xinthink/react-native-material-kit#toggles
-
- ### CheckBox
-
-https://github.com/xinthink/react-native-material-kit#checkbox
 
  ### RadioButton
 
@@ -1305,8 +1296,6 @@ https://github.com/xinthink/react-native-material-kit#radio-button
 ### TopTabNavigation (See ChatsTabNavigator.tsx for more info)
 
     import {createMaterialTopTabNavigator, TabBarTop} from 'react-navigation-tabs';
-### Material input  (installed on the boilerplate)
-https://github.com/n4kz/react-native-material-textfield
 
 
 ## :closed_lock_with_key: Secrets
