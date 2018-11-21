@@ -2,14 +2,14 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/README.md" line="200" />
-    <bookmark url="file://$PROJECT_DIR$/README.md" line="1044" />
+    <bookmark url="file://$PROJECT_DIR$/README.md" line="1043" />
     <bookmark url="file://$PROJECT_DIR$/templates/collapsibledrawer/App/Components/MainTabs/FirstTab/FirstTabComponent.tsx" line="3" />
     <bookmark url="file://$PROJECT_DIR$/templates/toptabbed/App/Components/MainTabs/index.ts" line="0" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f62ad2c-1973-43c4-a49a-dc82052ec6be" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boilerplate.js" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,7 +23,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
+      <file leaf-file-name="boilerplate.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boilerplate.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="602" column="16" selection-start-line="602" selection-start-column="16" selection-end-line="602" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
@@ -33,53 +42,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Avatar.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/socialmedia/App/Components/ChatScreen/src/Avatar.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2093">
-              <caret line="95" column="19" selection-start-line="95" selection-start-column="7" selection-end-line="95" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#34#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="23">
-                <caret line="1280" column="3" selection-start-line="1280" selection-start-column="3" selection-end-line="1280" selection-end-column="3" />
-                <folding>
-                  <element signature="e#0#38#0" expanded="true" />
-                  <element signature="e#0#30#0" expanded="true" />
-                  <element signature="e#0#59#0" expanded="true" />
-                  <element signature="e#0#30#0" expanded="true" />
-                  <element signature="e#4#34#0" expanded="true" />
-                  <element signature="e#0#30#0" expanded="true" />
-                  <element signature="e#3#33#0" expanded="true" />
-                  <element signature="e#5#35#0" expanded="true" />
-                  <element signature="e#0#30#0" expanded="true" />
-                  <element signature="e#0#30#0" expanded="true" />
-                  <element signature="e#2#56#0" expanded="true" />
-                </folding>
+              <first_editor relative-caret-position="238">
+                <caret line="207" selection-start-line="207" selection-end-line="207" />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="package.json.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boilerplate/package.json.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1587">
-              <caret line="69" column="62" selection-start-line="69" selection-start-column="62" selection-end-line="69" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -97,7 +67,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>farsiN</find>
       <find>social</find>
       <find>tabbed</find>
       <find>backdrop</find>
@@ -127,6 +96,7 @@
       <find>__dirname</find>
       <find>mapbox</find>
       <find>collection</find>
+      <find>linking</find>
     </findStrings>
     <dirStrings>
       <dir>D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\boilerplate</dir>
@@ -187,9 +157,9 @@
         <option value="$PROJECT_DIR$/templates/tabbed/Tests/Components/MainTabs/FifthTabComponent.test.ejs" />
         <option value="$PROJECT_DIR$/templates/tabbed/App/Components/MainTabs/FifthTabComponent.tsx" />
         <option value="$PROJECT_DIR$/commands/container.js" />
-        <option value="$PROJECT_DIR$/boilerplate.js" />
         <option value="$PROJECT_DIR$/templates/tabbed/Tests/Components/LaunchScreen/SettingsTab/SettingsToggleItem.test.tsx" />
         <option value="$PROJECT_DIR$/boilerplate/package.json.ejs" />
+        <option value="$PROJECT_DIR$/boilerplate.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
@@ -224,11 +194,6 @@
             <path>
               <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
               <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
-              <item name="boilerplate" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -332,18 +297,19 @@
       <workItem from="1542666686009" duration="273000" />
       <workItem from="1542670657456" duration="6296000" />
       <workItem from="1542708279981" duration="14718000" />
-      <workItem from="1542767234448" duration="57000" />
+      <workItem from="1542767234448" duration="897000" />
+      <workItem from="1542804357313" duration="815000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="351188000" />
+    <option name="totallyTimeSpent" value="352843000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15848215" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2611607" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.4888393" side_tool="true" weight="0.21663778" />
@@ -352,17 +318,17 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.13345195" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.51116073" visible="true" weight="0.21708184" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.51116073" visible="true" weight="0.25266904" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="TypeScript" order="11" sideWeight="0.49925596" weight="0.3188908" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="TypeScript" order="11" sideWeight="0.49925596" weight="0.3188908" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32562277" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -604,13 +570,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="60" column="30" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/commands/component.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -630,18 +589,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/socialmedia/App/Components/ChatScreen/src/Avatar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2093">
+        <state relative-caret-position="23">
           <caret line="95" column="19" selection-start-line="95" selection-start-column="7" selection-end-line="95" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/boilerplate/package.json.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1587">
+        <state relative-caret-position="23">
           <caret line="69" column="62" selection-start-line="69" selection-start-column="62" selection-end-line="69" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="602" column="16" selection-start-line="602" selection-start-column="16" selection-end-line="602" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -652,27 +618,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="23">
-            <caret line="1280" column="3" selection-start-line="1280" selection-start-column="3" selection-end-line="1280" selection-end-column="3" />
-            <folding>
-              <element signature="e#0#38#0" expanded="true" />
-              <element signature="e#0#30#0" expanded="true" />
-              <element signature="e#0#59#0" expanded="true" />
-              <element signature="e#0#30#0" expanded="true" />
-              <element signature="e#4#34#0" expanded="true" />
-              <element signature="e#0#30#0" expanded="true" />
-              <element signature="e#3#33#0" expanded="true" />
-              <element signature="e#5#35#0" expanded="true" />
-              <element signature="e#0#30#0" expanded="true" />
-              <element signature="e#0#30#0" expanded="true" />
-              <element signature="e#2#56#0" expanded="true" />
-            </folding>
+          <first_editor relative-caret-position="238">
+            <caret line="207" selection-start-line="207" selection-end-line="207" />
           </first_editor>
           <second_editor />
         </state>

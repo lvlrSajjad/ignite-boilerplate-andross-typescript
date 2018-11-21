@@ -205,7 +205,6 @@ You can work with combination of this options for example if you choose sms logi
 after installation run below commands:
 ```
    cd YourAppName
-   react-native link
    react-native run-ios or react-native run-android
    ```
    

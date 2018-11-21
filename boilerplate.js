@@ -597,6 +597,10 @@ async function install (context) {
     ignite.log(e)
     throw e
   }
+  spinner.text = `▸ linking native libraries`
+  spinner.start()
+  await system.spawn('react-native link', { stdio: 'ignore' })
+  spinner.stop()
 
   // git configuration
   const gitExists = await filesystem.exists('./.git')
