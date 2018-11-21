@@ -49,6 +49,7 @@
       * [Material Buttons](#material-buttons) 
       * [Material FAB](#material-fab)
       * [Material Checkbox](#material-checkbox)   
+      * [Material Switch](#material-switch)
    * [Ignite Mapbox](#ignite-mapbox)   
 <!--te-->
 
@@ -1184,6 +1185,57 @@ export default class LaunchScreen extends Component {
   progress?: boolean
 
 ```
+
+### Material Switch
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/switch.gif" width="30%">
+</p>
+
+I Made this switch component exactly based on material.io design guidelines
+
+#### Usage
+
+this is exactly the code of above gif
+
+```typescript jsx
+import * as React from 'react'
+import { View } from 'react-native'
+import MaterialSwitch from "react-native-typescript-material-ui-collection";
+
+// Styles
+import styles from './Styles/LaunchScreenStyles'
+
+interface LaunchScreenComponentProps {}
+
+export default class LaunchScreen extends React.Component <LaunchScreenComponentProps> {
+
+  render () {
+    return (
+      <View style={styles.mainContainer}>
+        <MaterialSwitch color='purple'/>
+        <MaterialSwitch text="Material switch" color='purple'/>
+        <MaterialSwitch text="Material switch" color='purple'/>
+        <MaterialSwitch text="Material switch" color='purple'/>
+
+      </View>
+    )
+  }
+}
+
+```
+
+#### Props:
+
+```typescript jsx
+  textFont?:string,
+  textColor?:string,
+  text?:string,
+  color?:string
+  onValueChanged?(value:boolean):void
+
+```
+
 
   ## Ignite Mapbox
   
