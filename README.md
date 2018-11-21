@@ -49,6 +49,7 @@
       * [Material Buttons](#material-buttons) 
       * [Material FAB](#material-fab)
       * [Material Checkbox](#material-checkbox)   
+   * [Ignite Mapbox](#ignite-mapbox)   
 <!--te-->
 
 <h2 align="center">About</h2>
@@ -1184,21 +1185,36 @@ export default class LaunchScreen extends Component {
 
 ```
 
-## :heart: Recommended Components For Use In The Project
-  ### Mapbox Component
+  ## Ignite Mapbox
   
-  You can install mapbox and link it then use it as below 
+  An ignite plugin for adding mapbox easier
+  
+  <p align="center">
+  
+  <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/maps.gif" width="100%">
+  </p>
+
+  You can install mapbox and link it by this command
+   
+   ```
+ignite add map
+```
+   and generate a map component with 
+   
+   ```
+ignite generate map MapName
+```
+   then use it as below 
     
   and you can get your token key with instructions inside mapbox github https://github.com/mapbox/react-native-mapbox-gl
   
-  then you can use it inside `App>Config>MapboxConfig.tsx`
-  
- #### then use it like :
+  then you can use token key inside `App>Config>MapboxConfig.tsx`
+ ### Usage :
   
   ```typescript jsx
   import MapboxGL from '@mapbox/react-native-mapbox-gl';
   import MapboxConfig from "../../Config/MapboxConfig";
-  MapboxGL.setAccessToken(MapboxConfig.accessToken);
+  MapboxGL.setAccessToken(MapboxConfig.accessToken); // here you set access token
   ...
   <MapboxGL.MapView
    styleURL={ColorScheme.mapStyleUrl}
@@ -1208,6 +1224,10 @@ export default class LaunchScreen extends Component {
    >
   </MapboxGL.MapView>
   ```
+
+
+## :heart: Recommended Components For Use In The Project
+  
 
   ### List Component 
 

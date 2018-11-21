@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/README.md" line="198" />
-    <bookmark url="file://$PROJECT_DIR$/README.md" line="1042" />
+    <bookmark url="file://$PROJECT_DIR$/README.md" line="199" />
+    <bookmark url="file://$PROJECT_DIR$/README.md" line="1043" />
     <bookmark url="file://$PROJECT_DIR$/templates/collapsibledrawer/App/Components/MainTabs/FirstTab/FirstTabComponent.tsx" line="3" />
     <bookmark url="file://$PROJECT_DIR$/templates/toptabbed/App/Components/MainTabs/index.ts" line="0" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f62ad2c-1973-43c4-a49a-dc82052ec6be" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/package.json.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/package.json.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,35 +23,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="82" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="82" />
+            <state relative-caret-position="138">
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boilerplate/package.json.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1150">
-              <caret line="115" column="15" selection-start-line="115" selection-start-column="5" selection-end-line="115" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tslint.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boilerplate/tslint.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1541" />
-          </provider>
+      <file leaf-file-name="component.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/commands/component.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="tsconfig.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/boilerplate/tsconfig.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-69" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="container.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/commands/container.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="56" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="patterns.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/patterns.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="52" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -71,12 +76,12 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="69">
-                <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+              <first_editor relative-caret-position="267">
+                <caret line="1226" lean-forward="true" selection-start-line="1226" selection-end-line="1226" />
                 <folding>
                   <element signature="e#0#38#0" expanded="true" />
                   <element signature="e#0#30#0" expanded="true" />
@@ -95,19 +100,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jsconfig.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boilerplate/jsconfig.json">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="boilerplate.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boilerplate.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="60" column="30" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="30" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="MapboxConfig.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boilerplate/js/App/Config/MapboxConfig.tsx">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="index.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boilerplate/js/App/Config/index.tsx">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="Colors.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boilerplate/js/App/Themes/Colors.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="54" column="19" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="52" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -123,9 +131,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>backd</find>
-      <find>connect</find>
-      <find>__tests__</find>
       <find>ava</find>
       <find>farsiN</find>
       <find>social</find>
@@ -153,6 +158,9 @@
       <find>maps</find>
       <find>andross</find>
       <find>typescript</find>
+      <find>__dirname</find>
+      <find>filesystem</find>
+      <find>mapbox</find>
     </findStrings>
     <dirStrings>
       <dir>D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\boilerplate</dir>
@@ -216,8 +224,8 @@
         <option value="$PROJECT_DIR$/boilerplate.js" />
         <option value="$PROJECT_DIR$/templates/tabbed/Tests/Components/LaunchScreen/SettingsTab/SettingsToggleItem.test.tsx" />
         <option value="$PROJECT_DIR$/boilerplate/package.json.ejs" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -235,10 +243,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="676" />
     <option name="width" value="697" />
-    <option name="height" value="728" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -255,7 +262,12 @@
             <path>
               <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
               <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
-              <item name="boilerplate" type="462c0819:PsiDirectoryNode" />
+              <item name="commands" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -266,7 +278,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ignite-mapbox" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ReactNative/Tests/MyIgniteApp" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -358,12 +370,12 @@
       <workItem from="1542605682328" duration="27170000" />
       <workItem from="1542666686009" duration="273000" />
       <workItem from="1542670657456" duration="6296000" />
-      <workItem from="1542708279981" duration="4546000" />
+      <workItem from="1542708279981" duration="12468000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="340959000" />
+    <option name="totallyTimeSpent" value="348881000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -403,16 +415,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/collapsible/App/Components/Component.ejs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/collapsible/App/Components/MainContent.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/backdrop/App/Components/Component.ejs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -592,13 +594,6 @@
     <entry file="file://$PROJECT_DIR$/templates/toptabbed/Tests/Components/LaunchScreen/ChatsTab/ChatsListItem.test.tsx">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10810">
-          <caret line="470" column="64" selection-start-line="470" selection-start-column="64" selection-end-line="470" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/toptabbed/App/Containers/ttlaunchscreen.ejs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -618,16 +613,6 @@
     <entry file="file://$PROJECT_DIR$/ignite.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/commands/component.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commands/container.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="60" column="46" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/boilerplate/js/App/Config/AppConfig.tsx">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -639,13 +624,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/boilerplate/ignite.json.ejs">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="82" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="82" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/boilerplate/package.json.ejs">
       <provider selected="true" editor-type-id="text-editor">
@@ -677,11 +655,42 @@
     <entry file="file://$PROJECT_DIR$/boilerplate/typings.d.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/js/App/Themes/Colors.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="54" column="19" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="60" column="30" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/patterns.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commands/component.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commands/container.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="56" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="69">
-            <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+          <first_editor relative-caret-position="267">
+            <caret line="1226" lean-forward="true" selection-start-line="1226" selection-end-line="1226" />
             <folding>
               <element signature="e#0#38#0" expanded="true" />
               <element signature="e#0#30#0" expanded="true" />
@@ -696,6 +705,13 @@
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
         </state>
       </provider>
     </entry>
