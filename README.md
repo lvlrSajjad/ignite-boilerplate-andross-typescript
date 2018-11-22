@@ -266,7 +266,8 @@ You can generate normal screens in containers folder then add them to the naviga
    ```
     ignite g container ScreenName
    ```
-   
+   Then choosing `Simple` from answers list
+
 ### Generate Login Screens
 
 You can also generate a material designed Login screen with some related components and reduxs by this command:
@@ -280,7 +281,9 @@ You can also generate a material designed Login screen with some related compone
 ```
     ignite g container LoginScreen
    ```
-   Or Choosing Simple login screen at project initialization
+   Then choosing `Simple Login` from answers list
+   Or
+   Choosing Simple login screen at project initialization
    
 #### Sms Login Screen
 
@@ -291,7 +294,9 @@ You can also generate a material designed Login screen with some related compone
 ```
       ignite g container SmsLoginScreen
 ``` 
-   Or Choosing Sms login screen at project initialization
+   Then choosing `Sms Login` from answers list
+   Or
+   Choosing Sms login screen at project initialization
 
    
    
@@ -335,8 +340,9 @@ this is a preview of Bottom Tabbed Template :
 You can generate a screen with this template using below command :
 
 ```
- ignite g container YourScreenName BottomTabbed
+ ignite g container YourScreenName
 ```
+Then choosing `With Bottom Tabbed Navigation` from answers list
 this command will produce a screen file with tab files and will add this screen to AppNavigation file
 
 You can edit file names and contents of files inside YourScreenNameTabs folder, just be sure if you edited the file names you also edit the imports inside YourScreenName.tsx file.
@@ -356,8 +362,9 @@ this is a preview of Top Tabbed Template :
 You can generate a screen with this template using below command :
 
 ```
- ignite g container YourScreenName TopTabbed
+ ignite g container YourScreenName
 ```
+Then choosing `With Top Tabbed Navigation` from answers list
 
 this command will produce a screen file with tab files and will add this screen to AppNavigation file
 
@@ -378,8 +385,9 @@ this is a preview of Navigation Drawer Template :
 You can generate a screen with this template using below command :
 
 ```
- ignite g container YourScreenName Drawer
+ ignite g container YourScreenName
 ```
+Then choosing `With Drawer Navigation` from answers list
 
 You can edit file names and contents of files inside YourScreenNameTabs folder, just be sure if you edited the file names you also edit the imports inside YourScreenName.tsx file.
 You can also edit navigation icon names inside YourScreenName.tsx
@@ -396,8 +404,9 @@ this template provides a simple screen with a collapsible toolbar as below gif
 You can generate a screen with this template using below command :
 
 ```
- ignite g container YourScreenName CollapsibleToolbar
+ ignite g container YourScreenName
 ```
+Then choosing `Collapsible Toolbar` from answers list
 
 for customization or etc , i've used <a href="https://github.com/lvlrSajjad/ignite-boilerplate-andross-typescript#material-collapsible-toolbar-container">MaterialCollapsibleToolbarContainer</a> in this screen so you can get more info from mentioned link
 
@@ -413,8 +422,9 @@ I used <a href='#material-backdrop'>Material Backdrop</a> component for this
 You can generate a screen with this template using below command :
 
 ```
- ignite g container YourScreenName Backdrop
+ ignite g container YourScreenName
 ```
+Then choosing `Backdrop` from answers list
 
 #### Collapsible Screen With Drawer Navigation
 this template provides a navigation drawer screen with 5 tabs , four of them have collapsible toolbars as below gif
@@ -426,8 +436,9 @@ this template provides a navigation drawer screen with 5 tabs , four of them hav
 You can generate a screen with this template using below command :
 
 ```
- ignite g container YourScreenName CollapsibleToolbarDrawer
+ ignite g container YourScreenName
 ```
+Then choosing `Collapsible Toolbar With Drawer Navigation` from answers list
 
 You can edit file names and contents of files inside YourScreenNameTabs folder, just be sure if you edited the file names you also edit the imports inside YourScreenName.tsx file.
 You can also edit navigation icon names inside YourScreenName.tsx
