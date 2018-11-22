@@ -15,7 +15,7 @@ module.exports = async function (context) {
     return
   }
 
-  const name = pascalCase(parameters.first)
+  let name = pascalCase(parameters.first)
   const props = { name }
 
   const containerTypeMessage = 'What container type you want ?'
@@ -362,6 +362,7 @@ module.exports = async function (context) {
     ]
     await ignite.copyBatch(context, jobs, props)
   } else if (containerType === "Simple Login"){
+    name = 'LoginScreen';
     filesystem.copy(`${__dirname}/../templates/login/App/Components/LoginScreen`, `${process.cwd()}/js/App/Components/LoginScreen`, {
       overwrite: true
     })
@@ -378,6 +379,7 @@ module.exports = async function (context) {
       }
     ]
   } else if (containerType === "Sms Login"){
+    name = 'LoginScreen';
     filesystem.copy(`${__dirname}/../templates/smslogin/App/Components/LoginScreen`, `${process.cwd()}/js/App/Components/LoginScreen`, {
       overwrite: true
     })

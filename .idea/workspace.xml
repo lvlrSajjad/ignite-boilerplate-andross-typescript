@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/README.md" line="200" />
-    <bookmark url="file://$PROJECT_DIR$/README.md" line="1054" />
+    <bookmark url="file://$PROJECT_DIR$/README.md" line="201" />
+    <bookmark url="file://$PROJECT_DIR$/README.md" line="1055" />
     <bookmark url="file://$PROJECT_DIR$/templates/collapsibledrawer/App/Components/MainTabs/FirstTab/FirstTabComponent.tsx" line="3" />
     <bookmark url="file://$PROJECT_DIR$/templates/toptabbed/App/Components/MainTabs/index.ts" line="0" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f62ad2c-1973-43c4-a49a-dc82052ec6be" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/gifs/material-radio-group.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/boilerplate/package.json.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/package.json.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/commands/container.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/container.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/container-style.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/container-style.ejs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,11 +28,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
-              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+              <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json.ejs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/boilerplate/package.json.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123">
+              <caret line="67" column="62" selection-start-line="67" selection-start-column="62" selection-end-line="67" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="161">
+                <caret line="52" column="53" selection-start-line="52" selection-start-column="53" selection-end-line="52" selection-end-column="53" />
+                <folding>
+                  <element signature="e#0#59#0" expanded="true" />
+                  <element signature="e#0#30#0" expanded="true" />
+                  <element signature="e#4#34#0" expanded="true" />
+                  <element signature="e#0#30#0" expanded="true" />
+                  <element signature="e#3#33#0" expanded="true" />
+                  <element signature="e#5#35#0" expanded="true" />
+                  <element signature="e#0#30#0" expanded="true" />
+                  <element signature="e#0#30#0" expanded="true" />
+                  <element signature="e#0#30#0" expanded="true" />
+                  <element signature="e#2#56#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -49,8 +83,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>tabbed/</find>
-      <find>collapsibledrawer</find>
       <find>collapsible</find>
       <find>Tests/</find>
       <find>toptabbed</find>
@@ -69,7 +101,6 @@
       <find>filesystem</find>
       <find>__dirname</find>
       <find>mapbox</find>
-      <find>collection</find>
       <find>linking</find>
       <find>react-native-material-buttons</find>
       <find>material</find>
@@ -77,8 +108,11 @@
       <find>Backdrop</find>
       <find>overwrite</find>
       <find>ignite g container</find>
-      <find>Simple Login</find>
       <find>Sms Login</find>
+      <find>Simple Login</find>
+      <find>name</find>
+      <find>loginScree</find>
+      <find>collection</find>
     </findStrings>
     <dirStrings>
       <dir>D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\boilerplate</dir>
@@ -93,7 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/templates/toptabbed/App/Components/MainTabs/SecondTabComponent.tsx" />
         <option value="$PROJECT_DIR$/templates/toptabbed/App/Components/MainTabs/ThirdTabComponent.tsx" />
         <option value="$PROJECT_DIR$/templates/toptabbed/Tests/Components/MainTabs/FirstTab.test.ejs" />
         <option value="$PROJECT_DIR$/templates/toptabbed/Tests/Components/MainTabs/SecondTab.test.ejs" />
@@ -139,11 +172,12 @@
         <option value="$PROJECT_DIR$/templates/tabbed/Tests/Components/LaunchScreen/SettingsTab/SettingsToggleItem.test.tsx" />
         <option value="$PROJECT_DIR$/boilerplate.js" />
         <option value="$PROJECT_DIR$/boilerplate/.gitignore" />
-        <option value="$PROJECT_DIR$/boilerplate/package.json.ejs" />
         <option value="$PROJECT_DIR$/ignite.json" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/commands/container.js" />
+        <option value="$PROJECT_DIR$/templates/container-style.ejs" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/boilerplate/package.json.ejs" />
       </list>
     </option>
   </component>
@@ -161,7 +195,7 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
@@ -176,37 +210,6 @@
             <path>
               <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
               <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
-              <item name="boilerplate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
-              <item name="boilerplate" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
-              <item name="boilerplate" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="App" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
-              <item name="boilerplate" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="App" type="462c0819:PsiDirectoryNode" />
-              <item name="Navigation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ignite-Andross-TypeScript-Enhanced-BoilerPlate" type="462c0819:PsiDirectoryNode" />
-              <item name="commands" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -232,19 +235,19 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\gifs" />
-      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\toptabbed\Tests\Components\MainTabs" />
-      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\collapsibledrawer\Tests\Components\MainTabs" />
-      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\tabbed\Tests\Components\MainTabs" />
-      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\tabbed\Tests\Components" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\toptabbed\Tests\Components\LaunchScreen\ChatsTab" />
       <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\collapsibledrawer\Tests\Components\LaunchScreen\SettingsTab" />
       <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\tabbed\Tests\Components\LaunchScreen\SettingsTab" />
       <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\tabbed\Tests\Components\LaunchScreen" />
       <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\drawer\Tests\Components\MainTabs" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\gifs" />
+      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\toptabbed\Tests\Components\MainTabs" />
+      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\collapsibledrawer\Tests\Components\MainTabs" />
+      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\tabbed\Tests\Components\MainTabs" />
+      <recent name="D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\templates\tabbed\Tests\Components" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -313,12 +316,12 @@
       <workItem from="1542767234448" duration="897000" />
       <workItem from="1542804357313" duration="5363000" />
       <workItem from="1542849459636" duration="249000" />
-      <workItem from="1542891795423" duration="7510000" />
+      <workItem from="1542891795423" duration="10650000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="365150000" />
+    <option name="totallyTimeSpent" value="368290000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -330,9 +333,9 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49925596" weight="0.4610052" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.13345195" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.51116073" visible="true" weight="0.19410746" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.51116073" visible="true" weight="0.19410746" />
       <window_info anchor="bottom" id="TypeScript" order="11" sideWeight="0.49925596" weight="0.3188908" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26041666" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26041666" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32562277" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -358,25 +361,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/collapsibledrawer/Tests/Components/MainTabs/FifthTab.test.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/collapsibledrawer/Tests/Components/MainTabs/FirstTab.test.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="69" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/drawer/App/Containers/MainTabs/FifthTab.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-179" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/drawer/Tests/Components/MainTabs/FifthTabComponent.test.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -563,13 +547,6 @@
     <entry file="file://$PROJECT_DIR$/test/react-native-version.test.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate/package.json.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-302">
-          <caret line="72" column="46" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/commands/screen.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-621" />
@@ -585,27 +562,6 @@
     <entry file="file://$PROJECT_DIR$/commands/component.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-552" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="166">
-            <caret line="287" column="21" lean-forward="true" selection-start-line="287" selection-start-column="21" selection-end-line="287" selection-end-column="21" />
-            <folding>
-              <element signature="e#0#59#0" expanded="true" />
-              <element signature="e#0#30#0" expanded="true" />
-              <element signature="e#4#34#0" expanded="true" />
-              <element signature="e#0#30#0" expanded="true" />
-              <element signature="e#3#33#0" expanded="true" />
-              <element signature="e#5#35#0" expanded="true" />
-              <element signature="e#0#30#0" expanded="true" />
-              <element signature="e#0#30#0" expanded="true" />
-              <element signature="e#2#56#0" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/commands/list.js">
@@ -634,15 +590,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/commands/container.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="441" column="96" selection-start-line="441" selection-start-column="96" selection-end-line="441" selection-end-column="96" />
+        <state relative-caret-position="160">
+          <caret line="381" column="25" selection-start-line="381" selection-start-column="25" selection-end-line="381" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/component-style.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/container-style.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/component/style/style.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="161">
+            <caret line="52" column="53" selection-start-line="52" selection-start-column="53" selection-end-line="52" selection-end-column="53" />
+            <folding>
+              <element signature="e#0#59#0" expanded="true" />
+              <element signature="e#0#30#0" expanded="true" />
+              <element signature="e#4#34#0" expanded="true" />
+              <element signature="e#0#30#0" expanded="true" />
+              <element signature="e#3#33#0" expanded="true" />
+              <element signature="e#5#35#0" expanded="true" />
+              <element signature="e#0#30#0" expanded="true" />
+              <element signature="e#0#30#0" expanded="true" />
+              <element signature="e#0#30#0" expanded="true" />
+              <element signature="e#2#56#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/package.json.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="67" column="62" selection-start-line="67" selection-start-column="62" selection-end-line="67" selection-end-column="62" />
         </state>
       </provider>
     </entry>
