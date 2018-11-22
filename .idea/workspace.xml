@@ -8,13 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f62ad2c-1973-43c4-a49a-dc82052ec6be" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/gifs/material-radio-group.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/boilerplate/package.json.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/package.json.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commands/container.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/container.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/container-style.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/container-style.ejs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,12 +28,12 @@
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
-              <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="20" />
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json.ejs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/boilerplate/package.json.ejs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="123">
@@ -46,12 +42,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="161">
-                <caret line="52" column="53" selection-start-line="52" selection-start-column="53" selection-end-line="52" selection-end-column="53" />
+              <first_editor relative-caret-position="690">
+                <caret line="1334" lean-forward="true" selection-start-line="1334" selection-end-line="1334" />
                 <folding>
                   <element signature="e#0#59#0" expanded="true" />
                   <element signature="e#0#30#0" expanded="true" />
@@ -176,8 +172,8 @@
         <option value="$PROJECT_DIR$/commands/container.js" />
         <option value="$PROJECT_DIR$/templates/container-style.ejs" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/boilerplate/package.json.ejs" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -316,12 +312,12 @@
       <workItem from="1542767234448" duration="897000" />
       <workItem from="1542804357313" duration="5363000" />
       <workItem from="1542849459636" duration="249000" />
-      <workItem from="1542891795423" duration="10650000" />
+      <workItem from="1542891795423" duration="12053000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="368290000" />
+    <option name="totallyTimeSpent" value="369693000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -333,9 +329,9 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49925596" weight="0.4610052" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.13345195" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.51116073" visible="true" weight="0.19410746" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.51116073" visible="true" weight="0.19410746" />
       <window_info anchor="bottom" id="TypeScript" order="11" sideWeight="0.49925596" weight="0.3188908" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26041666" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26041666" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32562277" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -608,11 +604,25 @@
     <entry file="file://$PROJECT_DIR$/templates/component/style/style.ejs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/package.json.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="67" column="62" selection-start-line="67" selection-start-column="62" selection-end-line="67" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="161">
-            <caret line="52" column="53" selection-start-line="52" selection-start-column="53" selection-end-line="52" selection-end-column="53" />
+          <first_editor relative-caret-position="690">
+            <caret line="1334" lean-forward="true" selection-start-line="1334" selection-end-line="1334" />
             <folding>
               <element signature="e#0#59#0" expanded="true" />
               <element signature="e#0#30#0" expanded="true" />
@@ -627,20 +637,6 @@
             </folding>
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate/package.json.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="67" column="62" selection-start-line="67" selection-start-column="62" selection-end-line="67" selection-end-column="62" />
         </state>
       </provider>
     </entry>

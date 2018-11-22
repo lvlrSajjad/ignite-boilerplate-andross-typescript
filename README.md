@@ -1333,27 +1333,6 @@ ignite generate map MapName
   </MapboxGL.MapView>
   ```
 
-
-## Recommended Components For Use In The Project
-  
-
-  ### List Component 
-
-  https://docs.nativebase.io/Components.html#list-avatar-headref
-
- ### RadioButton
-
-https://github.com/xinthink/react-native-material-kit#radio-button
-
-### BottomTabNavigation (See MainTabNavigator.tsx for more info)
-
-    import {createMaterialBottomTabNavigator} from 'react-navigation-material-bottom-tabs';
-
-### TopTabNavigation (See ChatsTabNavigator.tsx for more info)
-
-    import {createMaterialTopTabNavigator, TabBarTop} from 'react-navigation-tabs';
-
-
 ## :closed_lock_with_key: Secrets
 
 This project uses [react-native-config](https://github.com/luggit/react-native-config) to expose config variables to your javascript code in React Native. You can store API keys
