@@ -752,9 +752,12 @@ this component is a view with default column direction it can be used for better
  <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/material-toolbar.gif" width="30%">
  </p>
  
- A toolbar designed based on material.io guidelines
- And
- MaterialToolbarContent you can use it for some content on your toolbar , you can also use your custom component
+ A toolbar designed based on material.io guidelines <br>
+ And <br>
+ MaterialToolbarContent you can use it for some content on your toolbar , you can also use your custom component <br>
+ 
+ Can be used by [Material Container](#material-container)
+ 
  #### Usage
  
  Import :
