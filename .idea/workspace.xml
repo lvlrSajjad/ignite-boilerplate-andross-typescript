@@ -2,16 +2,13 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/README.md" line="203" />
-    <bookmark url="file://$PROJECT_DIR$/README.md" line="1223" />
+    <bookmark url="file://$PROJECT_DIR$/README.md" line="1236" />
     <bookmark url="file://$PROJECT_DIR$/templates/collapsibledrawer/App/Components/MainTabs/FirstTab/FirstTabComponent.tsx" line="3" />
     <bookmark url="file://$PROJECT_DIR$/templates/toptabbed/App/Components/MainTabs/index.ts" line="0" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f62ad2c-1973-43c4-a49a-dc82052ec6be" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate/package.json.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate/package.json.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,8 +44,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="350">
-                <caret line="759" column="1" selection-start-line="759" selection-start-column="1" selection-end-line="759" selection-end-column="1" />
+              <first_editor relative-caret-position="207">
+                <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
                 <folding>
                   <element signature="e#0#30#0" expanded="true" />
                   <element signature="e#4#34#0" expanded="true" />
@@ -79,7 +76,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>/Tests</find>
       <find>{__dirname}/temp</find>
       <find>dirname}/..</find>
       <find>false</find>
@@ -109,6 +105,7 @@
       <find>Container</find>
       <find>Material Container</find>
       <find>Material Tool</find>
+      <find>Material Card</find>
     </findStrings>
     <dirStrings>
       <dir>D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\boilerplate</dir>
@@ -314,12 +311,12 @@
       <workItem from="1542849459636" duration="249000" />
       <workItem from="1542891795423" duration="13822000" />
       <workItem from="1542939422357" duration="1819000" />
-      <workItem from="1542962416224" duration="987000" />
+      <workItem from="1542962416224" duration="1549000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="374268000" />
+    <option name="totallyTimeSpent" value="374830000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -620,8 +617,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="350">
-            <caret line="759" column="1" selection-start-line="759" selection-start-column="1" selection-end-line="759" selection-end-column="1" />
+          <first_editor relative-caret-position="207">
+            <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
             <folding>
               <element signature="e#0#30#0" expanded="true" />
               <element signature="e#4#34#0" expanded="true" />

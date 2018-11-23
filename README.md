@@ -39,13 +39,13 @@
       * [How to navigate screens via redux](#how-to-navigate-screens-via-redux)    
    * [Material Ui Collection](#material-ui-collection)
       * [Material Colors](#material-colors)    
-      * [Material Vertical Linear](#material-vertical-linear)
-      * [Material Horizontal Linear](#material-horizontal-linear)
-      * [Material Toolbar](#material-toolbar)
       * [Material Container](#material-container)
-      * [Material Card](#material-card)
       * [Material Collapsible Toolbar Container](#material-collapsible-toolbar-container)
       * [Material Backdrop](#material-backdrop)  
+      * [Material Vertical Linear](#material-vertical-linear)
+      * [Material Horizontal Linear](#material-horizontal-linear)
+      * [Material Card](#material-card)
+      * [Material Toolbar](#material-toolbar)
       * [Material Text Input](#material-text-input)   
       * [Material Progress](#material-progress) 
       * [Material Buttons](#material-buttons) 
@@ -644,6 +644,210 @@ export default withNavigation(connect(mapStateToProps, mapDispatchToProps)(Redux
         eg:
         MaterialColors.deepPurple.C400 //returns: #7E57C2 as string
    ```
+
+### Material Container 
+   
+ <p align="center">
+ <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/container.png" width="30%">
+ </p>
+ 
+  This component is a full width/height view for container view you can use it for more ui/ux code readability
+  
+ #### Usage :
+  
+   ```typescript jsx
+       import {MaterialContainer} from 'react-native-typescript-material-ui-collection';
+        <MaterialContainer
+          isRoot // if you set this prop true , your component will have no padding and you can render a toolbar view at top of it the default padding is 16
+          toolbar={() => <MaterialToolbar
+                              leftIcon='menu'
+                              iconsColor='white'
+                              color='purple'
+                              content={() => <MaterialToolbarContent color='white' haveTypeMode={true} text='title'/>}
+                          />}> // this view will render at top of the view if you set isRoot true
+            <MaterialContainer
+             // for using inside a root have 16 dp padding inside
+            >
+            </MaterialContainer>
+        </MaterialContainer>
+   ```        
+#### Props
+
+```typescript jsx
+          isRoot: boolean // if you set this prop true , your component will have no padding and you can render a toolbar view at top of it the default padding is 16
+          toolbar:React.ReactNode // this view will render at top of the view if you set isRoot true
+```   
+      
+### Material Collapsible Toolbar Container
+ <p align="center">
+ <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/collapsibletoolbarcontainer.gif" width="30%">
+ </p>
+ 
+This is a pure js material collapsible toolbar container
+#### Usage :
+
+The exact code of above gif
+
+```typescript jsx
+import * as React from 'react'
+import {Component} from 'react';
+import {Image, Text, View} from 'react-native'
+import {MaterialCollapsibleToolbarContainer} from 'react-native-typescript-material-ui-collection'
+
+export default class LaunchScreen extends Component {
+  componentWillMount() {
+  }
+
+  renderContent = () => (
+    <View>
+      {new Array(40).fill().map((_, i) => (
+        <View
+          key={i}
+          style={{
+            backgroundColor: '#F5F5F5',
+            padding: 10,
+            borderBottomWidth: 1,
+            borderBottomColor: '#E5E5E5'
+          }}
+        >
+          <Text>{`Item ${i + 1}`}</Text>
+        </View>
+      ))}
+    </View>
+  );
+
+  renderCollapsedToolbarContent = () => <Image
+    source={{uri: 'https://facebook.github.io/react-native/img/header_logo.png'}}
+
+    style={{
+      width: 50,
+      height: 50,
+      borderRadius: 25,
+      overflow: 'hidden'
+    }}/>;
+
+  render() {
+    return (
+      <MaterialCollapsibleToolbarContainer
+        renderContent={this.renderContent}
+        imageSource='https://lorempixel.com/400/300/'
+        collapsedNavBarBackgroundColor='#009688'
+        translucentStatusBar
+        showsVerticalScrollIndicator={false}
+        textColor='white'
+        renderCollapsedToolbarContent={this.renderCollapsedToolbarContent}
+        leftButtonIcon='menu'
+        onLeftIconPress={() => console.log('onlefticonpress')}
+        title="Title"
+        // toolBarHeight={300}
+      />
+    );
+  }
+}
+``` 
+
+#### Props :
+
+```typescript jsx
+  collapsedNavBarBackgroundColor?: string,
+  imageSource?: string,
+  onContentScroll?(): void,
+  renderContent?(): React.ReactNode,
+  renderCollapsedToolbarContent?():React.ReactNode, // this component will be rendered on the toolbar 
+  toolBarHeight?: number,
+  translucentStatusBar?: boolean,
+  textColor?: string,
+  leftButtonIcon?: string,
+  onLeftIconPress?(): void,
+  rightButtonIcon?: string,
+  onRightIconPress?(): void
+```
+
+### Material Backdrop
+ <p align="center">
+ <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/backdropimage.gif" width="30%">
+ <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/backdroplist.gif" width="30%">
+ </p>
+
+I tried to create this component using material.io guidelines in this <a href="https://material.io/design/components/backdrop.html">link</a>
+
+#### Usage :
+  ```typescript jsx
+    import * as React from 'react'
+    import {Component} from 'react';
+    import {connect} from 'react-redux'
+    import {MaterialBackdrop} from "react-native-typescript-material-ui-collection";
+    import {Image, Text, View} from "react-native";
+    
+    class ScreenName extends Component {
+      constructor(props) {
+        super(props);
+        this.state = {isExpanded: false}
+      }
+    
+      render() {
+        return (
+          <MaterialBackdrop
+            revealComponent={()=>this.renderRevealComponent()}
+            leftButtonIcon='menu'
+            expandedTitle='Expanded'
+            collapsedTitle='Collapsed'
+            content={()=>this.renderContent('black')}
+            textColor='white'
+            subHeaderText='subheader'
+            backdropBackgroundColor='purple'
+            contentBackgroundColor='white'
+            subheaderTextColor='#212121'
+          />
+        )
+      }
+      renderRevealComponent=()=><View>
+          <Image
+            style={{margin: 34, alignSelf: 'center', width: 84, height: 84, borderRadius: 42}}
+            source={{uri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwu7s_Ic3YioDVl9AmoJGsKbBuCKFVp2cD3KCPzdYlBLOcGmeV'}}
+          />
+        </View>
+      renderContent=(color)=><View>
+        {new Array(40).fill().map((_, i) => (
+          <View
+            key={i}
+            style={{
+              padding: 10,
+              borderBottomWidth: 1,
+              borderBottomColor: '#00000011'
+            }}
+          >
+            <Text style={{color:color}}>{`Item ${i + 1}`}</Text>
+          </View>
+        ))}
+      </View>
+    
+    }
+   ``` 
+      
+#### Props :
+
+```typescript jsx
+  revealComponent?(): React.ReactNode,
+  backdropBackgroundColor?: string,
+  leftButtonIcon?: string, // an icon name from https://materialdesignicons.com (this component using react-native-vector icons inside)
+  expandedTitle?: string,
+  collapsedTitle?: string,
+  content?(): React.ReactNode,
+  textColor?: string,
+  subHeaderText?: string,
+  horizontalContent?: boolean,
+  onSubheaderClick?(): void,
+  onLeftButtonClick?(): void,
+  onRightButtonClick?(): void,
+  contentBackgroundColor?: string,
+  subheaderTextColor?: string,
+  onExpand?(): void,
+  onCollapse?(): void,
+  rightButtonIcon?: string // an icon name from https://materialdesignicons.com (this component using react-native-vector icons inside)
+                            // if you give it an icon name icon will be rendered top right of backdrop and you can use it as you want
+```
+
 ### Material Vertical Linear 
 
  <p align="center">
@@ -841,197 +1045,6 @@ MaterialToolbarContentProps {
   
 ```   
    
-### Material Container 
-   
- <p align="center">
- <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/container.png" width="30%">
- </p>
- 
-  This component is a full width/height view for container view you can use it for more ui/ux code readability
-  
- #### Usage :
-  
-   ```typescript jsx
-       import {MaterialContainer} from 'react-native-typescript-material-ui-collection';
-        <MaterialContainer
-          isRoot: boolean // if you set this prop true , your component will have no padding and you can render a toolbar view at top of it the default padding is 16
-          toolbar:React.ReactNode // this view will render at top of the view if you set isRoot true
-        >
-            <MaterialContainer
-             // if you want to use this inside a root it is still a full width/height view with 16 dp padding
-            >
-            </MaterialContainer>
-        </MaterialContainer>
-   ```        
-### Material Collapsible Toolbar Container
- <p align="center">
- <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/collapsibletoolbarcontainer.gif" width="30%">
- </p>
- 
-This is a pure js material collapsible toolbar container
-#### Usage :
-
-The exact code of above gif
-
-```typescript jsx
-import * as React from 'react'
-import {Component} from 'react';
-import {Image, Text, View} from 'react-native'
-import {MaterialCollapsibleToolbarContainer} from 'react-native-typescript-material-ui-collection'
-
-export default class LaunchScreen extends Component {
-  componentWillMount() {
-  }
-
-  renderContent = () => (
-    <View>
-      {new Array(40).fill().map((_, i) => (
-        <View
-          key={i}
-          style={{
-            backgroundColor: '#F5F5F5',
-            padding: 10,
-            borderBottomWidth: 1,
-            borderBottomColor: '#E5E5E5'
-          }}
-        >
-          <Text>{`Item ${i + 1}`}</Text>
-        </View>
-      ))}
-    </View>
-  );
-
-  renderCollapsedToolbarContent = () => <Image
-    source={{uri: 'https://facebook.github.io/react-native/img/header_logo.png'}}
-
-    style={{
-      width: 50,
-      height: 50,
-      borderRadius: 25,
-      overflow: 'hidden'
-    }}/>;
-
-  render() {
-    return (
-      <MaterialCollapsibleToolbarContainer
-        renderContent={this.renderContent}
-        imageSource='https://lorempixel.com/400/300/'
-        collapsedNavBarBackgroundColor='#009688'
-        translucentStatusBar
-        showsVerticalScrollIndicator={false}
-        textColor='white'
-        renderCollapsedToolbarContent={this.renderCollapsedToolbarContent}
-        leftButtonIcon='menu'
-        onLeftIconPress={() => console.log('onlefticonpress')}
-        title="Title"
-        // toolBarHeight={300}
-      />
-    );
-  }
-}
-``` 
-
-#### Props :
-
-```typescript jsx
-  collapsedNavBarBackgroundColor?: string,
-  imageSource?: string,
-  onContentScroll?(): void,
-  renderContent?(): React.ReactNode,
-  renderCollapsedToolbarContent?():React.ReactNode, // this component will be rendered on the toolbar 
-  toolBarHeight?: number,
-  translucentStatusBar?: boolean,
-  textColor?: string,
-  leftButtonIcon?: string,
-  onLeftIconPress?(): void,
-  rightButtonIcon?: string,
-  onRightIconPress?(): void
-```
-
-### Material Backdrop
- <p align="center">
- <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/backdropimage.gif" width="30%">
- <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/backdroplist.gif" width="30%">
- </p>
-
-I tried to create this component using material.io guidelines in this <a href="https://material.io/design/components/backdrop.html">link</a>
-
-#### Usage :
-  ```typescript jsx
-    import * as React from 'react'
-    import {Component} from 'react';
-    import {connect} from 'react-redux'
-    import {MaterialBackdrop} from "react-native-typescript-material-ui-collection";
-    import {Image, Text, View} from "react-native";
-    
-    class ScreenName extends Component {
-      constructor(props) {
-        super(props);
-        this.state = {isExpanded: false}
-      }
-    
-      render() {
-        return (
-          <MaterialBackdrop
-            revealComponent={()=>this.renderRevealComponent()}
-            leftButtonIcon='menu'
-            expandedTitle='Expanded'
-            collapsedTitle='Collapsed'
-            content={()=>this.renderContent('black')}
-            textColor='white'
-            subHeaderText='subheader'
-            backdropBackgroundColor='purple'
-            contentBackgroundColor='white'
-            subheaderTextColor='#212121'
-          />
-        )
-      }
-      renderRevealComponent=()=><View>
-          <Image
-            style={{margin: 34, alignSelf: 'center', width: 84, height: 84, borderRadius: 42}}
-            source={{uri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwu7s_Ic3YioDVl9AmoJGsKbBuCKFVp2cD3KCPzdYlBLOcGmeV'}}
-          />
-        </View>
-      renderContent=(color)=><View>
-        {new Array(40).fill().map((_, i) => (
-          <View
-            key={i}
-            style={{
-              padding: 10,
-              borderBottomWidth: 1,
-              borderBottomColor: '#00000011'
-            }}
-          >
-            <Text style={{color:color}}>{`Item ${i + 1}`}</Text>
-          </View>
-        ))}
-      </View>
-    
-    }
-   ``` 
-      
-#### Props :
-
-```typescript jsx
-  revealComponent?(): React.ReactNode,
-  backdropBackgroundColor?: string,
-  leftButtonIcon?: string, // an icon name from https://materialdesignicons.com (this component using react-native-vector icons inside)
-  expandedTitle?: string,
-  collapsedTitle?: string,
-  content?(): React.ReactNode,
-  textColor?: string,
-  subHeaderText?: string,
-  horizontalContent?: boolean,
-  onSubheaderClick?(): void,
-  onLeftButtonClick?(): void,
-  onRightButtonClick?(): void,
-  contentBackgroundColor?: string,
-  subheaderTextColor?: string,
-  onExpand?(): void,
-  onCollapse?(): void,
-  rightButtonIcon?: string // an icon name from https://materialdesignicons.com (this component using react-native-vector icons inside)
-                            // if you give it an icon name icon will be rendered top right of backdrop and you can use it as you want
-```
 
 ### Material Text Input 
  
