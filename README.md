@@ -42,6 +42,7 @@
       * [Material Vertical Linear](#material-vertical-linear)
       * [Material Horizontal Linear](#material-horizontal-linear)
       * [Material Container](#material-container)
+      * [Material Card](#material-card)
       * [Material Collapsible Toolbar Container](#material-collapsible-toolbar-container)
       * [Material Backdrop](#material-backdrop)  
       * [Material Text Input](#material-text-input)   
@@ -672,6 +673,78 @@ this component is a view with default column direction it can be used for better
        <MaterialVerticalLinear>
        </MaterialVerticalLinear>
    ```    
+   
+ ### Material Card 
+ 
+ <p align="center">
+ <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/card.gif" width="30%">
+ </p>
+  
+  A card component created using material.io guidelines , Also CardContent Component is inside this is actually a view with 16dp padding
+  
+ #### Usage :
+ 
+ Above gif's code (just important things)
+ 
+ ```typescript jsx
+    //import
+    import {MaterialCard, MaterialCardContent} from 'react-native-typescript-material-ui-collection';
+ ```    
+ 
+```typescript jsx
+   //with image header
+   <MaterialCard style={{flex:1}}  header={()=><Image style={{height:150}} source={{uri:'https://lorempixel.com/200/300/fashion'}}/>}>
+     <MaterialCardContent >
+     <Text> material card</Text>
+     <Text> material card</Text>
+     </MaterialCardContent>
+   </MaterialCard>
+```    
+```typescript jsx
+   //setting elevation
+   <MaterialCard  style={{flex:1}} elevation={3}>
+      <MaterialCardContent >
+        <Text> material card</Text>
+        <Text> Elevation 3</Text>
+      </MaterialCardContent>
+   </MaterialCard>
+```    
+   
+```typescript jsx
+    //minimal usage
+    <MaterialCardContent>
+       <Text>this is a material card</Text>
+       <Text>this is a material card</Text>
+       <Text>this is a material card</Text>
+    </MaterialCardContent>
+```    
+    
+```typescript jsx
+     //with background image
+     <MaterialCard  style={{flex:1,height:200}} backgroundImageSource={{uri:'https://lorempixel.com/300/200/sports'}}>
+         <MaterialCardContent >
+             <Text style={{textShadowColor:'black',textShadowRadius:2,color:'white'}}> material card</Text>
+             <Text style={{textShadowColor:'black',textShadowRadius:2,color:'white'}}> Elevation 7</Text>
+         </MaterialCardContent>
+     </MaterialCard>
+```    
+#### Props
+```typescript jsx
+  elevation?: number,
+  margin?:number,
+  header?(): React.ReactNode,
+  style?:ViewStyle,
+  backgroundImageSource?: ImageSourcePropType,
+  backgroundColor?:string
+
+```  
+#### Default Props
+```typescript jsx
+    elevation:2,
+    margin:8,
+    backgroundColor:'#eeeeee'
+```          
+   
    
   ### Material Container 
    
