@@ -749,7 +749,7 @@ this component is a view with default column direction it can be used for better
 ### Material Toolbar
 
  <p align="center">
- <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/material-toolbar.png" width="30%">
+ <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/material-toolbar.gif" width="30%">
  </p>
  
  A toolbar designed based on material.io guidelines
