@@ -88,7 +88,7 @@
       <find>View</find>
       <find>Text</find>
       <find>Image</find>
-      <find>top tabbed</find>
+      <find />
       <find>Toptabbed</find>
       <find>maps</find>
       <find>andross</find>
@@ -102,15 +102,15 @@
       <find>Drawer</find>
       <find>Backdrop</find>
       <find>overwrite</find>
-      <find>ignite g container</find>
-      <find>Sms Login</find>
-      <find>Simple Login</find>
+      <find />
+      <find />
+      <find />
       <find>name</find>
       <find>loginScree</find>
       <find>collection</find>
       <find>Container</find>
-      <find>Material Container</find>
-      <find>Material Tool</find>
+      <find />
+      <find />
     </findStrings>
     <dirStrings>
       <dir>D:\CodingProjects\Github\ignite-Andross-TypeScript-Enhanced-BoilerPlate\boilerplate</dir>
