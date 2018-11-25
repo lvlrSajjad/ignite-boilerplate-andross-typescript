@@ -2,6 +2,7 @@
 import * as React from 'react';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import {createMaterialTopTabNavigator, TabBarTop} from 'react-navigation-tabs';
+import {createAppContainer} from 'react-navigation';
 import {primaryColor} from '../../Themes/Colors';
 import ChatsScreen from '../../Containers/<%= props.name %>Tabs/FirstTab';
 import GroupsScreen from '../../Containers/<%= props.name %>Tabs/SecondTab';
@@ -42,7 +43,7 @@ const order = (isRtl) => isRtl ?
 
 // different routes for all, active and completed todos
 export default (props) => React.createElement(
-  createMaterialTopTabNavigator(
+createAppContainer(createMaterialTopTabNavigator(
     order(props.isRtl),
     {
       navigationOptions: ({navigation }) => ({
@@ -97,4 +98,4 @@ export default (props) => React.createElement(
       },
     },
   )
-);
+));

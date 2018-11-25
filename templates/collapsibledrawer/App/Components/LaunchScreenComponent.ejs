@@ -2,7 +2,7 @@
 import * as React from 'react';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import { SafeAreaView, ScrollView, StyleSheet, View} from "react-native";
-import {DrawerItems, createDrawerNavigator } from 'react-navigation';
+import {DrawerItems, createDrawerNavigator, createAppContainer } from 'react-navigation';
 import metrics from "../../Themes/Metrics";
 import FirstTab from '../../Containers/<%= props.name %>Tabs/FirstTab';
 import SecondTab from '../../Containers/<%= props.name %>Tabs/SecondTab';
@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
 
 // different routes for all, active and completed todos
 export default (props) => React.createElement(
-    createDrawerNavigator({
+createAppContainer(createDrawerNavigator({
             FirstTab: {
                 screen: FirstTab
             },
@@ -64,7 +64,7 @@ export default (props) => React.createElement(
             contentComponent: CustomDrawerContentComponent
         }
     )
-);
+));
 const chooseIcon = (index)=>{
     switch (index) {
         case 0: return 'chat';

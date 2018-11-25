@@ -1,4 +1,4 @@
-import { createSwitchNavigator, createStackNavigator } from "react-navigation";
+import { createSwitchNavigator, createStackNavigator, createAppContainer } from "react-navigation";
 import styles from "./Styles/NavigationStyles";
 import LaunchScreen from "../Containers/LaunchScreen";
 import LoginScreen from "../Containers/LoginScreen";
@@ -17,7 +17,7 @@ export const MainNav = createStackNavigator({
 // Manifest of possible screens
 const PrimaryNav = createSwitchNavigator({
   LoginScreen: { screen: LoginScreen },
-  LaunchScreen: { screen: MainNav }
+  LaunchScreen: { screen: createAppContainer(MainNav) }
 }, {
   // Default config for all screens
   headerMode: "none",
@@ -29,4 +29,4 @@ const PrimaryNav = createSwitchNavigator({
 
 
 
-export default PrimaryNav;
+export default createAppContainer(PrimaryNav);

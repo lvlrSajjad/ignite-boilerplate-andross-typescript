@@ -46,6 +46,7 @@
       * [Material Horizontal Linear](#material-horizontal-linear)
       * [Material Card](#material-card)
       * [Material Toolbar](#material-toolbar)
+      * [Material Bottom Tabbar](#material-bottom-tabbar)
       * [Material Text Input](#material-text-input)   
       * [Material Progress](#material-progress) 
       * [Material Buttons](#material-buttons) 
@@ -64,7 +65,8 @@ Changes :
 * Installed and configured with typeScript
 * Moved all js related folders to js folder (App,Tests)
 * Using jest for tests
-* Updated react native to the latest version (0.57.5)
+* Updated react native to (0.57.5)
+* Updated react navigation to (3.0.0)
 * Added better rtl support
 * Added switchable colorScheme support
 * Add better multi language support and add language to app settings redux
@@ -1044,7 +1046,105 @@ MaterialToolbarContentProps {
     iconsColor:'#212121'
   
 ```   
-   
+
+
+### Material Bottom Tabbar
+
+<p align="center">
+ <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/bottom-tab.gif" width="30%">
+ <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/bottom-tab1.gif" width="30%">
+ <img src="https://raw.githubusercontent.com/lvlrSajjad/ignite-boilerplate-andross-typescript/master/gifs/bottom-tab2.gif" width="30%">
+</p>
+
+A material tab bar designed and created based on material.io instructions, tested and developed on react-navigation version 3.0.0
+
+#### Usage
+
+```typescript jsx
+import {createBottomTabNavigator,createAppContainer} from 'react-navigation';
+import MaterialBottomTabbar from '../../Components/MaterialBottomTabbar';
+// A bunch of other imports
+
+const commonNavigationOptions = ({navigation}) => ({
+  header: null,
+  title: navigation.state.routeName,
+});
+
+const ChatsRouteOptions = {
+  screen: Tab1,
+  navigationOptions: commonNavigationOptions,
+};
+const SearchRouteOptions = {
+  screen: Tab2,
+  navigationOptions: commonNavigationOptions,
+};
+const ChannelsRouteOptions = {
+  screen: Tab3,
+  navigationOptions: commonNavigationOptions,
+};
+ const LocationRouteOptions = {
+   screen: Tab4,
+   navigationOptions: commonNavigationOptions,
+ };
+const SettingsRouteOptions = {
+  screen: Tab5,
+  navigationOptions: commonNavigationOptions,
+};
+// different routes for all, active and completed todos
+export default (props) => React.createElement(
+  createAppContainer(createBottomTabNavigator(
+    {
+      [I18n.t('Tab1')]: ChatsRouteOptions,
+      [I18n.t('Tab2')]: ChannelsRouteOptions,
+      [I18n.t('Tab3')]: LocationRouteOptions,
+      [I18n.t('Tab4')]: SearchRouteOptions,
+      [I18n.t('Tab5')]: SettingsRouteOptions
+    },
+    {
+      tabBarComponent:MaterialBottomTabbar, // here you can set this component
+      tabBarPosition: 'bottom',
+      tabBarOptions:{ // here are main settings of this component
+        animated:true, 
+        isRtl:props.isRtl,
+        fontSize:12,
+        noLabel:false,
+        iconName:(key)=>iconChooser(key),
+        fontFamily: Fonts.type.base,
+        defaultColor:props.colorScheme.fullToneText,
+        selectedColor:primaryColor,
+        style: {
+          backgroundColor: props.colorScheme.tabBarBackground
+        },
+      },
+      initialRouteName: I18n.t('chats')
+    },
+  ))
+);
+
+function iconChooser(key) {
+  let iconName;
+  switch (key) {
+    case I18n.t('chats'):
+      iconName = 'message-text'; // icon names from https://materialdesignicons.com/ website
+      break;
+    case I18n.t('search'):
+      iconName = 'magnify';
+      break;
+    case I18n.t('channels'):
+      iconName = 'bullhorn';
+      break;
+    case I18n.t('location'):
+      iconName = 'map-marker';
+      break;
+    case  I18n.t('settings'):
+      iconName = 'menu'
+  }
+  return iconName;
+
+}
+
+```
+    
 
 ### Material Text Input 
  
