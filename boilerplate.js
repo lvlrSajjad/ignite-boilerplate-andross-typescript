@@ -71,6 +71,7 @@ async function install (context) {
 
   // --max, --min, interactive
   let answers
+
   if (parameters.options.max) {
     answers = options.answers.max
   } else if (parameters.options.min) {
