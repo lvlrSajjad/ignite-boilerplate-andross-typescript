@@ -8,9 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f62ad2c-1973-43c4-a49a-dc82052ec6be" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boilerplate.js" beforeDir="false" afterPath="$PROJECT_DIR$/boilerplate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/options.js" beforeDir="false" afterPath="$PROJECT_DIR$/options.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,6 +22,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="options.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/options.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -33,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="boilerplate.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="boilerplate.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/boilerplate.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="113" lean-forward="true" selection-start-line="113" selection-end-line="113" />
+            <state relative-caret-position="-368">
+              <caret line="87" column="5" lean-forward="true" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -67,20 +74,20 @@
       <find>Drawer</find>
       <find>Backdrop</find>
       <find>overwrite</find>
-      <find />
-      <find />
-      <find />
+      <find>ignite g container</find>
+      <find>Sms Login</find>
+      <find>Simple Login</find>
       <find>name</find>
       <find>loginScree</find>
       <find>collection</find>
       <find>Container</find>
-      <find />
-      <find />
-      <find />
+      <find>Material Tool</find>
+      <find>Material Card</find>
+      <find>Material Container</find>
       <find>react-navigation</find>
       <find>immutable</find>
-      <find />
-      <find />
+      <find>Material Bottom Tabbar</find>
+      <find>Material Toolbar</find>
       <find>--min</find>
       <find>min</find>
       <find>max</find>
@@ -144,12 +151,12 @@
         <option value="$PROJECT_DIR$/templates/socialmedia/App/Components/LaunchScreen/LaunchScreenNavigator.tsx" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/commands/saga.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/lib/react-native-version.js" />
         <option value="$PROJECT_DIR$/boilerplate/package.json.ejs" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/options.js" />
         <option value="$PROJECT_DIR$/boilerplate.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -302,15 +309,15 @@
       <workItem from="1543256513254" duration="1170000" />
       <workItem from="1543346392012" duration="521000" />
       <workItem from="1543423704557" duration="1542000" />
-      <workItem from="1543446862688" duration="5892000" />
+      <workItem from="1543446862688" duration="8105000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="404228000" />
+    <option name="totallyTimeSpent" value="406441000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -319,9 +326,9 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49925596" weight="0.4610052" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.13345195" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.51116073" visible="true" weight="0.10676157" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.51116073" visible="true" weight="0.4163701" />
       <window_info anchor="bottom" id="TypeScript" order="11" sideWeight="0.49925596" weight="0.3188908" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2559524" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2559524" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -548,13 +555,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-577">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugin.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -636,8 +636,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/boilerplate.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="113" lean-forward="true" selection-start-line="113" selection-end-line="113" />
+        <state relative-caret-position="-368">
+          <caret line="87" column="5" lean-forward="true" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
         </state>
       </provider>
     </entry>
