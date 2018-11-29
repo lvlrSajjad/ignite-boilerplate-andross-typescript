@@ -25,29 +25,58 @@ const questions = [
   },
 ]
 
-/**
- * The max preset.
- */
-const max = {
-  'dev-screens': 'Yes',
-  'vector-icons': 'react-native-vector-icons',
-  i18n: 'react-native-i18n',
-  animatable: 'react-native-animatable',
-  'redux-persist': 'Yes'
+const nologin = {
+  'login-screen': 'No Login Screen'
 }
 
+const smslogin = {
+  'login-screen': 'Sms Login Screen'
+}
+
+const simplelogin = {
+  'login-screen': 'Simple Login Screen'
+}
+
+const simple = {
+  'main-screen': 'Simple Screen'
+}
+
+const collapsible = {
+  'main-screen': 'Collapsible Toolbar Screen'
+}
+
+const backdrop = {
+  'main-screen': 'Material Backdrop Screen'
+}
+
+const bottom = {
+  'main-screen': 'Bottom Tabbed Screen'
+}
+
+const top = {
+  'main-screen': 'Top Tabbed Screen'
+}
+
+const drawer = {
+  'main-screen': 'Navigation Drawer Screen'
+}
+
+const cdrawer = {
+  'main-screen': 'Collapsible Toolbar Screens With Drawer Navigation'
+}
+
+const smedia = {
+  'main-screen': 'Social Media Screen'
+}
 /**
  * The min preset.
  */
 const min = {
-  'dev-screens': 'No',
-  'vector-icons': 'none',
-  i18n: 'none',
-  animatable: 'none',
-  'redux-persist': 'No'
+  'login-screen': 'No Login Screen',
+  'main-screen': 'Simple Screen'
 }
 
 module.exports = {
   questions,
-  answers: { min, max }
+  answers: { min, nologin, simplelogin, smslogin, simple, collapsible,backdrop,bottom,top,drawer,cdrawer,smedia }
 }

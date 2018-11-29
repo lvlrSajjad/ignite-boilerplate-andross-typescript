@@ -70,14 +70,46 @@ async function install (context) {
   spinner.stop()
 
   // --max, --min, interactive
-  let answers
+  let answers = {}
 
-  if (parameters.options.max) {
-    answers = options.answers.max
-  } else if (parameters.options.min) {
-    answers = options.answers.min
-  } else {
-    answers = await prompt.ask(options.questions)
+  if (parameters.options.min) {
+    answers = {...answers, ...options.answers.min }
+  }else {
+    let noLoginFlag;
+
+    if (parameters.options.nologin) {
+      answers = {...answers, ...options.answers.nologin }
+    } else if (parameters.options.simplelogin) {
+      answers = {...answers, ...options.answers.simplelogin }
+    } else if (parameters.options.smslogin) {
+      answers = {...answers, ...options.answers.smslogin }
+    } else {
+      noLoginFlag= true;
+    }
+    let noMainFlag;
+    if (parameters.options.simple) {
+      answers = {...answers, ...options.answers.simple }
+    } else if (parameters.options.collapsible) {
+      answers = {...answers, ...options.answers.collapsible }
+    } else if (parameters.options.backdrop) {
+      answers = {...answers, ...options.answers.backdrop }
+    } else if (parameters.options.bottom) {
+      answers = {...answers, ...options.answers.bottom }
+    } else if (parameters.options.top) {
+      answers = {...answers, ...options.answers.top }
+    } else if (parameters.options.drawer) {
+      answers = {...answers, ...options.answers.drawer }
+    } else if (parameters.options.cdrawer) {
+      answers = {...answers, ...options.answers.cdrawer }
+    } else if (parameters.options.smedia) {
+      answers = {...answers, ...options.answers.smedia }
+    } else {
+      noMainFlag = true;
+    }
+
+    if (noLoginFlag === true && noMainFlag === true) {
+      await prompt.ask(options.questions)
+    }
   }
 
   // generate some templates
