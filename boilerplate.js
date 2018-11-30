@@ -204,6 +204,27 @@ async function install (context) {
 
     await system.spawn(`ignite add ${boilerplate} ${debugFlag}`, { stdio: 'inherit' })
 
+    ignite.patchInFile(`${process.cwd()}/android/app/src/main/java/com/${name.toLowerCase()}/MainActivity.java`, {
+      after: 'import com.facebook.react.ReactActivity;',
+      insert: `
+      import com.facebook.react.ReactActivityDelegate;
+      import com.facebook.react.ReactRootView;
+      import com.swmansion.gesturehandler.react.RNGestureHandlerEnabledRootView;`
+    })
+
+    ignite.patchInFile(`${process.cwd()}/android/app/src/main/java/com/${name.toLowerCase()}/MainActivity.java`, {
+      after: `public class MainActivity extends ReactActivity {`,
+      insert: '\n  @Override\n' +
+      '  protected ReactActivityDelegate createReactActivityDelegate() {\n' +
+      '    return new ReactActivityDelegate(this, getMainComponentName()) {\n' +
+      '      @Override\n' +
+      '      protected ReactRootView createRootView() {\n' +
+      '       return new RNGestureHandlerEnabledRootView(MainActivity.this);\n' +
+      '      }\n' +
+      '    };\n' +
+      '  }'
+    })
+
     // now run install of Ignite Plugins
     switch ((answers['login-screen'])) {
       case 'No Login Screen':{
