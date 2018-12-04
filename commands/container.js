@@ -28,10 +28,24 @@ module.exports = async function (context) {
     'With Drawer Navigation',
     'Collapsible Toolbar With Drawer Navigation',
     'Simple Login',
-    'Sms Login',
+    'Sms Login'
   ]
+  let containerType = parameters.options.containerType
 
-  let containerType =parameters.options.containerType;
+  if (containerType !== undefined && containerType !== null) {
+    switch (containerType) {
+      case 'simple' : { containerType = 'Simple'; break }
+      case 'collapsible' : { containerType = 'Collapsible Toolbar'; break }
+      case 'backdrop' : { containerType = 'Backdrop'; break }
+      case 'top' : { containerType = 'With Top Tabbed Navigation'; break }
+      case 'bottom' : { containerType = 'With Bottom Tabbed Navigation'; break }
+      case 'drawer' : { containerType = 'With Drawer Navigation'; break }
+      case 'collapsibledrawer' : { containerType = 'Collapsible Toolbar With Drawer Navigation'; break }
+      case 'login' : { containerType = 'Simple Login'; break }
+      case 'smslogin' : { containerType = 'Sms Login'; break }
+      default : { containerType = undefined; break }
+    }
+  }
 
   if (!containerType) {
     // as question 1
@@ -44,8 +58,8 @@ module.exports = async function (context) {
     containerType = codeAnswers.type
   }
 
-  let jobs = [];
-  if (containerType === "With Top Tabbed Navigation"){
+  let jobs = []
+  if (containerType === 'With Top Tabbed Navigation') {
     filesystem.copy(`${__dirname}/../templates/toptabbed/App/Components/LaunchScreen`, `${process.cwd()}/js/App/Components/LaunchScreen`, {
       overwrite: true
     })
@@ -94,8 +108,7 @@ module.exports = async function (context) {
       }
     ]
     await ignite.copyBatch(context, jobs, props)
-
-  } else if (containerType === "With Bottom Tabbed Navigation"){
+  } else if (containerType === 'With Bottom Tabbed Navigation') {
     filesystem.copy(`${__dirname}/../templates/tabbed/App/Components/ExampleComponent`, `${process.cwd()}/js/App/Components/ExampleComponent`, {
       overwrite: true
     })
@@ -165,7 +178,7 @@ module.exports = async function (context) {
       }
     ]
     await ignite.copyBatch(context, jobs, props)
-  } else if (containerType === "With Drawer Navigation"){
+  } else if (containerType === 'With Drawer Navigation') {
     filesystem.copy(`${__dirname}/../templates/drawer/App/Components/ExampleComponent`, `${process.cwd()}/js/App/Components/ExampleComponent`, {
       overwrite: true
     })
@@ -241,7 +254,7 @@ module.exports = async function (context) {
       }
     ]
     await ignite.copyBatch(context, jobs, props)
-  } else if (containerType === "Collapsible Toolbar") {
+  } else if (containerType === 'Collapsible Toolbar') {
     const jobs = [
       {
         template: 'collapsible/Tests/Components/Test.test.ejs',
@@ -269,7 +282,7 @@ module.exports = async function (context) {
       }
     ]
     await ignite.copyBatch(context, jobs, props)
-  } else if (containerType === "Backdrop") {
+  } else if (containerType === 'Backdrop') {
     const jobs = [
       {
         template: 'backdrop/Tests/Components/Test.test.ejs',
@@ -297,7 +310,7 @@ module.exports = async function (context) {
       }
     ]
     await ignite.copyBatch(context, jobs, props)
-  } else if (containerType === "Collapsible Toolbar With Drawer Navigation"){
+  } else if (containerType === 'Collapsible Toolbar With Drawer Navigation') {
     filesystem.copy(`${__dirname}/../templates/collapsibledrawer/App/Components/MainTabs`, `${process.cwd()}/js/App/Components/${name}Tabs`, {
       overwrite: true
     })
@@ -361,8 +374,8 @@ module.exports = async function (context) {
       }
     ]
     await ignite.copyBatch(context, jobs, props)
-  } else if (containerType === "Simple Login"){
-    name = 'LoginScreen';
+  } else if (containerType === 'Simple Login') {
+    name = 'LoginScreen'
     filesystem.copy(`${__dirname}/../templates/login/App/Components/LoginScreen`, `${process.cwd()}/js/App/Components/LoginScreen`, {
       overwrite: true
     })
@@ -378,8 +391,8 @@ module.exports = async function (context) {
         target: `js/App/Containers/LoginScreen.ts`
       }
     ]
-  } else if (containerType === "Sms Login"){
-    name = 'LoginScreen';
+  } else if (containerType === 'Sms Login') {
+    name = 'LoginScreen'
     filesystem.copy(`${__dirname}/../templates/smslogin/App/Components/LoginScreen`, `${process.cwd()}/js/App/Components/LoginScreen`, {
       overwrite: true
     })
@@ -416,7 +429,6 @@ module.exports = async function (context) {
     ]
   }
 
-
   await ignite.copyBatch(context, jobs, props)
 
   // if using `react-navigation` go the extra step
@@ -441,7 +453,7 @@ module.exports = async function (context) {
 
     // insert container route
     ignite.patchInFile(appNavFilePath, {
-      after: (containerType==='Simple Login' || containerType==='Sms Login') ? 'const PrimaryNav' : patterns[patterns.constants.PATTERN_ROUTES],
+      after: (containerType === 'Simple Login' || containerType === 'Sms Login') ? 'const PrimaryNav' : patterns[patterns.constants.PATTERN_ROUTES],
       insert: routeToAdd
     })
   } else {

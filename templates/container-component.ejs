@@ -5,7 +5,10 @@ import { ScrollView, Text } from 'react-native'
 // Styles
 import styles from './Styles/<%= props.name %>Style'
 
-export default class <%= props.name %>Component extends Component {
+interface <%= props.name %>Props {
+}
+
+export default class <%= props.name %>Component extends Component <<%= props.name %>Props> {
   // constructor (props) {
   //   super(props)
   //   this.state = {}
