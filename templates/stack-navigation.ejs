@@ -1,0 +1,16 @@
+import { createSwitchNavigator, createStackNavigator, createAppContainer } from "react-navigation";
+
+export const <%= props.name %> = createStackNavigator({
+
+}, {
+  // Default config for all screens
+  headerMode: "none",
+  initialRouteName: "INITIAL_ROUTE",
+  navigationOptions: {
+    headerStyle: styles.header
+  }
+});
+
+
+
+export default createAppContainer(<%= props.name %>);
