@@ -1,6 +1,6 @@
 import { createSwitchNavigator, createStackNavigator, createAppContainer } from "react-navigation";
 
-export const <%= props.name %> = createStackNavigator({
+export const MainNav = createStackNavigator({
 
 }, {
   // Default config for all screens
@@ -13,4 +13,4 @@ export const <%= props.name %> = createStackNavigator({
 
 
 
-export default createAppContainer(<%= props.name %>);
+export default createAppContainer(MainNav);
