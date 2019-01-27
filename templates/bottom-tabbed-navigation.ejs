@@ -1,0 +1,52 @@
+/* eslint react/prop-types: 0 */
+import * as React from 'react';
+import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
+import {createBottomTabNavigator,createAppContainer} from 'react-navigation';
+import {MaterialBottomTabbar} from 'react-native-typescript-material-ui-collection';
+import {Text} from "react-native";
+import { primaryColor} from '../../Themes/Colors';
+import Fonts from "../../Themes/Fonts";
+import I18n from "../../I18n";
+
+const commonNavigationOptions = ({navigation}) => ({
+  header: null,
+  title: navigation.state.routeName,
+});
+
+// RouteOptions
+
+export default (props) => React.createElement(
+createAppContainer(createBottomTabNavigator(
+{
+// Tabs
+},
+{
+tabBarComponent:MaterialBottomTabbar,
+tabBarPosition: 'bottom',
+tabBarOptions:{
+animated:true,
+isRtl:props.isRtl,
+fontSize:12,
+noLabel:false,
+iconName:(key)=>iconChooser(key),
+fontFamily: Fonts.type.base,
+defaultColor:props.colorScheme.fullToneText,
+selectedColor:primaryColor,
+style: {
+backgroundColor: props.colorScheme.tabBarBackground
+},
+},
+initialRouteName: 'INITIAL_ROUTE_NAME'
+},
+))
+);
+
+function iconChooser(key) {
+let iconName;
+switch (key) {
+//IconCases
+
+}
+return iconName;
+
+}
