@@ -1,10 +1,23 @@
 {
-  "name": "ignite-boilerplate-andross-typescript",
+  "bugs": {
+    "url": "https://github.com/lvlrSajjad/ignite-boilerplate-andross-typescript/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "ramda": "^0.23.0"
+  },
+  "deprecated": false,
   "description": "Customized version of ignite Andross With TypeScript Support.",
-  "license": "MIT",
-  "repository": "lvlrSajjad/ignite-boilerplate-andross-typescript",
-  "homepage": "https://github.com/lvlrSajjad/ignite-boilerplate-andross-typescript",
-  "version": "0.1.93",
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "fs-jetpack": "^1.0.0",
+    "jest": "^20.0.4",
+    "np": "^2.15.0",
+    "sinon": "^2.3.1",
+    "socks": "^2.1.6",
+    "standard": "^10.0.2",
+    "tempy": "^0.1.0"
+  },
   "files": [
     "boilerplate",
     "boilerplate/*",
@@ -18,12 +31,19 @@
     "readme.md",
     "screenExamples.js"
   ],
+  "homepage": "https://github.com/lvlrSajjad/ignite-boilerplate-andross-typescript",
+  "license": "MIT",
+  "name": "ignite-boilerplate-andross-typescript",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lvlrSajjad/ignite-boilerplate-andross-typescript.git"
+  },
   "scripts": {
-    "lint": "standard",
-    "test": "jest",
-    "watch": "jest --runInBand --watch",
     "coverage": "jest --runInBand --coverage",
-    "shipit": "np"
+    "lint": "standard",
+    "shipit": "np",
+    "test": "jest",
+    "watch": "jest --runInBand --watch"
   },
   "standard": {
     "parser": "babel-eslint",
@@ -37,17 +57,5 @@
       "describe"
     ]
   },
-  "devDependencies": {
-    "babel-eslint": "^7.1.1",
-    "fs-jetpack": "^1.0.0",
-    "jest": "^20.0.4",
-    "np": "^2.15.0",
-    "sinon": "^2.3.1",
-    "standard": "^10.0.2",
-    "tempy": "^0.1.0",
-    "socks": "^2.1.6"
-  },
-  "dependencies": {
-    "ramda": "^0.23.0"
-  }
+  "version": "0.1.96"
 }

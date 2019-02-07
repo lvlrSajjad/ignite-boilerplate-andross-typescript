@@ -3,9 +3,9 @@ import * as React from 'react';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import {createMaterialTopTabNavigator, TabBarTop} from 'react-navigation-tabs';
 import {createAppContainer} from 'react-navigation';
-import {primaryColor} from '../../Themes/Colors';
-import Fonts from "../../Themes/Fonts";
-import I18n from "../../I18n";
+import {primaryColor} from '../Themes/Colors';
+import Fonts from "../Themes/Fonts";
+import I18n from "../I18n";
 
 const commonNavigationOptions = ({navigation}) => ({
   header: null,
@@ -51,7 +51,7 @@ createAppContainer(createMaterialTopTabNavigator(
       tabBarComponent: TabBarTop,
       tabBarPosition: 'top',
       animationEnabled: true,
-      initialRouteName: I18n.t('INITIAL_ROUTE_NAME'),
+      initialRouteName: 'INITIAL_ROUTE_NAME',
       swipeEnabled: true,
       tabBarOptions: {
         inactiveTintColor: 'transparent',
