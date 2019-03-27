@@ -65,8 +65,8 @@ Changes :
 * Installed and configured with typeScript
 * Moved all js related folders to js folder (App,Tests)
 * Using jest for tests
-* Updated react native to (0.57.5)
-* Updated react navigation to (3.0.0)
+* Updated react native to (0.59.2)
+* Updated react navigation to (3.5.1)
 * Added better rtl support
 * Added switchable colorScheme support
 * Add better multi language support and add language to app settings redux
