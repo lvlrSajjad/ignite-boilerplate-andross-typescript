@@ -3,8 +3,8 @@ import * as React from 'react';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import { SafeAreaView, ScrollView, StyleSheet, View} from "react-native";
 import {DrawerItems, createDrawerNavigator, createAppContainer } from 'react-navigation';
-import metrics from "../../Themes/Metrics";
-//imports
+import metrics from "../Themes/Metrics";
+// imports
 
 const CustomDrawerContentComponent = (props) => <ScrollView>
     <SafeAreaView style={styles.container}>
@@ -49,11 +49,7 @@ createAppContainer(createDrawerNavigator({
 ));
 const chooseIcon = (index)=>{
     switch (index) {
-        case 0: return 'menu';
-        case 1: return 'menu';
-        case 2: return 'menu';
-        case 3: return 'menu';
-        case 4: return 'menu';
+     //   case 0: return 'menu';
         default : return 'menu';
     }
 };
