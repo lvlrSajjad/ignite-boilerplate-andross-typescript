@@ -16,6 +16,8 @@ node_modules
 testgrounds
 IntegrationTest
 integration_test
+yarn-error.log
+package-lock.json
 
 # WebStorm
 .idea
