@@ -7,7 +7,7 @@
 
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
 
-<h2 align="center">Attention!! This project is no longer supperted, maybe even no longer be compatible with new version of react native</h2>
+<h2 align="center">Attention!! This project is no longer supperted and developed, maybe even no longer be compatible with new version of react native</h2>
 
 <h2 align="center">Table of contents</h2>
 
