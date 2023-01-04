@@ -11,7 +11,7 @@
   "devDependencies": {
     "babel-eslint": "^7.1.1",
     "fs-jetpack": "^1.0.0",
-    "jest": "^20.0.4",
+    "jest": "^29.3.1",
     "np": "^2.15.0",
     "sinon": "^2.3.1",
     "socks": "^2.1.6",
