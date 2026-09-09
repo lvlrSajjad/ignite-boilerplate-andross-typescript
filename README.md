@@ -7,7 +7,20 @@
 
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
 
-<h2 align="center">Attention!! This project is no longer supperted and developed, maybe even no longer be compatible with new version of react native.</h2>
+> [!CAUTION]
+> **Deprecated and unmaintained — archived for historical reference only.**
+>
+> This boilerplate does not work with any current React Native toolchain, and it will not be updated. Please do not use it to start a new project.
+>
+> - Last release: **v0.1.97 (May 2022)**. No fixes, dependency bumps, or issue/PR triage will happen here.
+> - It pins **React Native 0.59.2 / React 16.6.3** — the last RN version *before* autolinking and AndroidX (RN 0.60). Every native dependency here uses the old `react-native link` model, so the generated project cannot build against modern RN, Xcode, or Gradle.
+> - It also pins **React Navigation 3.x** and **redux-persist 5.x**, both several breaking-change majors behind.
+> - It is an **Ignite CLI 2.x** boilerplate plugin. That plugin API no longer exists in current Ignite, so `ignite new --boilerplate ...` will not run this.
+> - The npm package [`ignite-boilerplate-andross-typescript`](https://www.npmjs.com/package/ignite-boilerplate-andross-typescript) has been deprecated on the registry.
+>
+> **Starting a React Native app today?** Use the current [Ignite](https://github.com/infinitered/ignite) from Infinite Red. It ships TypeScript out of the box, which was the whole reason this fork existed back in 2019 — so the gap this project filled is gone.
+>
+> The source stays online because it is still a readable snapshot of how a TypeScript React Native project was wired up in the RN 0.59 era. Everything below this notice describes the project as it was, and is kept unchanged.
 
 <h2 align="center">Table of contents</h2>
 

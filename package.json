@@ -7,7 +7,7 @@
     "ramda": "^0.23.0"
   },
   "deprecated": false,
-  "description": "Customized version of ignite Andross With TypeScript Support.",
+  "description": "DEPRECATED - unmaintained. Customized version of ignite Andross With TypeScript Support, for React Native 0.59 / Ignite CLI 2.x. Do not use for new projects; see the current Ignite at https://github.com/infinitered/ignite.",
   "devDependencies": {
     "babel-eslint": "^7.1.1",
     "fs-jetpack": "^1.0.0",
